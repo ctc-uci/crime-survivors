@@ -10,4 +10,4 @@ eslint:
     - npm i -g eslint
     - npm install eslint-config-airbnb --save-dev
     - npx install-peerdeps --dev eslint-config-airbnb
-    - eslint .
+    - eslint --ext js,jsx .
