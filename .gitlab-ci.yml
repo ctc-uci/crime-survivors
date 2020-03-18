@@ -1,11 +1,13 @@
 image: node
 
-stages:
+stages: 
   - lint
 
 eslint:
   stage: lint
 
   script:
-    - npm i eslint
-    - node_modules/eslint/bin/eslint.js .
+    - npm i -g eslint
+    - npm install eslint-config-airbnb --save-dev
+    - npx install-peerdeps --dev eslint-config-airbnb
+    - eslint .
