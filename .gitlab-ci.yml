@@ -8,7 +8,7 @@ eslint:
 
   script:
     - npm i -g eslint
-    - npm --prefix client install client
     - npm install eslint-config-airbnb --save-dev
     - npx install-peerdeps --dev eslint-config-airbnb
+    - npm --prefix client install client
     - eslint --ext js,jsx .
