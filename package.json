@@ -1,0 +1,30 @@
+{
+  "name": "crimesurvivors",
+  "version": "1.0.0",
+  "description": "Welcome",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-react-hooks": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/committhechange.uci/crimesurvivors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/committhechange.uci/crimesurvivors/issues"
+  },
+  "homepage": "https://gitlab.com/committhechange.uci/crimesurvivors#readme"
+}
