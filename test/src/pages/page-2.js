@@ -4,25 +4,34 @@ import React from 'react';
 // import Layout from '../components/layout';
 // import SEO from '../components/seo';
 
-import cvs from '../content/crimeVictimServices.yml';
+import cvs from '../content/orange.yml';
 
-const elements = cvs.resources;
+const category = 'Orange County Courts';
+const elements = cvs[category];
 
 const SecondPage = () => (
-  <ul>
-    {elements.map((resource) => (
-      <div>
-        <h1>{resource.org.title}</h1>
-        <h2>{resource.org.description}</h2>
-        <h2>{resource.org.phone.description}</h2>
-        <h2>{resource.org.phone.number}</h2>
-        <h2>{resource.org.website}</h2>
-        <h2>{resource.org.hours}</h2>
-        <h2>{resource.org.address}</h2>
-        <br />
-      </div>
-    ))}
-  </ul>
+  <div>
+    <h1>{category}</h1>
+    <ul>
+      {elements.map((resource) => (
+        <div>
+          <h1>{resource.title}</h1>
+          <h2>{resource.desc}</h2>
+          {resource.phone.map((phoneInfo) => (
+            <h2>
+              {phoneInfo.desc}
+              <br />
+              {phoneInfo.number}
+            </h2>
+          ))}
+          <h2>{resource.website}</h2>
+          <h2>{resource.hours}</h2>
+          <h2>{resource.address}</h2>
+          <br />
+        </div>
+      ))}
+    </ul>
+  </div>
 );
 
 export default SecondPage;
