@@ -1,15 +1,15 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
-# "Name":
-#   - title: ~
-#     desc: ~
-#     phone:
-#       desc: ~ 
+# YAML format
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
 #       number: ~ 
-#     website: ~
-#       -
-#     hours: ~
-#     address: ~ 
+#   website: ~
+#   hours: ~
+#   address: ~ 
 
 #1
 #2

@@ -3,16 +3,15 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
 # YAML format
-# "Name":
-#   - title: ~
-#     desc: ~
-#     phone:
-#       - desc: ~ 
-#         number: ~ 
-#     website: ~
-#       -
-#     hours: ~
-#     address: ~ 
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   hours: ~
+#   address: ~ 
 
 #1
 #2
@@ -29,152 +28,165 @@
 #13
 
 # p14
-"Orange County Courts":
-  - title: Central Justice Center - Santa Ana
-    desc: ~
-    phone: 
-      - desc: ~
-        number: (657) 622-6878
-    website: ~
-    hours: ~
-    address: 700 W Civic Center Dr
+- category: "Orange County Courts"
+  title: Central Justice Center - Santa Ana
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (657) 622-6878
+  website: ~
+  hours: ~
+  address: 700 W Civic Center Dr
     
-  - title: Criminal Harbor Justice Center - Newport Beach 
-    desc: ~
-    phone: 
-      - desc: ~  
-        number: (657) 622-5400
-    website: ~
-    hours: ~
-    address: 4601 Jamboree Road
+- category: "Orange County Courts"
+  title: Criminal Harbor Justice Center - Newport Beach 
+  desc: ~
+  phone: 
+    - desc: ~  
+      number: (657) 622-5400
+  website: ~
+  hours: ~
+  address: 4601 Jamboree Road
 
-  - title: Lamoreaux Justice Center – Orange
-    desc: ~
-    phone:
-      - desc: ~
-        number: (657) 622-6878
-    website: ~
-    hours: ~
-    address: 341 The City Drive South
+- category: "Orange County Courts"
+  title: Lamoreaux Justice Center – Orange
+  desc: ~
+  phone:
+    - desc: ~
+      number: (657) 622-6878
+  website: ~
+  hours: ~
+  address: 341 The City Drive South
 
-  - title: North Justice Center - Fullerton
-    desc: ~
-    phone:
-      - desc: ~
-        number: (657) 622-5600
-    website: ~
-    hours: ~
-    address: 1275 North Berkeley Avenue
+- category: "Orange County Courts"
+  title: North Justice Center - Fullerton
+  desc: ~
+  phone:
+    - desc: ~
+      number: (657) 622-5600
+  website: ~
+  hours: ~
+  address: 1275 North Berkeley Avenue
     
-  - title: West Justice Center - Westminster
-    desc: ~
-    phone:
-      - desc: ~
-        number: (657) 622-6878
-    website: ~
-    hours: ~
-    address: 8141 13th Street
+- category: "Orange County Courts"
+  title: West Justice Center - Westminster
+  desc: ~
+  phone:
+    - desc: ~
+      number: (657) 622-6878
+  website: ~
+  hours: ~
+  address: 8141 13th Street
 
 # 16
-"Who to Call":
-  - title: Adult Protective Services
-    desc: ~
-    phone:
-      - desc: ~
-        number: (800) 451-5155
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: Adult Protective Services
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 451-5155
+  website: ~
+  hours: ~
+  address: ~
 
-  - title: Battered Women Self-Help (24 hr.)
-    desc: ~
-    phone:
-      - desc: ~
-        number: (949) 854-3554
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: Battered Women Self-Help (24 hr.)
+  desc: ~
+  phone:
+    - desc: ~
+      number: (949) 854-3554
+  website: ~
+  hours: ~
+  address: ~
 
-  - title: Domestic Violence Safety Plan Hotline
-    desc: ~
-    phone:
-      - desc: ~
-        number: (800) 978-3600
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: Domestic Violence Safety Plan Hotline
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 978-3600
+  website: ~
+  hours: ~
+  address: ~
 
-  - title: OC District Attorney / Waymakers
-    desc: ~
-    phone:
-      - desc: ~
-        number: (714) 347-8583
-      - desc: ~
-        number: (714) 347-8828
-    website: ~
-    hours: ~
-    address: ~ 
+- category: "Who to Call"
+  title: OC District Attorney / Waymakers
+  desc: ~
+  phone:
+    - desc: ~
+      number: (714) 347-8583
+    - desc: ~
+      number: (714) 347-8828
+  website: ~
+  hours: ~
+  address: ~ 
 
-  - title: Domestic Violence Safety Plan Hotline
-    desc: ~
-    phone:
-      - desc: ~
-        number: (800) 978-3600
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: Domestic Violence Safety Plan Hotline
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 978-3600
+  website: ~
+  hours: ~
+  address: ~
 
-  - title: Human Options Hotline
-    desc: ~
-    phone:
-      - desc: ~
-        number: (877) 854-3594
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: Human Options Hotline
+  desc: ~
+  phone:
+    - desc: ~
+      number: (877) 854-3594
+  website: ~
+  hours: ~
+  address: ~
 
-  - title: National Domestic Violence Hotline
-    desc: ~
-    phone:
-      - desc: ~
-        number: (800) 799-SAFE
-    website: ~
-    hours: ~
-    address: ~
-  
-  - title: VINE – Victim Information and Notification Everyday
-    desc: ~
-    phone:
-      - desc: ~
-        number: (800) 721-8021
-      - desc: ~
-        number: (877) 411-5588
-    website: 
-      - www.vinelink.com
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: National Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 799-SAFE
+  website: ~
+  hours: ~
+  address: ~
 
-  - title: Waymakers, Dispute Resolution Services
-    desc: ~
-    phone:
-      - desc: ~
-        number: (949) 250-0488
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: VINE – Victim Information and Notification Everyday
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 721-8021
+    - desc: ~
+      number: (877) 411-5588
+  website: 
+    - www.vinelink.com
+  hours: ~
+  address: ~
 
-  - title: Waymakers, Sexual Assault Victim Services
-    desc: ~
-    phone:
-      - desc: North County
-        number: (714) 834-4317
-      - desc: South County
-        number: (949) 752-1971
-      - desc: 24 hour Crisis Hotline
-        number: (714) 957-2737
-    website: ~
-    hours: ~
-    address: ~
+- category: "Who to Call"
+  title: Waymakers, Dispute Resolution Services
+  desc: ~
+  phone:
+    - desc: ~
+      number: (949) 250-0488
+  website: ~
+  hours: ~
+  address: ~
+
+- category: "Who to Call"
+  title: Waymakers, Sexual Assault Victim Services
+  desc: ~
+  phone:
+    - desc: North County
+      number: (714) 834-4317
+    - desc: South County
+      number: (949) 752-1971
+    - desc: 24 hour Crisis Hotline
+      number: (714) 957-2737
+  website: ~
+  hours: ~
+  address: ~
 
 #15
 #16    

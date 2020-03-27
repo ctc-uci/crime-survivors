@@ -1,15 +1,15 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
-# "Name":
-#   - title: ~
-#     desc: ~
-#     phone:
-#       desc: ~ 
+# YAML format
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
 #       number: ~ 
-#     website: ~
-#       -
-#     hours: ~
-#     address: ~ 
+#   website: ~
+#   hours: ~
+#   address: ~ 
 
 #1
 #2
@@ -21,30 +21,31 @@
 #8
 #9
 #10
-"2-1-1":
-  - title: 2-1-1
-    desc: null
-    phone: 
-      - desc: null
-        number: 211
-    website: 
-      - www.211oc.org
-    hours: 24/7
-    address: null
+
+- category: "2-1-1"
+  title: 2-1-1
+  desc: ~
+  phone: 
+    - desc: ~
+      number: 211
+  website: 
+    - www.211oc.org
+  hours: 24/7
+  address: ~
   
-"When to Call 9-1-1":
-  - title: Alternatives
-    desc: null
-    phone: 
-      - desc: 
-          "If 911 fails, You should know these Alternative Telephone Numbers\n
-           Los Angeles County Sherff's Department: (323) 267-4800\n
-           Los Angeles Police Department: (877) 275-5273\n
-           There are websites here Tooo........................"
-        number: 911
-    website: null
-    hours: "24/7"
-    address: null
+- category: "When to Call 9-1-1"
+  title: Alternatives
+  desc: ~
+  phone: 
+    - desc: 
+        "If 911 fails, You should know these Alternative Telephone Numbers\n
+          Los Angeles County Sherff's Department: (323) 267-4800\n
+          Los Angeles Police Department: (877) 275-5273\n
+          There are websites here Tooo........................"
+      number: 911
+  website: ~
+  hours: "24/7"
+  address: ~
 
 #11
 #12
