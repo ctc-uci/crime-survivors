@@ -10,7 +10,7 @@ eslint:
     - npm i -g eslint
     - npm install eslint-config-airbnb --save-dev
     - npx install-peerdeps --dev eslint-config-airbnb
-    - npm --prefix test install test
+    - npm --prefix client install client
     - eslint --ext js,jsx .
 # This code essentially uses Docker to pull node and uses node to install/configure eslint.
 # Replace “client” in the second line of the script to the name of the folder holding your client code (if it is not named “client”).
