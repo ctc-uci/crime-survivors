@@ -800,7 +800,174 @@ Consumer / Environmental Protection, Administration, Personnel"
   website: ~
   hours: ~
   address: ~
+
 #22
+- category: Orange County Sheriff’s Department
+  title: Aliso Viejo Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 425-1801 
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Dana Point Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 248-3531 
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Dispatch
+  desc: ~
+  phone:
+    - desc: (Non-Emergency)
+      number: (714) 647-7000 
+    - desc: (Non-Emergency)
+      number: (949) 770-6011
+    - desc: (Emergency)
+      number: 911
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Laguna Hills Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 770-6011 
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Laguna Niguel Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 362-4346
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Laguna Woods Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 425-1801
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Lake Forest Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 461-3530
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Mission Viejo Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 470-3015
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: North Patrol
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (714) 647-4057
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Rancho Santa Margarita Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 635-1819
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Run 2 Rescue 
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (888) 224-6062
+  website: 
+    - www.run2rescue.com
+    - info@run2rescue.com
+  hours: ~
+  address: P.O. Box 71238, Riverside, CA 92513  
+
+- category: Orange County Sheriff’s Department
+  title: Stanton Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (714) 889-7866
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: South County Unincoporated
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 425-1801
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: San Juan Capistrano Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 443-6369
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: San Clemente Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 361-8230
+  website: ~
+  hours: ~
+  address: ~ 
+
+- category: Orange County Sheriff’s Department
+  title: Yorba Linda Police Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (714) 779-7098
+  website: ~
+  hours: ~
+  address: ~ 
+
 #23
 #24
 #25
