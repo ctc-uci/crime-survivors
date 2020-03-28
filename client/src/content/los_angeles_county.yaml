@@ -8,46 +8,343 @@
 #     - desc: ~ 
 #       number: ~ 
 #   website: ~
+#   email: ~
 #   hours: ~
 #   address: ~ 
+---
 
 #1
 #2
 #3
 #4
 #5
-#6
-#7
-#8
-#9
-#10
-
 - category: "2-1-1"
-  title: 2-1-1
-  desc: ~
+  title: ~
+  desc: "2-1-1 is a free accessible telephone number that will enable everyone to access the
+vital community services they need. 2-1-1 provides a “one-stop” service for vital
+information by providing the “right” phone number for the “right” resource needed.
+It is the equivalent of 9-1-1, but for non-emergency health and human services."
   phone: 
     - desc: ~
-      number: 211
+      number: "211"
   website: 
-    - www.211oc.org
+    - http://www.211losangeles.org/
+  email: ~
   hours: 24/7
   address: ~
-  
-- category: "When to Call 9-1-1"
-  title: Alternatives
-  desc: ~
-  phone: 
-    - desc: 
-        "If 911 fails, You should know these Alternative Telephone Numbers\n
-          Los Angeles County Sherff's Department: (323) 267-4800\n
-          Los Angeles Police Department: (877) 275-5273\n
-          There are websites here Tooo........................"
-      number: 911
+
+- category: 2-1-1
+  title: Benefits of 2-1-1
+  desc: "This system has been developed to help members of our communities find the
+information and referral services they need or the appropriate agency to meet
+those needs. It helps provide unity by linking together those seeking essential
+services with the right organization. 2-1-1 eliminates the need to navigate the
+complicated web of health and human services by providing one simple number to
+link community services to the people who need them."
+  phone: ~
   website: ~
-  hours: "24/7"
+  email: ~
+  hours: ~
+  address: ~
+
+- category: 2-1-1
+  title: Services Provided by 2-1-1
+  desc: "Every hour of every day, someone requires essential services such as:
+• Child Care
+• Emergency Financial Assistance
+• Health Care
+• Food
+• Shelter/Housing Alternatives
+• Jobs
+• Mental Health Support
+• Services for Persons with
+Disabilities
+• Resources for Older Adults and
+their Caregivers
+• Alcohol and Drug Services
+• Safe Surrender Sites for
+Newborns"
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#6
+- category: When to Call 9-1-1
+  title: ~
+  desc: "9-1-1 is the number to call to get help in a police, fire or medical emergency. 9-1-1 calls
+go over dedicated phone lines to the 9-1-1 answering point closest to the caller, and
+trained personnel then send the emergency help needed.
+9-1-1 should only be used in emergency situations. An emergency is any situation
+that requires immediate assistance from the law enforcement, the fire department
+or an ambulance. If you are ever in doubt of whether a situation is an emergency
+you should call 9-1-1. It’s better to be safe and let the 9-1-1 call taker determine if you
+need emergency assistance.
+If you call 9-1-1 by mistake, do not hang up. Tell the call taker what happened so they
+know there really isn’t an emergency."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- category: When to Call 9-1-1
+  title: Do Not Call 9-1-1
+  desc: "• For Information
+• For Directory Assistance
+• When You’re Bored
+• For Paying Tickets
+• For Your Pet
+• As A Prank"
+  phone: ~
+  website:
+    - http://www.911.gov
+  email: ~
+  hours: ~
+  address: ~
+
+- category: When to Call 9-1-1
+  title: If 9-1-1 Fails, You Should Know These Alternative Telephone Numbers
+  desc: ~
+  phone:
+    - desc: Los Angeles County Sheriff’s Department (non 911)
+      number: (323) 267-4800
+    - desc: Los Angeles Police Department (non 911)
+      number: (714) 647-7000
+  website:
+    - http://www.lasd.org/
+    - http://www.lapdonline.org/
+  email: ~
+  hours: ~
+  address: ~
+
+#7
+- category: Marsy's Law
+  title: Constitutional Amendment 2008 California Victims’ Bill of Rights
+  desc: "On November 4, 2008, the people of the State of California approved Proposition
+9, the Victims’ Bill of Rights Act of 2008: Marsy’s Law. This measure amended the
+California Constitution to provide additional rights to victims. This card contains
+specific sections of the Victims’ Bill of Rights and resources. Crime victims may obtain
+additional information regarding Marsy’s Law and local Victim Witness Assistance
+Center information by contacting the Attorney General’s Victim Services Unit at
+1-877-433-9069.
+A ‘victim’ is defined under the California Constitution as “a person who suffers direct
+or threatened physical, psychological, or financial harm as a result of the commission
+or attempted commission of a crime or delinquent act. The term ‘victim’ also
+includes the person’s spouse, parents, children, siblings, or guardian, and includes
+a lawful representative of a crime victim who is deceased, a minor, or physically or
+psychologically incapacitated. The term ‘victim’ does not include a person in custody
+for an offense, the accused, or a person whom the court finds would not act in the
+best interests of a minor victim.”
+An overview of victim rights, along with helpful resources are listed on a card that
+can be printed out from their website at http://ag.ca.gov/victims.php."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- category: Marsy's Law
+  title: Office of Victims’ & Survivor Rights & Services / California Office of the Attorney General
+  desc: ""
+  phone:
+    - desc: Phone Toll-free
+      number: (877) 433-9069
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 944255 Sacramento, CA 94244-2550
+
+- category: Marsy's Law
+  title: Marsy’s Law Card Information
+  desc: "If you are a victim of a crime, these rights apply
+to you. You may obtain information about these
+rights through your local victim/witness assistance
+program (usually located in the prosecutor’s
+office), your State Attorney General’s Office, or U.S.
+Attorney’s Office."
+  phone: ~
+  website:
+    - http://ag.ca.gov/victims.php
+    - http://ag.ca.gov/victimservices/marsy.php
+  email: ~
+  hours: ~
+  address: P.O. Box 942883 Sacramento, CA 94283-0001
+
+#8
+- category: California Law and Victims’ Rights
+  title: ~
+  desc: "California Law provides crime victims with important rights. If you are the victim of
+crime, you may be entitled to the assistance of a victim advocate who can answer
+many of the questions you might have about the criminal justice system.
+Victim Advocates can assist you with:
+• Explaining what information you are entitled to receive while proceedings
+are pending
+• Assisting in applying for restitution to compensate you for crime-related
+losses
+• Communicating with the prosecution
+• Receiving victim support services
+• Helping you prepare a victim impact statement before an offender is sentenced"
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- category: You Have Rights
+  title: ~
+  desc: "Most states have amended their constitutions to guarantee certain fundamental
+rights for crime victims. Typically, these include:
+• The right to be notified of all court proceedings related to the offense
+• The right to be reasonably protected from the accused offender
+• The right to have input at sentencing (e.g., a victim impact statement)
+• The right to information about the conviction, sentencing, imprisonment,
+and release of the offender
+• The right to restitution from the convicted offender
+• The right to be notified of these rights"
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#9
+- category: Establish Safety
+  title: ~
+  desc: "If you or someone you know has just been victimized, there are some important
+steps you should take in protecting yourself, treating any injuries, and making
+sure you have the support you need. Below are things to think about immediately
+following a violent encounter.
+
+First and foremost, get to a safe place, away
+from danger. If you need help getting there, ask
+someone to help you."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- category: Care for Injuries
+  title: ~
+  desc: "Go to a hospital or physician to have physical injuries treated. It will also be
+important to tell medical personnel that your injuries are the result of a crime before
+you are treated so that DNA can be collected and photographs can be taken of
+your injuries. Do not shower or wash because doing so may remove or compromise
+physical evidence needed to apprehend and convict the person(s) who hurt you."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- category: Call the Police / Get Help
+  title: ~
+  desc: "Call the police as soon as possible, so they can provide assistance. Remember
+to preserve the crime scene - don’t clean up or move anything so that detectives can
+collect evidence that will be helpful in bringing your assailant(s) to justice. Then call a
+trusted friend or family member who can be with you as you interact with the police,
+physicians, and investigators to make personal decisions. In the days following, you
+should consider finding a counselor to help you cope with the trauma and the effects
+of Post Traumatic Stress Disorder (PTSD)."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#10
+- category: Document the Crime
+  title: ~
+  desc: "While it may be the last thing you want to do, it is very important to write down
+exactly what happened as soon as possible following your incident. The best way to
+protect your memory is to document the event before being interviewed. Writing
+down what has taken place will be a source you can revisit to remember details. This
+will be very important if you need to testify later. A written account can also help
+to validate your feelings as you walk through the healing process. Below are some
+things you should include in your written description.
+• THE NATURE OF THE INCIDENT: Step by step, record what happened. If you
+were assaulted, how? What was said by whom, and how it was said? Include
+how you came to a place of safety and which direction your perpetrator(s)
+may have been headed.
+• STOLEN ITEMS: A detailed list
+of any items that were stolen
+from you will help the police
+investigation and may be needed
+for insurance purposes. The
+location and context of the crime
+— Write down where the crime
+occurred as well as important
+landmarks or other notable
+information, such as the presence
+of any potential witnesses.
+• THE TIME OF THE CRIME: As
+accurately as possible, record
+when the crime took place, as
+well as any warning signs you
+may recall.
+• A DESCRIPTION OF YOUR
+ASSAILANT(S): Describe hair
+color and style, eye color, shape of face, height, weight, voice, clothing,
+tattoos, or other identifying marks.
+• DESCRIPTION OF OTHER ITEMS: Recall any items that may have been used
+during the crime, such as a handgun or a vehicle."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
   address: ~
 
 #11
+- category: Protect Yourself Against Further Harm
+  title: ~
+  desc: "If your home was burglarized or if you had your wallet or purse stolen, you may feel the
+need to have your home checked before returning to it. Ask the police to check your
+home for you and to make sure you arrive there safely. You may want or need to have
+someone with you when you arrive home for a while, especially if your perpetrator isn’t
+caught immediately.
+It will be important for you to re-establish a sense of safety in your life again, which
+may not come easily at first. Some survivors of violent crime feel the need for security
+devices or weapons. Generally, the best protection you have is to be aware of your
+surroundings and what your “gut” is telling you. It is important to know what you feel
+comfortable with and what will help you to be and feel safe"
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- category: Short-Term Planning
+  title: ~
+  desc: "You may feel bombarded with countless details and decisions in the aftermath
+of a violent encounter — and to make matters worse, you are probably in shock.
+It will take time to deal with everything, but here are a few suggestions for the
+short-term:
+• Call your employer or have a friend call if you cannot return to work right
+away. Remember that you just survived a serious trauma and even if you
+weren’t physically hurt, you may need some time away from work to cope.
+• Notify your health insurance company or primary care provider so that you
+will be covered for your medical care and counseling needs. If you have lost
+a loved one, you or a friend should notify the life insurance company.
+• Cancel your credit cards if they were stolen. This will hopefully prevent
+some headaches with your bills and can also lead to the apprehension of
+the person who may be using them.
+• Learn about the investigation of your case from law enforcement. Ask them
+what they will be doing, what the process is, how you will be notified and
+anything else that you may want to know about the process of trying to find
+your perpetrator(s).
+• Let family and friends know what has happened so that they can
+understand that you’ve been through a trauma and that you will need their
+support. It is often difficult for others to understand what living through
+such a trauma is like. More information for family and friends can be found
+on page 31."
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
 #12
 #13
 #14
