@@ -4,7 +4,7 @@ import React from 'react';
 // import Layout from '../components/layout';
 // import SEO from '../components/seo';
 
-import cvs from '../content/orange.yml';
+import cvs from '../content/orange_county.yaml';
 
 const category = 'Orange County Courts';
 const elements = cvs[category];
