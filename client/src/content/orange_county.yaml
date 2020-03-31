@@ -19,15 +19,15 @@
 #2
 #3
 #4
-- category: "2-1-1"
+- category: '2-1-1'
   title: ~
-  desc: "2-1-1 is a free accessible telephone number that will enable everyone to access the
+  desc: '2-1-1 is a free accessible telephone number that will enable everyone to access the
 vital community services they need. 2-1-1 provides a “one-stop” service for vital
 information by providing the “right” phone number for the “right” resource needed.
-It is the equivalent of 9-1-1, but for non-emergency health and human services."
+It is the equivalent of 9-1-1, but for non-emergency health and human services.'
   phone: 
     - desc: ~
-      number: "211"
+      number: '211'
   website:
     - http://www.211oc.org
   email: ~
@@ -36,12 +36,12 @@ It is the equivalent of 9-1-1, but for non-emergency health and human services."
 
 - category: 2-1-1
   title: Benefits of 2-1-1
-  desc: "This system has been developed to help members of our communities find the
+  desc: 'This system has been developed to help members of our communities find the
 information and referral services they need or the appropriate agency to meet
 those needs. It helps provide unity by linking together those seeking essential
 services with the right organization. 2-1-1 eliminates the need to navigate the
 complicated web of health and human services by providing one simple number to
-link community services to the people who need them."
+link community services to the people who need them.'
   phone: ~
   website: ~
   email: ~
@@ -50,7 +50,7 @@ link community services to the people who need them."
 
 - category: 2-1-1
   title: Services Provided by 2-1-1
-  desc: "Every hour of every day, someone requires essential services such as:
+  desc: 'Every hour of every day, someone requires essential services such as:
 • Child Care
 • Emergency Financial Assistance
 • Health Care
@@ -64,7 +64,7 @@ Disabilities
 their Caregivers
 • Alcohol and Drug Services
 • Safe Surrender Sites for
-Newborns"
+Newborns'
   phone: ~
   website: ~
   email: ~
@@ -74,7 +74,7 @@ Newborns"
 #5
 - category: When to Call 9-1-1
   title: ~
-  desc: "9-1-1 is the number to call to get help in a police, fire or medical emergency. 9-1-1 calls
+  desc: '9-1-1 is the number to call to get help in a police, fire or medical emergency. 9-1-1 calls
 go over dedicated phone lines to the 9-1-1 answering point closest to the caller, and
 trained personnel then send the emergency help needed.
 9-1-1 should only be used in emergency situations. An emergency is any situation
@@ -83,7 +83,7 @@ or an ambulance. If you are ever in doubt of whether a situation is an emergency
 you should call 9-1-1. It’s better to be safe and let the 9-1-1 call taker determine if you
 need emergency assistance.
 If you call 9-1-1 by mistake, do not hang up. Tell the call taker what happened so they
-know there really isn’t an emergency."
+know there really isn’t an emergency.'
   phone: ~
   website: ~
   email: ~
@@ -92,12 +92,12 @@ know there really isn’t an emergency."
 
 - category: When to Call 9-1-1
   title: Do Not Call 9-1-1
-  desc: "• For Information
+  desc: '• For Information
 • For Directory Assistance
 • When You’re Bored
 • For Paying Tickets
 • For Your Pet
-• As A Prank"
+• As A Prank'
   phone: ~
   website:
     - http://www.911.gov
@@ -123,7 +123,7 @@ know there really isn’t an emergency."
 #6
 - category: Marsy's Law
   title: Constitutional Amendment 2008 California Victims’ Bill of Rights
-  desc: "On November 4, 2008, the people of the State of California approved Proposition
+  desc: 'On November 4, 2008, the people of the State of California approved Proposition
 9, the Victims’ Bill of Rights Act of 2008: Marsy’s Law. This measure amended the
 California Constitution to provide additional rights to victims. This card contains
 specific sections of the Victims’ Bill of Rights and resources. Crime victims may obtain
@@ -139,7 +139,7 @@ psychologically incapacitated. The term ‘victim’ does not include a person i
 for an offense, the accused, or a person whom the court finds would not act in the
 best interests of a minor victim.”
 An overview of victim rights, along with helpful resources are listed on a card that
-can be printed out from their website at http://ag.ca.gov/victims.php."
+can be printed out from their website at http://ag.ca.gov/victims.php.'
   phone: ~
   website: ~
   email: ~
@@ -148,7 +148,7 @@ can be printed out from their website at http://ag.ca.gov/victims.php."
 
 - category: Marsy's Law
   title: Office of Victims’ & Survivor Rights & Services / California Office of the Attorney General
-  desc: ""
+  desc: ''
   phone:
     - desc: Phone Toll-free
       number: (877) 433-9069
@@ -159,12 +159,12 @@ can be printed out from their website at http://ag.ca.gov/victims.php."
 
 - category: Marsy's Law
   title: Marsy’s Law Card Information
-  desc: "If you are a victim of a crime, these rights apply
+  desc: 'If you are a victim of a crime, these rights apply
 to you. You may obtain information about these
 rights through your local victim/witness assistance
 program (usually located in the prosecutor’s
 office), your State Attorney General’s Office, or U.S.
-Attorney’s Office."
+Attorney’s Office.'
   phone: ~
   website:
     - http://ag.ca.gov/victims.php
@@ -176,7 +176,7 @@ Attorney’s Office."
 #7
 - category: California Law and Victims’ Rights
   title: ~
-  desc: "California Law provides crime victims with important rights. If you are the victim of
+  desc: 'California Law provides crime victims with important rights. If you are the victim of
 crime, you may be entitled to the assistance of a victim advocate who can answer
 many of the questions you might have about the criminal justice system.
 Victim Advocates can assist you with:
@@ -186,7 +186,7 @@ are pending
 losses
 • Communicating with the prosecution
 • Receiving victim support services
-• Helping you prepare a victim impact statement before an offender is sentenced"
+• Helping you prepare a victim impact statement before an offender is sentenced'
   phone: ~
   website: ~
   email: ~
@@ -195,7 +195,7 @@ losses
 
 - category: You Have Rights
   title: ~
-  desc: "Most states have amended their constitutions to guarantee certain fundamental
+  desc: 'Most states have amended their constitutions to guarantee certain fundamental
 rights for crime victims. Typically, these include:
 • The right to be notified of all court proceedings related to the offense
 • The right to be reasonably protected from the accused offender
@@ -203,7 +203,7 @@ rights for crime victims. Typically, these include:
 • The right to information about the conviction, sentencing, imprisonment,
 and release of the offender
 • The right to restitution from the convicted offender
-• The right to be notified of these rights"
+• The right to be notified of these rights'
   phone: ~
   website: ~
   email: ~
@@ -213,14 +213,14 @@ and release of the offender
 #8
 - category: Establish Safety
   title: ~
-  desc: "If you or someone you know has just been victimized, there are some important
+  desc: 'If you or someone you know has just been victimized, there are some important
 steps you should take in protecting yourself, treating any injuries, and making
 sure you have the support you need. Below are things to think about immediately
 following a violent encounter.
 
 First and foremost, get to a safe place, away
 from danger. If you need help getting there, ask
-someone to help you."
+someone to help you.'
   phone: ~
   website: ~
   email: ~
@@ -229,11 +229,11 @@ someone to help you."
 
 - category: Care for Injuries
   title: ~
-  desc: "Go to a hospital or physician to have physical injuries treated. It will also be
+  desc: 'Go to a hospital or physician to have physical injuries treated. It will also be
 important to tell medical personnel that your injuries are the result of a crime before
 you are treated so that DNA can be collected and photographs can be taken of
 your injuries. Do not shower or wash because doing so may remove or compromise
-physical evidence needed to apprehend and convict the person(s) who hurt you."
+physical evidence needed to apprehend and convict the person(s) who hurt you.'
   phone: ~
   website: ~
   email: ~
@@ -242,13 +242,13 @@ physical evidence needed to apprehend and convict the person(s) who hurt you."
 
 - category: Call the Police / Get Help
   title: ~
-  desc: "Call the police as soon as possible, so they can provide assistance. Remember
+  desc: 'Call the police as soon as possible, so they can provide assistance. Remember
 to preserve the crime scene - don’t clean up or move anything so that detectives can
 collect evidence that will be helpful in bringing your assailant(s) to justice. Then call a
 trusted friend or family member who can be with you as you interact with the police,
 physicians, and investigators to make personal decisions. In the days following, you
 should consider finding a counselor to help you cope with the trauma and the effects
-of Post Traumatic Stress Disorder (PTSD)."
+of Post Traumatic Stress Disorder (PTSD).'
   phone: ~
   website: ~
   email: ~
@@ -258,7 +258,7 @@ of Post Traumatic Stress Disorder (PTSD)."
 #9
 - category: Document the Crime
   title: ~
-  desc: "While it may be the last thing you want to do, it is very important to write down
+  desc: 'While it may be the last thing you want to do, it is very important to write down
 exactly what happened as soon as possible following your incident. The best way to
 protect your memory is to document the event before being interviewed. Writing
 down what has taken place will be a source you can revisit to remember details. This
@@ -290,7 +290,7 @@ ASSAILANT(S): Describe hair
 color and style, eye color, shape of face, height, weight, voice, clothing,
 tattoos, or other identifying marks.
 • DESCRIPTION OF OTHER ITEMS: Recall any items that may have been used
-during the crime, such as a handgun or a vehicle."
+during the crime, such as a handgun or a vehicle.'
   phone: ~
   website: ~
   email: ~
@@ -300,7 +300,7 @@ during the crime, such as a handgun or a vehicle."
 #10
 - category: Protect Yourself Against Further Harm
   title: ~
-  desc: "If your home was burglarized or if you had your wallet or purse stolen, you may feel the
+  desc: 'If your home was burglarized or if you had your wallet or purse stolen, you may feel the
 need to have your home checked before returning to it. Ask the police to check your
 home for you and to make sure you arrive there safely. You may want or need to have
 someone with you when you arrive home for a while, especially if your perpetrator isn’t
@@ -309,7 +309,7 @@ It will be important for you to re-establish a sense of safety in your life agai
 may not come easily at first. Some survivors of violent crime feel the need for security
 devices or weapons. Generally, the best protection you have is to be aware of your
 surroundings and what your “gut” is telling you. It is important to know what you feel
-comfortable with and what will help you to be and feel safe"
+comfortable with and what will help you to be and feel safe'
   phone: ~
   website: ~
   email: ~
@@ -318,7 +318,7 @@ comfortable with and what will help you to be and feel safe"
 
 - category: Short-Term Planning
   title: ~
-  desc: "You may feel bombarded with countless details and decisions in the aftermath of a
+  desc: 'You may feel bombarded with countless details and decisions in the aftermath of a
 violent encounter — and to make matters worse, you are probably in shock. It will
 take time to deal with everything, but here are a few suggestions for the short-term:
 • Call your employer or have a friend call if you cannot return to work right
@@ -338,7 +338,7 @@ your perpetrator(s).
 that you’ve been through a trauma and that you will need their support. It is
 often difficult for others to understand what living through such a trauma is
 like. More information for family and friends can be found in the For Loved
-Ones section"
+Ones section'
   phone: ~
   website: ~
   email: ~
@@ -348,14 +348,14 @@ Ones section"
 #11
 - category: Find Support
   title: ~
-  desc: "Surviving a violent crime is difficult, and while the crime may only have taken
+  desc: 'Surviving a violent crime is difficult, and while the crime may only have taken
 seconds or minutes, the healing process can take quite a while. The road traveled
 in the aftermath is slightly different for everyone, but we all need help and
 understanding along the way. It will be important for you to find support during
 your healing process. Talk with friends, family, a therapist, a support group, or other
 survivors in the Connect with Others section of the Witness Justice site.
 If you need immediate help, you may want to call a hotline for anonymous support.
-Some hotlines include:"
+Some hotlines include:'
   phone: ~
   website: ~
   email: ~
@@ -387,7 +387,7 @@ Some hotlines include:"
 
 - category: Find Support
   title: National Center for Victims of Crime
-  desc: "24-hour hotline and link to local resources"
+  desc: '24-hour hotline and link to local resources'
   phone:
     - desc: ~
       number: (855) 4-VICTIM
@@ -443,7 +443,7 @@ Some hotlines include:"
 
 - category: Steps to Healing
   title: ~
-  desc: "Healing won’t happen quickly, but it will happen. It is within your power to facilitate
+  desc: 'Healing won’t happen quickly, but it will happen. It is within your power to facilitate
 the process and begin your journey to a new place of happiness and peace. Here are
 some suggestions:
 • Recognize your loss.
@@ -456,7 +456,7 @@ can do it alone.
 • Be patient and don’t make rash decisions — it takes time to figure out where
 you are, where you want to be, and how to get there.
 • Take care of yourself — try to exercise, eat right, and sleep well.
-• Don’t abandon hope — believe that healing can and will take place."
+• Don’t abandon hope — believe that healing can and will take place.'
   phone: ~
   website: ~
   email: ~
@@ -466,12 +466,12 @@ you are, where you want to be, and how to get there.
 #12
 - category: What Next?
   title: ~
-  desc: "As you start to return to your daily routine, you may question your feelings and what
+  desc: 'As you start to return to your daily routine, you may question your feelings and what
 you’re going through. Visit our crimesurvivors.org to find helpful resources and
 to learn more about common struggles that survivors encounter following their
 experiences. If you have a question and can’t find an answer on our website, please
 contact us and we’ll do our best to provide you with the information, support, and
-referrals you need."
+referrals you need.'
   phone:
     - desc: ~
       number: (844) 853-HOPE
@@ -486,9 +486,9 @@ referrals you need."
 
 - category: What Next?
   title: Mission
-  desc: "To provide hope and healing to victims and survivors of crime through advocacy and the
+  desc: 'To provide hope and healing to victims and survivors of crime through advocacy and the
 support of resources, information, and empowerment from the critical time after a crime
-occurs through the challenges and successes of surviving and thriving."
+occurs through the challenges and successes of surviving and thriving.'
   phone: ~
   website: ~
   email: ~
@@ -497,7 +497,7 @@ occurs through the challenges and successes of surviving and thriving."
 
 - category: What Next?
   title: Values
-  desc: "• We believe that no one should feel
+  desc: '• We believe that no one should feel
 abandoned or alone and that every person
 is deserving of love, respect, and dignity.
 • We believe that the best way to help
@@ -513,7 +513,7 @@ light of a restored heart and life.
 • We believe that every broken heart, every
 hurt, every wound can be healed with love
 and a strong community of support.
-• We believe in hopeful healing."
+• We believe in hopeful healing.'
   phone: ~
   website: ~
   email: ~
@@ -522,7 +522,7 @@ and a strong community of support.
 
 - category: What Next?
   title: We are Here to Help!
-  desc: "Crime Survivors is committed to serving
+  desc: 'Crime Survivors is committed to serving
 our community by being an advocate
 and resource for crime victims and their
 families. If you don’t know where to
@@ -531,7 +531,7 @@ the public services that are available to
 you as you recover or seek justice, Crime
 Survivors can help. Our website will
 provide information, resources, and tools
-that will help you become a “Survivor.”"
+that will help you become a “Survivor.”'
   phone: ~ 
   website: ~
   email: ~
@@ -540,7 +540,7 @@ that will help you become a “Survivor.”"
 
 - category: What Next?
   title: Victims Advocate
-  desc: "Crime Survivors works in your community
+  desc: 'Crime Survivors works in your community
 to make victims’ rights a top priority. We
 facilitate communication and cooperation
 across various public service, government,
@@ -549,7 +549,7 @@ that victims’ rights are understood, and
 that the services victims are entitled to
 are received. If you think you are not
 receiving the assistance you should,
-please contact us"
+please contact us'
   phone: ~ 
   website: ~
   email: ~
@@ -707,7 +707,7 @@ please contact us"
   address: ~ 
 
 #14
-- category: "Orange County Courts"
+- category: 'Orange County Courts'
   title: Central Justice Center - Santa Ana
   desc: ~
   phone: 
@@ -718,7 +718,7 @@ please contact us"
   hours: ~
   address: 700 W Civic Center Dr
     
-- category: "Orange County Courts"
+- category: 'Orange County Courts'
   title: Criminal Harbor Justice Center - Newport Beach 
   desc: ~
   phone: 
@@ -729,7 +729,7 @@ please contact us"
   hours: ~
   address: 4601 Jamboree Road
 
-- category: "Orange County Courts"
+- category: 'Orange County Courts'
   title: Lamoreaux Justice Center – Orange
   desc: ~
   phone:
@@ -740,7 +740,7 @@ please contact us"
   hours: ~
   address: 341 The City Drive South
 
-- category: "Orange County Courts"
+- category: 'Orange County Courts'
   title: North Justice Center - Fullerton
   desc: ~
   phone:
@@ -751,7 +751,7 @@ please contact us"
   hours: ~
   address: 1275 North Berkeley Avenue
     
-- category: "Orange County Courts"
+- category: 'Orange County Courts'
   title: West Justice Center - Westminster
   desc: ~
   phone:
@@ -765,7 +765,7 @@ please contact us"
 #15
 
 #16
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Adult Protective Services
   desc: ~
   phone:
@@ -776,7 +776,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Battered Women Self-Help (24 hr.)
   desc: ~
   phone:
@@ -787,7 +787,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Domestic Violence Safety Plan Hotline
   desc: ~
   phone:
@@ -798,7 +798,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: OC District Attorney / Waymakers
   desc: ~
   phone:
@@ -811,7 +811,7 @@ please contact us"
   hours: ~
   address: ~ 
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Domestic Violence Safety Plan Hotline
   desc: ~
   phone:
@@ -822,7 +822,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Human Options Hotline
   desc: ~
   phone:
@@ -833,7 +833,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: National Domestic Violence Hotline
   desc: ~
   phone:
@@ -843,7 +843,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: VINE – Victim Information and Notification Everyday
   desc: ~
   phone:
@@ -856,7 +856,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Waymakers, Dispute Resolution Services
   desc: ~
   phone:
@@ -867,7 +867,7 @@ please contact us"
   hours: ~
   address: ~
 
-- category: "Who to Call"
+- category: 'Who to Call'
   title: Waymakers, Sexual Assault Victim Services
   desc: ~
   phone:
@@ -883,9 +883,9 @@ please contact us"
   address: ~  
 
 #17
-- category: "Waymakers, Victim Assistance Programs"
+- category: 'Waymakers, Victim Assistance Programs'
   title: Administration Office
-  desc: "In the weeks, months, and sometimes years following a crime, the victim may
+  desc: 'In the weeks, months, and sometimes years following a crime, the victim may
 experience emotional, physical, financial, and legal problems. These problems may
 lead to feelings of helplessness, guilt, frustration, and anger. Waymakers, Victim
 Assistance Programs has provided needed services for victims and witnesses of
@@ -904,7 +904,7 @@ Waymakers provides these services in conjunction with Superior Court of Orange
 County, the Orange County District Attorney’s Office, local law enforcement agencies,
 domestic violence shelters, and other victim service providers. This comprehensive
 and coordinated delivery of services forwards the goal of alleviating the trauma and
-devastating effects of crime on the lives of victims and witnesses of crime."
+devastating effects of crime on the lives of victims and witnesses of crime.'
   phone:
     - desc: ~ 
       number: (949) 250-0488 
@@ -913,7 +913,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: 1221 E. Dyer Rd., Suite 120, Santa Ana, CA 92705
 
-- category: "Waymakers, Victim Assistance Programs"
+- category: 'Waymakers, Victim Assistance Programs'
   title: Central Justice Center
   desc: ~
   phone:
@@ -924,7 +924,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: 700 W Civic Center Dr, Santa Ana, CA 92702
 
-- category: "Waymakers, Victim Assistance Programs"
+- category: 'Waymakers, Victim Assistance Programs'
   title: Harbor Justice Center – Newport Beach
   desc: ~
   phone:
@@ -935,7 +935,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: 4601 Jamboree Rd. Suite 103, Newport Beach, CA 92660
 
-- category: "Waymakers, Victim Assistance Programs"
+- category: 'Waymakers, Victim Assistance Programs'
   title: Lamoreaux Justice Center, Juvenile Court
   desc: ~
   phone:
@@ -946,7 +946,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: 341 The City Drive South, Orange, CA 92868
 
-- category: "Waymakers, Victim Assistance Programs"
+- category: 'Waymakers, Victim Assistance Programs'
   title: North Justice Center
   desc: ~
   phone:
@@ -957,7 +957,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: 1275 North Berkeley Avenue, Fullerton, CA 92832
 
-- category: "Waymakers, Victim Assistance Programs"
+- category: 'Waymakers, Victim Assistance Programs'
   title: West Justice Center
   desc: ~
   phone:
@@ -969,7 +969,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   address: 8141 13th Street, Westminster, CA 92683
 
 #18
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Domestic Violence Assistance Program
   desc: ~
   phone: 
@@ -980,7 +980,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
   
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Families
   desc: ~
   phone: 
@@ -991,7 +991,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Human Options
   desc: ~
   phone: 
@@ -1002,7 +1002,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Interval House
   desc: ~
   phone: 
@@ -1013,7 +1013,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Laura’s House 
   desc: ~
   phone: 
@@ -1024,7 +1024,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Sheepfold
   desc: ~
   phone: 
@@ -1035,7 +1035,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Wise Place
   desc: ~
   phone: 
@@ -1046,7 +1046,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Women’s Transitional Living Center
   desc: ~
   phone: 
@@ -1057,7 +1057,7 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Domestic Violence Shelters"
+- category: 'Domestic Violence Shelters'
   title: Yellowstone
   desc: ~
   phone: 
@@ -1068,13 +1068,13 @@ devastating effects of crime on the lives of victims and witnesses of crime."
   hours: ~
   address: ~
 
-- category: "Families"
+- category: 'Families'
   title: Families and Communities Together
-  desc: "Services & Programs: child raising skills, anti-gang program, after school activities,
+  desc: 'Services & Programs: child raising skills, anti-gang program, after school activities,
 domestic violence counseling & education, emergency food & financial assistance,
 bilingual mental health counseling, medical & dental services, in-home counseling,
 emergency & transitional homeless shelter, community leaders training, youth
-mentoring & scholarship programs, parent support groups."
+mentoring & scholarship programs, parent support groups.'
   phone: 
     - desc: County of Orange Social Services Agency
       number: (714) 566-2878
@@ -1083,7 +1083,7 @@ mentoring & scholarship programs, parent support groups."
   hours: ~
   address: ~
 
-- category: "Legal"
+- category: 'Legal'
   title: AARP Legal Network Services
   desc: ~
   phone: 
@@ -1094,7 +1094,7 @@ mentoring & scholarship programs, parent support groups."
   hours: ~
   address: ~
 
-- category: "Legal"
+- category: 'Legal'
   title: Human Options Legal Advocacy Program 
   desc: ~
   phone: 
@@ -1105,7 +1105,7 @@ mentoring & scholarship programs, parent support groups."
   hours: ~
   address: ~
 
-- category: "Legal"
+- category: 'Legal'
   title: Legal Aid Society of Orange County
   desc: ~
   phone: 
@@ -1118,7 +1118,7 @@ mentoring & scholarship programs, parent support groups."
   hours: ~
   address: ~
 
-- category: "Legal"
+- category: 'Legal'
   title: Orange County Bar Association
   desc: ~
   phone: 
@@ -1129,7 +1129,7 @@ mentoring & scholarship programs, parent support groups."
   hours: ~
   address: ~
 
-- category: "Legal"
+- category: 'Legal'
   title: Public Law Center
   desc: ~
   phone: 
@@ -1141,9 +1141,9 @@ mentoring & scholarship programs, parent support groups."
   address: 601 Civic Center Drive West, Santa Ana, CA 92701-4002 
 
 #19
-- category: "Orange County Family Justice Center"
+- category: 'Orange County Family Justice Center'
   title: ~
-  desc: "Serving Survivors of Domestic Violence
+  desc: 'Serving Survivors of Domestic Violence
 The focus of the Anaheim Family Justice Center is to co-locate as many resources as
 possible to effectively and efficiently address domestic violence, child abuse, elder/
 dependent adult abuse, and sexual assault. By utilizing a multi-disciplinary team approach
@@ -1166,21 +1166,22 @@ family crimes and sexual assault cases. The programs will focus on prevention of
 and prosecution of cases.
 Prevent and fight domestic abuse, neglect, and exploitation of at-risk children, elder &
 disabled adults in the City of Anaheim though public awareness programs designed to
-make the citizens of Anaheim cognizant of the signs o"
+make the citizens of Anaheim cognizant of the signs o'
   phone:
     - desc: ~ 
       number: (714) 765-1645 
   website: 
     - http://www.orangecountyfamilyjusticecenter.org 
+  email: ~
   hours: ~
   address: 150 W. Vermont Ave. Anaheim, CA 92805 
 
 #20
-- category: "District Attorney’s Offices"
+- category: 'District Attorney’s Offices'
   title: Orange County District Attorney’s Office
-  desc: "Sexual Assault, T.A.R.G.E.T. - Gangs, Homicide, TracKRS Unit,Economic Crimes,
+  desc: 'Sexual Assault, T.A.R.G.E.T. - Gangs, Homicide, TracKRS Unit,Economic Crimes,
 Family Protection, Felony Panel, Welfare Fraud Felony Projects, Law and Motion,
-Consumer / Environmental Protection, Administration, Personnel"
+Consumer / Environmental Protection, Administration, Personnel'
   phone:
     - desc: ~ 
       number: (714) 834-3600
@@ -1189,7 +1190,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: 401 Civic Center Drive, Santa Ana, CA 92701 
 
-- category: "District Attorney’s Offices"
+- category: 'District Attorney’s Offices'
   title: Harbor Office / Newport Beach Facility
   desc: ~
   phone:
@@ -1200,7 +1201,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: 4601 Jamboree Road, Newport Beach, CA 92660
 
-- category: "District Attorney’s Offices"
+- category: 'District Attorney’s Offices'
   title: Juvenile
   desc: ~
   phone:
@@ -1211,7 +1212,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: 341 City Drive South Orange, CA 92668
 
-- category: "District Attorney’s Offices"
+- category: 'District Attorney’s Offices'
   title: North Office
   desc: ~
   phone:
@@ -1222,7 +1223,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: 1275 North Berkeley Avenue, Fullerton, CA 92832
 
-- category: "District Attorney’s Offices"
+- category: 'District Attorney’s Offices'
   title: West Office
   desc: ~
   phone:
@@ -1233,16 +1234,17 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: 8141 13th Street, Westminster, CA 92683
 
-- category: "Orange County Probation Stations"
+- category: 'Orange County Probation Stations'
   title: Orange County Probation Department
   desc: ~
   phone: ~
   website: 
     - http://www.ocgov.com/gov/probation
+  email: ~
   hours: ~
   address: PO Box 10260, Santa Ana, CA 92711 
 
-- category: "Orange County Probation Stations"
+- category: 'Orange County Probation Stations'
   title: Probation Department
   desc: ~
   phone:
@@ -1253,7 +1255,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category: "Orange County Probation Stations"
+- category: 'Orange County Probation Stations'
   title: Probation Victim Services
   desc: ~
   phone:
@@ -1264,7 +1266,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category: "Orange County Probation Stations"
+- category: 'Orange County Probation Stations'
   title: Probation Violator Hotline 
   desc: ~
   phone:
@@ -1276,7 +1278,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   address: ~
 
 #21
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Anaheim Police Department
   desc: ~
   phone:
@@ -1287,7 +1289,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Brea Police Department
   desc: ~
   phone:
@@ -1298,7 +1300,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Buena Park Police Department
   desc: ~
   phone:
@@ -1309,7 +1311,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Costa Mesa Police Department
   desc: ~
   phone:
@@ -1320,7 +1322,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Cypress Police Department
   desc: ~
   phone:
@@ -1331,7 +1333,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Fountain Valley Police Department
   desc: ~
   phone:
@@ -1342,7 +1344,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Fullerton Police Department
   desc: ~
   phone:
@@ -1353,7 +1355,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Garden Grove Police Department
   desc: ~
   phone:
@@ -1364,7 +1366,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Huntington Beach Police
   desc: ~
   phone:
@@ -1375,7 +1377,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Irvine Police Department
   desc: ~
   phone:
@@ -1386,7 +1388,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: La Habra Police Department
   desc: ~
   phone:
@@ -1397,7 +1399,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: La Palma Police Department
   desc: ~
   phone:
@@ -1408,7 +1410,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Laguna Beach Police Department
   desc: ~
   phone:
@@ -1419,7 +1421,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Los Alamitos Police Department
   desc: ~
   phone:
@@ -1430,7 +1432,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Mission Viejo - Orange County Sherif
   desc: ~
   phone:
@@ -1441,7 +1443,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Newport Beach Police Department
   desc: ~
   phone:
@@ -1452,7 +1454,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Orange County Sheriff
   desc: ~
   phone:
@@ -1465,7 +1467,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Orange Police Department
   desc: ~
   phone:
@@ -1476,7 +1478,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
   
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Placentia Police Department
   desc: ~
   phone:
@@ -1487,7 +1489,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Santa Ana Police Department
   desc: ~
   phone:
@@ -1498,7 +1500,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Seal Beach Police Department
   desc: ~
   phone:
@@ -1509,7 +1511,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Tustin Police Department
   desc: ~
   phone:
@@ -1520,7 +1522,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Westminster Police Department
   desc: ~
   phone:
@@ -1531,7 +1533,7 @@ Consumer / Environmental Protection, Administration, Personnel"
   hours: ~
   address: ~
 
-- category:  "Police & Sheriff Stations"
+- category:  'Police & Sheriff Stations'
   title: Yorba Linda - Orange County Sheriff’s Department
   desc: ~
   phone:
@@ -1574,7 +1576,7 @@ Consumer / Environmental Protection, Administration, Personnel"
     - desc: (Non-Emergency)
       number: (949) 770-6011
     - desc: (Emergency)
-      number: 911
+      number: '911'
   website: ~
   email: ~
   hours: ~
