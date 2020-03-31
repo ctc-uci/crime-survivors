@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import uuidv4 from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import ExampleReactFunctional from '../components/ExampleReactFunctional';
 import ExampleReactStateful from '../components/ExampleReactStateful';
 
 const ExamplePage = ({ data }) => {
   // deconstruct props, required by eslint
-  const { allOrangeYaml } = data;
-  const { nodes } = allOrangeYaml;
+  const { allOrangeCountyYaml } = data;
+  const { nodes } = allOrangeCountyYaml;
 
   return (
     <div>
@@ -33,16 +33,15 @@ const ExamplePage = ({ data }) => {
 // Defaults values for props, required by eslint
 ExamplePage.defaultProps = {
   data: {
-    allOrangeYaml: {
+    allOrangeCountyYaml: {
       nodes: [{
-        resource: {
-          address: 'address',
-          category: 'category',
-          phone: [{ desc: 'desc', number: '(555) 555-5555' }],
-          title: 'title',
-          desc: 'desc',
-        },
-      }],
+        address: 'address',
+        category: 'category',
+        phone: [{ desc: 'desc', number: '(555) 555-5555' }],
+        title: 'title',
+        desc: 'desc',
+      },
+      ],
     },
   },
 };
@@ -50,9 +49,9 @@ ExamplePage.defaultProps = {
 // Proptype validation, required by eslint
 ExamplePage.propTypes = {
   data: PropTypes.shape({
-    allOrangeYaml: PropTypes.shape({
-      nodes: PropTypes.arrayOf({
-        resource: PropTypes.shape({
+    allOrangeCountyYaml: PropTypes.shape({
+      nodes: PropTypes.arrayOf(
+        PropTypes.shape({
           address: PropTypes.string,
           category: PropTypes.string,
           phone: PropTypes.arrayOf(
@@ -64,7 +63,7 @@ ExamplePage.propTypes = {
           title: PropTypes.string,
           desc: PropTypes.string,
         }),
-      }),
+      ),
     }),
   }),
 };
@@ -72,7 +71,7 @@ ExamplePage.propTypes = {
 // Standard GraphQL query for YAML, play around with graphql on localhost:8000/__graphql
 export const query = graphql`
   query MyQuery {
-    allOrangeYaml {
+    allOrangeCountyYaml {
       nodes {
         address
         category

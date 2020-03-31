@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import uuidv4 from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
 // This is a stateful react component
 class ExampleReactStateful extends Component {
@@ -14,6 +14,26 @@ class ExampleReactStateful extends Component {
 
     // bind ur event handlers!
     this.incrementFunction = this.incrementFunction.bind(this);
+
+    this.mapPhone = this.mapPhone.bind(this);
+  }
+
+  // null checker helper function, need a better implementation in the future...
+  mapPhone() {
+    const { resource } = this.props;
+
+    if (resource.phone == null) {
+      return <div />;
+    }
+    return resource.phone.map((phoneInfo) => (
+      <div key={uuidv4() /* uuid bc array of items */}>
+        <h3>
+          {phoneInfo.desc}
+          <br />
+          {phoneInfo.number}
+        </h3>
+      </div>
+    ));
   }
 
   // example function
@@ -45,15 +65,7 @@ class ExampleReactStateful extends Component {
         <h2>{resource.title}</h2>
         <h3>{resource.desc}</h3>
         <h3>{resource.category}</h3>
-        {resource.phone.map((phoneInfo) => (
-          <div key={uuidv4() /* uuid bc array of items */}>
-            <h3>
-              {phoneInfo.desc}
-              <br />
-              {phoneInfo.number}
-            </h3>
-          </div>
-        ))}
+        {this.mapPhone()}
         <h3>{resource.address}</h3>
         <br />
       </div>

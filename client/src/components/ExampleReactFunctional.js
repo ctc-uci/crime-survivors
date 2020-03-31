@@ -1,6 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import uuidv4 from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
+
+// null checker helper function, need a better implementation in the future...
+const mapPhone = (phone) => {
+  if (phone == null) {
+    return <div />;
+  }
+  return phone.map((phoneInfo) => (
+    <div key={uuidv4() /* uuid bc array of items */}>
+      <h3>
+        {phoneInfo.desc}
+        <br />
+        {phoneInfo.number}
+      </h3>
+    </div>
+  ));
+};
 
 // This is a functional react component (no states, only props)
 const ExampleReactFunctional = (props) => {
@@ -12,20 +28,13 @@ const ExampleReactFunctional = (props) => {
       <h2>{resource.title}</h2>
       <h3>{resource.desc}</h3>
       <h3>{resource.category}</h3>
-      {resource.phone.map((phoneInfo) => (
-        <div key={uuidv4() /* uuid bc array of items */}>
-          <h3>
-            {phoneInfo.desc}
-            <br />
-            {phoneInfo.number}
-          </h3>
-        </div>
-      ))}
+      {mapPhone(resource.phone)}
       <h3>{resource.address}</h3>
       <br />
     </div>
   );
 };
+
 
 // Defaults values for props, required by eslint
 ExampleReactFunctional.defaultProps = {
