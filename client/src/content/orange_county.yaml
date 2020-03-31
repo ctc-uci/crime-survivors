@@ -1576,11 +1576,7 @@ Consumer / Environmental Protection, Administration, Personnel'
     - desc: (Non-Emergency)
       number: (949) 770-6011
     - desc: (Emergency)
-<<<<<<< Updated upstream
       number: '911'
-=======
-      number: "911"
->>>>>>> Stashed changes
   website: ~
   email: ~
   hours: ~
