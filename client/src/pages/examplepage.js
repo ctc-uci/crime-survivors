@@ -4,16 +4,36 @@ import { graphql } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
 import ExampleReactFunctional from '../components/ExampleReactFunctional';
 import ExampleReactStateful from '../components/ExampleReactStateful';
+import PageContainer from '../components/pagecontainer';
 
 const ExamplePage = ({ data }) => {
   // deconstruct props, required by eslint
   const { allOrangeCountyYaml } = data;
   const { nodes } = allOrangeCountyYaml;
 
+  // return (
+  //   <div>
+  //     <h1>Functional Components</h1>
+  //     {nodes.map((node) => (
+  //       <div key={uuidv4() /* uuid bc array of items */}>
+  //         <ExampleReactFunctional resource={node} />
+  //         <hr />
+  //       </div>
+  //     ))}
+  //     <h1>Stateful Components</h1>
+  //     {nodes.map((node) => (
+  //       <div key={uuidv4() /* uuid bc array of items */}>
+  //         <ExampleReactStateful resource={node} />
+  //         <hr />
+  //       </div>
+  //     ))}
+  //   </div>
+  // );
   return (
-    <div>
-      <h1>Functional Components</h1>
-      {nodes.map((node) => (
+    <PageContainer>
+     <div>
+       <h1>Functional Components</h1>
+       {nodes.map((node) => (
         <div key={uuidv4() /* uuid bc array of items */}>
           <ExampleReactFunctional resource={node} />
           <hr />
@@ -27,7 +47,8 @@ const ExamplePage = ({ data }) => {
         </div>
       ))}
     </div>
-  );
+    </PageContainer>
+  )
 };
 
 // Defaults values for props, required by eslint
