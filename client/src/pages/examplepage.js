@@ -31,24 +31,24 @@ const ExamplePage = ({ data }) => {
   // );
   return (
     <PageContainer>
-     <div>
-       <h1>Functional Components</h1>
-       {nodes.map((node) => (
-        <div key={uuidv4() /* uuid bc array of items */}>
-          <ExampleReactFunctional resource={node} />
-          <hr />
-        </div>
-      ))}
-      <h1>Stateful Components</h1>
-      {nodes.map((node) => (
-        <div key={uuidv4() /* uuid bc array of items */}>
-          <ExampleReactStateful resource={node} />
-          <hr />
-        </div>
-      ))}
-    </div>
+      <div>
+        <h1>Functional Components</h1>
+        {nodes.map((node) => (
+          <div key={uuidv4() /* uuid bc array of items */}>
+            <ExampleReactFunctional resource={node} />
+            <hr />
+          </div>
+        ))}
+        <h1>Stateful Components</h1>
+        {nodes.map((node) => (
+          <div key={uuidv4() /* uuid bc array of items */}>
+            <ExampleReactStateful resource={node} />
+            <hr />
+          </div>
+        ))}
+      </div>
     </PageContainer>
-  )
+  );
 };
 
 // Defaults values for props, required by eslint
