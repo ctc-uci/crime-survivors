@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
+import PageContainer from '../components/pagecontainer';
 
 const CategoryPage = ({ data }) => {
   const { allOrangeCountyYaml } = data;
@@ -9,14 +10,22 @@ const CategoryPage = ({ data }) => {
 
   // simply displays all resources for this category in an ugly list
   return (
-    <div>
+    // <div>
+    //   {nodes.map((resource) => (
+    //     <div key={uuidv4() /* uuid bc array of items */}>
+    //       <h1>{resource.title}</h1>
+    //       <div>{resource.desc}</div>
+    //     </div>
+    //   ))}
+    // </div>
+    <PageContainer>
       {nodes.map((resource) => (
-        <div key={uuidv4() /* uuid bc array of items */}>
+        <div key={uuidv4()}>
           <h1>{resource.title}</h1>
           <div>{resource.desc}</div>
         </div>
       ))}
-    </div>
+    </PageContainer>
   );
 };
 
