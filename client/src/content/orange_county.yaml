@@ -2977,60 +2977,235 @@ difficult issues of violence against children while celebrating the gift that is
   address: PO Box 12680, Westminster, Ca. 92685 
 
 #35
-- category: ~
+- category: Human Options
   title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
+  desc: 'Mission: Human Options provides safe haven and life changing programs to help
+abused women, their children and families rebuild their lives – and works with the
+community to break the cycle of domestic violence.
+For assistance with domestic violence issues or information about our shelter and
+programs, please call our 24-hour hotline at (877) 854-3594. If you are in imminent
+danger or have a physical emergency, please call 911. Someone is available 24 hours
+a day, 365 days a year to answer your questions and provide assistance. A 30-45
+minute intake with our hotline advocate is required before entering our shelter.
+Primary languages: English, Spanish, and Farsi. Translation services available for
+other languages.
+Our emergency shelter is for any individual or family in a domestic violence situation
+seeking shelter. Each family has their own room and single men or women without
+children may share a room. Participants are provided the opportunity to receive
+individual counseling from a skilled therapist, participate in group counseling and
+therapeutic sessions, and work with a case manager in order to navigate available
+services en route to discovering a way forward. Legal advocacy services including
+monthly family law clinics with a pro bono attorney are also available. Children of
+all ages participate in the children’s program where they receive age appropriate
+counseling and therapeutic activities.
 
-#36
-- category: ~
-  title: ~
-  desc: ~
+Transitional Housing
+Families who have completed a domestic violence shelter program can apply
+for Second Step, our transitional housing program. Here, families regain their
+independence by participating in educational and job skill building activities as
+well as continuing counseling and case management sessions. Children have the
+opportunity to participate in the children’s programs and have access to after
+school tutoring. In 2014, 82% of women completing our transitional housing
+program increased their income and 90% secured permanent housing.
+
+Center for Children and Families
+This community resource center provides intervention for men, women, and
+children who are survivors of domestic violence or who are currently in an abusive
+relationship. Any individual affected by domestic violence in Orange County or
+the surrounding area may have access to counseling, legal advocacy, education, or
+support groups.
+Services include: Counseling for individuals, families, seniors, and children,
+Legal advocacy, monthly presentations on Immigration Options for Survivors of
+Domestic Violence and Rights and Resources Available to Survivors, free monthly
+Immigration and Family Law clinics, Parenting classes, Children’s Empowerment (an
+art-focused group for children grades 1-8 focused on expression), Safe Dates—a
+teen dating violence curriculum focusing on healthy relationships for middle
+and high school students, and Personal Empowerment Program (PEP)- offered in
+English and Spanish—a court approved curriculum focused on domestic violence
+education. As a result of our therapeutic services, 85% of clients decreased levels of
+anxiety and 75% decreased levels of depression in 2014. Additionally, the Center for
+Children and Families includes a Safe Options for Seniors Program which focuses
+on providing services to adults ages fifty and older as well as dependent adults
+who are survivors of domestic violence or late life family violence. Safe Options
+for Seniors services include individual counseling, Senior Empowerment Group
+(curriculum focused on domestic violence and late life family violence education),
+and Journey to Empowerment (an art-based healing group).
+
+Community Education
+Community Education at Human Options aims to engage the community in our
+mission to reduce and prevent domestic violence. In order to change the societal
+attitudes and beliefs that perpetuate the cycle of domestic violence, we place a
+priority on prevention programs and awareness campaigns designed to bring
+light to an issue that thrives in silence. Our community educators use storytelling,
+lecture, and interactive lessons to engage participants of all ages in our mission.
+Partnering with Orange County schools, community groups and organizations,
+we educate more than 10,000 people a year. If you are interested in learning more
+about our free educational opportunities, please e-mail communityeducation@
+humanoptions.org or call the Human Options Business Office, Extension 215.'
   phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
+    - desc: ~
+      number: (949) 737-5242 
+    - desc: 24 Hour Toll Free Hotline 
+      number:  (877) 854-3594 
+  website:
+    - http://www.humanoptions.org/
+  email: info@humanoptions.org
   hours: ~
-  address: ~ 
+  address: 5540 Trabuco Rd., Ste. 100 Irvine, CA 92620
 
 #37
-- category: ~
-  title: ~
+- category: Human Options Locations
+  title: Center for Children & Families
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (949) 757-3635  
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: 1901 Newport Blvd. Suite 240, Costa Mesa, CA 92627 
+
+- category: Human Options Locations
+  title: CHEC Family Resource Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 489-7742 
+  website: ~
+  email: ~
+  hours: ~
+  address: 27412 Calle Arroyo, San Juan Capistrano, CA 92675 
+
+- category: Human Options Locations
+  title: Corbin Family Resource Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (714) 480-3737 
+  website: ~
+  email: ~
+  hours: ~
+  address: 2215 W. McFadden Ave., Suite G, Santa Ana, CA 92704
+
+- category: Human Options Locations
+  title: Costa Mesa Family Resource Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 764-8100  
+  website: ~
+  email: ~
+  hours: ~
+  address: 07 Placentia Ave. Suite 203, Newport Beach, CA 92663
+
+- category: Human Options Locations
+  title: Human Options Business Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 737-5242  
+  website: ~
+  email: ~
+  hours: ~
+  address: Irvine, CA 
+
+- category: Human Options Locations
+  title: Minnie Street Family Resources Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (714) 972-5775  
+  website: ~
+  email: ~
+  hours: ~
+  address: 1300 E. McFadden Ave., Room 13, Santa Ana, CA 92705
+
+- category: Human Options Locations
+  title: South Orange County Family Resource Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (949) 364-0500 
+  website: ~
+  email: ~
+  hours: ~
+  address: 22481 Aspan, Lake Forest, CA 92630 
 
 #38
-- category: ~
-  title: ~
-  desc: ~
+- category: Safety & Self-Defense
+  title: GET SAFE
+  desc: 'This course is specifically designed for survivors of physical & sexual abuse in childhood
+and survivors of sexual assault and domestic violence. Our unique approach combines
+counseling and group processing with personal safety education and comprehensive
+self-defense training.
+
+Breaking Barriers is a program that collaborates with other community agencies and
+professionals including therapists, rape crisis centers, and law enforcement. We empower
+participants in a safe and secure environment to support themselves and others through
+the recovery process
+
+This carefully designed program includes:
+• Managing physiological responses that can occur in stressful situations
+• Methods of reducing anxiety and tension
+• Offensive and defensive self-defense techniques
+• Information and resources concerning one-on-one therapy and group
+counseling
+• Insight into the prosecutorial process
+• Dating, intimacy, and sex
+• Understanding the domino effect, and how to prevent it'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: (714) 834-0050
+    - desc: Training * Education * Empowerment (fax)
+      number: (714) 834-0070
+  website:
+    - http://www.getsafeusa.com/
   email: ~
   hours: ~
-  address: ~ 
+  address: 15032 Redhill Ave., Suite E, Tustin ,Ca 92780  
 
 #39
-- category: ~
-  title: ~
-  desc: ~
+- category: Victim Compensation Program
+  title: California Victim Compensation Program (CalVCB)
+  desc: 'The California Victim Compensation Program (CalVCB) can reimburse victims of
+violent crime for certain crime-related expenses. The crimes that are covered include:
+domestic violence, child abuse, sexual and physical assault, homicide, robbery,
+drunk driving, and vehicular manslaughter. Family members and dependents may
+also qualify for assistance from CalVCB.
+Who Qualifies for Victim Compensation?
+CalVCB can help victims of crimes such as:
+• Domestic Violence
+• Child Abuse
+• Assault
+• Sexual Assault
+• Elder Abuse
+• Homicide
+• Robbery
+• Drunk Driving
+• Human Trafficking
+• Vehicular
+Manslaughter
+• Hate Crimes
+Minors who suffer emotional injuries as a result of witnessing a violent crime may be
+eligible for up to $5,000 for mental health counseling through CalVCB.
+CalVCB can help victims of crimes that occur in California as well as California
+residents who become victims while visiting other states or outside the country.
+Additionally, people who suffer a monetary loss because of death or injury to a crime
+victim may also be eligible for compensation. These victims can include:
+• Spouses or
+Domestic Partners
+• Children
+• Parents
+• Legal Guardians
+• Brothers
+• Sisters
+• Grandparents
+• Grandchildren '
   phone:
-    - desc: ~ 
-      number: ~ 
+    - desc: http://www.victims.ca.gov/
+      number: (800) 777-9229 
+    - desc: Cal VCB OC Claims Office
+      number: (949) 250-0594
   website: ~
   email: ~
   hours: ~
@@ -3049,16 +3224,37 @@ difficult issues of violence against children while celebrating the gift that is
   address: ~ 
 
 #41
-- category: ~
-  title: ~
-  desc: ~
+- category: Crime & Trauma Scene Cleanup
+  title: Crime Scene Steri-Clean, LLC
+  desc: '*24 Hour Suicide/Homicide/Trauma Cleanup *Free Estimates
+*Providing compassionate and professional services sine 1995'
   phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
+    - desc: Orange County
+      number: (714) 899-4225
+    - desc: Los Angeles County  
+      number: (213) 550-4468 
+    - desc: San Bernardino 
+      number: (909) 481-2285 
+    - desc: Riverside Counties
+      number: (951) 707-4407
+  website:
+    - http://www.crimecleaners.com/
   email: ~
   hours: ~
   address: ~ 
+
+- category: Crime & Trauma Scene Cleanup
+  title: Apris Trauma & Crime Scene Clean Up
+  desc: 'Trauma * Crime * Fire * Water
+“A Company With A Heart”... “Making Disasters Go Away!”'
+  phone:
+    - desc: ~ 
+      number: (844) GO-APRIS / (844) 462-7747
+  website:
+    - http://www.apris.me/
+  email: ~
+  hours: ~
+  address: 1560 Commerce St Suite H , Corona, CA 92880
 
 #42
 - category: ~
