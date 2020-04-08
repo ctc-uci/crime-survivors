@@ -14,37 +14,492 @@
 ---
 
 #1
+
 #2
-#3
+
+#3 
+
 #4
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
 #5
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
 #6
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
 #7
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
 #8
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
 #9
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
 #10
+# - category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
 
 #11
+- category: Adolescent Resources / Crisis Support
+  title: California Youth Crisis Hotline
+  desc: 'A statewide, toll free, 24-hour, confidential hotline available to teens and young
+adults ages 12-24 and/or any adults supporting youth. Offers help finding homeless
+youth shelters, youth-serving medical clinics, on-going counseling services and
+much more throughout California.'
+  phone:
+    - desc: ~ 
+      number: (800) 843-5200
+    - desc: Alt. Phone
+      number: (916) 340-0505
+  website:
+    - http://www.sbsas.org/
+  email: paul@calyouth.org
+  hours: ~
+  address: P.O. Box 163147, Sacramento, CA 95816 
+
+- category: Adolescent Resources / Crisis Support
+  title: National Runaway Switchboard
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 621-4000 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: Peer to Peer Crisis
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 852-8336
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: Teen Solutions
+  desc: 'For families of teens in trouble, teensolutions.com'
+  phone:
+    - desc: ~ 
+      number: (936) 295-5767
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: The Children’s Intensive Response Team (CIRT) 
+  desc: '24/7 crisis response to suicidal children, teens, or young adults (up to age 21), in
+home support, linkage to county mental health services. CIRT seeks to keep kids and
+families safe in their homes and communities and avoid hospitalization and use of
+other public resources such as law enforcement.'
+  phone:
+    - desc: ~ 
+      number: (866) 431-2478 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: Interface Youth Outreach (ages 12-21)
+  desc: '24 hours a day/7 days a week, street outreach, crisis intervention, case management
+and after care, family mediation, emancipation information, life skills and youth
+development activities, shelter assessment.'
+  phone:
+    - desc: ~ 
+      number: (805) 469-5882  
+  website:
+    - http://icfs.org/youth.html
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: Coalition For Family Harmony
+  desc: 'Teen dating violence and juvenile probation program.'
+  phone:
+    - desc: ~ 
+      number: (805) 983-6014
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: GIBT National Help Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 246-PRIDE (7743)
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #12
+- category: Adolescent Resources / Crisis Support
+  title: CASA (Court Appointed Special Advocates)
+  desc: 'CASA Volunteer Advocates typically handle one case at a time; they commit to
+advocate for the child until he/she is placed in a safe, permanent home. While others
+may come and go, the CASA Volunteer Advocate provides that one consistent adult
+mentor that children need in order to thrive.'
+  phone:
+    - desc: ~ 
+      number: (805) 389- 3120
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: 121 Help.me (North American Alliance of Child Helplines)
+  desc: '24/7 private and confidential crisis line'
+  phone:
+    - desc: ~ 
+      number: (855) 201-2121
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: Ventura County Health Care Agency (VCHCA) Youth Services
+  desc: 'Alcohol and drug related problems to include prevention, assessment, treatment,
+crisis intervention, and referrals.
+• Fillmore Center
+828 Ventura Street, Suite 250
+(805) 524-8644
+• Simi Valley Center
+3150 E. Los Angeles Avenue
+(805) 577-1724
+• Ventura Center
+24 East Main Street
+(805) 652-6919 
+• Oxnard Center
+1911 Williams Drive
+(805) 981-9200
+• Thousand Oaks Center
+125 West Thousand
+Oaks Blvd., Suite 400
+(805) 777-3570 '
+  phone:
+    - desc: ~ 
+      number: (805) 981-9200 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: City Impact
+  desc: 'Violence prevention and intervention: gang involved/affiliated youth (Ages 15-24,
+street outreach, student support groups (elementary to high school), after school
+program (children and youth).'
+  phone:
+    - desc: ~ 
+      number: (805) 983- 3636
+  website:
+    - http://www.cityimpact.com/youth-outreach.html
+  email: ~
+  hours: ~
+  address: ~ 
+
+- category: Adolescent Resources / Crisis Support
+  title: The Trevor Project LGBTQ (Ages 13-24)
+  desc: 'Crisis intervention and suicide prevention.'
+  phone:
+    - desc: ~ 
+      number: (866) 488-7386
+    - desc: Text
+      number: '838255' 
+  website:
+    - http://www.thetrevorproject.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
 #13
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #14
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #15
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #16
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #17
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #18
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #19
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #20
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
 
 #21
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #22
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #23
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #24
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #25
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #26
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #27
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #28
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #29
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #30
+- category: ~
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
 
 #31
 #32

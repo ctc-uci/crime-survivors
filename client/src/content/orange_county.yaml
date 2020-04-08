@@ -2729,7 +2729,8 @@ Houses, Literacy Programs, Victim Support, education, and help with change of ve
       number: (530) 885-9544
   website:
     - http://www.crimevictimsunited.com/
-  email: mail@crimevictimsunited.com
+  email: 
+    - mail@crimevictimsunited.com
   hours: ~
   address: 11400 Atwood Rd., Auburn, CA 95603  
 
@@ -3049,7 +3050,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
       number:  (877) 854-3594 
   website:
     - http://www.humanoptions.org/
-  email: info@humanoptions.org
+  email: 
+    - info@humanoptions.org
   hours: ~
   address: 5540 Trabuco Rd., Ste. 100 Irvine, CA 92620
 
