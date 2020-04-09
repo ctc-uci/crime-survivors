@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import PageContainer from '../components/pagecontainer';
 
 const ResourcePage = ({ data }) => {
   const { allOrangeCountyYaml } = data;
@@ -11,10 +12,16 @@ const ResourcePage = ({ data }) => {
   const resource = nodes[0];
 
   return (
-    <div>
-      <h1>{resource.title}</h1>
-      <div>{resource.desc}</div>
-    </div>
+    // <div>
+    //   <h1>{resource.title}</h1>
+    //   <div>{resource.desc}</div>
+    // </div>
+    <PageContainer>
+      <div>
+        <h1>{resource.title}</h1>
+        <div>{resource.desc}</div>
+      </div>
+    </PageContainer>
   );
 };
 

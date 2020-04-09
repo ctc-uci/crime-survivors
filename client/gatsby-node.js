@@ -39,8 +39,8 @@ exports.createPages = ({ graphql, actions }) => {
         // create page according to the fetched data
         createPage({
           path: `/${fixStringForWindows(node.category)}/${fixStringForWindows(node.title)}`, // your url -> /categories/orgtitle
-          // component: path.resolve('./src/templates/resources.js'), // your template component
-          component: path.resolve('./src/components/pagecontainer.js'),
+          component: path.resolve('./src/templates/resources.js'), // your template component
+          // component: path.resolve('./src/components/pagecontainer.js'),
           context: {
             id: node.id,
             // optional,
@@ -53,8 +53,8 @@ exports.createPages = ({ graphql, actions }) => {
           categoriesLoaded.add(node.category);
           createPage({
             path: `/${fixStringForWindows(node.category)}/${fixStringForWindows(node.title)}`, // your url -> /categories/orgtitle
-            // component: path.resolve('./src/templates/categories.js'), // your template component
-            component: path.resolve('./src/components/pagecontainer.js'),
+            component: path.resolve('./src/templates/categories.js'), // your template component
+            // component: path.resolve('./src/components/pagecontainer.js'),
             context: {
               category: node.category,
               id: node.id,

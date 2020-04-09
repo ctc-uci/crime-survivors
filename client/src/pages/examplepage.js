@@ -11,24 +11,6 @@ const ExamplePage = ({ data }) => {
   const { allOrangeCountyYaml } = data;
   const { nodes } = allOrangeCountyYaml;
 
-  // return (
-  //   <div>
-  //     <h1>Functional Components</h1>
-  //     {nodes.map((node) => (
-  //       <div key={uuidv4() /* uuid bc array of items */}>
-  //         <ExampleReactFunctional resource={node} />
-  //         <hr />
-  //       </div>
-  //     ))}
-  //     <h1>Stateful Components</h1>
-  //     {nodes.map((node) => (
-  //       <div key={uuidv4() /* uuid bc array of items */}>
-  //         <ExampleReactStateful resource={node} />
-  //         <hr />
-  //       </div>
-  //     ))}
-  //   </div>
-  // );
   return (
     <PageContainer>
       <div>
