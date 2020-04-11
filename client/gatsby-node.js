@@ -15,7 +15,7 @@ const generatePath = (category, title) => {
   return `/${fixStringForWindows(category)}/${fixStringForWindows(title)}`;
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const queryYamlNames = ['allOrangeCountyYaml'];
@@ -54,7 +54,7 @@ exports.createPages = async ({ graphql, actions }) => {
           // create page according to the fetched data
           createPage({
             path: generatePath(node.category, node.title), // your url -> /categories/orgtitle
-            component: path.resolve('./src/templates/resources.js'), // your template component
+            component: path.resolve('./src/templates/resourcePage.js'), // your template component
             // component: path.resolve('./src/components/resourcePageContainer.js'),
             context: {
               id: node.id,
@@ -81,7 +81,7 @@ exports.createPages = async ({ graphql, actions }) => {
           // create page according to the fetched data
           createPage({
             path: generatePath(category.fieldValue, ''), // your url -> /categories/orgtitle
-            component: path.resolve('./src/templates/categories.js'), // your template component
+            component: path.resolve('./src/templates/categoryPage.js'), // your template component
             // component: path.resolve('./src/components/resourcePageContainer.js'),
             context: {
               category: category.fieldValue,
@@ -105,6 +105,5 @@ exports.createPages = async ({ graphql, actions }) => {
     // generateGuidePages(queryGuides);
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
-    resolve();
   });
 };

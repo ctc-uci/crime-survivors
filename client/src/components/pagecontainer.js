@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Sidebar from './sidebar';
 
 // TODO
 // make pagecontainer.css
 
-const PageContainer = ({ children }) => {
+const PageContainer = ({ sidebar, body }) => {
   // not using the Header Component that came with Gatsby for Page Container because
   // its hardcoded to use Link which only navs to internal pages
   // eventually replace Header with Nav Bar ?
@@ -21,6 +20,8 @@ const PageContainer = ({ children }) => {
       flexDirection: 'column',
       width: '15%',
       flex: '0.2',
+      overflow: 'scroll',
+      height: '100vh', // TODO better solution
     },
 
     main: {
@@ -40,10 +41,10 @@ const PageContainer = ({ children }) => {
       </header>
       <div style={styles.container}>
         <div style={styles.sidebar}>
-          <Sidebar resources={children} />
+          {sidebar}
         </div>
         <div style={styles.main}>
-          <main>{children}</main>
+          <main>{body}</main>
         </div>
       </div>
       <footer>
@@ -61,7 +62,8 @@ const PageContainer = ({ children }) => {
 };
 
 PageContainer.propTypes = {
-  children: PropTypes.node.isRequired,
+  sidebar: PropTypes.node.isRequired,
+  body: PropTypes.node.isRequired,
 };
 
 export default PageContainer;
