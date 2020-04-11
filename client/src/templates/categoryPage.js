@@ -1,23 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import { v4 as uuidv4 } from 'uuid';
 import PageContainer from '../components/pagecontainer';
+import CategoryBody from '../components/CategoryBody';
+import Sidebar from '../components/sidebar';
 
-const CategoryPage = ({ data }) => {
+const CategoryPage = ({ data, pageContext }) => {
   const { allOrangeCountyYaml } = data;
   const { nodes } = allOrangeCountyYaml;
 
+  // console.log(nodes);
+  // console.log(pageContext);
+
   // simply displays all resources for this category in an ugly list
   return (
-    <PageContainer>
-      {nodes.map((resource) => (
-        <div key={uuidv4() /* uuid bc array of items */}>
-          <h1>{resource.title}</h1>
-          <div>{resource.desc}</div>
-        </div>
-      ))}
-    </PageContainer>
+    <PageContainer
+      sidebar={<Sidebar props={{ resourceId: '', category: pageContext.category }} />}
+      body={<CategoryBody props={nodes} />}
+    />
   );
 };
 
@@ -58,6 +58,9 @@ CategoryPage.defaultProps = {
       ],
     },
   },
+  pageContext: {
+    category: 'category',
+  },
 };
 
 
@@ -81,6 +84,9 @@ CategoryPage.propTypes = {
       ),
     }),
   }),
+  pageContext: {
+    category: PropTypes.string,
+  },
 };
 
 export default CategoryPage;
