@@ -3,7 +3,7 @@ const path = require('path');
 
 const fixStringForWindows = (stringToFix) => {
   if (stringToFix != null) {
-    return stringToFix.replace(/[^a-zA-Z ]/g, '');
+    return stringToFix.replace(/[^a-zA-Z0-9\- ]/g, '');
   }
   return stringToFix;
 };
