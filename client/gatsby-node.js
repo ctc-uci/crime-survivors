@@ -1,19 +1,5 @@
 const path = require('path');
-
-
-const fixStringForWindows = (stringToFix) => {
-  if (stringToFix != null) {
-    return stringToFix.replace(/[^a-zA-Z0-9\- ]/g, '');
-  }
-  return stringToFix;
-};
-
-const generatePath = (category, title) => {
-  if (title === '') {
-    return `/${fixStringForWindows(category)}`;
-  }
-  return `/${fixStringForWindows(category)}/${fixStringForWindows(title)}`;
-};
+const { generatePath } = require('./src/utils/commonUtils'); // forced ES5 for some reason
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;

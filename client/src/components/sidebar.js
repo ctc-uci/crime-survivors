@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery, Link } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
-
+import { generatePath } from '../utils/commonUtils';
 
 const Sidebar = ({ props }) => {
+  // TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
   const { resourceId, categoryId } = props;
   const data = useStaticQuery(
     graphql`
@@ -31,12 +32,13 @@ const Sidebar = ({ props }) => {
       </h5>
       {data.allOrangeCountyYaml.group.map((category) => (
         <div key={uuidv4()}>
-          <h2>{category.fieldValue}</h2>
+          <h2><Link to={generatePath(category.fieldValue, '')}>{category.fieldValue}</Link></h2>
           {category.nodes.map((node) => (
             <div key={uuidv4()}>
-              <p>{node.title}</p>
+              <Link to={generatePath(category.fieldValue, node.title)}>{node.title}</Link>
             </div>
           ))}
+          <hr />
         </div>
       ))}
     </div>
