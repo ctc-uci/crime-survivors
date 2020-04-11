@@ -44,6 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
             // component: path.resolve('./src/components/resourcePageContainer.js'),
             context: {
               id: node.id,
+              countyYaml: name,
               // optional,
               // data here will be passed as props to the component `this.props.pathContext`,
               // as well as to the graphql query as graphql arguments.

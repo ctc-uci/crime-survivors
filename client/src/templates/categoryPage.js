@@ -6,17 +6,14 @@ import CategoryBody from '../components/CategoryBody';
 import Sidebar from '../components/sidebar';
 
 const CategoryPage = ({ data, pageContext }) => {
-  const { allOrangeCountyYaml } = data;
-  const { nodes } = allOrangeCountyYaml;
-
-  // console.log(nodes);
-  // console.log(pageContext);
+  const { source, sidebarData } = data;
+  const { resources } = source;
 
   // simply displays all resources for this category in an ugly list
   return (
     <PageContainer
-      sidebar={<Sidebar props={{ resourceId: '', category: pageContext.category }} />}
-      body={<CategoryBody props={nodes} />}
+      sidebar={<Sidebar props={{ sidebarData, resourceId: '', category: pageContext.category }} />}
+      body={<CategoryBody props={resources} />}
     />
   );
 };
@@ -25,8 +22,8 @@ const CategoryPage = ({ data, pageContext }) => {
 // context property of createPage() in gatsby-node.js
 export const query = graphql`
   query CategoryQuery($category: String!) {
-    allOrangeCountyYaml(filter: {category: { eq: $category }}) {
-      nodes {
+    source: allOrangeCountyYaml(filter: {category: { eq: $category }}) {
+      resources: nodes {
         id
         category
         title
@@ -41,14 +38,23 @@ export const query = graphql`
         address
       }
     }
+    sidebarData: allOrangeCountyYaml(filter: {title: {ne: null}}) {
+      group(field: category) {
+        category: fieldValue
+        resources: nodes {
+          title
+          id
+        }
+      }
+    }
   }
 `;
 
 // Defaults values for props, required by eslint
 CategoryPage.defaultProps = {
   data: {
-    allOrangeCountyYaml: {
-      nodes: [{
+    source: {
+      resources: [{
         address: 'address',
         category: 'category',
         phone: [{ desc: 'desc', number: '(555) 555-5555' }],
@@ -56,6 +62,17 @@ CategoryPage.defaultProps = {
         desc: 'desc',
       },
       ],
+    },
+    sidebarData: {
+      group: [{
+        category: 'category',
+        resources: [
+          {
+            title: 'title',
+            id: 'id',
+          },
+        ],
+      }],
     },
   },
   pageContext: {
@@ -67,8 +84,8 @@ CategoryPage.defaultProps = {
 // Proptype validation, required by eslint
 CategoryPage.propTypes = {
   data: PropTypes.shape({
-    allOrangeCountyYaml: PropTypes.shape({
-      nodes: PropTypes.arrayOf(
+    source: PropTypes.shape({
+      resources: PropTypes.arrayOf(
         PropTypes.shape({
           address: PropTypes.string,
           category: PropTypes.string,
@@ -80,6 +97,19 @@ CategoryPage.propTypes = {
           ),
           title: PropTypes.string,
           desc: PropTypes.string,
+        }),
+      ),
+    }),
+    sidebarData: PropTypes.shape({
+      group: PropTypes.arrayOf(
+        PropTypes.shape({
+          category: PropTypes.string,
+          resources: PropTypes.arrayOf(
+            {
+              title: PropTypes.string,
+              id: PropTypes.string,
+            },
+          ),
         }),
       ),
     }),
