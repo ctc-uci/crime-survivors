@@ -1,20 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import PageContainer from '../components/pagecontainer';
+import ResourceBody from '../components/ResourceBody';
+import Sidebar from '../components/sidebar';
 
 const ResourcePage = ({ data }) => {
-  const { allOrangeCountyYaml } = data;
-  const { nodes } = allOrangeCountyYaml;
+  const { source, sidebarData } = data;
+  const { resources } = source;
 
   // since we're filtering on index,
   // there should only be 1 resource returned in the array so we want nodes[0]
-  const resource = nodes[0];
+  const resource = resources[0];
 
   return (
-    <div>
-      <h1>{resource.title}</h1>
-      <div>{resource.desc}</div>
-    </div>
+    <PageContainer
+      sidebar={(
+        <Sidebar props={{ sidebarData, resourceId: resource.id, category: resource.category }} />
+      )}
+      body={<ResourceBody props={resource} />}
+    />
   );
 };
 
@@ -22,8 +27,8 @@ const ResourcePage = ({ data }) => {
 // context property of createPage() in gatsby-node.js
 export const query = graphql`
   query ResourceQuery($id: String!) {
-    allOrangeCountyYaml(filter: {id: { eq: $id }}) {
-      nodes {
+    source: allOrangeCountyYaml(filter: {id: {eq: $id}}) {
+      resources: nodes{
         id
         category
         title
@@ -38,14 +43,24 @@ export const query = graphql`
         address
       }
     }
+    sidebarData: allOrangeCountyYaml(filter: {title: {ne: null}}) {
+      group(field: category) {
+        category: fieldValue
+        resources: nodes {
+          title
+          id
+        }
+      }
+    }
   }
 `;
 
 // Defaults values for props, required by eslint
 ResourcePage.defaultProps = {
   data: {
-    allOrangeCountyYaml: {
-      nodes: [{
+    source: {
+      resources: [{
+        id: 'id',
         address: 'address',
         category: 'category',
         phone: [{ desc: 'desc', number: '(555) 555-5555' }],
@@ -54,6 +69,17 @@ ResourcePage.defaultProps = {
       },
       ],
     },
+    sidebarData: {
+      group: [{
+        category: 'fieldValue',
+        resources: [
+          {
+            title: 'title',
+            id: 'id',
+          },
+        ],
+      }],
+    },
   },
 };
 
@@ -61,9 +87,10 @@ ResourcePage.defaultProps = {
 // Proptype validation, required by eslint
 ResourcePage.propTypes = {
   data: PropTypes.shape({
-    allOrangeCountyYaml: PropTypes.shape({
-      nodes: PropTypes.arrayOf(
+    source: PropTypes.shape({
+      resources: PropTypes.arrayOf(
         PropTypes.shape({
+          id: PropTypes.string,
           address: PropTypes.string,
           category: PropTypes.string,
           phone: PropTypes.arrayOf(
@@ -74,6 +101,19 @@ ResourcePage.propTypes = {
           ),
           title: PropTypes.string,
           desc: PropTypes.string,
+        }),
+      ),
+    }),
+    sidebarData: PropTypes.shape({
+      group: PropTypes.arrayOf(
+        PropTypes.shape({
+          category: PropTypes.string,
+          nodes: PropTypes.arrayOf(
+            {
+              title: PropTypes.string,
+              id: PropTypes.string,
+            },
+          ),
         }),
       ),
     }),
