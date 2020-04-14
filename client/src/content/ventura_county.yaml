@@ -1,7 +1,8 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
 # YAML format
-# - category: ~
+# - location: Ventura County
+#   category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -20,7 +21,8 @@
 #3 
 
 #4
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -32,7 +34,8 @@
 #   address: ~ 
 
 #5
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -44,7 +47,8 @@
 #   address: ~ 
 
 #6
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -56,7 +60,8 @@
 #   address: ~ 
 
 #7
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -68,7 +73,8 @@
 #   address: ~ 
 
 #8
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -80,7 +86,8 @@
 #   address: ~ 
 
 #9
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -91,7 +98,8 @@
 #   hours: ~
 #   address: ~ 
 #10
-# - category: ~
+# - location: Ventura County
+  # category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -103,7 +111,8 @@
 #   address: ~ 
 
 #11
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: California Youth Crisis Hotline
   desc: 'A statewide, toll free, 24-hour, confidential hotline available to teens and young
 adults ages 12-24 and/or any adults supporting youth. Offers help finding homeless
@@ -120,7 +129,8 @@ much more throughout California.'
   hours: ~
   address: P.O. Box 163147, Sacramento, CA 95816 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: National Runaway Switchboard
   desc: ~
   phone:
@@ -131,7 +141,8 @@ much more throughout California.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: Peer to Peer Crisis
   desc: ~
   phone:
@@ -142,7 +153,8 @@ much more throughout California.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: Teen Solutions
   desc: 'For families of teens in trouble, teensolutions.com'
   phone:
@@ -153,7 +165,8 @@ much more throughout California.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: The Children’s Intensive Response Team (CIRT) 
   desc: '24/7 crisis response to suicidal children, teens, or young adults (up to age 21), in
 home support, linkage to county mental health services. CIRT seeks to keep kids and
@@ -167,7 +180,8 @@ other public resources such as law enforcement.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: Interface Youth Outreach (ages 12-21)
   desc: '24 hours a day/7 days a week, street outreach, crisis intervention, case management
 and after care, family mediation, emancipation information, life skills and youth
@@ -181,7 +195,8 @@ development activities, shelter assessment.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: Coalition For Family Harmony
   desc: 'Teen dating violence and juvenile probation program.'
   phone:
@@ -192,7 +207,8 @@ development activities, shelter assessment.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: GIBT National Help Center
   desc: ~
   phone:
@@ -204,7 +220,8 @@ development activities, shelter assessment.'
   address: ~ 
 
 #12
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: CASA (Court Appointed Special Advocates)
   desc: 'CASA Volunteer Advocates typically handle one case at a time; they commit to
 advocate for the child until he/she is placed in a safe, permanent home. While others
@@ -218,7 +235,8 @@ mentor that children need in order to thrive.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: 121 Help.me (North American Alliance of Child Helplines)
   desc: '24/7 private and confidential crisis line'
   phone:
@@ -229,7 +247,8 @@ mentor that children need in order to thrive.'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: Ventura County Health Care Agency (VCHCA) Youth Services
   desc: 'Alcohol and drug related problems to include prevention, assessment, treatment,
 crisis intervention, and referrals.
@@ -257,7 +276,8 @@ Oaks Blvd., Suite 400
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: City Impact
   desc: 'Violence prevention and intervention: gang involved/affiliated youth (Ages 15-24,
 street outreach, student support groups (elementary to high school), after school
@@ -271,7 +291,8 @@ program (children and youth).'
   hours: ~
   address: ~ 
 
-- category: Adolescent Resources / Crisis Support
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
   title: The Trevor Project LGBTQ (Ages 13-24)
   desc: 'Crisis intervention and suicide prevention.'
   phone:
@@ -286,7 +307,8 @@ program (children and youth).'
   address: ~ 
 
 #13
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -298,7 +320,8 @@ program (children and youth).'
   address: ~ 
 
 #14
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -310,7 +333,8 @@ program (children and youth).'
   address: ~ 
 
 #15
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -322,7 +346,8 @@ program (children and youth).'
   address: ~ 
 
 #16
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -334,7 +359,8 @@ program (children and youth).'
   address: ~ 
 
 #17
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -346,7 +372,8 @@ program (children and youth).'
   address: ~ 
 
 #18
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -358,7 +385,8 @@ program (children and youth).'
   address: ~ 
 
 #19
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -370,7 +398,8 @@ program (children and youth).'
   address: ~ 
 
 #20
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -382,7 +411,8 @@ program (children and youth).'
   address: ~ 
 
 #21
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -394,7 +424,8 @@ program (children and youth).'
   address: ~ 
 
 #22
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -406,7 +437,8 @@ program (children and youth).'
   address: ~ 
 
 #23
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -418,7 +450,8 @@ program (children and youth).'
   address: ~ 
 
 #24
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -430,7 +463,8 @@ program (children and youth).'
   address: ~ 
 
 #25
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -442,7 +476,8 @@ program (children and youth).'
   address: ~ 
 
 #26
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -454,7 +489,8 @@ program (children and youth).'
   address: ~ 
 
 #27
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -466,7 +502,8 @@ program (children and youth).'
   address: ~ 
 
 #28
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -478,7 +515,8 @@ program (children and youth).'
   address: ~ 
 
 #29
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -490,7 +528,8 @@ program (children and youth).'
   address: ~ 
 
 #30
-- category: ~
+- location: Ventura County
+  category: ~
   title: ~
   desc: ~
   phone:
