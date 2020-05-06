@@ -1,7 +1,8 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
 # YAML format
-# - category: ~
+# - location: Riverside County
+  category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -27,30 +28,1939 @@
 #11
 #12
 #13
+- location: Riverside County
+  category: Adolescent Resources
+  title: California Youth Crisis Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 843-5200
+  website: 
+    - www.calyouth.org
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Riverside County
+  category: Adolescent Resources
+  title: National Runaway Switchboard
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 621-4000
+  website: 
+    - www.1800runaway.org
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Riverside County
+  category: Adolescent Resources
+  title: Peer to Peer Crisis Teen Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 852-8336
+  website: 
+    - www.teenlineonline.org
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Riverside County
+  category: Adolescent Resources
+  title: Teen Solutions
+  desc: 'For families of teens in trouble, teensolutions.com'
+  phone:
+    - desc: ~ 
+      number: (936) 295-5767
+  website: 
+    - www.teensolutions.com
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Riverside County
+  category: Adolescent Resources
+  title: Caribou Ridge Intervention
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 974-1999
+  website: 
+    - www.caribouridgeintervention.com
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Riverside County
+  category: Adolescent Resources
+  title: Suicide Prevention Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (877) 727-4747
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #14
+- location: Riverside County
+  category: Courts
+  title: Banning Justice Center
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (951) 572-5408
+    - desc: Enhanced Collections 
+      number: 1 (877) 955-3463
+    - desc: Jury Services
+      number: (951) 275-5076
+    - desc: Traffic
+      number: (951) 222-0384
+  website: ~
+  email: ~
+  hours: ~
+  address: 311 E. Ramsey Street, Banning, Ca. 92220
+
+- location: Riverside County
+  category: Courts
+  title: Blythe
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (760) 775-8500
+    - desc: Enhanced Collections 
+      number: 1 (877) 955-3463 
+    - desc: Jury Services
+      number: (760) 342-6264 
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 265 N. Broadway, Blythe, Ca. 92225
+
+- location: Riverside County
+  category: Courts
+  title: Corona
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (951) 777-3147
+    - desc: Enhanced Collections 
+      number: 1 (877) 955-3463 
+    - desc: Jury Services
+      number: (951) 275-5076 
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 505 S. Buena Vista Rm. 201, Corona, Ca. 92882
+
+- location: Riverside County
+  category: Courts
+  title: Hemet
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (951) 306-3561
+    - desc: Enhanced Collections 
+      number: 1 (877) 955-3463
+    - desc: Jury Services
+      number: (951) 275-5076  
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 880 N. State Street, Hemet, Ca. 92543
+
+- location: Riverside County
+  category: Courts
+  title: Palm Springs
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (760) 393-2617
+    - desc: Enhanced Collections 
+      number: 1 (877) 955-3463
+    - desc: Jury Services
+      number: (760) 342-6264
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 3255 E. Tahquitz Canyon Way, Palm Springs, Ca. 92262
+
+- location: Riverside County
+  category: Courts
+  title: Larson Justice Center
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (760) 393-2617
+    - desc: Enhanced Collections 
+      number: 1 (877) 955-3463
+    - desc: Jury Services
+      number: (760) 342-6264
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 46-200 Oasis Street, Indio, Ca. 92201
+
+- location: Riverside County
+  category: Courts
+  title: Moreno Valley
+  desc: ~
+  phone:
+    - desc: Enhanced Collections
+      number: 1 (877) 955-3463
+    - desc: Small Claims
+      number: (951) 777-3147
+    - desc: Traffic (Juvenile & Adult)
+      number: (951) 222-0384
+    - desc: Unlawful Detainers
+      number: (951) 777-3147
+  website: ~
+  email: ~
+  hours: ~
+  address: 13800 Heacock Street, Bldg. \#D201, Moreno Valley, Ca. 92553
+
+- location: Riverside County
+  category: Courts
+  title: Southwest Justice Center
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (951) 704-7634
+    - desc: Enhanced Collections
+      number: 1 (877) 955-3463
+    - desc: Jury Services
+      number: (951) 275-5076 
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 30755-D Auld Road, Murrieta, Ca. 92563
+
 #15
+- location: Riverside County
+  category: Courts
+  title: Riverside Family Law
+  desc: ~
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: 4175 Main Street, Riverside, Ca. 92501
+
+- location: Riverside County
+  category: Courts
+  title: Riverside Hall of Justice
+  desc: ~
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: 4100 Main Street, Riverside, Ca. 92501
+
+- location: Riverside County
+  category: Courts
+  title: Riverside Historic Courthouse
+  desc: ~
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: 4050 Main Street, Riverside, Ca. 92501
+
+- location: Riverside County
+  category: Courts
+  title: Riverside Juvenile
+  desc: ~
+  phone: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: 9991 County Farm Road, Riverside, Ca. 92503
+
+- location: Riverside County
+  category: Courts
+  title: Riverside
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (951) 777-3147
+    - desc: Enhanced Collections
+      number: 1 (877) 955-3463
+    - desc: Jury Services
+      number: (951) 275-5076 
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Courts
+  title: Temecula
+  desc: ~
+  phone:
+    - desc: All Departments
+      number: (951) 704-7634
+    - desc: Enhanced Collections
+      number: 1 (877) 955-3463 
+    - desc: Jury Services
+      number: (951) 275-5076 
+    - desc: Traffic
+      number: (951) 222-0384 
+  website: ~
+  email: ~
+  hours: ~
+  address: 41002 County Center Drive \#100, Temecula, Ca. 92591
+
+- location: Riverside County
+  category: Courts
+  title: COUNTYWIDE NUMBERS
+  desc: ~
+  phone:
+    - desc: Enhanced Collections
+      number: 1 (877) 955-3463 
+    - desc: Jury Services
+      number: (951) 275-5076 or (760)-342-6264
+    - desc: Traffic
+      number: (951) 222-0384 
+    - desc: Exhibits
+      number: (951)-777-3098
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Crisis Services
+  title: Peer to Peer Crisis Teen Line
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 852-8336
+  website: 
+    - www.teenlineonline.org
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Crisis Services
+  title: Suicide Hotline
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 784-2433
+  website: 
+    - www.suicide.org
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Crisis Services
+  title: Suicide Hotline for Teens
+  desc: ~
+  phone:
+    - desc: ~
+      number: (866) 210-3388
+  website: 
+    - www.thursdayschild.org
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Crisis Services
+  title: Youth Crisis Hotline
+  desc: 'Runaway youth, family, and friends'
+  phone:
+    - desc: ~
+      number: (800) 843-5200
+  website: 
+    - www.californiayouthcrisis.org
+  email: ~
+  hours: ~
+  address: ~
+
 #16
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services
+  title: Alternatives to Domestic Violence
+  desc: 
+  phone:
+    - desc: ~
+      number: (951) 320-1370 
+    - desc: Hotline
+      number: (909) 683-0829, (800) 339-7233 (SAFE) (Toll Free) 
+    - desc: ~
+      number:  TTY(951) 679-8365 (TTY)
+  website: 
+    - http://alternativestodv.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 910, Riverside, CA 92502 
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services
+  title: Casas Shelter
+  desc: 
+  phone:
+    - desc: ~
+      number: (562) 594-6825, (714) 995-8601 
+    - desc: Hotline
+      number: (800) 914-2272 (CASA)
+    - desc: ~
+      number:  TTY(951) 679-8365 (TTY)
+  website: 
+    - http://www.casayouthshelter.org
+  email: 
+    - agency@casayouthshelter.org
+  hours: ~
+  address: P.O. Box 216, Los Alamitos, CA 90720 
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services
+  title: I Care Shelter
+  desc: 
+  phone:
+    - desc: ~
+      number: (951) 354-2273
+  website: 
+    - http://www.icareshelterhome.org
+  email: 
+    - caremaster@lilmonster.com
+  hours: ~
+  address: P.O. Box 749, Riverside, CA 92502 
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services
+  title: Settlement House
+  desc: 
+  phone:
+    - desc: ~
+      number: (951) 737-3504
+  website: 
+    - http://www.settlementhouse.net
+  email: 
+    - settlementhouse@hotmail.com
+  hours: ~
+  address: 507 South Vicentia Avenue, Corona, CA 92882 
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Shelter from the Storm
+  desc: 
+  phone:
+    - desc: Hotline
+      number: (760) 328-7233, (800) 775-6055 (Toll-free) 
+  website: 
+    - http://www.shelterfromthestorm.com/index.asp
+  email: 
+    - susan@shelterfromthestorm.com (Emergency email)
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Administrative Offices and Palm Desert Outreach Center
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 674-0400
+  website: ~
+  email: ~
+  hours: ~
+  address: 73555 Alessandro Drive, Suite D, Palm Desert, CA 92260
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Cathedral City Outreach Center
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 770-2390
+  website: ~
+  email: ~
+  hours: ~
+  address: 68-615 Perez Road, \#9A, Cathedral City, CA 92234
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Coachella Outreach Center 
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 393-0561
+  website: ~
+  email: ~
+  hours: ~
+  address: 53990 Enterprise Way, Ste 7, Coachella, CA 92236
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Desert Hot Springs Outreach Center 
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 288-3313
+  website: ~
+  email: ~
+  hours: ~
+  address: 14-201 Palm Drive, Suite 108, Desert Hot Springs, CA 92240
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Indio Outreach Center 
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 863-7871
+  website: ~
+  email: ~
+  hours: ~
+  address: 82-675 Hwy 111, Rm 117, Indio, CA 92201
+
+# yes same title as above resource
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Indio Outreach Center 
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 863-2855
+  website: ~
+  email: ~
+  hours: ~
+  address: 44-199 Monroe Street, Indio, CA 92201
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Mecca Outreach Center
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 863-7860 
+  website: ~
+  email: ~
+  hours: ~
+  address: 66th Avenue, Suite 101 Mecca, CA 92254
+
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Palm Springs Outreach Center 
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 318-0140
+  website: ~
+  email: ~
+  hours: ~
+  address: 555 S. Sunrise, Palm Springs, CA 92262
+
 #17
+- location: Riverside County
+  category: Domestic Violence Victim/Prevention Services - Shelter from the Storm
+  title: Valley Restart 
+  desc: 
+  phone:
+    - desc: ~
+      number: (951) 766-7476
+  website: 
+    - http://www.valleyrestart.org/
+  email: 
+    - restart@valleyrestart.org
+  hours: ~
+  address: P. O. Box 1715, Hemet, CA 92546 
+
+- location: Riverside County
+  category: Domestic Violence Shelter Services
+  title: Coachella Valley Rescue Mission
+  desc: 
+  phone:
+    - desc: ~
+      number: (760) 347-3512
+  website: 
+    - http://www.cvrm.org/
+  email: 
+    - info@cvrm.org
+  hours: ~
+  address: 47518 Van Buren Street, Indio, CA 92202 
+
+- location: Riverside County
+  category: Domestic Violence Shelter Services
+  title: Genesis Shelter
+  desc: 
+  phone:
+    - desc: ~
+      number: (951) 689-7847
+    - desc: Hotline
+      number: 951) 682-7299  
+  website: ~
+  email: ~
+  hours: ~
+  address: 3772 Taft Street, Riverside, CA 92503 
+
+# TODO Domestic Violence "How to get help" page that goes into next page
+
 #18
+- location: Riverside County
+  category: Domestic Violence - Who to Call
+  title: Adult Protective Services
+  desc: '24 hours per day; 7 days a week'
+  phone:
+    - desc: ~
+      number: (800) 451-5155
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Domestic Violence - Who to Call
+  title: Domestic Violence Hotline 
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 978-3600
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Domestic Violence - Who to Call
+  title: National Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~
+      number: (800) 799-7233
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Domestic Violence - Who to Call
+  title: Victim Information and Notification Everyday (VINE) 
+  desc: 'A service by the Los Angeles County Sheriff’s Department to notify you when the status of an
+inmate changes.'
+  phone:
+    - desc: ~
+      number: (877) 411-5588
+  website: 
+    - www.vinelink.com
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Domestic Violence - Who to Call
+  title: Grace Center (Five Acre Program)
+  desc: ~
+  phone:
+    - desc: ~
+      number: (626) 355-4545
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
 #19
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: Alternatives to Domestic Violence
+  desc: 'The first number listed is a 24-hour crisis line. Services provided to victims and children,
+including outreach counseling, support groups, legal advocacy, including restraining orders
+and limited accompaniment, and emergency shelter Casa de Paz services (30 day maximum
+stay).'
+  phone:
+    - desc: ~
+      number: 951-683-0829 (Riverside city) 
+    - desc: Alt. Phone 
+      number:  800-339-SAFE (all other cities)
+    - desc: Alt. Phone 2
+      number:  951-320-1370 (office)
+  website: 
+    - http://www.alternativestodv.org/
+  email: 
+    - advnelly@yahoo.com
+  hours: ~
+  address: P.O. Box 910, Riverside, CA 92502
+
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: Safe At Home; Confidential Address Program
+  desc: 'A confidential mail-forwarding program administered by the CA’s Secretary of State’s Office.
+Provides confidential P.O. Box to domestic violence victims. Also helps with filing name
+change documents.'
+  phone:
+    - desc: ~
+      number: 877-322-5227 
+    - desc: Alt. Phone
+      number: TTY/TDD 916-651-1304
+  website: 
+    - http://www.sos.ca.gov/safeathome/
+  email: 
+    - safeathome@dos.ca.gov
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: Barbara Sinatra Children’s Center at Eisenhower
+  desc: 'Provide counseling for victims of physical, sexual, and emotional child abuse, and to focus
+on prevention, community education and breaking the cycle of generational abuse. Services
+are provided regardless of a family’s ability to pay.'
+  phone:
+    - desc: ~
+      number: 760-340-2336  
+    - desc: Fax
+      number: 760-340-1851
+  website: 
+    - http://www.sinatracenter.org
+  email: ~
+  hours: ~
+  address: 39000 Bob Hope Drive, Rancho Mirage, CA 92270
+
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: DomesticShelters.org
+  desc: 'Domesticshelters.org is a national user-friendly searchable directory of domestic violence
+service providers. The online search allows victims of domestic violence to find local
+community services by distance and in a variety of languages: Emergency Services, Legal
+Services, Financial Services, Counseling Services, Housing Services, Support Services,
+Children’s Services, and Community Educational Services.'
+  phone: ~
+  website: 
+    - http://domesticshelters.org
+  email: 
+    - domesticshelters@gmail.com
+  hours: ~
+  address: ~
+
 #20
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: El Centro Corps Community Center
+  desc: 'Provides emergency assistance for food and shelter. Emergency groceries available 3
+times yearly with income verification. Other services include: Social Services, Rental and
+Bill assistance, Adult Rehabilitation, Domestic Violence, and Teen Pregnancy assistance.
+headquarter division for Imperial, Riverside, San Bernardino, and San Diego Counties. Local
+community centers also available.'
+  phone: 
+    - desc: ~
+      number: 760-352-4528
+  website: 
+    - http://www.sandiego.salvationarmy.org/sierra_del_mar/elcentro
+  email: ~
+  hours: ~
+  address: 375 N. Fifth Street, El Centro, CA 92243
+
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: National Domestic Violence Hotline
+  desc: 'Services available to those that have experienced domestic violence, as well as their family
+and friends. Crisis intervention, information about domestic violence and referrals to local
+programs in many languages. Can speak with domestic violence advocates. 24/7. Advocates
+available to help individuals who are deaf or hard of hearing. Chat function available.'
+  phone: 
+    - desc: ~
+      number: 1-800-799-7233 (SAFE) Hot Line 
+    - desc: Alt. Phone
+      number: 1-800-787-3224 TTY 
+    - desc: Alt. Phone 2
+      number: 1-855-812-1001 Videophone 
+    - desc: Alt. Phone 3
+      number: 512-794-1133
+  website: 
+    - http://www.ndvh.org
+  email: 
+    - ndvh@ndch.org
+  hours: ~
+  address: PO Box 161810, Austin, TX 78716
+
+- location: Riverside County
+  category: Domestic Violence Resources
+  title: Give Back a Smile (part of AACDCF)
+  desc: 'The Give Back a Smile (GBAS) program heals some of the most devastating effects of
+intimate partner violence, by restoring the smiles of adult women and men who have
+suffered damage to, or lost, their smiles at the hands of a former intimate partner or spouse.'
+  phone: 
+    - desc: ~
+      number: 800-773-4227
+  website: 
+    - http://www.aacd/com
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Batterers Intervention Programs (Approved)
+  title: Probation Department
+  desc: 
+  phone: 
+    - desc: ~
+      number: (951) 955-2830
+  website: 
+    - https://probation.co.riverside.ca.us/
+  email: ~
+  hours: ~
+  address: P.O. Box 833, Riverside, CA 92502
 
 #21
+- location: Riverside County
+  category: Legal Resources
+  title: Disability Rights Legal Center
+  desc: 'Provides legal representation in cases of discrimination/mistreatment/harassment on the
+basis of disability in housing, transportation, public places, schools, telecommunications,
+law enforcement, jails, juvenile halls, etc. Also offers Special Education focusing on systemic
+discrimination, physical access (including due process hearings) Discrimination/Mistreatment/Harassment based on the use of a service animal and failure to receive reasonable
+accommodation.'
+  phone: 
+    - desc: ~
+      number: (213) 736-1334
+    - desc: Alt. Phone 
+      number: (866) 999-3752 
+    - desc: Alt. Phone 2 
+      number: TDD 1-213-736-8310 
+    - desc: Alt. Phone 3
+      number: VIDEO PHONE 1-866-912-8193 
+    - desc: Fax
+      number: 213-736-1428
+  website: 
+    - https://www.disabilityrightslegalcenter.org
+  email: 
+    - DRLC@lls.edu
+  hours: ~
+  address: 'Loyola Law School Public Interest Law Center 800 South Figueroa Street, Ste 1120,
+Los Angeles, CA 90017'
+
+- location: Riverside County
+  category: Legal Resources
+  title: Battered Women’s Justice Project - Civil Justice Office
+  desc: ~
+  phone: ~
+  website: 
+    - http://www.bwjp.org/
+    - http://www.courts.ca.gov/selfhelp.htm
+  email: ~
+  hours: ~
+  address: 'Pennsylvania Coalition Against Domestic Violence 6400 Flank Drive, Suite 1300,
+Harrisburg, PA 17112'
+
+- location: Riverside County
+  category: Legal Resources
+  title: California Partnership to End Domestic Violence
+  desc: 'Operates Monday through Friday 9am to 5pm. Provides referrals to local service providers,
+shelters, legal services, and more, as well as training, education and technical assistance for
+direct service providers.'
+  phone: 
+    - desc: ~
+      number: 916-444-7163
+  website: 
+    - http://www.cpedv.org/
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Legal Resources
+  title: I-Can! Legal
+  desc: 'I-CAN! Legal helps people prepare their court forms using a questionnaire that is easy to
+understand and answer. I-CAN! provides step-by-step instructions for how to file the forms
+and proceed with the court case. Areas of assistance include Protection Orders, Divorce,
+Child Support and Custody, Small Claims and Eviction Defense. Additional support materials
+may include: Filing Instructions, Instructional Videos, Forms Packets, Blank Forms and Facts
+Sheets'
+  phone: ~
+  website: 
+    - http://www.legalican.com/ 
+  email: 
+    - ican@legal-aid.com
+  hours: ~
+  address: 2101 North Tustin Ave., Santa Ana, CA 92705
+
 #22
+- location: Riverside County
+  category: Legal Resources
+  title: Office of Justice Program - Victim Law
+  desc: 'Victim Law is a searchable database of victims’ rights legal provisions including federal,
+state, and territorial statutes, tribal laws, state constitutional amendments, court rules,
+administrative code provisions, and summaries of related court decisions and attorney
+general opinions.'
+  phone: ~
+  website: 
+    - https://www.ojp.gov/topics/victims-crime
+  email: ~
+  hours: ~
+  address: 810 Seventh Street, Washington D.C., 20531
+
+- location: Riverside County
+  category: Legal Resources
+  title: State Bar of California Lawyer Referral Services
+  desc: 'Toll Free referral to Lawyer Referral Services throughout the state. List of State Bar-certified
+lawyer referral services organized by county in California is available on website.'
+  phone: 
+    - desc: ~
+      number: 866-442-2529 
+    - desc: Alt. Phone
+      number: 415-538-2250 
+    - desc: Alt. Phone 2
+      number: 1-800-843-9053 (Attorney Complaint)
+  website: 
+    - http://www.calbar.ca.gov/Public/LawyerReferralServicesLRS.aspx
+  email: ~
+  hours: ~
+  address: 180 Howard St., San Francisco, CA 94105
+
+- location: Riverside County
+  category: Legal Representation
+  title: American Civil Liberties Union, ACLU of Southern California
+  desc: 'Handles civil liberties and civil rights matters in the Southern California region'
+  phone: 
+    - desc: ~
+      number: 213-977-9500 
+    - desc: Alt. Phone
+      number: (213)977- 5253 (Legal Intake) 
+    - desc: Fax
+      number: 213 977 5297
+  website: 
+    - http://www.aclu-sc.org/ 
+  email: 
+    - contactus@aclu-sc.org
+  hours: ~
+  address: 1313 West Eighth St., Los Angeles, CA 90017
+
+- location: Riverside County
+  category: Legal Representation
+  title: Attorney Search Network
+  desc: 'State Bar Certified Lawyer Referral Service'
+  phone: 
+    - desc: ~
+      number: 800-215-1190 
+    - desc: Alt. Phone
+      number: 818-817-0920 
+    - desc: Fax
+      number: 818-817-0935
+  website: 
+    - http://www.getareferral.com
+    - http://aclu-sc.org
+    - http://www.getareferral.com
+  email: 
+    - contactus@aclu-sc.org
+  hours: ~
+  address: 16161 Ventura Blvd. Suite 672, Encino, CA 91436
+
 #23
+- location: Riverside County
+  category: Legal Representation
+  title: California Advocates for Nursing Home Reform
+  desc: 'CANHR provides consumer counseling about long term care options; pre-placement
+counseling; guidance with Medi-Cal eligibility and estate recovery; elder financial abuse
+problems. They also operate a statewide Lawyer Referral Service for attorneys who specialize
+in estate planning for long term care, elder abuse, and elder financial abuse issues. They
+also provide a legal services support center and advocate for the clarification of current
+regulations and public policies related to funding and long term care issues.'
+  phone: 
+    - desc: ~
+      number: 800-474-1116
+    - desc: Alt. Phone
+      number: 415-974-5171 
+    - desc: Fax
+      number: 415-777-2904
+  website: 
+    - http://www.canhr.org
+  email: 
+    - canhrmail@canhr.org
+  hours: ~
+  address: Lawyer Referral Service 650 Harrison St, 2nd Floor,San Francisco, CA 94107
+
+- location: Riverside County
+  category: Legal Representation
+  title: California Indian Legal Services (multiple locations)
+  desc: 'California Indian Legal Services (CILS) is the first Indian-controlled law firm organized to
+provide specialized legal representation to Indians and Indian tribes. CILS can provide free
+legal services if the person qualifies as “low income” (is at or below the federal poverty level)
+and has a legal issue or question of federal Indian law. *For individuals in our Escondido
+office, there is no low income requirement for assistance for Native American victim of
+domestic violence and stalking. CILS may represent, on a fee-for-service basis, persons,
+tribes, tribal organizations and entities who are over income for free services. CILS’s fee
+structure is flexible and adjustable depending the client’s available resources and unique
+circumstances.'
+  phone: 
+    - desc: ~
+      number: 1-800-829-0284 or 916-978-0960 (Sacramento Office)
+    - desc: Alt. Phone
+      number: 760-873-3581 or 800-736-3582 (Bishop Office) 
+    - desc: Alt. Phone 2
+      number: 760-746-8941 or 800-743-8941 (Escondido Office) 
+    - desc: Alt. Phone 3
+      number: 707-443-8397 or 800-347-2402 (Eureka Office) 
+  website: ~
+  email: ~
+  hours: ~
+  address: Sacramento Office 117 J Street, Suite 300, Sacramento, CA 95814
+
+- location: Riverside County
+  category: Legal Representation
+  title: California Rural Legal Assistance, Inc. - Riverside
+  desc: 'Focuses on Civil Rights, community economic development, education, employment,
+health, housing, and public benefits. Services also available in Spanish and Portuguese.'
+  phone: 
+    - desc: ~
+      number: 760-398-7261
+  website: 
+    - http://crla.org
+  email: ~
+  hours: ~
+  address: 1460 6th Street PO Box 35, Coachella, CA 92236
+
+- location: Riverside County
+  category: Legal Representation
+  title: College Legal Clinic - Referrals
+  desc: 'Provides the public with names of attorneys who have been screened and approved to
+provide specific areas of legal assistance.'
+  phone: 
+    - desc: ~
+      number: 714-870-5757 
+    - desc: Fax
+      number: 714-835-6300
+  website: ~
+  email: ~
+  hours: ~
+  address: 1231 E. Chapman Ave, Fullerton, CA 92831
+
 #24
+- location: Riverside County
+  category: Legal Representation
+  title: Disability Rights California
+  desc: 'Disability Rights California works to bring about fairness and justice for people with
+disabilities. To reach those goals of fairness and justice, we may: File lawsuits on behalf of
+individuals or groups, Investigate charges of abuse and neglect, Build peer/self advocacy
+groups, Forge community partnerships, Advocate for change in laws, regulations, and
+public policy, and Provide information to those who may not know about their rights. '
+  phone: 
+    - desc: ~
+      number: 213-213-8000 
+    - desc: Alt. Phone
+      number: 1-800-776-5746
+    - desc: Fax
+      number: 213-213-8001 
+  website: 
+    - http://www.disabilityrightsca.org/
+  email: ~
+  hours: ~
+  address: 350 South Bixel Street Suite 290, Los Angeles, CA 90017
+
+- location: Riverside County
+  category: Legal Representation
+  title: Family Justice Center - Riverside
+  desc: 'Typically are located in the family law section of the courthouse. They offer help for
+pro per filers on family law matters such as custody, guardianship, support payments,
+modifications, divorce, separation, etc. Hours: Monday-Friday 8:00am-5:00pm.'
+  phone: 
+    - desc: ~
+      number: 951-955-6100
+  website: 
+    - http://www.rivcoda.org/VS/FJC_RIV.html
+  email: 
+    - CPlacencia@rivcoda.org
+  hours: ~
+  address: 3900 Orange Street, Riverside, CA 92501
+
+- location: Riverside County
+  category: Legal Representation
+  title: Family Law Facilitator - Southwest Justice Center
+  desc: 'Typically are located in the family law section of the courthouse. They offer help for
+pro per filers on family law matters such as custody, guardianship, support payments,
+modifications, divorce, separation, etc.'
+  phone: 
+    - desc: ~
+      number: (951) 304-5680
+  website: ~
+  email: ~
+  hours: ~
+  address: 30045 Technology Drive, Suite 101, Murrieta, CA 92563
+
+- location: Riverside County
+  category: Legal Representation
+  title: Inland Counties Legal Service - Indio
+  desc: 'Bankruptcy, consumer, disability, domestic violence, education, elder law, employment,
+estate planning, family law, health, housing, immigration, and public benefits. Helps elders
+and low income persons. Services available in Chinese and Spanish.'
+  phone: 
+    - desc: ~
+      number: 1-800-226-4257 
+    - desc: Alt. Phone
+      number: 760-342-1591
+  website: 
+    - http://www.inlandlegal.org
+  email: ~
+  hours: ~
+  address: 82632C US Highway 111, Indio, CA 92201
+
 #25
+- location: Riverside County
+  category: Legal Representation
+  title: Inland Counties Legal Service - Riverside
+  desc: 'Bankruptcy, consumer, disability, domestic violence, education, elder law, employment,
+estate planning, family law, health, housing, immigration, and public benefits. Helps elders
+and low income persons. Chinese and Spanish.'
+  phone: 
+    - desc: ~
+      number: 888-245-4257
+    - desc: Alt. Phone
+      number: 951-368-2555
+  website: 
+    - http://www.inlandlegal.org
+  email: ~
+  hours: ~
+  address: 1040 Iowa Avenue Suite 109, Riverside, CA 92507
+
+- location: Riverside County
+  category: Legal Representation
+  title: National Center for Victims of Crime
+  desc: 'National referral service for in state-attorneys who represent victims in civil suits beyond
+just restitution and compensation. Association will return calls for victims who cannot
+afford the long distance charges. Offers support groups and assistance.'
+  phone: 
+    - desc: ~
+      number: 202-467-8700 
+    - desc: Fax
+      number: 202-467-8701
+  website: 
+    - http://www.ncvc.org
+  email: ~
+  hours: ~
+  address: 2000 M Northwest Suite 480, Washington, DC 20036
+
+- location: Riverside County
+  category: Legal Representation
+  title: Riverside Co. Bar Association
+  desc: 'Provides the public with names of attorneys who have been screened and approved to
+provide specific areas of legal assistance.'
+  phone: 
+    - desc: ~
+      number: 951-682-1015 
+    - desc: Alt. Phone
+      number: 951-682-7520 (Lawyer Referral Service) 
+    - desc: Alt. Phone 2
+      number: 951-682-2132 (Dispute Resolution Service)
+    - desc: Alt. Phone 3
+      number: 951-682-7968 (Public Service Law Corporation) 
+    - desc: Fax
+      number: 951-682-0106
+  website: 
+    - http://www.riversidecountybar.com/
+  email: 
+    - rcba@riversidecountybar.com
+  hours: ~
+  address: 4129 Main Street, suite 100, Riverside, CA 92501
+
+- location: Riverside County
+  category: Legal Representation
+  title: Riverside County Bar Association Lawyer Referral Service
+  desc: 'If you need to consult with a personal injury, social security, or workers compensation
+lawyers there is no fee. For all other areas of law there is a $40 referral fee that entitles you
+to one half-hour consultation for advice. For a referral you can call the numbers listed or fill
+out the online form at the website listed.'
+  phone: 
+    - desc: ~
+      number: 951-682-7520 (West Riverside) 
+    - desc: Alt. Phone
+      number: 760-568-5555 (East Riverside)
+  website: 
+    - http://www.riversidelrs.org
+  email: ~
+  hours: ~
+  address: 4129 Main Street, suite 100, Riverside, CA 92501
+
 #26
+- location: Riverside County
+  category: Legal Representation
+  title: Small Claims Advisor
+  desc: 'Riverside County residents'
+  phone: 
+    - desc: ~
+      number: 951-274-4499 Riverside Office 
+    - desc: Alt. Phone
+      number: 760-393-2163 Indio Office
+  website: 
+    - https://www.riverside.courts.ca.gov/
+  email: 
+    - smallclaimadvisory@riverside.courts.ca.gov
+  hours: ~
+  address: 3737 Main Street, Riverside, CA 92501
+
+- location: Riverside County
+  category: Legal Representation
+  title: State Bar of California Lawyer Referral Services
+  desc: 'Toll Free referral to Lawyer Referral Services throughout the state. List of State Bar-certified
+lawyer referral services organized by county in California is available on website.'
+  phone: 
+    - desc: ~
+      number: 866-442-2529 
+    - desc: Alt. Phone
+      number: 415-538-2250
+    - desc: Alt. Phone 2
+      number: 1-800-843-9053 (Attorney Complaint)
+  website: 
+    - http://www.calbar.ca.gov/Public/LawyerReferralServicesLRS.aspx
+  email: ~
+  hours: ~
+  address: 180 Howard St., San Francisco, CA 94105
+
+- location: Riverside County
+  category: Legal Representation
+  title: The National Crime Victim Bar Association
+  desc: 'The National Center for Victims of Crime is a nonprofit organization that advocates for
+victims’ rights, trains professionals who work with victims, and serves as a source of
+information on victims’ issues.'
+  phone: 
+    - desc: ~
+      number: 202-467-8700 
+    - desc: Fax
+      number: 202-467-8701
+  website: 
+    - http://www.victimbar.org
+  email: ~
+  hours: ~
+  address: 2000 M Street NW, Suite 480, Washington DC, DC 20036
+
+- location: Riverside County
+  category: District Attorney's Offices
+  title: Riverside
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 955-5400
+  website: ~
+  email: ~
+  hours: ~
+  address: 3960 Orange Street, Riverside, CA 92501
+
+- location: Riverside County
+  category: District Attorney's Offices
+  title: Indio
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 863-8216
+  website: ~
+  email: ~
+  hours: ~
+  address: 82995 Highway 111, Suite 101, Indio, CA 92201
+
+
+- location: Riverside County
+  category: District Attorney's Offices
+  title: Murrieta 
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 304-5400
+  website: ~
+  email: ~
+  hours: ~
+  address: 30755-D Auld Road, 3rd Floor, Murrieta, CA 92563
+
+- location: Riverside County
+  category: District Attorney's Offices
+  title: Banning  
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 922-7130
+  website: ~
+  email: ~
+  hours: ~
+  address: 135 North Alessandro, Room 210, Banning, CA 92220
+
+
+- location: Riverside County
+  category: District Attorney's Offices
+  title: Blythe  
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 921-5840
+  website: ~
+  email: ~
+  hours: ~
+  address: 220 North Broadway, Blythe, CA 92225
+
+- location: Riverside County
+  category: District Attorney's Offices
+  title: Juvenile Office
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 358-4140
+  website: ~
+  email: ~
+  hours: ~
+  address: 9991 County Farm Rd., Riverside, CA 92503
+
 #27
+- location: Riverside County
+  category: Probation Departments
+  title: County of Riverside 
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 955-2830 
+  website: 
+    - http://www.probation.co.riverside.ca.us/
+  email: ~
+  hours: ~
+  address: 3960 Orange Street, Suite 600, Riverside, CA 92501 
+
+- location: Riverside County
+  category: Police Departments
+  title: City of Riverside
+  desc: 'Station 1:  4102 Orange St, Riverside, CA 92501, Station 2: 10540 Magnolia Av, Riverside, CA 92505 '
+  phone: 
+    - desc: General Information Phone
+      number: (951)826-5700
+    - desc: Non-Emergencies Phone
+      number: 951-354-2007
+  website: ~
+  email: 
+    - rpdweb@riversideca.gov
+  hours: 'Mon-Fri 8am-4:30pm, Closed Weekends and Holidays'
+  address: 4102 Orange St, Riverside, CA 92501 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Banning Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 922-3170
+  website: ~
+  email: ~
+  hours: ~
+  address: 125 E. Ramsey St., Banning, CA 92220
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Indio Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 391-4057
+  website: ~
+  email: ~
+  hours: ~
+  address: 46-800 S. Jackson St., Indio, CA 92201 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Beaumont Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 769-8500
+  website: ~
+  email: ~
+  hours: ~
+  address: 550 E. Sixth St., Beaumont, CA 92223 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Corona Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 736-2330
+  website: ~
+  email: ~
+  hours: ~
+  address: 730 Corporation Yard Way, Corona, CA 92880 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Murrieta Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 304-2677
+  website: ~
+  email: ~
+  hours: ~
+  address: 24701 Jefferson Ave., Murrieta, CA 92562 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Blythe Police 
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 922-6111 
+  website: ~
+  email: ~
+  hours: ~
+  address: 240 N. Spring St., Blythe, CA 92225 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Desert Hot Springs Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 329-6411
+  website: ~
+  email: ~
+  hours: ~
+  address: 65950 Pierson Blvd., Desert Hot Springs, CA 92240 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Palm Springs Police 
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 323-8116
+  website: ~
+  email: ~
+  hours: ~
+  address: 200 S. Civic Dr., Palm Springs, CA 92262
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Cathedral City Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 770-0362
+  website: ~
+  email: ~
+  hours: ~
+  address: 68-700 Avenida Lalo Guerrero, Cathedral City, CA 92234 
+
 #28
+- location: Riverside County
+  category: Sheriff Departments
+  title: Hemet Police
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 765-2400
+  website: ~
+  email: ~
+  hours: ~
+  address: 450 E. Latham Ave., Hemet, CA 92543 
+
+- location: Riverside County
+  category: Sheriff Departments
+  title: Riverside Police 
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 354-2007
+  website: ~
+  email: ~
+  hours: ~
+  address: 4102 Orange St., Riverside, CA 92501 
+
+- location: Riverside County
+  category: Shelters
+  title: Shelter from the Storm
+  desc: 'Provides a variety of services for abused women and children. Services include: Emergency
+shelter, transitional housing, counseling centers and victim advocacy. Provides resources in
+Desert Hot Springs, Palm Desert, Palm Springs, and all surrounding areas. Bilingual services
+available.'
+  phone: 
+    - desc: ~
+      number: 1-800-775-6055 (24-hr crisis line)
+    - desc: Alt. Phone
+      number:  (760) 674-0400
+  website: 
+    - https://www.shelterfromthestorm.com
+  email: ~
+  hours: ~
+  address: 73-550 Alessandro Drive, Suite 103, Palm Desert, CA 92260 
+
+- location: Riverside County
+  category: Shelters
+  title: California Partnership to End Domestic Violence
+  desc: 'Operates Monday through Friday 9am to 5pm. Provides referrals to local service
+providers, shelters, legal services, and more, as well as training, education and technical
+assistance for direct service providers.'
+  phone: 
+    - desc: ~
+      number: 916-444-7163
+  website: 
+    - http://www.cpedv.org/
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Shelters
+  title: Community Access Network 
+  desc: 'Community Access Network (CAN) provides social services to children and families in
+the Inland Empire and surrounding communities. CAN administers multiple programs:
+treatment Foster Care program, providing foster care placement and treatment for children
+ages 0-17 years of age who are identified as victims of child abuse and neglect, servicing
+Riverside, San Bernardino and Orange Counties.
+CAN also provides Mental Health services to all ages which include intake/assessment and
+diagnostic services, evaluation of the consumer’s level of functioning and coping skills,
+individual, group and family therapy, crisis intervention, medication evaluation, support
+services and discharge planning. CAN offers local counties a TBS (Therapeutic Behavioral
+Services) program which is an intensive one-on-one, short-term outpatient treatment
+intervention for children and youth with serious emotional problems or mental illness who
+are experiencing a stressful transition or life crisis and need aid.'
+  phone: 
+    - desc: ~
+      number: (951) 279-1333
+    - desc: Fax
+      number: (951) 279-8333
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
 #29
+- location: Riverside County
+  category: Shelters
+  title: El Centro Corps Community Center
+  desc: 'Emergency assistance for food and shelter. Emergency groceries available 3 times yearly
+with income verification. Other services include: Social Services, Rental and Bill assistance,
+Adult Rehabilitation, Domestic Violence, and Teen Pregnancy assistance. Headquarter division serves Imperial, Riverside, San Bernardino, and San Diego Counties. Local
+community centers also available.'
+  phone: 
+    - desc: ~
+      number: 760-352-4528
+  website: 
+    - http://www.sandiego.salvationarmy.org/sierra_del_mar/elcentro
+  email: ~
+  hours: ~
+  address: 375 N. Fifth Street, El Centro, CA 92243
+
+- location: Riverside County
+  category: Shelters
+  title: Lutheran Social Services / Genesis Apartments
+  desc: 'Transitional living program for women with children who are homeless. Provides housing,
+case management services, and counseling as well as food and free clothing. Serves
+Riverside and San Bernardino Counties.'
+  phone: 
+    - desc: ~
+      number: 951-689-7847
+  website: 
+    - http://www.lsssc.org/
+  email: ~
+  hours: ~
+  address: 3772 Taft Street, Riverside, CA 92503
+
+- location: Riverside County
+  category: Shelters
+  title: Operation Safe House
+  desc: 'Provides shelter, counseling, and a substance abuse program for male & female youth, &
+victims under the age 12-17 years old.'
+  phone: 
+    - desc: Riverside
+      number: (951) 351-4418 
+    - desc: Alt. Phone Thousand Palms
+      number: (760) 343-3211 
+    - desc: Alt. Phone 2 Toll-Free Riverside
+      number: (800) 561-6944 
+    - desc: Alt. Phone 3 Toll-Tree Thousand Palms
+      number: (888) 343-4660
+  website: 
+    - http://operationsafehouse.org/
+  email: ~
+  hours: ~
+  address: 9685 Hayes St, Riverside, CA 92503
+
 #30
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: California Coalition Against Sexual Assault (CalCASA) 
+  desc: 'The California Coalition Against Sexual Assault (CALCASA) provides leadership, vision and
+resources to rape crisis centers, individuals and other entities committed to ending sexual
+violence.'
+  phone: 
+    - desc: ~
+      number: 916-446-2520
+    - desc: Alt. Phone (SMS/Text)
+      number: 916-905-2272 
+    - desc: Fax
+      number: 916-446-8166 
+  website: 
+    - http://www.calcasa.org/
+  email: 
+    - info@calcasa.org
+  hours: ~
+  address: 1215 K Street, Suite 1850 Esquire Plaza, Sacramento, CA 95814
+
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: Center Against Sexual Assault (CASA)
+  desc: 'First number is a 24-hour crisis line. The 24-hour Hotline provides crises intervention,
+counseling and information and referrals to assault survivors and their families. Advocacy
+and accompaniment to hospital, police stations and court.'
+  phone: 
+    - desc: ~
+      number: (951) 652-8300
+    - desc: (Toll Free)
+      number: (866) 373-8300 
+  website: 
+    - http://www.swcasa.org/prevention.cfm
+  email: 
+    - info@swcasa.org
+  hours: ~
+  address: P.O. Box 2564, Hemet, CA 92546
+
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: Coachella Valley Sexual Assault Services
+  desc: 'Counseling and referrals for victims of violent crime including sexual assault services. Website link is to a sister organization.'
+  phone: 
+    - desc: ~
+      number: 760-568-9071
+    - desc: Alt. Phone National Hotline
+      number: 800-568-9071
+    - desc: Hotline (Toll Free)
+      number: (800) 656-4673 
+  website: 
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 74333 Hwy 111, Suite 103, Palm Desert, CA 92260
+
+
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: Riverside Area Rape Crisis Center
+  desc: 'Services provided include 24-hr crisis line, court, law enforcement and hospital
+accompaniment, as well as follow-up visits, counseling, and rape support group. Programs
+available in Assault Awareness and Prevention, Child Abuse Prevention, Senior and Hispanic
+Outreach, Teen Abuse, and Self-Defense classes for women and children.'
+  phone: 
+    - desc: ~
+      number: 951-686-7273
+    - desc: Alt. Phone (Southwest County)
+      number: 1(866) 686-7273 
+  website: 
+    - http://www.rarcc.org/main/
+  email: 
+    - info@rarcc.org
+  hours: ~
+  address: 1845 Chicago Ave, Suite A, Riverside, CA 92507
 
 #31
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: Safe Helpline (DoD)
+  desc: 'Department of Defense (DoD) Safe Helpline is a crisis support service for members of the
+DoD community affected by sexual assault. Safe Helpline provides live, one-on-one support
+and information to the worldwide DoD community. The service is confidential, anonymous,
+secure, and available worldwide, 24/7 by click, call or text. If you are looking for sexual assault
+service referrals: text your location (zip code or installation/base name) to 55-247 (inside the
+U.S.) or 001- 202-470-5546 (outside the U.S.) to contact your nearest resource: Sexual Assault
+Response Coordinator (SARC), medical or legal personnel, chaplain, or civilian sexual assault
+service provider DoD Safe Helpline is operated by RAINN. RAINN will not share your name or
+any other personally identifying information with DoD or your chain of command.'
+  phone: 
+    - desc: ~
+      number: 877-995-5247
+    - desc: Alt. Phone (Text) (Outside the U.S.)
+      number: 202-470-5546
+    - desc: Alt. Phone 2 (Text) (Inside the U.S.)
+      number: 55-247
+  website: 
+    - http://www.safehelpline.org/
+  email: 
+    - info@safehelpline.org
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: San Bernardino Sexual Assault Services
+  desc: 'Serving both the San Bernardino and Riverside county areas including San Bernardino,
+Redlands, Yucaipa, Victorville, Coachella Valley/Indio, and Morongo Basin/Yucca Valley.
+24-hour crisis line. Provides understanding and support to victims of sexual assault and
+domestic violence through immediate crisis intervention, follow-up services, one on one
+counseling, accompaniment and advocacy services. All services are available to victims,
+their families, significant others, and friends, at no charge, irrespective of socio-economic
+status, gender, ethnic origin or sexual orientation.'
+  phone: 
+    - desc: 24 hour crisis hotline
+      number: 1-909-885-8884
+    - desc: Alt. Phone 24 hour crisis hotline
+      number: 1-800-656-4673
+  website: 
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 74333 Highway 111 Suite 204, Palm Desert, CA 92260
+
+- location: Riverside County
+  category: Sexual Violence (Rape) Victim/Prevention Services 
+  title: Stalking Resource Center
+  desc: 'Nonprofit organization that advocates for victims’ rights and assists victims of stalking.
+Addresses all types of crimes. Services are available 8:30 -8:30 eastern time.'
+  phone: 
+    - desc: ~
+      number: 202-467-8700 
+    - desc: Fax
+      number: 202-467-8701
+  website: 
+    - http://www.victimsofcrime.org/
+  email: ~
+  hours: ~
+  address: 2000 M St.NW, Suite 480, Washington, DC 20036
+
+# note: the following ones do have the same website linked
 #32
+- location: Riverside County
+  category: Victim/Witness Services
+  title: Riverside County District Attorney’s Office - Banning Branch Office
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 922-7130
+  website: 
+    - http://www.rivcoda.org/VW/locations.html
+  email: ~
+  hours: ~
+  address: 135 North Alessandro, Room 210, Banning, CA 92220
+
+- location: Riverside County
+  category: Victim/Witness Services
+  title: Riverside County District Attorney’s Office - Blythe Branch Office
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 921-7878
+  website: 
+    - http://www.rivcoda.org/VW/locations.html
+  email: ~
+  hours: ~
+  address: 220 North Broadway, Blythe, CA 92225
+
+- location: Riverside County
+  category: Victim/Witness Services
+  title: Riverside County District Attorney’s Office - Indio Main Office
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (760) 863-8216
+  website: 
+    - http://www.rivcoda.org/VW/locations.html
+  email: ~
+  hours: ~
+  address: 82-675 Highway 111, 4th Floor, Indio, CA 92201
+
+- location: Riverside County
+  category: Victim/Witness Services
+  title: Riverside County District Attorney’s Office - Murrieta Main Office
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 304-5400
+  website: 
+    - http://www.rivcoda.org/VW/locations.html
+  email: ~
+  hours: ~
+  address: 30755-D Auld Road, 3rd Floor, Murrieta, CA 92563
+
+- location: Riverside County
+  category: Victim/Witness Services
+  title: Riverside County District Attorney’s Office - Riverside Main Office
+  desc: ~
+  phone: 
+    - desc: ~
+      number: (951) 955-5400
+  website: 
+    - http://www.rivcoda.org/VW/locations.html
+  email: ~
+  hours: ~
+  address: 4075 Main Street, 1st Floor, Riverside, CA 92501
+
 #33
+- location: Riverside County
+  category: Suicide Resources
+  title: California Youth Crisis Hotline
+  desc: 'The California Youth Crisis Line (CYCL) is a statewide, toll free, 24-hour, confidential Hotline
+available to teens and young adults ages 12-24 and/or any adults supporting youth. If you
+or someone you know is in crisis, don’t hesitate to call 1-800-843-5200. We can help. CYCL is
+also an immediate, reliable and free link between youth and local services. We can help you
+find homeless youth shelters, youth-serving medical clinics, on-going counseling services
+and much more throughout California. What is a crisis anyway? Our answer: anytime you
+are feeling misunderstood or overwhelmed and needing to talk to someone about what’s
+happening, especially before you run away or cause harm to yourselves or others. Call us
+first to learn how to handle your current and/or future crises.'
+  phone: 
+    - desc: ~
+      number: 800-843-5200 
+    - desc: Alt. Phone
+      number:  916-340-0505
+  website: 
+    - http://www.youthcrisisline.org/
+  email: 
+    - paul@calyouth.org
+  hours: ~
+  address: P.O. Box 163147, Sacramento, CA 95816
+
+- location: Riverside County
+  category: Suicide Resources
+  title: 121 Help.me
+  desc: '121help.me is a program of the North American Alliance of Child Helplines (NAACH). The
+goal of the program is to create universal crisis portals for children/youth, both on the
+phone and on-line, as mechanisms to reach qualified, professional crisis counselors 24/7.
+For information about NAACH or 121help.me please contact info@121help.me'
+  phone: 
+    - desc: Help Line
+      number: 1-855-201-2121 
+  website: 
+    - http://www.121help.me/
+  email: 
+    - info@121help.me
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Suicide Resources
+  title: National Suicide Prevention Hotline 
+  desc: '24-hour, toll-free suicide prevention service available to anyone in suicidal crisis. The service
+is free and confidential. Benefit of the Vet program: ability to look up vet’s medical/mental
+health records and route to nearest VA crisis center, must press 1. Website has live chat
+resource for the deaf and hard of hearing individuals.'
+  phone: 
+    - desc: ~
+      number: 1-800-273-TALK (8255)
+    - desc: Alt. Phone (Spanish)
+      number: 1-888-628-9454
+  website: 
+    - http://www.suicidepreventionlifeline.org/
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Suicide Resources
+  title: The Trevor Project
+  desc: 'Provides crisis intervention and suicide prevention services to lesbian, gay, bisexual,
+transgender and questioning (LGBTQ) young people ages 13-24.'
+  phone: 
+    - desc: ~
+      number: 1-866-488-7386 
+    - desc: Alt. Phone (Text 'Trevor' to)
+      number: 1-202-304-1200
+  website: 
+    - http://www.thetrevorproject.org/section/about
+  email: ~
+  hours: ~
+  address: P.O. Box 69232, West Hollywood, CA 90069
+
 #34
+- location: Riverside County
+  category: Suicide Resources
+  title: Veterans 24 hrs. Crisis Line
+  desc: 'The Veterans Crisis Line, online chat, and text-messaging service are free to all Veterans,
+even if you are not registered with the U.S. Department of Veterans Affairs (VA) or enrolled
+in VA health care.'
+  phone: 
+    - desc: ~
+      number: 1-800-273-8255 press 1 
+    - desc: Alt. Phone 
+      number: Text 838255
+    - desc: Alt. Phone 2
+      number:  1-800-799-4889 TTY Service
+  website: 
+    - http://www.veteranscrisisline.net/ForVeterans.aspx
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Suicide Resources
+  title: W.E.A.V.E. 24-hour support line
+  desc: '24 hour support and counseling line.'
+  phone: 
+    - desc: ~
+      number: (916) 920-2952
+  website: 
+    - http://www.weaveinc.org/
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Riverside County
+  category: Suicide Resources
+  title: Mothers Against Drunk Driving (MADD)
+  desc: 'Mission: To end drunk driving, help fight drugged driving, support the victims of these
+violent crimes and prevent underage drinking.'
+  phone: 
+    - desc: ~
+      number: (714) 838-6199
+  website: 
+    - http://www.maddcalifornia.org
+  email: ~
+  hours: ~
+  address: 5455 Garden Grove Blvd., Suite 150, Westminster, CA 92683
+
 #35
+- location: Riverside County
+  category: Therapists/Counselors
+  title: Family Services
+  desc: 'Services include individual, marital, and family counseling; anger management; child abuse.
+Fees: sliding scale ($30-$120).'
+  phone: 
+    - desc: ~
+      number: 951-686-3706
+    - desc: Alt. Phone
+      number: 1-855-FSA-4-YOU
+    - desc: Alt. Phone 2
+      number: 951-686-1096 
+    - desc: Fax
+      number: 951-276-9542
+  website: 
+    - http://fsaca.org/
+  email: ~
+  hours: ~
+  address: 21250 Box Springs Rd Suite 212, Moreno Valley, CA 92557
+
+- location: Riverside County
+  category: Therapists/Counselors
+  title: EMQ Families First - San Bernardino
+  desc: 'EMQ FamiliesFirst is a statewide nonprofit that helps children and families. The agency is
+one of the largest, most comprehensive mental health treatment programs in California.
+Complete list of services are on the website.'
+  phone: 
+    - desc: ~
+      number: 909-266-2700 
+    - desc: Alt. Phone (Emergency Crisis Line) 
+      number:  1-877-412-7474 
+    - desc: Fax
+      number: 909-266-2710
+  website: 
+    - http://emqff.org/
+  email: ~
+  hours: ~
+  address:  572 N. Arrowhead Avenue, Suite 200, San Bernardino, CA 92401
+
+# NOTE: Stopped at Crime Victim Services and Resources because I think that this information
+# can be combined with the other counties and put somewhere else in whole
+
 #36
 #37
 #38
