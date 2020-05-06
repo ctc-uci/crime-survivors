@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
@@ -6,45 +7,56 @@ import CategoryBody from '../components/CategoryBody';
 import Sidebar from '../components/sidebar';
 
 const CategoryPage = ({ data, pageContext }) => {
+  // console.table(['HELLO', pageContext]);
   const { source, sidebarData } = data;
   const { resources } = source;
 
-  // simply displays all resources for this category in an ugly list
   return (
     <PageContainer
-      sidebar={<Sidebar props={{ sidebarData, resourceId: '', category: pageContext.category }} />}
+      sidebar={(
+        <Sidebar
+          props={{
+            sidebarData,
+            resourceId: '',
+            category: pageContext.category,
+          }}
+        />
+      )}
       body={<CategoryBody props={resources} />}
     />
   );
 };
 
-// we can query the needed resources according to the category passed in the
-// context property of createPage() in gatsby-node.js
 export const query = graphql`
-  query CategoryQuery($category: String!) {
-    source: allOrangeCountyYaml(filter: {category: { eq: $category }}) {
+  query CategoryQuery($category: String!, $location: String!) {
+    source: allContentfulResource(
+      filter: { category: { eq: $category }, location: { eq: $location } }
+    ) {
       resources: nodes {
         id
         category
         title
-        desc
         phone {
-          desc
           number
+          desc
         }
         website
         email
-        hours
         address
+        desc {
+          desc
+        }
       }
     }
-    sidebarData: allOrangeCountyYaml(filter: {title: {ne: null}}) {
+    sidebarData: allContentfulResource(
+      filter: { location: { eq: $location } }
+    ) {
       group(field: category) {
-        category: fieldValue
         resources: nodes {
-          title
           id
+          title
         }
+        category: fieldValue
       }
     }
   }
@@ -59,7 +71,9 @@ CategoryPage.defaultProps = {
         category: 'category',
         phone: [{ desc: 'desc', number: '(555) 555-5555' }],
         title: 'title',
-        desc: 'desc',
+        desc: {
+          desc: 'desc',
+        },
       },
       ],
     },
@@ -77,11 +91,11 @@ CategoryPage.defaultProps = {
   },
   pageContext: {
     category: 'category',
+    location: 'location',
   },
 };
 
-
-// Proptype validation, required by eslint
+// // Proptype validation, required by eslint
 CategoryPage.propTypes = {
   data: PropTypes.shape({
     source: PropTypes.shape({
@@ -96,7 +110,9 @@ CategoryPage.propTypes = {
             }),
           ),
           title: PropTypes.string,
-          desc: PropTypes.string,
+          desc: PropTypes.shape({
+            desc: PropTypes.string,
+          }),
         }),
       ),
     }),
@@ -114,9 +130,10 @@ CategoryPage.propTypes = {
       ),
     }),
   }),
-  pageContext: {
+  pageContext: PropTypes.shape({
     category: PropTypes.string,
-  },
+    location: PropTypes.string,
+  }),
 };
 
 export default CategoryPage;

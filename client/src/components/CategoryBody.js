@@ -9,7 +9,7 @@ function CategoryBody({ props }) {
       {nodes.map((resource) => (
         <div key={uuidv4() /* uuid bc array of items */}>
           <h1>{resource.title}</h1>
-          <div>{resource.desc}</div>
+          <div>{resource.desc ? resource.desc.desc : 'null'}</div>
         </div>
       ))}
     </div>
@@ -18,35 +18,41 @@ function CategoryBody({ props }) {
 
 // Defaults values for props, required by eslint
 CategoryBody.defaultProps = {
-  props: {
+  props: [{
     nodes: [{
       address: 'address',
       category: 'category',
       phone: [{ desc: 'desc', number: '(555) 555-5555' }],
       title: 'title',
-      desc: 'desc',
+      desc: {
+        desc: 'desc',
+      },
     }],
-  },
+  }],
 };
 
 // Proptype validation, required by eslint
 CategoryBody.propTypes = {
-  props: PropTypes.shape({
-    nodes: PropTypes.arrayOf(
-      PropTypes.shape({
-        address: PropTypes.string,
-        category: PropTypes.string,
-        phone: PropTypes.arrayOf(
-          PropTypes.shape({
+  props: PropTypes.arrayOf(
+    PropTypes.shape({
+      nodes: PropTypes.arrayOf(
+        PropTypes.shape({
+          address: PropTypes.string,
+          category: PropTypes.string,
+          phone: PropTypes.arrayOf(
+            PropTypes.shape({
+              desc: PropTypes.string,
+              number: PropTypes.string,
+            }),
+          ),
+          title: PropTypes.string,
+          desc: PropTypes.shape({
             desc: PropTypes.string,
-            number: PropTypes.string,
           }),
-        ),
-        title: PropTypes.string,
-        desc: PropTypes.string,
-      }),
-    ),
-  }),
+        }),
+      ),
+    }),
+  ),
 };
 
 export default CategoryBody;
