@@ -4,40 +4,47 @@ const { generatePath } = require('./src/utils/commonUtils'); // forced ES5 for s
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const queryYamlNames = ['allOrangeCountyYaml'];
+  // const queryYamlNames = ['allOrangeCountyYaml'];
 
   const queryCategories = `
     {
-      allOrangeCountyYaml {
-        group(field: category) {
-          fieldValue
+      allContentfulResource {
+        nodes {
+          category
+          location
         }
       }
-    }`;
+    }
+  `;
 
-  const generateCategoryPages = (query, names) => new Promise((resolve, reject) => {
+  const generateCategoryPages = (query) => new Promise((resolve, reject) => {
     graphql(query).then((result) => {
       if (result.errors) {
         reject(result.errors);
       }
 
-      names.forEach((name) => {
-        // if no errors, you can map into the data and create your static pages
-        result.data[name].group.forEach((category) => {
-          // create page according to the fetched data
-          createPage({
-            path: generatePath(category.fieldValue, ''), // your url -> /categories/orgtitle
-            component: path.resolve('./src/templates/categoryPage.js'), // your template component
-            // component: path.resolve('./src/components/resourcePageContainer.js'),
-            context: {
-              category: category.fieldValue,
-              // optional,
-              // data here will be passed as props to the component `this.props.pathContext`,
-              // as well as to the graphql query as graphql arguments.
-            },
-          });
+      const { nodes } = result.data.allContentfulResource;
+      const urls = new Set();
+      nodes.forEach((node) => {
+        const { location } = node;
+        const { category } = node;
+        const newPath = generatePath(location, category);
+        if (urls.has(newPath)) {
+          return;
+        }
+        urls.add(newPath);
+        createPage({
+          path: newPath, // your url -> /location/category
+          component: path.resolve('./src/templates/categoryPage.js'), // your template component
+          context: {
+            category,
+            location,
+            // data here will be passed as props to the component `this.props.pathContext`,
+            // as well as to the graphql query as graphql arguments.
+          },
         });
       });
+
       resolve();
     });
   });
@@ -45,7 +52,7 @@ exports.createPages = ({ graphql, actions }) => {
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them
   return new Promise((resolve, reject) => {
-    const promises = [generateCategoryPages(queryCategories, queryYamlNames),
+    const promises = [generateCategoryPages(queryCategories),
     ];
     // generateGuidePages(queryGuides);
 
