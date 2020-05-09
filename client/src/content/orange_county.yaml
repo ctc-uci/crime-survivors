@@ -3,7 +3,8 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
 # YAML format
-# - category: ~
+# - location: Orange County
+  category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -19,7 +20,8 @@
 #2
 #3
 #4
-- category: '2-1-1'
+- location: Orange County
+  category: '2-1-1'
   title: ~
   desc: '2-1-1 is a free accessible telephone number that will enable everyone to access the
 vital community services they need. 2-1-1 provides a “one-stop” service for vital
@@ -34,7 +36,8 @@ It is the equivalent of 9-1-1, but for non-emergency health and human services.'
   hours: 24/7
   address: ~
 
-- category: 2-1-1
+- location: Orange County
+  category: 2-1-1
   title: Benefits of 2-1-1
   desc: 'This system has been developed to help members of our communities find the
 information and referral services they need or the appropriate agency to meet
@@ -48,7 +51,8 @@ link community services to the people who need them.'
   hours: ~
   address: ~
 
-- category: 2-1-1
+- location: Orange County
+  category: 2-1-1
   title: Services Provided by 2-1-1
   desc: 'Every hour of every day, someone requires essential services such as:
 • Child Care
@@ -72,7 +76,8 @@ Newborns'
   address: ~
 
 #5
-- category: When to Call 9-1-1
+- location: Orange County
+  category: When to Call 9-1-1
   title: ~
   desc: '9-1-1 is the number to call to get help in a police, fire or medical emergency. 9-1-1 calls
 go over dedicated phone lines to the 9-1-1 answering point closest to the caller, and
@@ -90,7 +95,8 @@ know there really isn’t an emergency.'
   hours: ~
   address: ~
 
-- category: When to Call 9-1-1
+- location: Orange County
+  category: When to Call 9-1-1
   title: Do Not Call 9-1-1
   desc: '• For Information
 • For Directory Assistance
@@ -105,7 +111,8 @@ know there really isn’t an emergency.'
   hours: ~
   address: ~
 
-- category: When to Call 9-1-1
+- location: Orange County
+  category: When to Call 9-1-1
   title: If 9-1-1 Fails, You Should Know These Alternative Telephone Numbers
   desc: ~
   phone:
@@ -121,7 +128,8 @@ know there really isn’t an emergency.'
   address: ~
 
 #6
-- category: Marsy's Law
+- location: Orange County
+  category: Marsy's Law
   title: Constitutional Amendment 2008 California Victims’ Bill of Rights
   desc: 'On November 4, 2008, the people of the State of California approved Proposition
 9, the Victims’ Bill of Rights Act of 2008: Marsy’s Law. This measure amended the
@@ -146,7 +154,8 @@ can be printed out from their website at http://ag.ca.gov/victims.php.'
   hours: ~
   address: ~
 
-- category: Marsy's Law
+- location: Orange County
+  category: Marsy's Law
   title: Office of Victims’ & Survivor Rights & Services / California Office of the Attorney General
   desc: ''
   phone:
@@ -157,7 +166,8 @@ can be printed out from their website at http://ag.ca.gov/victims.php.'
   hours: ~
   address: P.O. Box 942883 Sacramento, CA 94283-0001
 
-- category: Marsy's Law
+- location: Orange County
+  category: Marsy's Law
   title: Marsy’s Law Card Information
   desc: 'If you are a victim of a crime, these rights apply
 to you. You may obtain information about these
@@ -174,7 +184,8 @@ Attorney’s Office.'
   address: P.O. Box 942883 Sacramento, CA 94283-0001
 
 #7
-- category: California Law and Victims’ Rights
+- location: Orange County
+  category: California Law and Victims’ Rights
   title: ~
   desc: 'California Law provides crime victims with important rights. If you are the victim of
 crime, you may be entitled to the assistance of a victim advocate who can answer
@@ -193,7 +204,8 @@ losses
   hours: ~
   address: ~
 
-- category: You Have Rights
+- location: Orange County
+  category: You Have Rights
   title: ~
   desc: 'Most states have amended their constitutions to guarantee certain fundamental
 rights for crime victims. Typically, these include:
@@ -211,7 +223,8 @@ and release of the offender
   address: ~
 
 #8
-- category: Establish Safety
+- location: Orange County
+  category: Establish Safety
   title: ~
   desc: 'If you or someone you know has just been victimized, there are some important
 steps you should take in protecting yourself, treating any injuries, and making
@@ -227,7 +240,8 @@ someone to help you.'
   hours: ~
   address: ~
 
-- category: Care for Injuries
+- location: Orange County
+  category: Care for Injuries
   title: ~
   desc: 'Go to a hospital or physician to have physical injuries treated. It will also be
 important to tell medical personnel that your injuries are the result of a crime before
@@ -240,7 +254,8 @@ physical evidence needed to apprehend and convict the person(s) who hurt you.'
   hours: ~
   address: ~
 
-- category: Call the Police / Get Help
+- location: Orange County
+  category: Call the Police / Get Help
   title: ~
   desc: 'Call the police as soon as possible, so they can provide assistance. Remember
 to preserve the crime scene - don’t clean up or move anything so that detectives can
@@ -256,7 +271,8 @@ of Post Traumatic Stress Disorder (PTSD).'
   address: ~
 
 #9
-- category: Document the Crime
+- location: Orange County
+  category: Document the Crime
   title: ~
   desc: 'While it may be the last thing you want to do, it is very important to write down
 exactly what happened as soon as possible following your incident. The best way to
@@ -298,7 +314,8 @@ during the crime, such as a handgun or a vehicle.'
   address: ~
 
 #10
-- category: Protect Yourself Against Further Harm
+- location: Orange County
+  category: Protect Yourself Against Further Harm
   title: ~
   desc: 'If your home was burglarized or if you had your wallet or purse stolen, you may feel the
 need to have your home checked before returning to it. Ask the police to check your
@@ -316,7 +333,8 @@ comfortable with and what will help you to be and feel safe'
   hours: ~
   address: ~
 
-- category: Short-Term Planning
+- location: Orange County
+  category: Short-Term Planning
   title: ~
   desc: 'You may feel bombarded with countless details and decisions in the aftermath of a
 violent encounter — and to make matters worse, you are probably in shock. It will
@@ -346,7 +364,8 @@ Ones section'
   address: ~
 
 #11
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: ~
   desc: 'Surviving a violent crime is difficult, and while the crime may only have taken
 seconds or minutes, the healing process can take quite a while. The road traveled
@@ -362,7 +381,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: Rainn National Sexual Assault Free Confidential hotline
   desc: ~
   phone:
@@ -373,7 +393,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: Victims of Crime Resource Center
   desc: ~
   phone:
@@ -385,7 +406,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: National Center for Victims of Crime
   desc: '24-hour hotline and link to local resources'
   phone:
@@ -399,7 +421,8 @@ Some hotlines include:'
   hours: 24/7
   address: ~
 
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: National Domestic Violence Hotline
   desc: ~
   phone:
@@ -415,7 +438,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: National Hopeline Network
   desc: ~
   phone:
@@ -429,7 +453,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Orange County
+  category: Find Support
   title: Love is Respect (National Dating Abuse Calling Line)
   desc: ~
   phone:
@@ -441,7 +466,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Steps to Healing
+- location: Orange County
+  category: Steps to Healing
   title: ~
   desc: 'Healing won’t happen quickly, but it will happen. It is within your power to facilitate
 the process and begin your journey to a new place of happiness and peace. Here are
@@ -464,7 +490,8 @@ you are, where you want to be, and how to get there.
   address: ~
 
 #12
-- category: What Next?
+- location: Orange County
+  category: What Next?
   title: ~
   desc: 'As you start to return to your daily routine, you may question your feelings and what
 you’re going through. Visit our crimesurvivors.org to find helpful resources and
@@ -484,7 +511,8 @@ referrals you need.'
   hours: ~
   address: PO Box 54552, Irvine, CA 92619
 
-- category: What Next?
+- location: Orange County
+  category: What Next?
   title: Mission
   desc: 'To provide hope and healing to victims and survivors of crime through advocacy and the
 support of resources, information, and empowerment from the critical time after a crime
@@ -495,7 +523,8 @@ occurs through the challenges and successes of surviving and thriving.'
   hours: ~
   address: ~ 
 
-- category: What Next?
+- location: Orange County
+  category: What Next?
   title: Values
   desc: '• We believe that no one should feel
 abandoned or alone and that every person
@@ -520,7 +549,8 @@ and a strong community of support.
   hours: ~
   address: ~ 
 
-- category: What Next?
+- location: Orange County
+  category: What Next?
   title: We are Here to Help!
   desc: 'Crime Survivors is committed to serving
 our community by being an advocate
@@ -538,7 +568,8 @@ that will help you become a “Survivor.”'
   hours: ~
   address: ~ 
 
-- category: What Next?
+- location: Orange County
+  category: What Next?
   title: Victims Advocate
   desc: 'Crime Survivors works in your community
 to make victims’ rights a top priority. We
@@ -557,7 +588,8 @@ please contact us'
   address: ~ 
 
 #13
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: California Youth Crisis Line
   desc: ~
   phone:
@@ -568,7 +600,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Caribou Ridge Intervention
   desc: ~
   phone:
@@ -580,7 +613,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Juvenile Consulting Services, LLC
   desc: ~
   phone:
@@ -591,7 +625,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: National Runaway Switchboard
   desc: ~
   phone:
@@ -603,7 +638,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Peer to Peer Crisis Teen Line
   desc: ~
   phone:
@@ -615,7 +651,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Suicide Prevention Line
   desc: ~
   phone:
@@ -626,7 +663,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Teen Solutions
   desc: For families of teens in trouble 
   phone:
@@ -638,7 +676,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Waymakers Youth Shelter
   desc: Crisis Shelter and counseling for youth 11 to 17
   phone:
@@ -649,7 +688,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Adolescents
+- location: Orange County
+  category: Adolescents
   title: Waymakers Youth Services
   desc: ~
   phone:
@@ -660,7 +700,8 @@ please contact us'
   hours: ~
   address: 1221 E. Dyer Rd., Suite 120 Santa Ana, CA 92705
 
-- category: Crisis Services
+- location: Orange County
+  category: Crisis Services
   title: National Suicide Prevention Lifeline
   desc: ~
   phone:
@@ -671,7 +712,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Crisis Services
+- location: Orange County
+  category: Crisis Services
   title: Peer to Peer Crisis Teen Line
   desc: ~
   phone:
@@ -682,7 +724,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Crisis Services
+- location: Orange County
+  category: Crisis Services
   title: Waymakers, Rape Crisis Hotline
   desc: English & Spanish Support
   phone:
@@ -695,7 +738,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Crisis Services
+- location: Orange County
+  category: Crisis Services
   title: Youth Crisis Hotline
   desc: Runaway youth, family, and friends
   phone:
@@ -707,7 +751,8 @@ please contact us'
   address: ~ 
 
 #14
-- category: 'Orange County Courts'
+- location: Orange County
+  category: 'Orange County Courts'
   title: Central Justice Center - Santa Ana
   desc: ~
   phone: 
@@ -718,7 +763,8 @@ please contact us'
   hours: ~
   address: 700 W Civic Center Dr
     
-- category: 'Orange County Courts'
+- location: Orange County
+  category: 'Orange County Courts'
   title: Criminal Harbor Justice Center - Newport Beach 
   desc: ~
   phone: 
@@ -729,7 +775,8 @@ please contact us'
   hours: ~
   address: 4601 Jamboree Road
 
-- category: 'Orange County Courts'
+- location: Orange County
+  category: 'Orange County Courts'
   title: Lamoreaux Justice Center – Orange
   desc: ~
   phone:
@@ -740,7 +787,8 @@ please contact us'
   hours: ~
   address: 341 The City Drive South
 
-- category: 'Orange County Courts'
+- location: Orange County
+  category: 'Orange County Courts'
   title: North Justice Center - Fullerton
   desc: ~
   phone:
@@ -751,7 +799,8 @@ please contact us'
   hours: ~
   address: 1275 North Berkeley Avenue
     
-- category: 'Orange County Courts'
+- location: Orange County
+  category: 'Orange County Courts'
   title: West Justice Center - Westminster
   desc: ~
   phone:
@@ -765,7 +814,8 @@ please contact us'
 #15
 
 #16
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Adult Protective Services
   desc: ~
   phone:
@@ -776,7 +826,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Battered Women Self-Help (24 hr.)
   desc: ~
   phone:
@@ -787,7 +838,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Domestic Violence Safety Plan Hotline
   desc: ~
   phone:
@@ -798,7 +850,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: OC District Attorney / Waymakers
   desc: ~
   phone:
@@ -811,7 +864,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Domestic Violence Safety Plan Hotline
   desc: ~
   phone:
@@ -822,7 +876,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Human Options Hotline
   desc: ~
   phone:
@@ -833,7 +888,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: National Domestic Violence Hotline
   desc: ~
   phone:
@@ -843,7 +899,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: VINE – Victim Information and Notification Everyday
   desc: ~
   phone:
@@ -856,7 +913,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Waymakers, Dispute Resolution Services
   desc: ~
   phone:
@@ -867,7 +925,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: 'Who to Call'
+- location: Orange County
+  category: 'Who to Call'
   title: Waymakers, Sexual Assault Victim Services
   desc: ~
   phone:
@@ -883,7 +942,8 @@ please contact us'
   address: ~  
 
 #17
-- category: 'Waymakers, Victim Assistance Programs'
+- location: Orange County
+  category: 'Waymakers, Victim Assistance Programs'
   title: Administration Office
   desc: 'In the weeks, months, and sometimes years following a crime, the victim may
 experience emotional, physical, financial, and legal problems. These problems may
@@ -913,7 +973,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: 1221 E. Dyer Rd., Suite 120, Santa Ana, CA 92705
 
-- category: 'Waymakers, Victim Assistance Programs'
+- location: Orange County
+  category: 'Waymakers, Victim Assistance Programs'
   title: Central Justice Center
   desc: ~
   phone:
@@ -924,7 +985,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: 700 W Civic Center Dr, Santa Ana, CA 92702
 
-- category: 'Waymakers, Victim Assistance Programs'
+- location: Orange County
+  category: 'Waymakers, Victim Assistance Programs'
   title: Harbor Justice Center – Newport Beach
   desc: ~
   phone:
@@ -935,7 +997,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: 4601 Jamboree Rd. Suite 103, Newport Beach, CA 92660
 
-- category: 'Waymakers, Victim Assistance Programs'
+- location: Orange County
+  category: 'Waymakers, Victim Assistance Programs'
   title: Lamoreaux Justice Center, Juvenile Court
   desc: ~
   phone:
@@ -946,7 +1009,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: 341 The City Drive South, Orange, CA 92868
 
-- category: 'Waymakers, Victim Assistance Programs'
+- location: Orange County
+  category: 'Waymakers, Victim Assistance Programs'
   title: North Justice Center
   desc: ~
   phone:
@@ -957,7 +1021,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: 1275 North Berkeley Avenue, Fullerton, CA 92832
 
-- category: 'Waymakers, Victim Assistance Programs'
+- location: Orange County
+  category: 'Waymakers, Victim Assistance Programs'
   title: West Justice Center
   desc: ~
   phone:
@@ -969,7 +1034,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   address: 8141 13th Street, Westminster, CA 92683
 
 #18
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Domestic Violence Assistance Program
   desc: ~
   phone: 
@@ -980,7 +1046,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
   
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Families
   desc: ~
   phone: 
@@ -991,7 +1058,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Human Options
   desc: ~
   phone: 
@@ -1002,7 +1070,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Interval House
   desc: ~
   phone: 
@@ -1013,7 +1082,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Laura’s House 
   desc: ~
   phone: 
@@ -1024,7 +1094,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Sheepfold
   desc: ~
   phone: 
@@ -1035,7 +1106,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Wise Place
   desc: ~
   phone: 
@@ -1046,7 +1118,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Women’s Transitional Living Center
   desc: ~
   phone: 
@@ -1057,7 +1130,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Domestic Violence Shelters'
+- location: Orange County
+  category: 'Domestic Violence Shelters'
   title: Yellowstone
   desc: ~
   phone: 
@@ -1068,7 +1142,8 @@ devastating effects of crime on the lives of victims and witnesses of crime.'
   hours: ~
   address: ~
 
-- category: 'Families'
+- location: Orange County
+  category: 'Families'
   title: Families and Communities Together
   desc: 'Services & Programs: child raising skills, anti-gang program, after school activities,
 domestic violence counseling & education, emergency food & financial assistance,
@@ -1083,7 +1158,8 @@ mentoring & scholarship programs, parent support groups.'
   hours: ~
   address: ~
 
-- category: 'Legal'
+- location: Orange County
+  category: 'Legal'
   title: AARP Legal Network Services
   desc: ~
   phone: 
@@ -1094,7 +1170,8 @@ mentoring & scholarship programs, parent support groups.'
   hours: ~
   address: ~
 
-- category: 'Legal'
+- location: Orange County
+  category: 'Legal'
   title: Human Options Legal Advocacy Program 
   desc: ~
   phone: 
@@ -1105,7 +1182,8 @@ mentoring & scholarship programs, parent support groups.'
   hours: ~
   address: ~
 
-- category: 'Legal'
+- location: Orange County
+  category: 'Legal'
   title: Legal Aid Society of Orange County
   desc: ~
   phone: 
@@ -1118,7 +1196,8 @@ mentoring & scholarship programs, parent support groups.'
   hours: ~
   address: ~
 
-- category: 'Legal'
+- location: Orange County
+  category: 'Legal'
   title: Orange County Bar Association
   desc: ~
   phone: 
@@ -1129,7 +1208,8 @@ mentoring & scholarship programs, parent support groups.'
   hours: ~
   address: ~
 
-- category: 'Legal'
+- location: Orange County
+  category: 'Legal'
   title: Public Law Center
   desc: ~
   phone: 
@@ -1141,7 +1221,8 @@ mentoring & scholarship programs, parent support groups.'
   address: 601 Civic Center Drive West, Santa Ana, CA 92701-4002 
 
 #19
-- category: 'Orange County Family Justice Center'
+- location: Orange County
+  category: 'Orange County Family Justice Center'
   title: ~
   desc: 'Serving Survivors of Domestic Violence
 The focus of the Anaheim Family Justice Center is to co-locate as many resources as
@@ -1177,7 +1258,8 @@ make the citizens of Anaheim cognizant of the signs o'
   address: 150 W. Vermont Ave. Anaheim, CA 92805 
 
 #20
-- category: 'District Attorney’s Offices'
+- location: Orange County
+  category: 'District Attorney’s Offices'
   title: Orange County District Attorney’s Office
   desc: 'Sexual Assault, T.A.R.G.E.T. - Gangs, Homicide, TracKRS Unit,Economic Crimes,
 Family Protection, Felony Panel, Welfare Fraud Felony Projects, Law and Motion,
@@ -1190,7 +1272,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: 401 Civic Center Drive, Santa Ana, CA 92701 
 
-- category: 'District Attorney’s Offices'
+- location: Orange County
+  category: 'District Attorney’s Offices'
   title: Harbor Office / Newport Beach Facility
   desc: ~
   phone:
@@ -1201,7 +1284,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: 4601 Jamboree Road, Newport Beach, CA 92660
 
-- category: 'District Attorney’s Offices'
+- location: Orange County
+  category: 'District Attorney’s Offices'
   title: Juvenile
   desc: ~
   phone:
@@ -1212,7 +1296,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: 341 City Drive South Orange, CA 92668
 
-- category: 'District Attorney’s Offices'
+- location: Orange County
+  category: 'District Attorney’s Offices'
   title: North Office
   desc: ~
   phone:
@@ -1223,7 +1308,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: 1275 North Berkeley Avenue, Fullerton, CA 92832
 
-- category: 'District Attorney’s Offices'
+- location: Orange County
+  category: 'District Attorney’s Offices'
   title: West Office
   desc: ~
   phone:
@@ -1234,7 +1320,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: 8141 13th Street, Westminster, CA 92683
 
-- category: 'Orange County Probation Stations'
+- location: Orange County
+  category: 'Orange County Probation Stations'
   title: Orange County Probation Department
   desc: ~
   phone: ~
@@ -1244,7 +1331,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: PO Box 10260, Santa Ana, CA 92711 
 
-- category: 'Orange County Probation Stations'
+- location: Orange County
+  category: 'Orange County Probation Stations'
   title: Probation Department
   desc: ~
   phone:
@@ -1255,7 +1343,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category: 'Orange County Probation Stations'
+- location: Orange County
+  category: 'Orange County Probation Stations'
   title: Probation Victim Services
   desc: ~
   phone:
@@ -1266,7 +1355,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category: 'Orange County Probation Stations'
+- location: Orange County
+  category: 'Orange County Probation Stations'
   title: Probation Violator Hotline 
   desc: ~
   phone:
@@ -1278,7 +1368,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~
 
 #21
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Anaheim Police Department
   desc: ~
   phone:
@@ -1289,7 +1380,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Brea Police Department
   desc: ~
   phone:
@@ -1300,7 +1392,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Buena Park Police Department
   desc: ~
   phone:
@@ -1311,7 +1404,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Costa Mesa Police Department
   desc: ~
   phone:
@@ -1322,7 +1416,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Cypress Police Department
   desc: ~
   phone:
@@ -1333,7 +1428,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Fountain Valley Police Department
   desc: ~
   phone:
@@ -1344,7 +1440,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Fullerton Police Department
   desc: ~
   phone:
@@ -1355,7 +1452,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Garden Grove Police Department
   desc: ~
   phone:
@@ -1366,7 +1464,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Huntington Beach Police
   desc: ~
   phone:
@@ -1377,7 +1476,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Irvine Police Department
   desc: ~
   phone:
@@ -1388,7 +1488,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: La Habra Police Department
   desc: ~
   phone:
@@ -1399,7 +1500,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: La Palma Police Department
   desc: ~
   phone:
@@ -1410,7 +1512,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Laguna Beach Police Department
   desc: ~
   phone:
@@ -1421,7 +1524,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Los Alamitos Police Department
   desc: ~
   phone:
@@ -1432,7 +1536,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Mission Viejo - Orange County Sherif
   desc: ~
   phone:
@@ -1443,7 +1548,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Newport Beach Police Department
   desc: ~
   phone:
@@ -1454,7 +1560,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Orange County Sheriff
   desc: ~
   phone:
@@ -1467,7 +1574,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Orange Police Department
   desc: ~
   phone:
@@ -1478,7 +1586,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
   
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Placentia Police Department
   desc: ~
   phone:
@@ -1489,7 +1598,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Santa Ana Police Department
   desc: ~
   phone:
@@ -1500,7 +1610,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Seal Beach Police Department
   desc: ~
   phone:
@@ -1511,7 +1622,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Tustin Police Department
   desc: ~
   phone:
@@ -1522,7 +1634,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Westminster Police Department
   desc: ~
   phone:
@@ -1533,7 +1646,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~
 
-- category:  'Police & Sheriff Stations'
+- location: Orange County
+  category:  'Police & Sheriff Stations'
   title: Yorba Linda - Orange County Sheriff’s Department
   desc: ~
   phone:
@@ -1545,7 +1659,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~
 
 #22
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Aliso Viejo Police Services
   desc: ~
   phone:
@@ -1556,7 +1671,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Dana Point Police Services
   desc: ~
   phone:
@@ -1567,7 +1683,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Dispatch
   desc: ~
   phone:
@@ -1582,7 +1699,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Laguna Hills Police Services
   desc: ~
   phone:
@@ -1593,7 +1711,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Laguna Niguel Police Services
   desc: ~
   phone:
@@ -1604,7 +1723,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Laguna Woods Police Services
   desc: ~
   phone:
@@ -1615,7 +1735,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Lake Forest Police Services
   desc: ~
   phone:
@@ -1626,7 +1747,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Mission Viejo Police Services
   desc: ~
   phone:
@@ -1637,7 +1759,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: North Patrol
   desc: ~
   phone:
@@ -1648,7 +1771,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Rancho Santa Margarita Police Services
   desc: ~
   phone:
@@ -1659,7 +1783,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Run 2 Rescue 
   desc: ~
   phone:
@@ -1672,7 +1797,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: P.O. Box 71238, Riverside, CA 92513  
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Stanton Police Services
   desc: ~
   phone:
@@ -1683,7 +1809,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: South County Unincoporated
   desc: ~
   phone:
@@ -1694,7 +1821,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: San Juan Capistrano Police Services
   desc: ~
   phone:
@@ -1705,7 +1833,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: San Clemente Police Services
   desc: ~
   phone:
@@ -1716,7 +1845,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Orange County Sheriff’s Department
+- location: Orange County
+  category: Orange County Sheriff’s Department
   title: Yorba Linda Police Services
   desc: ~
   phone:
@@ -1728,7 +1858,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #23
-- category: Sexual Assault / Rape
+- location: Orange County
+  category: Sexual Assault / Rape
   title: Rape Crisis Hotline
   desc: Available in English & Spanish
   phone:
@@ -1741,7 +1872,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Sexual Assault / Rape
+- location: Orange County
+  category: Sexual Assault / Rape
   title: Sexual Assault Hotline
   desc: Available in English & Spanish
   phone:
@@ -1752,7 +1884,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Sexual Assault / Rape
+- location: Orange County
+  category: Sexual Assault / Rape
   title: Waymakers Sexual Assault Victim Services
   desc: Counseling, accompaniment, advocacy for victims of rape and sexual abuse
   phone:
@@ -1766,7 +1899,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #23 Shelter
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Families Forward
   desc: Transitional Housing
   phone:
@@ -1777,7 +1911,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Friendship Shelter
   desc: Single men and women
   phone:
@@ -1788,7 +1923,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Home of the Green Pastures
   desc: Korean speaking shelter for abused women and children
   phone:
@@ -1799,7 +1935,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Hope House Administrative Office
   desc: ~
   phone:
@@ -1812,7 +1949,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Human Options (24 hours)
   desc: Domestic Violence
   phone:
@@ -1823,7 +1961,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Interfaith Shelter
   desc: ~
   phone:
@@ -1834,7 +1973,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Interval House
   desc: ~
   phone:
@@ -1849,7 +1989,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Kathy’s House
   desc: Women and children; domestic violence
   phone:
@@ -1861,7 +2002,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Laura’s House
   desc: ~
   phone:
@@ -1872,7 +2014,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Laurel House
   desc: ~
   phone:
@@ -1884,7 +2027,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: OC Rescue Mission
   desc: 24 hour emergency shelter
   phone:
@@ -1895,7 +2039,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Orange Coast Interfaith Shelter
   desc: 24 hour emergency shelter
   phone:
@@ -1906,7 +2051,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Pathways of Hope
   desc: ~
   phone:
@@ -1917,7 +2063,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Salvation Army Hospitality House
   desc: ~
   phone:
@@ -1928,7 +2075,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Shelter for the Homeless
   desc: ~
   phone:
@@ -1940,7 +2088,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Sober Living
   desc: ~
   phone:
@@ -1952,7 +2101,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #24
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Someone Cares Soup Kitchen
   desc: ~
   phone:
@@ -1963,7 +2113,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: The Sheepfold
   desc: Emergency shelter before 9 p.m
   phone:
@@ -1976,7 +2127,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Thomas House
   desc: Temporary Shelter
   phone:
@@ -1987,7 +2139,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Waymakers Youth Shelter
   desc: Youths 11 – 17 years old
   phone:
@@ -1998,7 +2151,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Wise Place
   desc: Transitional Shelter for Women
   phone:
@@ -2009,7 +2163,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Women’s Transitional Living Center
   desc: Domestic Violence
   phone:
@@ -2020,7 +2175,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: Yellowstone
   desc: ~
   phone:
@@ -2031,7 +2187,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Shelters
+- location: Orange County
+  category: Shelters
   title: For additional shelters, contact Info Link at 2-1-1
   desc: ~
   phone:
@@ -2043,7 +2200,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #25
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: Crisis Stabilization Unit
   desc: ~
   phone:
@@ -2054,7 +2212,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: Hotline Help Center
   desc: ~
   phone:
@@ -2069,7 +2228,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: Hotline of Southern California
   desc: ~
   phone:
@@ -2081,7 +2241,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: 8:00 am to 12:00 midnight
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: International Friends & Families of Suicide
   desc: Chat room, discussion board, reference library, helpful resources
   phone: ~
@@ -2091,7 +2252,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: National Hope Line Network
   desc: ~
   phone:
@@ -2102,7 +2264,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: National Suicide Prevention Lifeline
   desc: ~
   phone:
@@ -2113,7 +2276,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: Suicide Hotline for Teens
   desc: ~
   phone:
@@ -2124,7 +2288,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Suicide
+- location: Orange County
+  category: Suicide
   title: Survivors of Suicide
   desc: ~
   phone: ~
@@ -2135,7 +2300,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #25 Support Services
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Adult Mental Health Services
   desc: ~
   phone:
@@ -2146,7 +2312,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: A Place for Kids
   desc: A Grief Support Group for Children. No cost
   phone:
@@ -2157,7 +2324,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Bikers Against Child Abuse Orange County C.A. (BACA)
   desc: Empowering abused children to not live in fear
   phone:
@@ -2170,7 +2338,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: P.O. Box 1431 Brea CA 92822
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Brain Injury Association of America
   desc: ~
   phone:
@@ -2182,7 +2351,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: California Missing Children Hotline
   desc: ~
   phone:
@@ -2193,7 +2363,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Creative Alternatives
   desc: Sliding scale/non-profit
   phone:
@@ -2204,7 +2375,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Family Assessment Counseling and Educational Services(F.A.C.E.S.)
   desc: Counseling for children whose parents are divorced
   phone:
@@ -2215,7 +2387,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Hoag Memorial Hospital Presbyterian
   desc: Provides short-term bi-lingual counseling services to the neighboring communities of Newport Beach and Costa Mesa
   phone:
@@ -2226,7 +2399,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Jewish Family Service of Orange County
   desc: ~
   phone:
@@ -2238,7 +2412,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #26
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Kids Konnected
   desc: Support for kids who has a parent with cancer
   phone:
@@ -2249,7 +2424,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Mariposa Women’s Center
   desc: Loss of an Adult Child, Spouse, Parent, General Bereavement, Trauma Support, Loss of a Relationship
   phone:
@@ -2260,7 +2436,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Mental Health Association of Orange County
   desc: ~
   phone:
@@ -2271,7 +2448,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Mothers Against Drunk Driving (MAD)
   desc: ~
   phone:
@@ -2284,7 +2462,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Orange Caregiver Resource Center
   desc: Part of a Statewide System of Caregiver Resource Centers, Serving Families and Caregivers of Brain-Impaired Adults
   phone:
@@ -2297,7 +2476,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: Orange County Social Services
   desc: ~
   phone:
@@ -2310,7 +2490,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: St. Nicholas Church
   desc: ~
   phone:
@@ -2320,7 +2501,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: 24/7
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: TIP 4 Kids (additional support for traumatized children)
   desc: ~
   phone:
@@ -2331,7 +2513,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: TIP Trauma Follow-up
   desc: Critical incident stress management; child, adolescent, adult trauma. Post Traumatic Stress Disorder (No Fee)
   phone:
@@ -2342,7 +2525,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: UC Irvine Health Neuropsychiatric Center
   desc: ~
   phone:
@@ -2353,7 +2537,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Support Services
+- location: Orange County
+  category: Support Services
   title: YMCA Community Counseling Services – Laguna Niguel
   desc: Sliding scale/non-profit
   phone:
@@ -2365,7 +2550,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #27
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: 2-1-1/Infolink Orange County
   desc: ~
   phone:
@@ -2380,7 +2566,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: C.A.R.E Counseling Center
   desc: ~
   phone:
@@ -2391,7 +2578,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Casa de la Familia
   desc: ~
   phone:
@@ -2403,7 +2591,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Human Options Center for Children and Families (Domestic Violence)
   desc: ~
   phone:
@@ -2414,7 +2603,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Living Success Center, Inc
   desc: Sliding scale; offices in Costa Mesa and Laguna Hills
   phone:
@@ -2425,7 +2615,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Mariposa Women’s Center
   desc: Loss of an Adult Child, Spouse, Parent, General Bereavement, Trauma Support, Loss of a Relationship
   phone:
@@ -2436,7 +2627,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Orange County Psychological Association
   desc: ~
   phone:
@@ -2448,7 +2640,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Project S.I.S.T.E.R
   desc: ~
   phone:
@@ -2459,7 +2652,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Psychology Today Find a Therapist at
   desc: ~
   phone:
@@ -2471,7 +2665,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Therapists/Counselors
+- location: Orange County
+  category: Therapists/Counselors
   title: Share Our Selves (S.O.S)
   desc: ~
   phone:
@@ -2483,7 +2678,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #28
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: California State Board of Control
   desc: Financial recovery options for victims of crime in California
   phone:
@@ -2494,7 +2690,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Crime Survivors Resource Center
   desc: ~
   phone:
@@ -2508,7 +2705,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Human Options Legal Advocacy Program (Domestic Violence)
   desc: ~
   phone:
@@ -2519,7 +2717,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: National Organization for Victim Assistance
   desc: ~
   phone:
@@ -2530,7 +2729,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Parents Of Murdered Children
   desc: ~
   phone:
@@ -2541,7 +2741,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Rape Crisis Center
   desc: ~
   phone:
@@ -2552,7 +2753,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: The California Victim Compensation Program (CalVCB)
   desc: ~
   phone:
@@ -2565,7 +2767,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: The National Center for Victims of Crime
   desc: ~
   phone:
@@ -2577,7 +2780,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Victims of Crime Resource Center
   desc: Information, programs, and benefits for crime victims
   phone:
@@ -2592,7 +2796,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Waymakers
   desc: ~
   phone:
@@ -2609,7 +2814,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Waymakers Family Violence Victim Services - OC District Attorney
   desc: ~
   phone:
@@ -2622,7 +2828,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   hours: ~
   address: ~ 
 
-- category: Crime Victim Services
+- location: Orange County
+  category: Crime Victim Services
   title: Waymakers, Sexual Assault Victim Services/Prevention Program
   desc: ~
   phone:
@@ -2638,7 +2845,8 @@ Consumer / Environmental Protection, Administration, Personnel'
   address: ~ 
 
 #29
-- category: Tip - Trauma Intervention Program
+- location: Orange County
+  category: Tip - Trauma Intervention Program
   title: Orange County Chapter
   desc: 'The Trauma Intervention Program is a group of specially trained and thoroughly screened
 volunteers who provide emotional and practical support to victims of traumatic events
@@ -2668,7 +2876,8 @@ What TIP won’t do
   address: ~ 
 
 #30
-- category: Tip - Trauma Intervention Program
+- location: Orange County
+  category: Tip - Trauma Intervention Program
   title: TIP Information Booklets
   desc: 'The Trauma Intervention Program (TIP) has helpful written materials for victims of
 traumatic events, their families, and friends.
@@ -2703,7 +2912,8 @@ traumatic events, their families, and friends.
   address: ~ 
 
 #31
-- category: Parents of Murdered Children
+- location: Orange County
+  category: Parents of Murdered Children
   title: Bilateral Safety Corridor Coalition
   desc: 'To preserve the dignity and well-being of commercially and sexually exploited women and
 children through prevention, intervention, and education.
@@ -2720,7 +2930,8 @@ children’s lives are protected and held in high esteem'
   hours: ~
   address: ~ 
 
-- category: Parents of Murdered Children
+- location: Orange County
+  category: Parents of Murdered Children
   title: Crime Victims United
   desc: 'CVUCF works with At-Risk Children Adoptions, Teddy Bears Rooms for Children in various Court
 Houses, Literacy Programs, Victim Support, education, and help with change of venue'
@@ -2729,11 +2940,13 @@ Houses, Literacy Programs, Victim Support, education, and help with change of ve
       number: (530) 885-9544
   website:
     - http://www.crimevictimsunited.com/
-  email: mail@crimevictimsunited.com
+  email: 
+    - mail@crimevictimsunited.com
   hours: ~
   address: 11400 Atwood Rd., Auburn, CA 95603  
 
-- category: Parents of Murdered Children
+- location: Orange County
+  category: Parents of Murdered Children
   title: Greater Orange County Chapter
   desc: ~
   phone:
@@ -2744,7 +2957,8 @@ Houses, Literacy Programs, Victim Support, education, and help with change of ve
   hours: ~
   address: ~ 
 
-- category: Parents of Murdered Children
+- location: Orange County
+  category: Parents of Murdered Children
   title: Justice For Homicide Victims
   desc: 'Justice for Homicide Victims is a not-for-profit organization. We provide support and
 information to survivors of homicide about the grieving process, criminal justice system, and
@@ -2758,7 +2972,8 @@ all other issues pertaining to the survivors of a victim of murder'
   hours: ~
   address: P.O. Box 2845, Malibu, California 90265 
 
-- category: Parents of Murdered Children
+- location: Orange County
+  category: Parents of Murdered Children
   title: National Parents of Murdered Children (National POMC)
   desc: 'The Mission of POMC:
 POMC makes the difference through on-going emotional support, education, prevention,
@@ -2781,7 +2996,8 @@ Professionals who are in frequent contact with grieving families are also welcom
   address: '4960 Ridge Avenue, Suite # 2 Cincinnati, Ohio 45209'
 
 #32
-- category: Parents of Murdered Children
+- location: Orange County
+  category: Parents of Murdered Children
   title: Mothers Against Drunk Driving (MADD)
   desc: 'Mission: To end drunk driving, help fight drugged driving, support the victims of these
 violent crimes and prevent underage drinking.'
@@ -2794,7 +3010,8 @@ violent crimes and prevent underage drinking.'
   hours: ~
   address: 5455 Garden Grove Blvd., Suite 150, Westminster, CA 92683
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: Aj Novick Group
   desc: 'The AJ Novick Group is a leading national provider of anger management for adults and
 adolescents. They also offer a variety of weekend workshops, home study programs, workplace
@@ -2814,7 +3031,8 @@ of Behavioral Sciences, California State Board of Corrections, CAADAC, CADAC, an
   hours: ~
   address: 333 Third Street, Suite 4, Laguna Beach, CA 92651 
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: Child Abuse Prevention Center
   desc: 'Website: www.BrightFutures4Kids.org
 The Child Abuse Prevention Center is Orange County’s leading not-for-profit organization
@@ -2836,7 +3054,8 @@ abuse, teen pregnancy, domestic violence, and post-divorce trauma prevention.'
   hours: ~
   address: '2390 E. Orangewood Ave., Suite #300, Anaheim, CA 92806'
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: County Of Orange Office On Aging
   desc: 'The County of Orange Office on Aging has a state-of-the-art Call Center, staffed by caring
 specialists trained and certified in aging, that provide information and referral to all programs
@@ -2860,7 +3079,8 @@ much more.'
   address: 1300 South Grand Avenue, Building “B”, Santa Ana, CA 92705  
 
 #33
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: Court Appointed Special Advocate (CASA) of Orange County
   desc: 'CASA of OC is dedicated to giving hope and the chance at a brighter future to our community’s
 neediest children – the abused, neglected, and abandoned children and teens currently living
@@ -2883,7 +3103,8 @@ contact the CASA office or visit our website for upcoming dates.'
   hours: ~
   address: 1505 East 17th Street, Santa Ana, CA 92705 
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: Justice For Murdered Children
   desc: 'Our Mission is to reduce the number of homicides, reduce the number of unsolved homicides,
 and to assist families that have lost loved-ones to homicide'
@@ -2896,7 +3117,8 @@ and to assist families that have lost loved-ones to homicide'
   hours: ~
   address: Berth 77, P-7B, San Pedro, CA 90731 
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: Good Shepherd Counseling Clinic
   desc: 'Dr. Susan Kell, LMFT / Dr. Bob Navarro, MFTI
 Focus on family and marital discord: parent-child problems, stress & anger management,
@@ -2909,7 +3131,8 @@ physical, sexual & emotional abuse, and PTSD.'
   hours: ~
   address: 17461 Irvine Blvd, Tustin, CA 92780
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: New Hope Administrative Office
   desc: (Information only/No Counseling)
   phone:
@@ -2920,7 +3143,8 @@ physical, sexual & emotional abuse, and PTSD.'
   hours: ~
   address: ~ 
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: New Hope Crisis Counseling
   desc: 'The New Hope Crisis Center is a faith based, ecumenical program of Catholic Charities of Orange
 County. Our trained volunteers act as peer counselors to all callers with any kind of issues. The
@@ -2934,7 +3158,8 @@ this ministry provides care and service to those facing acute hardships.'
   hours: ~
   address: ~ 
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: Rape Crisis Hotlines
   desc: Sexual Assault 24 hour
   phone:
@@ -2948,7 +3173,8 @@ this ministry provides care and service to those facing acute hardships.'
   address: ~ 
 
 #34
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: South Asian Helpline and Referral Agency (Sahara)
   desc: ~
   phone:
@@ -2962,7 +3188,8 @@ this ministry provides care and service to those facing acute hardships.'
   hours: ~
   address: P.O. Box 3233, Cerritos, CA 90703 
 
-- category: Senior Information And Assistance
+- location: Orange County
+  category: Senior Information And Assistance
   title: The Joyful Child Foundation
   desc: 'The Joyful Child Foundation’s programs focus on proactive approaches in dealing with the
 difficult issues of violence against children while celebrating the gift that is every child.'
@@ -2977,7 +3204,8 @@ difficult issues of violence against children while celebrating the gift that is
   address: PO Box 12680, Westminster, Ca. 92685 
 
 #35
-- category: Human Options
+- location: Orange County
+  category: Human Options
   title: ~
   desc: 'Mission: Human Options provides safe haven and life changing programs to help
 abused women, their children and families rebuild their lives – and works with the
@@ -3049,12 +3277,14 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
       number:  (877) 854-3594 
   website:
     - http://www.humanoptions.org/
-  email: info@humanoptions.org
+  email: 
+    - info@humanoptions.org
   hours: ~
   address: 5540 Trabuco Rd., Ste. 100 Irvine, CA 92620
 
 #37
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: Center for Children & Families
   desc: ~
   phone:
@@ -3065,7 +3295,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   hours: ~
   address: 1901 Newport Blvd. Suite 240, Costa Mesa, CA 92627 
 
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: CHEC Family Resource Center
   desc: ~
   phone:
@@ -3076,7 +3307,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   hours: ~
   address: 27412 Calle Arroyo, San Juan Capistrano, CA 92675 
 
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: Corbin Family Resource Center
   desc: ~
   phone:
@@ -3087,7 +3319,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   hours: ~
   address: 2215 W. McFadden Ave., Suite G, Santa Ana, CA 92704
 
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: Costa Mesa Family Resource Center
   desc: ~
   phone:
@@ -3098,7 +3331,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   hours: ~
   address: 07 Placentia Ave. Suite 203, Newport Beach, CA 92663
 
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: Human Options Business Office
   desc: ~
   phone:
@@ -3109,7 +3343,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   hours: ~
   address: Irvine, CA 
 
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: Minnie Street Family Resources Center
   desc: ~
   phone:
@@ -3120,7 +3355,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   hours: ~
   address: 1300 E. McFadden Ave., Room 13, Santa Ana, CA 92705
 
-- category: Human Options Locations
+- location: Orange County
+  category: Human Options Locations
   title: South Orange County Family Resource Center
   desc: ~
   phone:
@@ -3132,7 +3368,8 @@ humanoptions.org or call the Human Options Business Office, Extension 215.'
   address: 22481 Aspan, Lake Forest, CA 92630 
 
 #38
-- category: Safety & Self-Defense
+- location: Orange County
+  category: Safety & Self-Defense
   title: GET SAFE
   desc: 'This course is specifically designed for survivors of physical & sexual abuse in childhood
 and survivors of sexual assault and domestic violence. Our unique approach combines
@@ -3165,7 +3402,8 @@ counseling
   address: 15032 Redhill Ave., Suite E, Tustin ,Ca 92780  
 
 #39
-- category: Victim Compensation Program
+- location: Orange County
+  category: Victim Compensation Program
   title: California Victim Compensation Program (CalVCB)
   desc: 'The California Victim Compensation Program (CalVCB) can reimburse victims of
 violent crime for certain crime-related expenses. The crimes that are covered include:
@@ -3212,7 +3450,8 @@ Domestic Partners
   address: ~ 
 
 #40
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3224,7 +3463,8 @@ Domestic Partners
   address: ~ 
 
 #41
-- category: Crime & Trauma Scene Cleanup
+- location: Orange County
+  category: Crime & Trauma Scene Cleanup
   title: Crime Scene Steri-Clean, LLC
   desc: '*24 Hour Suicide/Homicide/Trauma Cleanup *Free Estimates
 *Providing compassionate and professional services sine 1995'
@@ -3243,7 +3483,8 @@ Domestic Partners
   hours: ~
   address: ~ 
 
-- category: Crime & Trauma Scene Cleanup
+- location: Orange County
+  category: Crime & Trauma Scene Cleanup
   title: Apris Trauma & Crime Scene Clean Up
   desc: 'Trauma * Crime * Fire * Water
 “A Company With A Heart”... “Making Disasters Go Away!”'
@@ -3257,7 +3498,8 @@ Domestic Partners
   address: 1560 Commerce St Suite H , Corona, CA 92880
 
 #42
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3269,7 +3511,8 @@ Domestic Partners
   address: ~ 
 
 #43
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3281,7 +3524,8 @@ Domestic Partners
   address: ~ 
 
 #44
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3293,7 +3537,8 @@ Domestic Partners
   address: ~ 
 
 #45
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3305,7 +3550,8 @@ Domestic Partners
   address: ~ 
 
 #46
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3317,7 +3563,8 @@ Domestic Partners
   address: ~ 
 
 #47
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3329,7 +3576,8 @@ Domestic Partners
   address: ~ 
 
 #48
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3341,7 +3589,8 @@ Domestic Partners
   address: ~ 
 
 #49
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3353,7 +3602,8 @@ Domestic Partners
   address: ~ 
 
 #50
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3365,7 +3615,8 @@ Domestic Partners
   address: ~ 
 
 #51
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3377,7 +3628,8 @@ Domestic Partners
   address: ~ 
 
 #52
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3389,7 +3641,8 @@ Domestic Partners
   address: ~ 
 
 #53
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3401,7 +3654,8 @@ Domestic Partners
   address: ~ 
 
 #54
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3413,7 +3667,8 @@ Domestic Partners
   address: ~ 
 
 #55
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3425,7 +3680,8 @@ Domestic Partners
   address: ~ 
 
 #56
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3437,7 +3693,8 @@ Domestic Partners
   address: ~ 
 
 #57
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3449,7 +3706,8 @@ Domestic Partners
   address: ~ 
 
 #58
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3461,7 +3719,8 @@ Domestic Partners
   address: ~ 
 
 #59
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
@@ -3473,7 +3732,8 @@ Domestic Partners
   address: ~ 
 
 #60
-- category: ~
+- location: Orange County
+  category: ~
   title: ~
   desc: ~
   phone:
