@@ -1,7 +1,8 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
 # YAML format
-# - category: Los Angeles County Courts
+# - location: Los Angeles County
+  # category: Los Angeles County Courts
 #   title: ~
 #   desc: ~
 #   phone:
@@ -18,7 +19,8 @@
 #3
 #4
 #5
-- category: '2-1-1'
+- location: Los Angeles County
+  category: '2-1-1'
   title: ~
   desc: '2-1-1 is a free accessible telephone number that will enable everyone to access the
 vital community services they need. 2-1-1 provides a “one-stop” service for vital
@@ -33,7 +35,8 @@ It is the equivalent of 9-1-1, but for non-emergency health and human services.'
   hours: 24/7
   address: ~
 
-- category: 2-1-1
+- location: Los Angeles County
+  category: 2-1-1
   title: Benefits of 2-1-1
   desc: 'This system has been developed to help members of our communities find the
 information and referral services they need or the appropriate agency to meet
@@ -47,7 +50,8 @@ link community services to the people who need them.'
   hours: ~
   address: ~
 
-- category: 2-1-1
+- location: Los Angeles County
+  category: 2-1-1
   title: Services Provided by 2-1-1
   desc: 'Every hour of every day, someone requires essential services such as:
 • Child Care
@@ -71,7 +75,8 @@ Newborns'
   address: ~
 
 #6
-- category: When to Call 9-1-1
+- location: Los Angeles County
+  category: When to Call 9-1-1
   title: ~
   desc: '9-1-1 is the number to call to get help in a police, fire or medical emergency. 9-1-1 calls
 go over dedicated phone lines to the 9-1-1 answering point closest to the caller, and
@@ -89,7 +94,8 @@ know there really isn’t an emergency.'
   hours: ~
   address: ~
 
-- category: When to Call 9-1-1
+- location: Los Angeles County
+  category: When to Call 9-1-1
   title: Do Not Call 9-1-1
   desc: '• For Information
 • For Directory Assistance
@@ -104,7 +110,8 @@ know there really isn’t an emergency.'
   hours: ~
   address: ~
 
-- category: When to Call 9-1-1
+- location: Los Angeles County
+  category: When to Call 9-1-1
   title: If 9-1-1 Fails, You Should Know These Alternative Telephone Numbers
   desc: ~
   phone:
@@ -120,7 +127,8 @@ know there really isn’t an emergency.'
   address: ~
 
 #7
-- category: Marsy's Law
+- location: Los Angeles County
+  category: Marsy's Law
   title: Constitutional Amendment 2008 California Victims’ Bill of Rights
   desc: 'On November 4, 2008, the people of the State of California approved Proposition
 9, the Victims’ Bill of Rights Act of 2008: Marsy’s Law. This measure amended the
@@ -145,7 +153,8 @@ can be printed out from their website at http://ag.ca.gov/victims.php.'
   hours: ~
   address: ~
 
-- category: Marsy's Law
+- location: Los Angeles County
+  category: Marsy's Law
   title: Office of Victims’ & Survivor Rights & Services / California Office of the Attorney General
   desc: ''
   phone:
@@ -156,7 +165,8 @@ can be printed out from their website at http://ag.ca.gov/victims.php.'
   hours: ~
   address: P.O. Box 944255 Sacramento, CA 94244-2550
 
-- category: Marsy's Law
+- location: Los Angeles County
+  category: Marsy's Law
   title: Marsy’s Law Card Information
   desc: 'If you are a victim of a crime, these rights apply
 to you. You may obtain information about these
@@ -173,7 +183,8 @@ Attorney’s Office.'
   address: P.O. Box 942883 Sacramento, CA 94283-0001
 
 #8
-- category: California Law and Victims’ Rights
+- location: Los Angeles County
+  category: California Law and Victims’ Rights
   title: ~
   desc: 'California Law provides crime victims with important rights. If you are the victim of
 crime, you may be entitled to the assistance of a victim advocate who can answer
@@ -192,7 +203,8 @@ losses
   hours: ~
   address: ~
 
-- category: You Have Rights
+- location: Los Angeles County
+  category: You Have Rights
   title: ~
   desc: 'Most states have amended their constitutions to guarantee certain fundamental
 rights for crime victims. Typically, these include:
@@ -210,7 +222,8 @@ and release of the offender
   address: ~
 
 #9
-- category: Establish Safety
+- location: Los Angeles County
+  category: Establish Safety
   title: ~
   desc: 'If you or someone you know has just been victimized, there are some important
 steps you should take in protecting yourself, treating any injuries, and making
@@ -226,7 +239,8 @@ someone to help you.'
   hours: ~
   address: ~
 
-- category: Care for Injuries
+- location: Los Angeles County
+  category: Care for Injuries
   title: ~
   desc: 'Go to a hospital or physician to have physical injuries treated. It will also be
 important to tell medical personnel that your injuries are the result of a crime before
@@ -239,7 +253,8 @@ physical evidence needed to apprehend and convict the person(s) who hurt you.'
   hours: ~
   address: ~
 
-- category: Call the Police / Get Help
+- location: Los Angeles County
+  category: Call the Police / Get Help
   title: ~
   desc: 'Call the police as soon as possible, so they can provide assistance. Remember
 to preserve the crime scene - don’t clean up or move anything so that detectives can
@@ -255,7 +270,8 @@ of Post Traumatic Stress Disorder (PTSD).'
   address: ~
 
 #10
-- category: Document the Crime
+- location: Los Angeles County
+  category: Document the Crime
   title: ~
   desc: 'While it may be the last thing you want to do, it is very important to write down
 exactly what happened as soon as possible following your incident. The best way to
@@ -297,7 +313,8 @@ during the crime, such as a handgun or a vehicle.'
   address: ~
 
 #11
-- category: Protect Yourself Against Further Harm
+- location: Los Angeles County
+  category: Protect Yourself Against Further Harm
   title: ~
   desc: 'If your home was burglarized or if you had your wallet or purse stolen, you may feel the
 need to have your home checked before returning to it. Ask the police to check your
@@ -315,7 +332,8 @@ comfortable with and what will help you to be and feel safe'
   hours: ~
   address: ~
 
-- category: Short-Term Planning
+- location: Los Angeles County
+  category: Short-Term Planning
   title: ~
   desc: 'You may feel bombarded with countless details and decisions in the aftermath
 of a violent encounter — and to make matters worse, you are probably in shock.
@@ -346,7 +364,8 @@ on page 31.'
   address: ~
 
 #12
-- category: Find Support
+- location: Los Angeles County
+  category: Find Support
   title: ~
   desc: 'Surviving a violent crime is difficult, and while the crime may only have taken
 seconds or minutes, the healing process can take quite a while. The road traveled
@@ -363,7 +382,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Los Angeles County
+  category: Find Support
   title: Victims of Crime Resource Center
   desc: ~
   phone:
@@ -375,7 +395,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Los Angeles County
+  category: Find Support
   title: National Center for Victims of Crime
   desc: 24-hour hotline and link to local resources
   phone:
@@ -389,7 +410,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Los Angeles County
+  category: Find Support
   title: National Domestic Violence Hotline
   desc: ~
   phone:
@@ -405,7 +427,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Los Angeles County
+  category: Find Support
   title: National Hopeline Network
   desc: ~
   phone:
@@ -419,7 +442,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Find Support
+- location: Los Angeles County
+  category: Find Support
   title: Love is Respect (National Dating Abuse Calling Line)
   desc: ~
   phone:
@@ -431,7 +455,8 @@ Some hotlines include:'
   hours: ~
   address: ~
 
-- category: Steps to Healing
+- location: Los Angeles County
+  category: Steps to Healing
   title: ~
   desc: 'Healing won’t happen quickly, but it will happen. It is within your power to facilitate
 the process and begin your journey to a new place of happiness and peace. Here are
@@ -454,7 +479,8 @@ you are, where you want to be, and how to get there.
   address: ~
 
 #13
-- category: What Next?
+- location: Los Angeles County
+  category: What Next?
   title: ~
   desc: 'As you start to return to your daily routine, you may question your feelings and what
 you’re going through. Visit our crimesurvivors.org to find helpful resources and
@@ -474,7 +500,8 @@ referrals you need.'
   hours: ~
   address: PO Box 54552, Irvine, CA 92619
 
-- category: What Next?
+- location: Los Angeles County
+  category: What Next?
   title: Mission
   desc: 'To provide hope and healing to victims and survivors of crime through advocacy and the
 support of resources, information, and empowerment from the critical time after a crime
@@ -485,7 +512,8 @@ occurs through the challenges and successes of surviving and thriving.'
   hours: ~
   address: ~ 
 
-- category: What Next?
+- location: Los Angeles County
+  category: What Next?
   title: Values
   desc: '• We believe that no one should feel
 abandoned or alone and that every person
@@ -510,7 +538,8 @@ and a strong community of support.
   hours: ~
   address: ~ 
 
-- category: What Next?
+- location: Los Angeles County
+  category: What Next?
   title: We are Here to Help!
   desc: 'Crime Survivors is committed to serving
 our community by being an advocate
@@ -528,7 +557,8 @@ that will help you become a “Survivor.”'
   hours: ~
   address: ~ 
 
-- category: What Next?
+- location: Los Angeles County
+  category: What Next?
   title: Victims Advocate
   desc: 'Crime Survivors works in your community
 to make victims’ rights a top priority. We
@@ -547,7 +577,8 @@ please contact us'
   address: ~ 
 
 #14
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: ~
   desc: ~
   phone: ~ 
@@ -557,7 +588,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Airport Courthouse
   desc: ~
   phone:
@@ -568,7 +600,8 @@ please contact us'
   hours: ~
   address: 11701 S. La Cienega Blvd., Los Angeles, CA 90045
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Alfred J. McCourtney Juvenile Justice Center
   desc: ~
   phone:
@@ -579,7 +612,8 @@ please contact us'
   hours: ~
   address: 1040 W. Avenue J, Lancaster, CA 93534
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Alhambra Courthouse
   desc: ~
   phone:
@@ -590,7 +624,8 @@ please contact us'
   hours: ~
   address: 150 W. Commonwealth Ave., Alhambra, CA 91801
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Bellflower Courthouse
   desc: ~
   phone:
@@ -601,7 +636,8 @@ please contact us'
   hours: ~
   address: 10025 E. Flower St., Bellflower, CA 90706 
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Beverly Hills Courthouse
   desc: ~
   phone:
@@ -612,7 +648,8 @@ please contact us'
   hours: ~
   address: 9355 Burton Way, Beverly Hills, CA 90210
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Burbank Courthouse
   desc: ~
   phone:
@@ -623,7 +660,8 @@ please contact us'
   hours: ~
   address: 300 E. Olive Ave., Burbank, CA 91502
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Catalina Courthouse
   desc: ~
   phone:
@@ -634,7 +672,8 @@ please contact us'
   hours: ~
   address: 215 Summer Ave., Avalon, CA 90704
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Central Arraignment Courts
   desc: ~
   phone:
@@ -645,7 +684,8 @@ please contact us'
   hours: ~
   address: 429 Bauchet St., Los Angeles, CA 90012
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Central Civil West Courthouse
   desc: ~
   phone:
@@ -656,7 +696,8 @@ please contact us'
   hours: ~
   address: 600 S. Commonwealth Ave., Los Angeles, CA 90005
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Chatsworth Courthouse
   desc: ~
   phone:
@@ -667,7 +708,8 @@ please contact us'
   hours: ~
   address: 9425 Penfield Ave., Chatsworth, CA 91311
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Clara Shortridge Foltz Criminal Justice Center
   desc: ~
   phone:
@@ -678,7 +720,8 @@ please contact us'
   hours: ~
   address: 210 W. Temple St., Los Angeles, CA 90012
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Compton Courthouse
   desc: ~
   phone:
@@ -689,7 +732,8 @@ please contact us'
   hours: ~
   address: 200 W. Compton Blvd., Compton, CA 90220
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Downey Courthouse
   desc: ~
   phone:
@@ -700,7 +744,8 @@ please contact us'
   hours: ~
   address: 7500 E. Imperial Hwy., Downey, CA 90242
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: East Los Angeles Courthouse
   desc: ~
   phone:
@@ -711,7 +756,8 @@ please contact us'
   hours: ~
   address: 4848 E. Civic Center Way, Los Angeles, CA 90022
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Eastlake Juvenile Court (Delinquency)
   desc: ~
   phone:
@@ -722,7 +768,8 @@ please contact us'
   hours: ~
   address: 1601 Eastlake Ave., Los Angeles, CA 90033
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Edmund D. Edelman Child’s Court (Dependency)
   desc: ~
   phone:
@@ -734,7 +781,8 @@ please contact us'
   address: 201 Centre Plaza Dr., Monterey Park, CA 91754
 
 #15
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: El Monte Courthouse
   desc: ~
   phone:
@@ -745,7 +793,8 @@ please contact us'
   hours: ~
   address: 11234 E. Valley Blvd., El Monte, CA 91731
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Glendale Courthouse
   desc: ~
   phone:
@@ -756,7 +805,8 @@ please contact us'
   hours: ~
   address: 600 E. Broadway, Glendale, CA 91206 
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Inglewood Courthouse
   desc: ~
   phone:
@@ -767,7 +817,8 @@ please contact us'
   hours: ~
   address: 1 Regent St., Inglewood, CA 90301
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Inglewood Juvenile Courthouse (Delinquency)
   desc: ~
   phone:
@@ -778,7 +829,8 @@ please contact us'
   hours: ~
   address: 110 Regent St., Inglewood, CA 90301
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Los Padrinos Juvenile Courthouse (Delinquency)
   desc: ~
   phone:
@@ -789,7 +841,8 @@ please contact us'
   hours: ~
   address: 7281 E. Quill Dr., Downey, CA 90242
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Mental Health Courthouse
   desc: ~
   phone:
@@ -800,7 +853,8 @@ please contact us'
   hours: ~
   address: 1150 N. San Fernando Rd., Los Angeles, CA 90065
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Metropolitan Courthouse
   desc: ~
   phone:
@@ -811,7 +865,8 @@ please contact us'
   hours: ~
   address: 1945 S. Hill St., Los Angeles, CA 90007
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Michael Antonovich Antelope Valley Courthouse
   desc: ~
   phone:
@@ -822,7 +877,8 @@ please contact us'
   hours: ~
   address: 42011 4th Street West, Lancaster, CA 93534
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Norwalk Courthouse
   desc: ~
   phone:
@@ -833,7 +889,8 @@ please contact us'
   hours: ~
   address: 12720 Norwalk Blvd., Norwalk, CA 90650
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Pasadena Courthouse
   desc: ~
   phone:
@@ -844,7 +901,8 @@ please contact us'
   hours: ~
   address: 300 E. Walnut Ave., Pasadena, CA 91101
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Pomona Courthouse South
   desc: ~
   phone:
@@ -855,7 +913,8 @@ please contact us'
   hours: ~
   address: 400 Civic Center Plaza, Pomona, CA 91766
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: San Fernando Courthouse
   desc: ~
   phone:
@@ -866,7 +925,8 @@ please contact us'
   hours: ~
   address: 900 Third St., San Fernando, CA 91340
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Santa Clarita Courthouse
   desc: ~
   phone:
@@ -877,7 +937,8 @@ please contact us'
   hours: ~
   address: 23747 W. Valencia Blvd., Santa Clarita, CA 91355
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Santa Monica Courthouse
   desc: ~
   phone:
@@ -888,7 +949,8 @@ please contact us'
   hours: ~
   address: 1725 Main St., Santa Monica, CA 90401
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Stanley Mosk Courthouse
   desc: ~
   phone:
@@ -899,7 +961,8 @@ please contact us'
   hours: ~
   address: 111 N. Hill St., Los Angeles, CA 90012
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Sylmar Juvenile Courthouse (Delinquency)
   desc: ~
   phone:
@@ -910,7 +973,8 @@ please contact us'
   hours: ~
   address: 16350 Filbert St., Sylmar, CA 91342
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Torrance Courthouse
   desc: ~
   phone:
@@ -922,7 +986,8 @@ please contact us'
   address: 825 Maple Ave., Torrance, CA 90503
 
 #16
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Van Nuys Courthouse East
   desc: ~
   phone:
@@ -933,7 +998,8 @@ please contact us'
   hours: ~
   address: 6230 Sylmar Ave., Van Nuys, CA 91401
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: Van Nuys Courthouse West
   desc: ~
   phone:
@@ -944,7 +1010,8 @@ please contact us'
   hours: ~
   address: 14400 Erwin Street Mall, Van Nuys, CA 91401
 
-- category: Los Angeles County Courts
+- location: Los Angeles County
+  category: Los Angeles County Courts
   title: West Covina Courthouse
   desc: ~
   phone:
@@ -955,7 +1022,8 @@ please contact us'
   hours: ~
   address: 1427 W. Covina Pkwy., West Covina, CA 91790
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: AARP Legal Network Services
   desc: ~
   phone:
@@ -967,7 +1035,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: Asian Americans Advancing Justice
   desc: provides legal assistance to victims of crimes involvivng immigration and family law 
   phone:
@@ -991,7 +1060,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: Legal Aid Society Foundation
   desc: ~
   phone:
@@ -1003,7 +1073,8 @@ please contact us'
   hours: ~
   address: ~
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: LevittQuinn Family Law Center
   desc: nonprofit protecting children and standing with family members in crisis
   phone:
@@ -1015,7 +1086,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: Long Beach Bar Foundation (Shortstop)
   desc: juvenile crime diversion program, counseling and juvenile anger management 
   phone:
@@ -1027,7 +1099,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: Los Angeles Center for Law and Justice (LACLJ) 
   desc: pursues justice for survivors of domestic and sexual violence
   phone:
@@ -1039,7 +1112,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: Los Angeles County Bar Association Domestic Violence Legal Services Project
   desc: provides domestic violence legal services for persons of all ages who reside in LA County 
   phone:
@@ -1051,7 +1125,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: Legal Resources
+- location: Los Angeles County
+  category: Legal Resources
   title: Lawyer Referral and Information Service
   desc: ~
   phone:
@@ -1064,7 +1139,8 @@ please contact us'
   address: ~ 
 
 #17
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: ~
   desc: ~
   phone: ~
@@ -1074,7 +1150,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Airport Branch
   desc: ~
   phone:
@@ -1085,7 +1162,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Alhambra Branch
   desc: ~
   phone:
@@ -1096,7 +1174,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Antelope Valley Branch
   desc: ~
   phone:
@@ -1107,7 +1186,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Antelope Valley Juvenile
   desc: ~
   phone:
@@ -1118,7 +1198,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Bellflower Area
   desc: ~
   phone:
@@ -1129,7 +1210,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Burbank Satellite
   desc: ~
   phone:
@@ -1140,7 +1222,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Compton Branch
   desc: ~
   phone:
@@ -1151,7 +1234,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Compton Juvenile
   desc: ~
   phone:
@@ -1162,7 +1246,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Downey Area
   desc: ~
   phone:
@@ -1173,7 +1258,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: East Los Angeles Area
   desc: ~
   phone:
@@ -1184,7 +1270,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Eastlake Juvenile
   desc: ~
   phone:
@@ -1195,7 +1282,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: El Monte Area
   desc: ~
   phone:
@@ -1206,7 +1294,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Glendale Area
   desc: ~
   phone:
@@ -1217,7 +1306,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Inglewood Area
   desc: ~
   phone:
@@ -1228,7 +1318,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Inglewood Juvenile
   desc: ~
   phone:
@@ -1239,7 +1330,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Juvenile HQ
   desc: ~
   phone:
@@ -1250,7 +1342,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Long Beach Branch
   desc: ~
   phone:
@@ -1261,7 +1354,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Long Beach Juvenile
   desc: ~
   phone:
@@ -1272,7 +1366,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Los Angeles HQ
   desc: ~
   phone:
@@ -1283,7 +1378,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Los Padrinos Juvenile
   desc: ~
   phone:
@@ -1294,7 +1390,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Norwalk Branch
   desc: ~
   phone:
@@ -1305,7 +1402,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Pasadena Branch
   desc: ~
   phone:
@@ -1316,7 +1414,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Pasadena Juvenile
   desc: ~
   phone:
@@ -1328,7 +1427,8 @@ please contact us'
   address: ~ 
 
 #18
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Pomona Branch
   desc: ~
   phone:
@@ -1339,7 +1439,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Pomona Juvenile
   desc: ~
   phone:
@@ -1350,7 +1451,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: San Fernando Branch
   desc: ~
   phone:
@@ -1361,7 +1463,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Santa Clarita Area
   desc: ~
   phone:
@@ -1372,7 +1475,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Sylmar Juvenile
   desc: ~
   phone:
@@ -1383,7 +1487,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Torrance Branch
   desc: ~
   phone:
@@ -1394,7 +1499,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: Van Nuys Branch
   desc: ~
   phone:
@@ -1405,7 +1511,8 @@ please contact us'
   hours: ~
   address: ~ 
 
-- category: District Attorney’s Offices
+- location: Los Angeles County
+  category: District Attorney’s Offices
   title: West Covina Area
   desc: ~
   phone:
