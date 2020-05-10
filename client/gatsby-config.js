@@ -1,3 +1,14 @@
+// development: use dotenv and .env.* files
+// production:  use netlify UI or netlify.toml
+if (process.env.NODE_ENV !== 'production') {
+  /* eslint-disable global-require */
+  // console.log(process.env.NODE_ENV);
+  require('dotenv').config({
+    path: `.env.${process.env.NODE_ENV}`,
+  });
+  /* eslint-enable global-require */
+}
+
 module.exports = {
   siteMetadata: {
     title: 'title from gatsby-config.js',
@@ -37,8 +48,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: {
-        spaceId: 'icbf40caaie6',
-        accessToken: 's1nUWNS1ZMnwnFLrd3WDyWztGX7lk0WyGZRL1_4K9Us',
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
