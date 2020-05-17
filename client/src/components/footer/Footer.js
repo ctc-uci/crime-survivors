@@ -1,6 +1,6 @@
 import React from 'react';
 
-// TODO: add to anchor tags and remove the text
+// TODO: add icons to anchor tags and remove the text
 
 const Footer = () => (
   <footer>
@@ -20,7 +20,7 @@ const Footer = () => (
       {' '}
       <a href="https://www.youtube.com/crimesurvivor">Youtube</a>
       {' '}
-      <a href="https://www.instagram.com/crimesurvivors/">Instagam</a>
+      <a href="https://www.instagram.com/crimesurvivors/">Instagram</a>
     </div>
   </footer>
 );
