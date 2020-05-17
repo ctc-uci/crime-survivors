@@ -1,28 +1,44 @@
 import React from 'react';
 
-// TODO: add icons to anchor tags and remove the text
+import TwitterIcon from '../../images/twitter-icon.png';
+import FacebookIcon from '../../images/facebook-icon.png';
+import GooglePlusIcon from '../../images/googleplus-icon.png';
+import YoutubeIcon from '../../images/youtube-icon.png';
+import InstagramIcon from '../../images/instagram-icon.png';
+import './Footer.css';
+
 
 const Footer = () => (
-  <footer>
-    <div>
+  <div className="footer">
+    <div className="footer-info">
       @ 2003-2019 Crime Survivors, Inc.
       {' '}
       All Rights Reserved.
       <br />
       Website by Commit the Change
     </div>
-    <div>
-      <a href="https://www.facebook.com/crimesurvivors">Facebook</a>
+    <div className="footer-social-media">
+      <a className="fb-link" href="https://www.facebook.com/crimesurvivors">
+        <img src={FacebookIcon} id="fb-icon" alt="Facebook" />
+      </a>
       {' '}
-      <a href="https://twitter.com/crimesurvivors">Twitter</a>
+      <a className="twitter-link" href="https://twitter.com/crimesurvivors">
+        <img src={TwitterIcon} id="twitter-icon" alt="Twitter" />
+      </a>
       {' '}
-      <a href="https://plus.google.com/+CrimesurvivorsOrg/">Google Plus</a>
+      <a className="gplus-link" href="https://plus.google.com/+CrimesurvivorsOrg/">
+        <img src={GooglePlusIcon} id="gplus-icon" alt="Google Plus" />
+      </a>
       {' '}
-      <a href="https://www.youtube.com/crimesurvivor">Youtube</a>
+      <a className="yt-link" href="https://www.youtube.com/crimesurvivor">
+        <img src={YoutubeIcon} id="yt-icon" alt="Youtube" />
+      </a>
       {' '}
-      <a href="https://www.instagram.com/crimesurvivors/">Instagram</a>
+      <a className="ig-link" href="https://www.instagram.com/crimesurvivors/">
+        <img src={InstagramIcon} id="ig-icon" alt="Instagram" />
+      </a>
     </div>
-  </footer>
+  </div>
 );
 
 export default Footer;
