@@ -17,9 +17,17 @@ div.content {
   width: 80%;
 }
 
-div.category {
+div.location {
   background-color: #dcdcdc;
   padding: 30px 40px;
-  font-size: 40px;
   width: 95%;
+  font-size: 40px;
+}
+
+div.category {
+  background-color: #dcdcdc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
 }
