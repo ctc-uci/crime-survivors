@@ -1,0 +1,25 @@
+div.page {
+  display: flex;
+  flex-direction: column;
+}
+
+div.lateral {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 0px 0px;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0px 0px 0px 10px; */
+  align-items: center;
+  width: 80%;
+}
+
+div.category {
+  background-color: #dcdcdc;
+  padding: 30px 40px;
+  font-size: 40px;
+  width: 95%;
+}
