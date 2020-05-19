@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
+import EscapeButton from './EscapeButton';
 import Footer from './footer/Footer';
+
 
 // TODO
 // make pagecontainer.css
@@ -37,6 +38,7 @@ const PageContainer = ({ sidebar, body }) => {
 
   return (
     <>
+      <EscapeButton />
       <header>
         <h1>
           <a href="https://crimesurvivors.org/">Head Back to The Main Page</a>
