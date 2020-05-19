@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import EscapeButton from './EscapeButton';
+import Footer from './footer/Footer';
+
+
 // TODO
 // make pagecontainer.css
 
@@ -34,6 +38,7 @@ const PageContainer = ({ sidebar, body }) => {
 
   return (
     <>
+      <EscapeButton />
       <header>
         <h1>
           <a href="https://crimesurvivors.org/">Head Back to The Main Page</a>
@@ -47,16 +52,7 @@ const PageContainer = ({ sidebar, body }) => {
           <main>{body}</main>
         </div>
       </div>
-      <footer>
-        <hr />
-        ©
-        {' '}
-        {new Date().getFullYear()}
-        {' '}
-        Victims of Crime Resource Center. All Rights Reserved.
-        <br />
-        Please Read: Put Link to Terms of Use Here Page When Built Later.
-      </footer>
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,40 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer-info {
+  flex: 1;
+}
+.footer .footer-social-media {
+  justify-content: flex-end;
+}
+.footer-social-media .twitter-link #twitter-icon {
+  font-size: 10px;
+  height: 44px;
+  width: 44px;
+}
+.footer-social-media .fb-link #fb-icon {
+  font-size: 10px;
+  height: 44px;
+  width: 44px;
+}
+.footer-social-media .gplus-link #gplus-icon {
+  font-size: 10px;
+  height: 44px;
+  width: 44px;
+}
+.footer-social-media .yt-link #yt-icon {
+  font-size: 10px;
+  height: 44px;
+  width: 44px;
+}
+.footer-social-media .ig-link #ig-icon {
+  font-size: 10px;
+  height: 44px;
+  width: 44px;
+}
