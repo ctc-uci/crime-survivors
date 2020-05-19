@@ -5,7 +5,7 @@ import './CountyPage.css';
 import Sidebar from '../sidebar/sidebar';
 // import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes'
 
-const countyPagePropTypes = {
+const countyPageTypes = {
   location: PropTypes.string,
   resources: PropTypes.arrayOf(
     PropTypes.shape({
@@ -18,7 +18,7 @@ const countyPagePropTypes = {
   quotes: quotesTypes
   */
 };
-const defaultCountyPageProps = {
+const countyPageDefault = {
   location: 'LOCATION',
   resources: [
     {
@@ -55,7 +55,6 @@ function truncateForSidebar(resources) {
   such that
     - category is a unique category name
     - resources is a list of resources associated with that category
-      - only title and id
 */
 function formSidebarData(resources) {
   const categoryGroups = {};
@@ -103,7 +102,7 @@ const CountyPage = ({ location, resources }) => {
     </div>
   );
 };
-CountyPage.propTypes = countyPagePropTypes;
-CountyPage.defaultProps = defaultCountyPageProps;
+CountyPage.propTypes = countyPageTypes;
+CountyPage.defaultProps = countyPageDefault;
 
 export default CountyPage;
