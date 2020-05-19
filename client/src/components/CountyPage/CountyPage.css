@@ -23,11 +23,3 @@ div.location {
   width: 95%;
   font-size: 40px;
 }
-
-div.category {
-  background-color: #dcdcdc;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 15px;
-  font-size: 20px;
-}

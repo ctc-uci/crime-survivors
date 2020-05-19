@@ -1,52 +1,88 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { v4 as uuidv4 } from 'uuid';
 import './CountyPage.css';
+
+import Sidebar from '../sidebar/sidebar';
+// import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes'
 
 const countyPagePropTypes = {
   location: PropTypes.string,
-  categories: PropTypes.arrayOf(
-    PropTypes.shape({ category: PropTypes.string }),
+  resources: PropTypes.arrayOf(
+    PropTypes.shape({
+      category: PropTypes.string,
+      title: PropTypes.string,
+      id: PropTypes.string,
+    }),
   ),
+  /*
+  quotes: quotesTypes
+  */
 };
 const defaultCountyPageProps = {
   location: 'LOCATION',
-  categories: [
-    { category: 'hello' },
+  resources: [
+    {
+      category: 'CATEGORY',
+      title: 'TITLE',
+      id: 'ID',
+    },
   ],
+  // quotes: quotesDefault
 };
 
 const Location = (location) => (
   <div className="location">{location}</div>
 );
 
-const Category = (category) => (
-  <div
-    key={uuidv4()}
-    className="category"
-  >
-    {category}
-  </div>
-  // Would need a link in order to navigate to categoryPage
-  // <a href="https://.../{category}">{category}</a>
-  // See Link from gatsby(supposedly faster)
-  // See generating path with src/util/commonutil
-);
+// Think all these transforms are required to fit PropTypes in sidebar
+function truncateForSidebar(resources) {
+  const truncate = (resource) => ({
+    title: resource.title,
+    id: resource.id,
+  });
+  return resources.map((resource) => truncate(resource));
+}
 
-const Categories = (categories) => (
-  <div>
-    {categories.map((category) => Category(category))}
-  </div>
-);
+/*
+  Returns an array of objects:
+  {
+    category
+    resources [{
+      title
+      id
+    }]
+  }
+  such that
+    - category is a unique category name
+    - resources is a list of resources associated with that category
+      - only title and id
+*/
+function formSidebarData(resources) {
+  const categoryGroups = {};
+  resources.forEach(({ category, title, id }) => {
+    if (!(category in categoryGroups)) {
+      categoryGroups[category] = [];
+    }
+    // TO-DO: THIS NULL CHECK IS TEMPORARY -> This is a problem with data
+    if (title != null) {
+      categoryGroups[category].push({
+        title,
+        id,
+      });
+    }
+  });
+  const sidebarData = [];
+  Object.keys(categoryGroups).forEach((category) => {
+    sidebarData.push({
+      category,
+      resources: truncateForSidebar(categoryGroups[category]),
+    });
+  });
+  return sidebarData;
+}
 
-const filterDupCategories = (categories) => {
-  const categorySet = new Set();
-  categories.forEach(({ category }) => categorySet.add(category));
-  return [...categorySet];
-};
-
-const CountyPage = ({ location, categories }) => {
-  const uniqCategories = filterDupCategories(categories);
+const CountyPage = ({ location, resources }) => {
+  const sidebarData = formSidebarData(resources);
   return (
     <div className="page">
       <div>
@@ -55,12 +91,13 @@ const CountyPage = ({ location, categories }) => {
       </div>
       <div className="lateral">
         <div>
-          {/* <Sidebar/>, check version_pool for sidebar component */}
-          Placeholder for Sidebar
+          <Sidebar
+            sidebarData={sidebarData}
+          />
         </div>
         <div className="content">
           {Location(location)}
-          {Categories(uniqCategories)}
+          {/* <Quotes quotes={quotes}/> */}
         </div>
       </div>
     </div>
