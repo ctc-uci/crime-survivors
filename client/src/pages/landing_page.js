@@ -22,62 +22,36 @@ const LandingPage = () => {
   const fakeCountyData = [
     { county: 'Los Angeles County', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
     { county: 'Orange County', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
-    { county: 'San Bernadino County', image: 'https://ca-times.brightspotcdn.com/dims4/default/b8a10f1/2147483647/strip/true/crop/2048x1365+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F79%2Fc4%2Fa48c7e289176d0554633ae860fc3%2Fla-me-ln-san-bernardino-mayor-carey-davis-2014-002' },
+    { county: 'San Bernadino County', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
     { county: 'Los Angeles County2', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
     { county: 'Orange County2', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
-    { county: 'San Bernadino County2', image: 'https://ca-times.brightspotcdn.com/dims4/default/b8a10f1/2147483647/strip/true/crop/2048x1365+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F79%2Fc4%2Fa48c7e289176d0554633ae860fc3%2Fla-me-ln-san-bernardino-mayor-carey-davis-2014-002' },
+    { county: 'San Bernadino County2', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
     { county: 'Los Angeles County3', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
     { county: 'Orange County3', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
-    { county: 'San Bernadino County3', image: 'https://ca-times.brightspotcdn.com/dims4/default/b8a10f1/2147483647/strip/true/crop/2048x1365+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F79%2Fc4%2Fa48c7e289176d0554633ae860fc3%2Fla-me-ln-san-bernardino-mayor-carey-davis-2014-002' }];
-
-  const fakeGuideData = [
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide longer title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide longer title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide longer longer longer title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide longer title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide longer longer title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-    { title: 'guide title', link: 'some url' },
-  ];
+    { county: 'San Bernadino County3', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' }];
 
   return (
     <div className="container">
+      <p>Escape the site</p>
+      <p>Header</p>
       <div className="banner-container">
-        <img className="logo" alt="logo" src="https://via.placeholder.com/150" />
+        <img className="logo" alt="logo" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/28168041_1972360476125648_1736462436458228316_n.png?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=V2HTistCnSwAX934uf5&_nc_ht=scontent-lax3-1.xx&oh=69c59e6e1b440791960fa81c43e52fe9&oe=5EEA7B17" />
         <div className="inner-banner">
-          <h1 className="inner-banner-text">Crime Survivors Resources</h1>
-          <p className="inner-banner-text">&quot;Advocacy through action - Serving Southern California&quot;</p>
+          <h1 className="blue">Crime Survivors Resources</h1>
+          <i className="blue">&quot;Advocacy through action - Serving Southern California&quot;</i>
         </div>
       </div>
-      <hr />
-      <h2>COUNTY GUIDES</h2>
-      <div className="county-container">
+      <h2 className="blue">COUNTY RESOURCE GUIDES</h2>
+      <div className="county-container ">
         {fakeCountyData.map((countyData) => (
-          <div className="county-card" key={uuidv4()}>
-            <img className="county-image" alt={uuidv4()} src={countyData.image} />
-            <h6 className="county-text">{countyData.county}</h6>
-          </div>
-        ))}
-      </div>
-      <hr />
-      <h2>GUIDES TO TAKE ACTION, GET HELP, YOUR RIGHTS</h2>
-      <div className="guide-container">
-        {fakeGuideData.map((guideData) => (
-          <Link className="guide-item" key={uuidv4()} to={guideData.link}>
-            <p>{guideData.title}</p>
+          <Link className="no-underline" to="/">
+            <div className="county-card" style={{ backgroundImage: `url(${countyData.image})` }} key={uuidv4()}>
+              <p className="county-text">{countyData.county}</p>
+            </div>
           </Link>
         ))}
       </div>
+      <p>Footer</p>
     </div>
   );
 };
