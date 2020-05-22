@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
 import CategoryBody from '../components/CategoryBody';
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/sidebar/sidebar';
 
 const CategoryPage = ({ data, pageContext }) => {
   // console.table(['HELLO', pageContext]);
