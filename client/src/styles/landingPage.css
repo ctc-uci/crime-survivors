@@ -1,36 +1,145 @@
 html {
-    background: #F1F1F1;
+    /* background: #F1F1F1; */
+}
+
+h1 {
+    font-size: 64px;
 }
 
 .container {
     display: flex;
     flex-flow: column wrap;
+    align-items: stretch;
+    /* padding: 16px; */
+}
+
+.banner-section {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    margin: 32px;
+    padding: 0px 32px 0px 32px;
 }
 
 .banner-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1920px; */
+}
+
+.banner-text-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 1 auto;
+}
+
+.banner-image-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 16px;
+    flex: 1 1 auto;
+}
+
+.find-your-county-btn {
+    background-color: #677CB3;
+    color: white;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.banner-image {
+    width: 600px;
+    margin: 32px 16px 32px 32px;
+    box-shadow: 32px -32px 1px #5E73AF;
+}
+
+.guide-section {
+    display: flex;
+    flex-flow: column;
+    background-color: #ECF1FF;
+    justify-content: center;
+    align-items: stretch;
+    padding: 84px 32px 84px 32px;
+}
+
+.guide-btn {
+    background-color: #4C6CA4;
+    color: white;
+    border: none;
+    padding: 8px 64px 8px 64px;
+    margin-bottom: 32px;
+    text-align: center;
+    align-self: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
+}
+
+.guide-box-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.guide-box {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 175px;
+    height: 175px;
+    background-color: white;
+    margin: 16px 32px 16px 32px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
+}
+
+.guide-box-number {
+    position: absolute;
+    top: 150px;
+    left: -25px;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #E4E9F4;
+    border-radius: 25px;
+    box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
+    z-index: 1;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #60585D;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.guide-box-img-container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #f1f1f1; */
-    padding: 32px 0px 32px 0px;
+    min-height: 100px;
+    margin-top: 16px;
 }
 
-.logo {
-    background-color: white;
-    margin: 16px;
-    height: 150px;
-    width: 150px;
+.guide-box-text {
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
 }
 
-.inner-banner {
+.county-section {
+    position: relative;
     display: flex;
-    flex-flow: column wrap;
-    margin: 16px;
-
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -38,8 +147,11 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    max-width: 1920px;
-    background-color: #f1f1f1;
+    max-width: 1080px;
+}
+
+.no-margin {
+    margin: 0;
 }
 
 .county-card  {
@@ -54,8 +166,8 @@ html {
     border-radius: 10px;
 
     background-size: cover;
-    background-color: rgba(96, 77, 143, 0.75);
-    background-blend-mode: multiply;
+    background-color: hsla(250, 45%, 30%, 0.6);
+    background-blend-mode: darken;
     box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 }
 
@@ -100,4 +212,31 @@ html {
     align-items: center;
     text-align: center;
     font-size: 30px;
+}
+
+.background1 {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.background2 {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.background3 {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
 }
