@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import EscapeButton from './EscapeButton';
+import EscapeButton from './escape/escapeButton';
 import Footer from './footer/Footer';
 
 
@@ -18,14 +18,14 @@ const PageContainer = ({ sidebar, body }) => {
     },
 
     sidebar: {
-      backgroundColor: '#f8f8ff', // gray just for fun
-      textAlign: 'center',
-      justifyContent: 'left',
-      flexDirection: 'column',
-      width: '15%',
-      flex: '0.2',
-      overflow: 'scroll',
-      height: '100vh', // TODO better solution
+      // backgroundColor: '#f8f8ff', // gray just for fun
+      // textAlign: 'center',
+      // justifyContent: 'left',
+      // flexDirection: 'column',
+      width: '300px',
+      // flex: '0.2',
+      // overflow: 'scroll',
+      // height: '100vh', // TODO better solution
     },
 
     main: {
@@ -39,11 +39,8 @@ const PageContainer = ({ sidebar, body }) => {
   return (
     <>
       <EscapeButton />
-      <header>
-        <h1>
-          <a href="https://crimesurvivors.org/">Head Back to The Main Page</a>
-        </h1>
-      </header>
+      {/* <header>
+      </header> */}
       <div style={styles.container}>
         <div style={styles.sidebar}>
           {sidebar}
