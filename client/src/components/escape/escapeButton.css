@@ -1,0 +1,10 @@
+.escape-container{
+    height: 60px;
+    text-align: center;
+    background-color: #74e4d2;
+}
+
+.escape-container a{
+    line-height: 60px;
+    color: white;
+}

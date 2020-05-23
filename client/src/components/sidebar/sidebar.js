@@ -4,45 +4,82 @@ import { v4 as uuidv4 } from 'uuid';
 import Category from './category/category';
 import './sidebar.css';
 
-// TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
-const Sidebar = ({ sidebarData }) => (
-  <div className="sidebar">
-    <h1>Title</h1>
-    {sidebarData.map(({ category, resources }) => (
-      <div key={uuidv4()}>
-        <Category categoryName={category} resources={resources} />
-      </div>
-    ))}
-  </div>
-);
+const Sidebar = ({ props }) => {
+  // TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
+  const { sidebarData } = props;
 
+  return (
+    <div className="sidebar">
+      <h1>Title</h1>
+      {sidebarData.group.map((category) => (
+        <div key={uuidv4()}>
+          <Category categoryName={category.category} resources={category.resources} />
+        </div>
+      ))}
+    </div>
+  );
+};
 
 Sidebar.defaultProps = {
+  props: {
+    sidebarData: {
+      group: [
+        {
+          category: 'fieldValue',
+          resources: [
+            {
+              title: 'title',
+              id: 'id',
+            },
+          ],
+        },
+      ],
+    },
+    resourceId: 'resourceId',
+    categoryId: 'categoryId',
+  },
   sidebarData: {
-    category: 'fieldValue',
-    resources: [
+    group: [
       {
-        title: 'title',
-        id: 'id',
+        category: 'fieldValue',
+        resources: [
+          {
+            title: 'title',
+            id: 'id',
+          },
+        ],
       },
     ],
   },
-  // resourceId: 'resourceId',
-  // categoryId: 'categoryId',
 };
 
 Sidebar.propTypes = {
-  sidebarData: PropTypes.arrayOf(
-    PropTypes.shape({
-      category: PropTypes.string,
-      resources: PropTypes.arrayOf({
-        title: PropTypes.string,
-        id: PropTypes.string,
-      }),
+  props: {
+    sidebarData: PropTypes.shape({
+      group: PropTypes.arrayOf(
+        PropTypes.shape({
+          category: PropTypes.string,
+          resources: PropTypes.arrayOf({
+            title: PropTypes.string,
+            id: PropTypes.string,
+          }),
+        }),
+      ),
     }),
-  ),
-  // resourceId: PropTypes.string,
-  // categoryId: PropTypes.string,
+    resourceId: PropTypes.string,
+    categoryId: PropTypes.string,
+  },
+  sidebarData: PropTypes.shape({
+    group: PropTypes.arrayOf(
+      PropTypes.shape({
+        category: PropTypes.string,
+        resources: PropTypes.arrayOf({
+          title: PropTypes.string,
+          id: PropTypes.string,
+        }),
+      }),
+    ),
+  }),
 };
 
 export default Sidebar;

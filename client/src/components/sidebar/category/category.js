@@ -17,17 +17,20 @@ function Category({ categoryName, resources }) {
       >
         {`> ${categoryName}`}
       </button>
-      {hide
-        ? null
-        : resources.map((resource) => (
-          <div key={uuidv4()}>
-            {resource.title ? (
-              <Link className="sidebar-resource" to={generatePath(categoryName, resource.title)}>
-                {resource.title}
-              </Link>
-            ) : null}
-          </div>
-        ))}
+      <div className="resource-group">
+        {hide
+          ? null
+          : resources.map((resource) => (
+            <div className="sidebar-resource-container" key={uuidv4()}>
+              {resource.title ? (
+                <Link className="sidebar-resource" to={generatePath(categoryName, resource.title)}>
+                  {resource.title}
+                </Link>
+              ) : null}
+            </div>
+          ))}
+      </div>
+
     </div>
   );
 }
