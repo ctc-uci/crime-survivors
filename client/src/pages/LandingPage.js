@@ -2,16 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types'; // eslint-disable-line
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
+
 // TODO: eslint error on the next line, not sure why it wont let me reference parent
 import '../styles/LandingPage.css'; // eslint-disable-line
-import BannerImage from '../images/banner-img.png';// eslint-disable-line
-import G1 from '../images/Find-An-Advocate.svg';// eslint-disable-line
-import G2 from '../images/Heal-And-Recover.svg';// eslint-disable-line
-import G3 from '../images/Learn-About-Victims-Rights.svg';// eslint-disable-line
-import G4 from '../images/Obtain-Crisis-Support.svg';// eslint-disable-line
-import G5 from '../images/Pay-For-Crime.svg';// eslint-disable-line
-import B1 from '../images/Rectangle50.svg';// eslint-disable-line
-import B2 from '../images/Rectangle51.svg';// eslint-disable-line
+import BannerImage from '../images/Banner-Img.png';// eslint-disable-line
+import guideGraphic1 from '../images/Guide-Find-An-Advocate.svg';// eslint-disable-line
+import guideGraphic2 from '../images/Guide-Heal-And-Recover.svg';// eslint-disable-line
+import guideGraphic3 from '../images/Guide-Learn-About-Victims-Rights.svg';// eslint-disable-line
+import guideGraphic4 from '../images/Guide-Obtain-Crisis-Support.svg';// eslint-disable-line
+import guideGraphic5 from '../images/Guide-Pay-For-Crime.svg';// eslint-disable-line
+import bgBannerBottom1 from '../images/Background-Banner-Bottom.svg';// eslint-disable-line
+import bgBannerBottom2 from '../images/Background-Banner-Bottom2.svg';// eslint-disable-line
 import bgCountyTop1 from '../images/Background-County-Top.svg';// eslint-disable-line
 import bgCountyTop2 from '../images/Background-County-Top2.svg';// eslint-disable-line
 import bgCountyBottom from '../images/Background-County-Bottom.svg';// eslint-disable-line
@@ -40,82 +41,65 @@ const LandingPage = () => {
     { county: 'San Bernadino County2', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
     { county: 'Los Angeles County3', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' }];
 
+
+  const guideBoxData = [
+    { title: 'Find an Advocate', svg: guideGraphic1, number: 1 },
+    { title: 'Obtain Crisis Support', svg: guideGraphic2, number: 2 },
+    { title: 'Learn About Victim\'s Rights', svg: guideGraphic3, number: 3 },
+    { title: 'Pay for Crime Related Expenses', svg: guideGraphic4, number: 4 },
+    { title: 'Heal and Recover', svg: guideGraphic5, number: 5 },
+  ];
+
   return (
-    <div className="container">
+    <div id="container">
       <p>Escape the site</p>
       <p>Header</p>
-      <div className="banner-section">
-        <div className="banner-container">
-          <div className="banner-text-container">
+
+      <div id="banner-section">
+        <div id="banner-container">
+          <div id="banner-text-container">
             <h1 className="blue">Crime Survivors Resources</h1>
             <p style={{ maxWidth: '500px', minWidth: '300px' }}>The mission of Crime Survivors is to provide hope and healing to victims and survivors of crime through advocacy and the support of resources, information, and empowerment. All victims of crime have the right and responsibility to survive.</p>
-            <button className="find-your-county-btn" type="button">Find your County</button>
+            <button id="find-your-county-btn" type="button">Find your County</button>
           </div>
-          <div className="banner-image-container">
-            <img className="banner-image " alt="img" src={BannerImage} />
+          <div id="banner-image-container">
+            <img id="banner-image" alt="banner" src={BannerImage} />
           </div>
         </div>
-        <img className="background1" alt="B1" src={B1} />
-        <img className="background1" alt="B2" src={B2} />
+        <img className="bgBannerBottom" alt="bgBannerBottom1" src={bgBannerBottom1} />
+        <img className="bgBannerBottom" alt="bgBannerBottom2" src={bgBannerBottom2} />
       </div>
 
-      <div className="guide-section">
+      <div id="guide-section">
         <button className="guide-btn" type="button">General Guides</button>
         <div className="guide-box-container">
-          <div className="guide-box">
-            <div className="guide-box-img-container">
-              <img className="no-margin" src={G1} alt="G1" />
+          {guideBoxData.map((guide) => (
+            <div className="guide-box">
+              <div className="guide-box-img-container">
+                <img className="no-margin" src={guide.svg} alt={guide.svg} />
+              </div>
+              <p className="guide-box-text">{guide.title}</p>
+              <div className="guide-box-number">{guide.number}</div>
             </div>
-            <p className="guide-box-text">Find an Advocate</p>
-            <div className="guide-box-number">1</div>
-          </div>
-          <div className="guide-box">
-            <div className="guide-box-img-container">
-              <img className="no-margin" src={G2} alt="G2" />
-            </div>
-            <p className="guide-box-text">Obtain Crisis Support</p>
-            <div className="guide-box-number">2</div>
-          </div>
-          <div className="guide-box">
-            <div className="guide-box-img-container">
-              <img className="no-margin" src={G3} alt="G3" />
-            </div>
-            <p className="guide-box-text">Learn About Victim&rsquo;s Rights</p>
-            <div className="guide-box-number">3</div>
-          </div>
-          <div className="guide-box">
-            <div className="guide-box-img-container">
-              <img className="no-margin" src={G4} alt="G4" />
-            </div>
-            <p className="guide-box-text">Pay for Crime Related Expenses</p>
-            <div className="guide-box-number">4</div>
-          </div>
-          <div className="guide-box">
-            <div className="guide-box-img-container">
-              <img className="no-margin" src={G5} alt="G5" />
-            </div>
-            <p className="guide-box-text">Heal and Recover</p>
-            <div className="guide-box-number">5</div>
-          </div>
+          ))}
         </div>
       </div>
 
-
-      <div className="county-section">
+      <div id="county-section">
         <h2 className="blue" style={{ margin: '84px 0px 16px 0px' }}>COUNTY RESOURCE GUIDES</h2>
         <p style={{ maxWidth: '600px', textAlign: 'center' }}>These guides are filled with resources to help victims become survivors. The resources and referrals provided herein can be the first step for victims and their families to rebuild their lives.</p>
-        <div className="county-container ">
+        <div id="county-container">
           {fakeCountyData.map((countyData) => (
-            <Link className="no-underline" to="/">
+            <Link className="no-decor" to="/">
               <div className="county-card" style={{ backgroundImage: `url(${countyData.image})` }} key={uuidv4()}>
                 <p className="county-text">{countyData.county}</p>
               </div>
             </Link>
           ))}
         </div>
-        <img className="background2" alt="B1" src={bgCountyTop1} />
-        <img className="background2" alt="B1" src={bgCountyTop2} />
-        <img className="background3" alt="B1" src={bgCountyBottom} />
+        <img className="bgCountyTop" alt="bgBannerTop1" src={bgCountyTop1} />
+        <img className="bgCountyTop" alt="bgBannerTop2" src={bgCountyTop2} />
+        <img className="bgCountyBottom" alt="bgBannerBottom" src={bgCountyBottom} />
       </div>
 
       <p>Footer</p>
