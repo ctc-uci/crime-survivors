@@ -6,20 +6,21 @@ div.page {
 div.lateral {
   display: flex;
   flex-direction: row;
-  margin: 10px 0px 0px 0px;
 }
 
 div.content {
   display: flex;
   flex-direction: column;
-  /* margin: 0px 0px 0px 10px; */
-  align-items: center;
   width: 80%;
 }
 
 div.location {
-  background-color: #dcdcdc;
   padding: 30px 40px;
   width: 95%;
+  font-family: "Roboto";
   font-size: 40px;
+  font-weight: bold;
+
+  color: #40589e;
+  letter-spacing: 2px;;
 }
