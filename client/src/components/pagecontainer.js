@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Header from './header/Header';
 import EscapeButton from './escape/escapeButton';
 import Footer from './footer/Footer';
-
 
 // TODO
 // make pagecontainer.css
@@ -38,9 +38,8 @@ const PageContainer = ({ sidebar, body }) => {
 
   return (
     <>
+      <Header />
       <EscapeButton />
-      {/* <header>
-      </header> */}
       <div style={styles.container}>
         <div style={styles.sidebar}>
           {sidebar}
