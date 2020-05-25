@@ -44,7 +44,39 @@ exports.createPages = ({ graphql, actions }) => {
           },
         });
       });
+      resolve();
+    });
+  });
 
+  const queryGuides = `
+    {
+      allContentfulGuide {
+        nodes {
+          title
+        }
+      }
+    }
+    `;
+
+  const generateGuidePages = (query) => new Promise((resolve, reject) => {
+    graphql(query).then((result) => {
+      if (result.errors) {
+        reject(result.errors);
+      }
+
+      const { nodes } = result.data.allContentfulGuide;
+      nodes.forEach((node) => {
+        const { title } = node;
+        createPage({
+          path: `guide/${title}`, // your url -> /location/category
+          component: path.resolve('./src/templates/GuidePage.js'), // your template component
+          context: {
+            title,
+            // data here will be passed as props to the component `this.props.pathContext`,
+            // as well as to the graphql query as graphql arguments.
+          },
+        });
+      });
       resolve();
     });
   });
@@ -52,9 +84,7 @@ exports.createPages = ({ graphql, actions }) => {
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them
   return new Promise((resolve, reject) => {
-    const promises = [generateCategoryPages(queryCategories),
-    ];
-    // generateGuidePages(queryGuides);
+    const promises = [generateCategoryPages(queryCategories), generateGuidePages(queryGuides)];
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
