@@ -1,5 +1,5 @@
 const path = require('path');
-const { generatePath } = require('./src/utils/commonUtils'); // forced ES5 for some reason
+const { generatePath, pathify } = require('./src/utils/commonUtils'); // forced ES5 for some reason
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -68,7 +68,7 @@ exports.createPages = ({ graphql, actions }) => {
       nodes.forEach((node) => {
         const { title } = node;
         createPage({
-          path: `guide/${title}`, // your url -> /location/category
+          path: pathify(['guide', title]), // your url -> /location/category
           component: path.resolve('./src/templates/GuidePage.js'), // your template component
           context: {
             title,

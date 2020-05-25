@@ -8,7 +8,8 @@ import '../styles/CategoryPage.css';
 
 function GuideBody({ contentfulGuide }) {
   // console.log(contentfulGuide);
-  const { title, generalDescription: { generalDescription }, guideSections } = contentfulGuide;
+  const { title, generalDescription, guideSections } = contentfulGuide;
+  const generalDescriptionText = generalDescription ? generalDescription.generalDescription : '';
 
   const options = {
     renderNode: {
@@ -20,9 +21,9 @@ function GuideBody({ contentfulGuide }) {
   return (
     <div id="guide-page">
       <h1>{title}</h1>
-      <p>{generalDescription}</p>
+      <p>{generalDescriptionText}</p>
       {/* TODO: figure out why eslint thinks guideSections.map need proptypes */}
-      {guideSections.map((guideSection) => { // eslint-disable-line
+      {guideSections && guideSections.map((guideSection) => { // eslint-disable-line
         const { content: { content } } = guideSection;
         return (
           <div className="guide-section" key={uuidv4()}>
