@@ -8,10 +8,9 @@ const categoryTypes = {
 const categoryDefault = 'CATEGORY';
 
 const Category = ({ category }) => (
-  <div
-    className="category"
-  >
+  <div className="category">
     {category}
+    {/* Need  to add links to category */}
   </div>
 );
 Category.propTypes = categoryTypes;

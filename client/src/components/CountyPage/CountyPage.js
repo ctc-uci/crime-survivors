@@ -8,12 +8,12 @@ import Sidebar from '../sidebar/sidebar';
 import { Categories, categoryTypes, categoryDefault } from './Category/category';
 // import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes'
 
-import pinkwave1 from './images/pink-wave-1.svg';
-import pinkwave2 from './images/pink-wave-2.svg';
-import pinkwave3 from './images/pink-wave-3.svg';
-import pinkwave4 from './images/pink-wave-4.svg';
-import pinkwave5 from './images/pink-wave-5.svg';
-import pinkwave6 from './images/pink-wave-6.svg';
+import wave1 from './images/pink-wave-1.svg';
+import wave2 from './images/pink-wave-2.svg';
+import wave3 from './images/blue-wave-1.svg';
+import wave4 from './images/blue-wave-2.svg';
+import wave5 from './images/purple-wave-1.svg';
+import wave6 from './images/purple-wave-2.svg';
 
 const countyPageTypes = {
   location: PropTypes.string,
@@ -85,12 +85,10 @@ function formSidebarData(resources) {
     if (!(category in categoryGroups)) {
       categoryGroups[category] = [];
     }
-    // if (title != null) {
     categoryGroups[category].push({
       title,
       id,
     });
-    // }
   });
   const sidebarData = [];
   Object.keys(categoryGroups).forEach((category) => {
@@ -111,25 +109,24 @@ const CountyPage = ({ location, resources }) => {
       <EscapeButton />
       <div className="lateral">
         <div>
-          <Sidebar
-            props={{ sidebarData }}
-          />
+          {/* Div is required around sidebar for current width */}
+          <Sidebar props={{ sidebarData }} />
         </div>
-        <div className="content">
-          <Navbar />
-          <Location location={location} />
-          <Categories categories={categories} />
-          {/* <Quotes quotes={quotes}/> */}
-          {/*
-            Each duo is laid on top of one another,
-            check figma for possible positioning
-          */}
-          <img src={pinkwave1} alt="" />
-          <img src={pinkwave2} alt="" />
-          <img src={pinkwave3} alt="" />
-          <img src={pinkwave4} alt="" />
-          <img src={pinkwave5} alt="" />
-          <img src={pinkwave6} alt="" />
+        <div className="display">
+          <div className="nav-info">
+            <Navbar />
+            <Location location={location} />
+          </div>
+          <div className="content">
+            <img src={wave1} id="wave1" alt="" />
+            <img src={wave2} id="wave2" alt="" />
+            <img src={wave3} id="wave3" alt="" />
+            <img src={wave4} id="wave4" alt="" />
+            <img src={wave5} id="wave5" alt="" />
+            <img src={wave6} id="wave6" alt="" />
+            <Categories categories={categories} />
+            {/* <Quotes quotes={quotes}/> */}
+          </div>
         </div>
       </div>
     </div>

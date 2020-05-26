@@ -1,6 +1,4 @@
 .category {
-  font-family: "Roboto";
-  font-weight: bold;
   margin: 10px;
   padding: 10px 20px;
   border-style: solid;
@@ -8,11 +6,14 @@
   border-radius: 30px;
   border-color: #7f6fa4;
   color: #7f6fa4;
+  font-family: "Roboto";
+  font-weight: 550;
 }
 
 .category:hover {
   background-color: #604d8e;
   color: #ffffff;
+  font-weight: normal;
 }
 
 .category-header {
@@ -26,8 +27,11 @@
 
 .category-container {
   display: flex;
-  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 20px;
+
+  position: relative;
+  z-index: 10;
 }
