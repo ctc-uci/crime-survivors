@@ -1,0 +1,1905 @@
+# Page numbers are commented so you can reference a section via ctrl + F
+
+# YAML format
+# - location: Ventura County
+#   category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+---
+
+#1
+
+#2
+
+#3 
+
+#4
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
+#5
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
+#6
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
+#7
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
+#8
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
+#9
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+#10
+# - location: Ventura County
+  # category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+
+#11
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: California Youth Crisis Hotline
+  desc: 'A statewide, toll free, 24-hour, confidential hotline available to teens and young
+adults ages 12-24 and/or any adults supporting youth. Offers help finding homeless
+youth shelters, youth-serving medical clinics, on-going counseling services and
+much more throughout California.'
+  phone:
+    - desc: ~ 
+      number: (800) 843-5200
+    - desc: Alt. Phone
+      number: (916) 340-0505
+  website:
+    - http://www.sbsas.org/
+  email: 
+    - paul@calyouth.org
+  hours: ~
+  address: P.O. Box 163147, Sacramento, CA 95816 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: National Runaway Switchboard
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 621-4000 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: Peer to Peer Crisis
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 852-8336
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: Teen Solutions
+  desc: 'For families of teens in trouble, teensolutions.com'
+  phone:
+    - desc: ~ 
+      number: (936) 295-5767
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: The Children’s Intensive Response Team (CIRT) 
+  desc: '24/7 crisis response to suicidal children, teens, or young adults (up to age 21), in
+home support, linkage to county mental health services. CIRT seeks to keep kids and
+families safe in their homes and communities and avoid hospitalization and use of
+other public resources such as law enforcement.'
+  phone:
+    - desc: ~ 
+      number: (866) 431-2478 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: Interface Youth Outreach (ages 12-21)
+  desc: '24 hours a day/7 days a week, street outreach, crisis intervention, case management
+and after care, family mediation, emancipation information, life skills and youth
+development activities, shelter assessment.'
+  phone:
+    - desc: ~ 
+      number: (805) 469-5882  
+  website:
+    - http://icfs.org/youth.html
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: Coalition For Family Harmony
+  desc: 'Teen dating violence and juvenile probation program.'
+  phone:
+    - desc: ~ 
+      number: (805) 983-6014
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: GIBT National Help Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 246-PRIDE (7743)
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+#12
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: CASA (Court Appointed Special Advocates)
+  desc: 'CASA Volunteer Advocates typically handle one case at a time; they commit to
+advocate for the child until he/she is placed in a safe, permanent home. While others
+may come and go, the CASA Volunteer Advocate provides that one consistent adult
+mentor that children need in order to thrive.'
+  phone:
+    - desc: ~ 
+      number: (805) 389- 3120
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: 121 Help.me (North American Alliance of Child Helplines)
+  desc: '24/7 private and confidential crisis line'
+  phone:
+    - desc: ~ 
+      number: (855) 201-2121
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: Ventura County Health Care Agency (VCHCA) Youth Services
+  desc: 'Alcohol and drug related problems to include prevention, assessment, treatment,
+crisis intervention, and referrals.
+• Fillmore Center
+828 Ventura Street, Suite 250
+(805) 524-8644
+• Simi Valley Center
+3150 E. Los Angeles Avenue
+(805) 577-1724
+• Ventura Center
+24 East Main Street
+(805) 652-6919 
+• Oxnard Center
+1911 Williams Drive
+(805) 981-9200
+• Thousand Oaks Center
+125 West Thousand
+Oaks Blvd., Suite 400
+(805) 777-3570 '
+  phone:
+    - desc: ~ 
+      number: (805) 981-9200 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: City Impact
+  desc: 'Violence prevention and intervention: gang involved/affiliated youth (Ages 15-24,
+street outreach, student support groups (elementary to high school), after school
+program (children and youth).'
+  phone:
+    - desc: ~ 
+      number: (805) 983- 3636
+  website:
+    - http://www.cityimpact.com/youth-outreach.html
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adolescent Resources / Crisis Support
+  title: The Trevor Project LGBTQ (Ages 13-24)
+  desc: 'Crisis intervention and suicide prevention.'
+  phone:
+    - desc: ~ 
+      number: (866) 488-7386
+    - desc: Text
+      number: '838255' 
+  website:
+    - http://www.thetrevorproject.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+#13
+- location: Ventura County
+  category: Adult Crisis Services
+  title: Ventura County Behavioral Health 24 hour crisis line
+  desc: 'Mobile crisis response for psychiatric emergencies, phone counseling sessions, face evaluation'
+  phone:
+    - desc: ~ 
+      number: (866) 998-2243 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adult Crisis Services
+  title: Vista Del Mar (Assessment and Referrals)
+  desc: 'In-patient treatment for acute mental health issues, partial hospitalization program to treat dual diagnosis.'
+  phone:
+    - desc: ~ 
+      number: (805) 653-6434 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adult Crisis Services
+  title: National Suicide Prevention Hotline
+  desc: '24-hour, toll-free suicide prevention service available to anyone in suicidal crisis. The
+service is free and confidential. Website has live chat resource for the deaf and hard
+of hearing individuals.'
+  phone:
+    - desc: ~ 
+      number: (800) 273-TALK (8255) 
+    - desc: Español
+      number: (888) 628-9454  
+    - desc: TTY 1
+      number: (800) 799-4889
+  website:
+    - https://www.veteranscrisisline.net/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Adult Crisis Services
+  title: GLBT National Help Center 
+  desc: 'The Gay, Lesbian, Bisexual and Transgender (GLBT) National Help Center, vital peer
+support, community connections and resource information to people with questions
+regarding sexual orientation and/or gender identity.'
+  phone:
+    - desc: ~ 
+      number: (888) 843-4564
+    - desc: Administrative Phone 
+      number: (514) 355 0003  
+  website:
+    - http://glnh.org/
+  email:
+    - help@LGBThotline.org
+  hours: ~
+  address: '2261 Market Street, #296, San Francisco, CA 94114' 
+
+- location: Ventura County
+  category: Adult Crisis Services
+  title: Veterans 24-hour. Crisis Line
+  desc: 'The Veterans Crisis Line, online chat, and text-messaging service are free to all
+veterans, even if not registered with the U.S. Department of Veterans Affairs (VA) or
+enrolled in VA health care.'
+  phone:
+    - desc: ~ 
+      number: (800) 273-8255 press 1 
+    - desc: TTY Service
+      number: (800) 799-4889 
+  website:
+    - http://www.veteranscrisisline.net/
+  email: ~
+  hours: ~
+  address: ~ 
+
+#14
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: ~
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website:
+    - https://www.domesticshelters.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: Coalition For Family Harmony 
+  desc: 'Confidential “home-like” shelter for 30 days, up to four months, advocacy in
+emotional, medical, legal, economic and housing issues. Free of charge.'
+  phone:
+    - desc: ~ 
+      number: (805) 983- 6014 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: Interface Children and Family Services
+  desc: 'Confidential emergency shelter, victims and children, case management, counseling,
+restraining order assistance and court accompaniment. Free of charge.'
+  phone:
+    - desc: ~ 
+      number: (805) 485- 6114 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: Santa Barbara Domestic Violence Solutions (SB County) 
+  desc: 'Emergency shelter, second-stage housing: for victims who have met their goals
+during emergency shelter stay and allows them to make long-term positive changes.'
+  phone:
+    - desc: ~ 
+      number: (805) 964- 5245
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: Lompoc Domestic Violence Crisis Hotline 
+  desc: 'Emergency shelter for up to 45 days, emotional support, food, clothing, goal planning
+assistance, advocacy for medical, legal and financial resources, information, support
+groups, and referrals. Second-stage housing for victims who have met their goals
+during emergency shelter stay and allows the victim to make long-term positive
+changes.'
+  phone:
+    - desc: ~ 
+      number: (805) 736- 0965 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: Valley Oasis (Lancaster)
+  desc: '60-day emergency shelter, childcare facility, open to men, women, and children who
+are victims of domestic violence. Transitional housing provides one-year of on-going
+case management.'
+  phone:
+    - desc: ~ 
+      number: (661) 945- 6736 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Shelters
+  title: Good Shepard (Los Angeles)
+  desc: 'Individual apartment unit, privacy and safety for victims. There is an adult learning
+center, elementary school, early childhood education center, therapy, legal assistance,
+and after care program assistance, and after care program.'
+  phone:
+    - desc: ~ 
+      number: (323) 737- 6111 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+#15
+- location: Ventura County
+  category: Domestic Violence Resources
+  title: Interface Children and Family Services
+  desc: 'Family resource centers, family violence intervention, mental health services, justice
+services, youth services.'
+  phone:
+    - desc: ~ 
+      number: (805) 485-6114
+  website:
+    - http://icfs.org/
+  email: ~
+  hours: ~
+  address: 4001 S. Mission Oaks Blvd, Suite l, Camarillo, CA 93012 
+
+- location: Ventura County
+  category: Domestic Violence Resources
+  title: Coalition For Family Harmony
+  desc: "Domestic violence emergency safe house, rape crisis center, batterer's intervention
+program, juvenile probation program, teen dating violence, counseling and support
+groups, family harmony, and education and outreach."
+  phone:
+    - desc: ~ 
+      number: (805) 983-6014 
+    - desc: Bi-lingual Hotline
+      number: (800) 300-2181 
+  website:
+    - http://thecoalition.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Resources
+  title: Child Protective Services
+  desc: '24 hours a day, 7 days a week, reports will be kept confidential and callers may
+remain anonymous'
+  phone:
+    - desc: ~ 
+      number: (805) 654-3200 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Domestic Violence Resources
+  title: Safe At Home, Confidential Address Program
+  desc: "For victims of domestic violence, stalking, and sexual assault. Use to maintain
+privacy when receiving first-class mail, when opening a bank account, completing
+a confidential name change, filling out government documents, registering to vote
+and obtaining a driver's license"
+  phone:
+    - desc: ~ 
+      number: (877) 322-5227 
+    - desc: 'Alt. Phone: TTY/TDD' 
+      number: (916) 651-1304 
+  website:
+    - http://www.sos.ca.gov/safeathome/
+  email:
+    - safeathome@sos.ca.gov
+  hours: ~
+  address: ~ 
+
+#16
+- location: Ventura County
+  category: Human Trafficking Resources
+  title: ~
+  desc: 'If you or someone you know is being coerced to do labor or work you are not
+comfortable with, either for money or out of fear, please always consider first
+contacting law enforcement for immediate assistance. See page 22 for contact
+information for all local agencies.'
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Human Trafficking Resources
+  title: Interface Children and Family Services
+  desc: 'Interface works with law enforcement and medical providers to provide crisis
+intervention and support for human trafficking victims. Will also assess immediate
+needs for safety, housing, and referrals. Once a case is reported, Interface can provide
+continued services in the form of case management, emotional support, and legal
+advocacy'
+  phone:
+    - desc: 24/7 crisis hotline
+      number: (800) 636-6738 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Human Trafficking Resources
+  title: Forever Found
+  desc: 'Case consultation, one-on-one meetings, mentoring, and some alternative therapies.
+Forever Found is dedicated to the prevention, rescue, and restoration of child trafficking victims.
+Their REACH team is available 24/7 to assist Ventura County youth in leaving a
+situation of commercial sexual exploitation.'
+  phone:
+    - desc: ~ 
+      number: (805) 306-8018
+    - desc: Responding to Exploited Adolescents with Care and Hope (REACH) hotline
+      number: (805) 261-1212
+  website:
+    - http://www.foreverfound.org/
+  email:
+    - info@foreverfound.org
+  hours: ~
+  address: 2321C Tapo St., Simi Valley, CA 93063  
+
+- location: Ventura County
+  category: Human Trafficking Resources
+  title: Ventura County Human Trafficking Medical Home (VCHTMH) 
+  desc: 'Medical services for victims and survivors of human trafficking, including general
+pediatric, adolescent, and adult health care; care for newborns; women’s health care
+and advocacy; mental health care; vocational training; drug and alcohol treatment;
+and case management.'
+  phone:
+    - desc: ~ 
+      number: (805) 229-0210 
+  website: ~
+  email: ~
+  hours: Monday afternoons, Please call ahead.
+  address: Santa Paula West Medical Group, 254 W. Harvard Boulevard, Santa Paula, CA 93060
+
+- location: Ventura County
+  category: Human Trafficking Resources
+  title: International Institute of Los Angeles (IILA)
+  desc: 'Support for newly-arrived immigrants in Los Angeles. Assistance with finding
+housing, transportation, and legal services. Case management for trafficking
+survivors and collaboration with law enforcement and other organizations to help
+victims to safety.'
+  phone:
+    - desc: ~ 
+      number: (323) 224-3800 
+  website:
+    - http://www.iilosangeles.org/
+  email: ~
+  hours: ~
+  address: 3845 Selig Place, Los Angeles, CA 90031  
+
+#17
+- location: Ventura County
+  category: Human Trafficking Resources
+  title: National Human Trafficking Hotline
+  desc: 'Local and national referrals, education, and support for survivors of human
+trafficking. Their website also includes a library of information and education about
+the nature of human trafficking and how to access help for survivors. '
+  phone:
+    - desc: 24 hours
+      number: (888) 373-7888  
+    - desc: Text INFO or HELP to BeFree
+      number: (233733) 
+  website:
+    - https://humantraffickinghotline.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Human Trafficking Resources
+  title:  Coalition to Abolish Slavery and Trafficking, Los Angeles
+  desc: 'A 24-hour hotline to access resources, case management, shelter, and youth-focused
+programming for human trafficking victims in Los Angeles.'
+  phone:
+    - desc: 24/7 hotline 
+      number: 888-KEY-2-FREE (539-2373)  
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+#18
+- location: Ventura County
+  category: Cyber-Exploitation and Harassment
+  title: ~
+  desc: 'In the state of California, it is illegal to share nude photos or photos of a sexual nature
+without the consent of the person in the photos (penal code §647 (j)(4). If someone
+has either forced you to take photos of a sexual nature, or shared your photos without
+your consent, please consider contacting your local law enforcement for help.
+If you would like further information on how to protect yourself online, please consult
+these organizations:'
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Cyber-Exploitation and Harassment
+  title: The Office of the Attorney General of the California Department of Justice
+  desc: 'An online guide to finding resources and having images removed from various
+exploitative websites. Information and updates about legislation to end cyber
+exploitation. '
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website:
+    - https://oag.ca.gov/cyberexploitation
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Cyber-Exploitation and Harassment
+  title: The National Network to End Domestic Violence (NNEDV)
+  desc: 'A technology tool kit with ideas on how to stop and protect against the technology abuse. The NNEDV also has a Tech Safety application available for Android and
+iPhone. '
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website:
+    - http://nnedv.org/resources/safetynetdocs.html
+    - https://www.techsafety.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Cyber-Exploitation and Harassment
+  title: Without my consent
+  desc: 'Resources and information to help people protect their privacy online. Information
+about laws, how to track and report online harassment, legislation, and crime statistics.'
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website:
+    - https://withoutmyconsent.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Cyber-Exploitation and Harassment
+  title: Cyber Civil Rights Initiative
+  desc: '24/7 crisis hotline where victims of “non-consensual pornography” or the non-consensual
+release or exploitation of personal naked or sexual photos, can speak to a support
+specialist. Resources also include links to organizations that can assist in removing
+information and photos from the internet, attorneys who specialize in this area, and
+ideas on how to report this crime and seek assistance.' 
+  phone:
+    - desc: ~ 
+      number: (844) 878-2274 
+  website:
+    - https://www.cybercivilrights.org/victim-resources/
+  email: ~
+  hours: ~
+  address: ~ 
+
+#19
+- location: Ventura County
+  category: Legal Resources
+  title: Ventura County Bar Association Lawyer Referral Service
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 650-7599 
+  website:
+    - http://www.vcba.org/find-a-lawyer
+  email: ~
+  hours: ~
+  address: 4475 Market Street, Suite B, Ventura, CA 93003 
+
+- location: Ventura County
+  category: Legal Resources
+  title: California Rural Legal Assistance, Inc (CRLA)
+  desc: 'Legal assistance for low-income individuals residing in rural areas. Services include
+specialized programs for farmworker populations. CRLA can provide assistance to
+individuals with disabilities, immigrant populations, school children, lesbian/gay/
+bisexual and transgender populations, seniors, and individuals with limited English
+proficiency.'
+  phone:
+    - desc: ~ 
+      number: (805) 483-4620
+  website:
+    - http://www.crla.org/
+  email: ~
+  hours: ~
+  address: 3338 South A Street, Oxnard, CA 93030
+
+- location: Ventura County
+  category: Legal Resources
+  title: Ventura County Jewish Family Service
+  desc: Low cost legal clinic; call first to schedule an appointment.
+  phone:
+    - desc: ~ 
+      number: (805) 641-6565 
+  website:
+    - http://www.jfsvc.org/
+  email: ~
+  hours: ~
+  address: 740 E. Main Street, Ventura, CA 93001 
+
+- location: Ventura County
+  category: Legal Resources
+  title: La Hermandad- Hank Lacayo Youth and Family Center
+  desc: 'Legal services include assistance with adjustment of status, consular processing,
+Violence Against Women Act (VAWA) petitions, Family Petitions (I-130), Deferred
+Action for Childhood Arrivals application and renewal, provisional waivers, U-visas,
+and affidavits of support. Education includes citizenship classes, literacy and adult
+education, ESL and computer courses.'
+  phone:
+    - desc: ~ 
+      number: (805) 483-4620
+  website:
+    - http://www.lahermandadfamilyservices.org/
+  email: ~
+  hours: 'Monday- Friday: 9am-6pm- no appointment necessary'
+  address: '520 West 5th Street #D, Oxnard, CA 93030'
+
+#20
+- location: Ventura County
+  category: Legal Resources
+  title: El Concilio Family Services
+  desc: 'Citizenship program/classes; immigration services (including but not limited to
+DACA, family petitions, immigrant visas, adjustment of status and petitions for alien
+relatives); and youth leadership and development for at-risk youth ages 13-18.'
+  phone:
+    - desc: ~ 
+      number: (805) 486-9777  
+  website:
+     - http://www.elconciliofs.org/
+  email: ~
+  hours: 'Monday- Thursday: 8:30- 5:30PM, Friday: 9AM- 5PM - no appointment necessary'
+  address: 301 South C Street, Oxnard, CA 93030
+
+- location: Ventura County
+  category: Legal Resources
+  title: El Consulado Mexicano (Consulate of Mexico in Oxnard)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 984-8738  
+  website: ~
+  email: ~
+  hours: 'Monday- Friday: 7:30AM. - 3:00PM - no appointment necessary'
+  address: '3151 W 5 th Street #100, Oxnard, CA 93030'
+
+#21
+- location: Ventura County
+  category: Courts
+  title: Ventura - Hall of Justice
+  desc: ~
+  phone:
+    - desc: Main Number
+      number: (805) 289-8900 
+    - desc: Appeals
+      number: (805) 289-8527
+    - desc: Criminal
+      number: (805) 289-8545
+    - desc: Family Law
+      number: (805) 289-8610
+    - desc: Family Law Self-Help Center
+      number: (805) 289-8733
+    - desc: Family Relations Mediation
+      number: (805) 289-8735
+    - desc: Fiscal Services
+      number: (805) 289-8585
+    - desc: Interpreting Services
+      number: (805) 289-8799
+    - desc: Records
+      number: (805) 289-8668
+    - desc: Reporting Services
+      number: (805) 289-8989
+    - desc: Restitution
+      number: (805) 639-5010
+    - desc: Self-Help Legal Access Center 
+      number: (805) 289-8724
+    - desc: Small Claims
+      number: (805) 289-8526 
+  website: ~
+  email: ~
+  hours: Monday – Friday 8AM to 4PM 
+  address: 800 South Victoria Avenue, Ventura, California 93009  
+
+- location: Ventura County
+  category: Courts
+  title: Oxnard - Juvenile Courthouse
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 289-8820
+  website: ~
+  email: ~
+  hours: Monday – Friday 8AM to 4PM
+  address: 4353 E. Vineyard Avenue, Oxnard, California 93036
+
+- location: Ventura County
+  category: Courts
+  title: Simi Valley - East County Courthouse
+  desc: ~
+  phone:
+    - desc: Collections 
+      number: (805) 639-5010
+  website: ~
+  email: ~
+  hours: Monday – Tuesday 8AM to 4PM
+  address: 3855-F Alamo Street, Simi Valley, California 93063 
+
+- location: Ventura County
+  category: District Attorney’s Office Locations
+  title: District Attorney Office (Main)
+  desc: ~
+  phone:
+    - desc: General   
+      number: (805) 654-2500 
+    - desc: Witness Coordination 
+      number: (805) 654-3006
+    - desc: Consumer Mediation 
+      number: (805) 654-3110 
+    - desc: Small Claims 
+      number: (805) 654-3713
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: District Attorney’s Office Locations
+  title: Special Prosecutions
+  desc: ~
+  phone:
+    - desc: General   
+      number: (805) 662-1750
+    - desc: NSF Unit   
+      number: (805) 662-1720
+    - desc: Child Abduction Recovery 
+      number: (805) 662-1755
+  website: ~
+  email: ~
+  hours: ~
+  address: 720 Ralston Street., Suite 300, Ventura, CA 93003 
+
+- location: Ventura County
+  category: District Attorney’s Office Locations
+  title: Crime Victims' Assistance
+  desc: "The Crime Victims' Assistance Unit guides victims through the criminal justice system
+to ensure victim's rights are honored, and to assist victims in obtaining services to
+help them cope with the trauma they have endured. The Crime Victims' Assistance
+Unit provides comprehensive services to victims of all crime types. Victim advocates
+follow a trauma-informed service model, and work closely with the victim in order to
+gain an understanding of the victim's unique experience, learn the impact the crime
+has had on their lives, and provide meaningful and appropriate referrals. 
+
+Services:
+The Ventura County District Attorney's Office is also the lead agency of the Ventura County
+Family Justice Center (VC FJC). The VCFJC, which is currently working on expanding and
+developing services, is a collective of multiple agencies that assist victims of domestic
+violence, child abuse, sexual assault, human trafficking, elder abuse, and their families. The
+VC FJC integrates government services, non-profit organizations, local law enforcement,
+and legal assistance or referrals. For more information on the development and services of
+the VCFJC, please contact the Crime Victim's Assistance Unit."
+  phone:
+    - desc: ~ 
+      number: (805) 654-3622 
+  website: ~
+  email: ~
+  hours: ~
+  address: 800 S. Victoria Avenue, Suite 311, Ventura, CA 93009
+
+#22
+- location: Ventura County
+  category: Probation Agency
+  title: Probation Agency - Ventura
+  desc: ~
+  phone:
+    - desc: Main Office 
+      number: (805) 654-2132
+    - desc: Central Office
+      number: (805) 654-2106 
+    - desc: Juvenile 
+      number: (805) 981-5521
+  website: ~
+  email: ~
+  hours: ~
+  address: 800 S. Victoria Avenue, L#3200, Ventura, CA 93009 
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Ventura County Sheriff’s Office Ventura Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 654-2311
+  website: ~
+  email: ~
+  hours: ~
+  address: 800 S. Victoria Ave, Ventura CA 93003
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Ventura County Sheriff’s Office East Valley (EVSO)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 494-8200  
+  website: ~
+  email: ~
+  hours: ~
+  address: 2101 E. Olsen Road, Thousand Oaks, CA 91360 
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title:  Ventura County Sheriff’s Office Fillmore Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 524-2233
+  website: ~
+  email: ~
+  hours: ~
+  address: 524 Sespe Road, Fillmore, CA 93015
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Ventura County Sheriff’s Office Ojai Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 646-1414
+  website: ~
+  email: ~
+  hours: ~
+  address: 402 S Ventura, Ojai, CA 93023 
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Ventura Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 339-4400
+  website: ~
+  email: ~
+  hours: ~
+  address: 1425 Dowell Drive, Ventura, 93003
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Simi Valley Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 583-6950  
+  website: ~
+  email: ~
+  hours: ~
+  address: 3901 Alamo Street, Simi Valley, 93063 
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Santa Paula Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 524-4478 
+  website: ~
+  email: ~
+  hours: ~
+  address: 214 South 10th Street, Santa Paula, 93060 
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Oxnard Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 385-7600
+  website: ~
+  email: ~
+  hours: ~
+  address: 251 South C Street, Oxnard, 93030
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Camarillo Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 388-5100 
+  website: ~
+  email: ~
+  hours: ~
+  address: 3701 Las Posas Road, Camarillo, CA 93010
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Moorpark Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 532-2700 
+  website: ~
+  email: ~
+  hours: ~
+  address: 610 Spring Road, Moorpark, CA 93021
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Thousand Oaks Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 494-8201
+  website: ~
+  email: ~
+  hours: ~
+  address: 2101 E. Olsen Road, Thousand Oaks, CA 91360
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Port Hueneme Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 986-6530
+  website: ~
+  email: ~
+  hours: ~
+  address: 250 N. Ventura Road, Port Hueneme, CA 93041
+
+#23
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title: Fillmore Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 524-2233 
+  website: ~
+  email: ~
+  hours: ~
+  address: 524 Sespe Ave, Fillmore, CA 93015 
+
+- location: Ventura County
+  category: Law Enforcement Agencies
+  title:  Ojai Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 646-1414 
+  website: ~
+  email: ~
+  hours: ~
+  address: 402 S Ventura Street, Ojai, CA 93023
+
+#24
+- location: Ventura County
+  category: Homeless Shelters
+  title: Shelters
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website:
+    - https://www.domesticshelters.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Lighthouse for Women & Children
+  desc: 'Shelter for women and children, substance abuse recovery, case management, education,
+life skills development, vocational training, transitional housing and referrals.'
+  phone:
+    - desc: ~ 
+      number: (805) 385-7200 
+  website: ~
+  email: ~
+  hours: ~
+  address: 104 N Hayes Ave, Oxnard, CA 93030
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Salvation Army (Ventura Transitional Living Center)
+  desc: 'Emergency shelter, short term assistance (including food), referrals and transitional
+ programs.'
+  phone:
+    - desc: ~ 
+      number: (805) 648-4977 
+  website:
+    - http://www.salvationarmyusa.org/
+  email: ~
+  hours: ~
+  address: 155 S Oak Street, Ventura, CA 93001
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Ventura County Rescue Mission
+  desc: 'Shelter, short term assistance (including food), substance abuse recovery, transitional
+ living program, and referrals.'
+  phone:
+    - desc: ~ 
+      number: (805) 487-1234 
+  website:
+    - http://www.vcrescuemission.org/
+  email: ~
+  hours: ~
+  address: 234 East 6th Street, Oxnard, CA 93030
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Catholic Charities
+  desc: 'Catholic Charities of Ventura County is an independent, non-profit human services
+agency that provides a wide range of “safety-net” services to families and individuals
+experiencing hardship'
+  phone:
+    - desc: ~ 
+      number: ~ 
+  website:
+    - http://www.catholiccharitiesvc.org/
+  email: ~
+  hours: ~
+  address: '303 N Ventura Ave #A, Ventura, CA 93001'
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Ventura Community Services Center
+  desc: 'Ventura Community Services Center offers homeless prevention services such as, rental
+assistance, utility, emergency food pantry, and case management.'
+  phone:
+    - desc: ~ 
+      number: (805) 643-4694 
+  website: ~
+  email: ~
+  hours: Tuesday and Thursday 9:00 a.m. - 11:30 a.m. and 1:00 p.m. – 2:30 p.m.; Friday by aappointment only
+  address: 303 N Ventura Ave. Suite A, Ventura, CA 93001
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Oxnard Community Center
+  desc: 'Oxnard Community Center provides food distribution, lunches for homeless, and case
+management.'
+  phone:
+    - desc: ~ 
+      number: (805) 486-2900 
+  website: ~
+  email: ~
+  hours: Tuesday, Wednesday, and Thursday 8:30 a.m. -1:00 p.m.
+  address: 402 North A Street, Oxnard, CA 93030 
+
+- location: Ventura County
+  category: Homeless Shelters
+  title: Moorpark Community Services Center
+  desc: 'Moorpark Community Services Center, also known as Moorpark Pantry Plus, provides
+supplemental food, clothing, rental assistance, utility assistance, holiday programs and referrals.'
+  phone:
+    - desc: ~ 
+      number: (805) 529-0720
+  website: ~
+  email: ~
+  hours: Monday through Thursday 9:00 a.m. – 1:30 p.m.; Saturday 9:00 a.m. – 1:00 p.m
+  address: 612 Spring Road, Suite 101, Moorpark, CA 93021 
+
+- location: Ventura County
+  category: Sexual Assault/Rape
+  title: Coalition for Family Harmony
+  desc: 'Provides direct services to victims of domestic violence and sexual assault and
+educates the community regarding violence against women, children, and men.
+Offers domestic violence shelter/counseling; sexual assault crisis intervention/
+counseling and education; probation services; and a child abuse intervention
+program.'
+  phone:
+    - desc: Crisis
+      number: (805) 656-1111 or (800) 300-2181
+    - desc: 
+      number: (805) 983-6014
+  website:
+    - http://thecoalition.org/
+  email: ~
+  hours: ~
+  address: 1030 North Ventura Road, Oxnard, CA 93030 
+
+- location: Ventura County
+  category: Sexual Assault/Rape
+  title: Safe Helpline (DoD)
+  desc: "Department of Defense Safe Helpline provides crisis support for members of the DoD
+community affected by sexual assault. Safe Helpline is confidential and provides live,
+one-on-one support that is questions relating to military-specific topics, including
+questions about restricted and unrestricted reporting options. Safe Helpline services
+are owned by the DoD Sexual Assault Prevention and Response Office (SAPRO)
+and operated through a contract by the Rape, Abuse and Incest National Network
+(RAINN), the nation's largest anti-sexual violence organization."
+  phone:
+    - desc: ~ 
+      number: (877) 995-5247
+    - desc: Text (In and outside the U.S.)
+      number: (202) 470-5546 
+  website:
+    - http://www.safehelpline.org/
+  email:
+    - info@safehelpline.org
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Sexual Assault/Rape
+  title: Interface Children and Family Services
+  desc: 'Offers individual, marriage and family counseling, battered women’s shelter, rape
+and sexual assault treatment, victim-offender reconciliation program, information,
+and referrals.'
+  phone:
+    - desc: ~ 
+      number: (800) 636-6738 
+  website:
+    - http://www.icfs.org/
+  email: ~
+  hours: ~
+  address: 4001 S. Mission Oaks Blvd, Suite I, Camarillo, CA 93012
+
+#25 
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Ventura County Agency on Aging (VCAAA)
+  desc: 'The Ventura County Area Agency on Aging charged with the responsiblility to
+promote, the development and implementation of a comprehensive coordinated
+system of care for older individuals and their caregivers. In a community-based
+setting, VCAAA advocates for the needs of those 60 years of age and older, providing
+leadership and promoting citizen involvement in the planning process and delivery
+of services.
+• California Community Transitions Project (CCTP)
+• Elder Abuse Assistance Program
+• ElderHelp Program
+• Fall Prevention Program
+• Grants and Planning
+• Health Insurance Counseling and Advocacy Program (HICP) and Benefits
+ Enrollment Center (BEC)
+• HomeShare Program
+• Information and Assistance
+• Multipurpose Senior Service Program (MSSP)
+• Senior Nutrition Program'
+  phone:
+    - desc: ~ 
+      number: (805) 477-7300 
+  website: ~
+  email: ~
+  hours: Monday - Friday 8AM- 5PM
+  address: '646 County Square Drive #100, Ventura, CA 93003 ' 
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Tri-Counties Regional Center (Oxnard Office)
+  desc: 'Tri-Counties Regional Center provides supports and resources for individuals with
+developmental disabilities in Ventura County, so that they may live fully and safely as
+active and independent members of our community. '
+  phone:
+    - desc: ~ 
+      number: (805) 485-3177
+    - desc: Fax
+      number: (805) 988- 9521 
+  website:
+    - http://www.tri-counties.org/
+  email: ~
+  hours: ~
+  address: '2401 East Gonzales Road Suite 100 Oxnard, CA 93036' 
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Tri-Counties Regional Center (Simi Valley Office)
+  desc: 'Tri-Counties Regional Center provides supports and resources for individuals with
+developmental disabilities in Ventura County, so that they may live fully and safely as
+active and independent members of our community. '
+  phone:
+    - desc: ~ 
+      number: (805) 522-8030
+    - desc: Fax
+      number: (805) 522-8142 
+  website:
+    - http://www.tri-counties.org/
+  email: ~
+  hours: ~
+  address: 2635 Park Center Drive Suite A Simi Valley, CA 93065 
+
+#26
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Camarillo Hospice
+  desc: 'Free practical and emotional assistance to individual and families throughout
+Ventura County who are facing a life-limiting illness. On-going bereavement and
+grief support groups are also available and free of charge. '
+  phone:
+    - desc: ~ 
+      number: (805) 389-6870 
+  website:
+    - http://www.camarillohospice.org/
+  email: ~
+  hours: Monday- Friday 8:30A.M. - 4:30P.M
+  address: 400 Rosewood Ave, Camarillo, CA 93010
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Gray Law Inc.
+  desc: 'Free legal advice for Seniors in Ventura County. Please call for details.'
+  phone:
+    - desc: ~ 
+      number: (805) 658-2266 
+  website:
+    - http://www.graylaw.us/
+  email: ~
+  hours: ~
+  address: '3585 Maple Street #126, Ventura, CA 93003'
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Adult Protective Services
+  desc: 'Adult Protective Services is a state-mandated program that helps ensure the safety
+and well-being of elders and other adults with limited abilities. The staff investigates
+allegations of abuse and neglect, assesses client needs, and provides short-term case
+management and a connection to other services. Our staff provides services at no
+cost to clients, providing short-term case management, and linkage to services.
+There are many types of abuse. Some of the more common types, are listed
+below.
+> Physical: Hitting, kicking, burning, over-or under-medicating.
+> Sexual Abuse: Unwanted sexual contact, sexual exploitation, forced viewing of
+ pornography.
+> Abandonment: Desertion by anyone having responsibility for care.
+> Isolation: Preventing the individual from receiving mail, telephone calls, visitors
+> Financial: Theft, misuse of funds or property, extortion, duress, fraud
+> Neglect: Failure to provide food, clothing, shelter, or health care for an individual
+under one’s care when the means to do so are available
+> Self-neglect: Failure to provided food, clothing, shelter, or health care for oneself
+> Mental suffering: Verbal assaults, threats, causing fear'
+  phone:
+    - desc: 24 hour Hotline
+      number: (805) 654-3200 
+  website: ~
+  email: ~
+  hours: ~
+  address: 1400 Vanguard Drive, County of Ventura, Oxnard, CA 93033 
+
+#27
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Ventura County Ombudsman Program
+  desc: 'Long Term Care Services of Ventura County, Inc. 
+  Provides Ventura County seniors a variety of services such as residents’ rights,
+quality of care, and finances. They also conduct investigations into nursing home
+abuse complaints.'
+  phone:
+    - desc: ~ 
+      number: (805) 656-1986
+    - desc: Fax
+      number: (805) 658-8540
+  website:
+    - http://www.ombudsmanventura.org/
+  email: ~
+  hours: ~
+  address: 2021 Sperry Ave Suite 35, Ventura, CA 93003 
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: The Arc of Ventura County
+  desc: 'The Arc of Ventura County is a non-profit organization that supports the well-being
+and lives of people with intellectual and developmental disabilities. Services include
+assistance with independence, employment, and community resources and referrals.'
+  phone:
+    - desc: ~ 
+      number: (805) 650-8611
+    - desc: Fax
+      number: (805) 644-7308
+  website:
+    - http://www.thearcvc.org/
+  email: ~
+  hours: ~
+  address: 5103 Walker St, Ventura, CA 93003 
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: The Beyer Family Senior Case Management program with Ventura County Jewish Family Service
+  desc: 'This program offers case management for Jewish seniors and their families. Fees are
+on a sliding fee scale, and no one is turned away. The JFS also offers resources and
+support for Holocaust survivors as they age.'
+  phone:
+    - desc: ~ 
+      number: (805) 641-6565
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+#28
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: U.S. Department of Justice Elder Justice Initiative
+  desc: 'A federal website with information on elder abuse and financial exploitation. The site
+also includes information on reporting elder abuse and finding resources nationwide
+to assist victims and their families.'
+  phone:
+    - desc: ~ 
+      number: ~
+  website:
+    - https://www.justice.gov/elderjustice
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: East Valley Ventura County Sheriff's Office
+  desc: '24-hour informational line about scams currently taking place in Ventura county.
+Including those that target elders and dependent adults. There is an option
+to leave a message if you need further information. Including those that target
+elders and dependent adults. '
+  phone:
+    - desc: ~ 
+      number: (805) 371-8327
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Elder/Dependant Adult
+  title: Federal Trade Commission
+  desc: 'Information to help consumers identify, avoid, and report scams and other
+exploitative business practices. Complaints filed with the FTC are also compiled into
+a database available to law enforcement.'
+  phone:
+    - desc: ~ 
+      number: (877) 382-4357
+  website:
+    - http://www.ftc.gov/
+    - http://www.identitytheft.gov/
+  email: ~
+  hours: ~
+  address: ~ 
+
+#29
+- location: Ventura County
+  category: Support Services
+  title: California Missing Children Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 222-3463 
+  website:
+    - http://www.oag.ca.gov/missing
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Support Services
+  title: Mixteco/Indigena Community organizing Project (MICOP)
+  desc: 'The Mixteco/Indígena Community Organizing Project (MICOP) unites indigenous
+leaders and allies to strengthen the Mixtec and indigenous immigrant community
+of Ventura County. MICOP’s majority-indigenous staff builds community leadership
+and self-sufficiency through education and training programs, language interpretation, health care outreach, humanitarian support, and cultural promotion.'
+  phone:
+    - desc: ~ 
+      number: (805) 483-1166 
+  website:
+    - http://www.mixteco.org/
+  email: ~
+  hours: Monday-Friday 8A.M.- 5P.M.
+  address: '520 W 5th Street, #F Oxnard, CA 93030' 
+
+- location: Ventura County
+  category: Support Services
+  title: Tri-County Greater Los Angeles Agency on Deafness (GLAD)
+  desc: 'Tri-County Glad is an agency that addresses the broad social service needs of
+deaf and hard of hearing individuals covering three counties: Ventura, Santa
+Barbara, and San Luis Obispo. They provide advocacy, communication access, peer
+counseling, employment development, information and referrals, independent
+living skills and community education services for the deaf and hard of hearing
+community. Their Community Education program provides educational,
+informational, and training workships to the public. Tri County GLAD also does
+community outreach and can provide interpreter referrals.'
+  phone:
+    - desc: ~ 
+      number: (805) 644-6322 
+    - desc: TYY
+      number: (805)644-6323
+  website:
+    - http://www.tcglad.org/
+  email: ~
+  hours: ~
+  address: 702 County Square Drive, Suite 101, Ventura, CA 93003 
+
+- location: Ventura County
+  category: Support Services
+  title: Las Islas Medical Group
+  desc: "Assistance with diabetes management, emergency services, family health, family
+planning, immunizations, interpretation services, pregnancy, primary health care, STDs, and women's health."
+  phone:
+    - desc: ~ 
+      number: (805) 240-7000 
+    - desc: ~ 
+      number: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: 325 W Channel Islands Blvd, Oxnard, CA 930 
+
+- location: Ventura County
+  category: Support Services
+  title: Clinicas del Camino Real, Inc.
+  desc: 'Dental, medical, and optical services, as well as preventive health management and
+mental health services.'
+  phone:
+    - desc: ~ 
+      number: (805) 487-5351 
+  website:
+    - http://www.clinica.org/
+  email: ~
+  hours: ~
+  address: 650 Meta St, Oxnard, CA 93033
+
+- location: Ventura County
+  category: Support Services
+  title: Moorpark
+  desc: 'Dental, medical, and optical services, as well as preventive health management and
+mental health services.'
+  phone:
+    - desc: ~ 
+      number: (805) 222-2323 
+  website: ~
+  email: ~
+  hours: ~
+  address: 4279 Tierra Rejada Road, Moorpark, CA 93021 
+  
+- location: Ventura County
+  category: Support Services
+  title: Fillmore
+  desc: 'Dental, medical, and optical services, as well as preventive health management and
+mental health services.'
+  phone:
+    - desc: ~ 
+      number: (805) 524- 4926 
+  website: ~
+  email: ~
+  hours: ~
+  address: 355 Central Ave. Fillmore, CA 93015 
+
+- location: Ventura County
+  category: Support Services
+  title: Ventura
+  desc: 'Dental, medical, and optical services, as well as preventive health management and
+mental health services.'
+  phone:
+    - desc: ~ 
+      number: (805) 647-6322 
+  website: ~
+  email: ~
+  hours: ~
+  address: 200 South Wells Rd. Ventura CA 93004
+
+#30
+- location: Ventura County
+  category: Support Services
+  title: Parents of Murdered Children, Inc. - Greater Ventura County Chapter
+  desc: 'Parents of Murdered Children, Inc. provides information and support groups for
+survivors. Monthly support group meetings are held the third Thursday of the
+month from 6:00pm to 8:00pm at the Oxnard Public Library in Room B. To receive a
+meeting reminder notification call (805) 524-0929.'
+  phone:
+    - desc: ~ 
+      number: (805) 236-8130
+    - desc: Leader
+      number: (805) 625-3657
+    - desc: National Office 
+      number: (888) 818-7662
+    - desc: National Office
+      number: (513) 721-5683
+    - desc: Fax
+      number: (513) 345-4489
+  website:
+    - http://www.pomc.org/venturacounty/index.htm
+  email:
+    - vc.pomc@yahoo.com
+  hours: ~
+  address: P.O. Box 1875 (mailing address) 251 South A Street (meeting location) Room B, Oxnard, CA 93032-1875  
+
+- location: Ventura County
+  category: Support Service
+  title: Mother's Against Drunk Driving (MADD)
+  desc: 'MADD advocates can help victims and survivors of drunk driving with grief and
+emotional support, injury support, and legal and financial recovery. MADD helps
+with applications for the Victim’s Compensation Program. Offers a 24/7 helpline.'
+  phone:
+    - desc: ~ 
+      number: (877) MADD-HELP (623-3435)
+  website:
+    - http://www.madd.org/victim-services/
+  email:
+    - email.ca.state@madd.org
+  hours: ~
+  address: 511 E. John Carpenter Frwy Ste 700, Irving, TX 75062 
+
+- location: Ventura County
+  category: Counseling Services
+  title: California Lutheran University (CLU) Counseling Center
+  desc: 'Community-based counseling services for a range of issues, including family and
+couple relationship issues, anger and aggression, trauma and depression.'
+  phone:
+    - desc: ~ 
+      number: (805) 485-6426
+  website:
+    - http://www.clucounseling.org/
+  email: ~
+  hours: ~
+  address: '2201 Outlet Center Drive #600, Oxnard, CA 93036'
+
+- location: Ventura County
+  category: Counseling Services
+  title: Interface Children and Family Services
+  desc: 'Counseling specializing in children, youth, and families affected by family violence,
+child abuse, neglect, sexual abuse, trauma, crime victimization, and children
+struggling in school or peer settings. '
+  phone:
+    - desc: ~ 
+      number: (800) 636-6738 
+  website:
+    - http://icfs.org/
+  email: ~
+  hours: ~
+  address: ~
+
+#31
+- location: Ventura County
+  category: Counseling Services
+  title: Coalition for Family Harmony
+  desc: 'General counseling services, as well as treatment for victims of domestic violence,
+rape/sexual assault, and incest/molestation. '
+  phone:
+    - desc: ~ 
+      number: (805) 983-6014
+    - desc: Bi-lingual Hotline 
+      number: (800) 300-2181 
+  website:
+    - http://thecoalition.org/
+  email: ~
+  hours: ~
+  address: ~
+
+- location: Ventura County
+  category: Counseling Services
+  title: Ventura County Behavioral Health
+  desc: 'Crisis response, intensive outpatient mental health treatment, alcohol and drug
+recovery programs, transitional age youth services, on-going support and resources
+for various mental health needs.'
+  phone:
+    - desc: ~
+      number: (866) 998-2243 
+  website:
+    - http://www.vchca.org/
+  email: ~
+  hours: 24 Hours 7 Days a week
+  address: ~
+
+#32
+- location: Ventura County
+  category: Crime Victim Services and Resources
+  title: California Department of Corrections and Rehabilitation
+  desc: 'Offers 24-hour locating services for inmates within the California Department
+of Corrections system. Enter CDC number or name and date of birth to receive
+inmate’s location. Does not provide release information.'
+  phone:
+    - desc: ~ 
+      number: (916) 445-6713 
+  website:
+    - http://inmatelocator.cdcr.ca.gov/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: Ventura County
+  category: Crime Victim Services and Resources
+  title: VINE (Victim Information and Notification Everyday) Network
+  desc: 'Victims can use the telephone or Internet to search for information regarding their
+offender’s custody status and register to receive phone and e-mail notification when
+status changes. Service is free and anonymous. A VINELINK app is now available to
+victims; more information about the app can be found on the VINE website.'
+  phone:
+    - desc: Statewide
+      number: 877) 411-5588
+    - desc: TTY
+      number: (866) 847-1298 
+  website:
+    - http://www.vinelink.com/
+  email:
+    - victimservices@cdcr.ca.gov
+  hours: ~
+  address: ~ 
+
+#33
+- location: Ventura County
+  category: Crime Victim Services and Resources
+  title: National Office for Victims of Crime - OVC
+  desc: 'OVC provides substantial funding to state victim assistance and compensation programs.'
+  phone:
+    - desc: ~ 
+      number: (800) 627-6872  
+  website:
+    - http://www.ojp.usdoj.gov/ovc
+  email: ~
+  hours: ~
+  address: 810 7th Street NW, Washington, DC 20531
+
+- location: Ventura County
+  category: Crime Victim Services and Resources
+  title: CDCR California Dept of Corrections and Rehabilitation
+  desc: 'Formed in 1988, the mission of CDCR’s Office of Victim and Survivor Rights and
+Services (OVSRS) is to give crime victims and their families a voice. This website
+will provide valuable information for victims, survivors, or witnesses to a crime,
+given the offender was sentenced to the California Department of Corrections and
+Rehabilitation (CDCR) either in an adult or juvenile facility.'
+  phone:
+    - desc: ~ 
+      number: (877) 256-6877 
+  website:
+    - http://www.cdcr.ca.gov/victim_services/index.html
+  email:
+    - victimservices@cdcr.ca.gov
+  hours: ~
+  address: P.O. Box 942883, Sacramento, CA 94283
+
+- location: Ventura County
+  category: Crime Victim Services and Resources
+  title: Survivors of Violent Loss
+  desc: 'Online support group helping to address the issue of traumatic grief among
+co-victims of homicide, suicide, drunk driving, and terrorist fatalities.'
+  phone:
+    - desc: ~ 
+      number: (619) 685-0005 
+  website:
+    - http://svlp.org/
+  email:
+    - svlp@svlp.org
+  hours: ~
+  address: ~ 
+
+#34
+- location: Ventura County
+  category: Victim Compensation Program
+  title: California Victim Compensation Program (CalVCP)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 777-9229 
+  website:
+    - http://www.calvcp.ca.gov/
+  email: ~
+  hours: ~
+  address: ~ 
+
+#35
+#36
+- location: Ventura County
+  category: Crime and Trauma Scene Cleanup 
+  title: AAA Crime Scene Cleanup Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 818-6493  
+  website: ~
+  email: ~
+  hours: ~
+  address: '234 S. Mill, Unit #B Santa Paula, CA 93060' 
+
+- location: Ventura County
+  category: Crime and Trauma Scene Cleanup 
+  title: California Restoration Contractors
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 650-1209 
+  website: ~
+  email: ~
+  hours: ~
+  address: '5960 Valentine Rd., #4, Ventura, CA 93003' 
+
+- location: Ventura County
+  category: Crime and Trauma Scene Cleanup 
+  title: ServiceMaster Anytime
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 963-1965 
+  website: ~
+  email: ~
+  hours: ~
+  address: 36 S. Calle Cesar Chavez, Santa Barbara, CA 93103 
+
+- location: Ventura County
+  category: Crime and Trauma Scene Cleanup 
+  title: ServPro of Simi Valley
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 522-2945
+  website: ~
+  email: ~
+  hours: ~
+  address: '480 E. Easy Street, #2 Simi Valley, CA 93065' 
+
+- location: Ventura County
+  category: Crime and Trauma Scene Cleanup 
+  title: ServPro of Santa Barbara & Goleta
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 963-0606
+  website: ~
+  email: ~
+  hours: ~
+  address: 6485 Calle Real, Santa Barbara, CA 93117
+
+#37
+#38
+#39
+#40
