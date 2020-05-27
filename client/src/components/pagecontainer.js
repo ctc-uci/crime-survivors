@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from './header/Header';
+import Navbar from './navbar/navbar';
 import EscapeButton from './escape/escapeButton';
 import Footer from './footer/Footer';
 
@@ -22,7 +22,7 @@ const PageContainer = ({ sidebar, body }) => {
       // textAlign: 'center',
       // justifyContent: 'left',
       // flexDirection: 'column',
-      width: '300px',
+      // width: '272px',
       // flex: '0.2',
       // overflow: 'scroll',
       // height: '100vh', // TODO better solution
@@ -38,14 +38,16 @@ const PageContainer = ({ sidebar, body }) => {
 
   return (
     <>
-      <Header />
       <EscapeButton />
-      <div style={styles.container}>
-        <div style={styles.sidebar}>
+      <div className="content" style={styles.container}>
+        <div style={styles.sidebar} className="sidebar-container">
           {sidebar}
         </div>
-        <div style={styles.main}>
-          <main>{body}</main>
+        <div className="main-container" style={styles.main}>
+          <Navbar />
+          <div>
+            <main>{body}</main>
+          </div>
         </div>
       </div>
       <Footer />
