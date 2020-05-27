@@ -1,8 +1,7 @@
 .sidebar {
-  /* min-width: 250px; */
-  width: 100%;
+  width: 272px;
   height: 100%;
-  background-image: linear-gradient(#40589e, #8cacc4);
+  background: linear-gradient(180deg, #425A9F 0%, #8EAEC5 100%);
   padding: 20px;
   overflow: wrap;
   border-radius: 4px;
@@ -18,7 +17,7 @@
   font-size: 14px;
   color: white;
   text-decoration: none;
-  font-family: "Source Sans Pro";
+  font-family: "Poppins";
 }
 
 .sidebar-resource:hover {

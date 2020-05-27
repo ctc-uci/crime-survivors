@@ -18,7 +18,7 @@ const CategoryPage = ({ data, pageContext }) => {
           props={{
             sidebarData,
             resourceId: '',
-            category: pageContext.category,
+            selecedCategory: pageContext.category,
           }}
         />
       )}

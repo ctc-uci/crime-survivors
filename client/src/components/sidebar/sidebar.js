@@ -6,6 +6,7 @@ import './sidebar.css';
 
 const Sidebar = ({ props }) => {
   // TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
+  // eslint-disable-next-line react/prop-types
   const { sidebarData } = props;
 
   return (
@@ -13,7 +14,16 @@ const Sidebar = ({ props }) => {
       <h1>Title</h1>
       {sidebarData.group.map((category) => (
         <div key={uuidv4()}>
-          <Category categoryName={category.category} resources={category.resources} />
+          {/* <p>
+            {`${selectedCategory}asda`}
+            {category.categoryId}
+          </p> */}
+
+          <Category
+            categoryName={category.category}
+            resources={category.resources}
+            selected={false}
+          />
         </div>
       ))}
     </div>

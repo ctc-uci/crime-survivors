@@ -2,18 +2,22 @@
   display: inline-block;
   background: none!important;
   border: none;
-  padding: 0!important;
-  font-family: 'Source Sans Pro';
+  padding: 10px 0 !important;
+  font-family: "Poppins" !important;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 21px;
   cursor: pointer;
   color: white;
+  font-size: 14px;
+}
+
+.purple{
+  color: red !important;
 }
 
 .sidebar-category:focus{
     outline: none;
-}
-
-.sidebar-category:hover{
-  opacity: .8;
 }
 
 .resource-group{
