@@ -59,6 +59,7 @@ html {
     /* background: green; */
     white-space: nowrap;
     overflow-x: auto;
+    justify-content: end;
   }
 }
 
