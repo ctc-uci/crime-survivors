@@ -8,32 +8,40 @@
 .footer {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
   color: white;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   display: flex;
   flex-direction: row;
-  background: linear-gradient(#5E73AF 0%, #3686b9 100%);
+  justify-content: space-between;
+  background: linear-gradient(180deg, #5E73AF 0%, rgba(54, 134, 185, 0.65) 100%);
 }
 .footer-navigation {
   margin-top: 20px;
   margin-left: 40px;
   line-height: 30px
 }
-
 .footer .footer-navigation #subtitle {
   font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
 }
-.footer .footer-navigation .footer-info {
+.footer .footer-navigation .footer-local {
   margin-bottom: 8px;
 }
-.footer .footer-navigation .footer-social-media {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-right: 50px;
-  word-spacing: 100px; */
-  /* padding: 5px; */
+.footer .disclaimer  {
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 40%;
+  text-align: center;
+}
+.footer .disclaimer b {
+  font-size: 17px;
+  font-style: normal; 
+  line-height: 30px;
+}
+.footer #disclaimer-text {
+  font-size: 12px;
 }
 .footer-social-media .fb-link #fb-icon {
   font-size: 1px;
