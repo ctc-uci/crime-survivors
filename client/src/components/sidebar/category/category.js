@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
@@ -6,13 +7,13 @@ import { generatePath } from '../../../utils/commonUtils';
 import './category.css';
 // TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
 
-function Category({ categoryName, resources }) {
+function Category({ categoryName, resources, selected }) {
   const [hide, setHide] = useState(true);
   return (
     <div>
       <button
-        className="sidebar-category"
         type="button"
+        className={`sidebar-category ${selected ? 'purple' : ''}`}
         onClick={() => setHide(!hide)}
       >
         {`> ${categoryName}`}
