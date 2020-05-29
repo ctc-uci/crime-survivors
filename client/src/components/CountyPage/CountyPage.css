@@ -15,9 +15,9 @@ div.display{
 }
 
 div.content {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   position: relative;
   height: 1000px;
 }
@@ -36,32 +36,38 @@ div.location {
 img#wave1 {
   position: absolute;
   top: 5%;
+  height: 400px;
   width: 100%;
 }
 img#wave2 {
   position: absolute;
   top: 10%;
+  height: 400px;
   width: 100%;
 }
 
 img#wave3 {
   position: absolute;
   top: 40%;
+  height: 300px;
   width: 100%;
 }
 img#wave4 {
   position: absolute;
   top: 45%;
+  height: 300px;
   width: 100%; 
 }
 
 img#wave5 {
   position: absolute;
   top: 75%;
+  height: 300px;
   width: 100%;
 }
 img#wave6 {
   position: absolute;
   top: 78%;
+  height: 300px;
   width: 100%;
 }

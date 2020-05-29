@@ -13,8 +13,9 @@
    version="1.1"
    fill="none"
    viewBox="0 0 1440 336"
+   preserveAspectRatio="none"
    height="336"
-   width="1440">
+   width="100%">
   <metadata
      id="metadata92">
     <rdf:RDF>
