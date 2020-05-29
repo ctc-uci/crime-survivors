@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Proptypes } from 'prop-types';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
 import TwitterIcon from '../../images/twitter-icon.svg';
@@ -9,9 +8,6 @@ import YoutubeIcon from '../../images/youtube-icon.svg';
 import InstagramIcon from '../../images/instagram-icon.svg';
 import './Footer.css';
 
-// const { disclaimer } = query.data.allContentfulDisclaimer.edges[0].node;
-// const { disclaimerTitle } = disclaimer.title;
-// const { disclaimerText } = disclaimer.body.body;
 
 const Footer = () => {
   const { title, body } = useStaticQuery(graphql`
@@ -27,12 +23,6 @@ const Footer = () => {
         }
       }
     }`).allContentfulDisclaimer.edges[0].node;
-  // const query = useStaticQuery(graphql`
-  //   query CountyQuery2 {
-  //     allContentfulResource {
-  //       distinct(field: location)
-  //     }
-  //   }`);
 
   return (
     <div className="footer">
