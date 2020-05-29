@@ -1,19 +1,18 @@
 /* eslint-disable react/jsx-indent */
 /* eslint-disable no-undef */
 import React, { useEffect } from 'react';
-// import React from 'react';
-// import { Link } from 'gatsby';
 
 import './navbar.css';
 import logo from '../../images/cs-logo.png';
 
 function resizeMainContainer() {
   const screenWidth = document.querySelector('.escape-container').offsetWidth;
-  const sidebarWidth = document.querySelector('.sidebar-container').offsetWidth;
+  const sidebar = document.querySelector('.sidebar-container');
+  const sidebarWidth = sidebar == null ? 0 : sidebar.offsetWidth;
 
-  const mainContainerWidth = screenWidth - sidebarWidth;
-  const w = `${mainContainerWidth.toString()}px`;
-  document.querySelector('.main-container').style.width = w;
+  const navbarWidth = screenWidth - sidebarWidth;
+  const w = `${navbarWidth.toString()}px`;
+  document.querySelector('.nav-bar').style.width = w;
 }
 
 const Navbar = () => {
