@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './CountyPage.css';
 
 import EscapeButton from '../escape/escapeButton';
-import Navbar from '../header/Navbar';
+import Navbar from '../navbar/navbar';
 import Sidebar from '../sidebar/sidebar';
 import { Categories, categoryTypes, categoryDefault } from './Category/category';
 // import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes'

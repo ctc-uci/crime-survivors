@@ -76,10 +76,10 @@ img {
 a {
   padding-right: 10px;
 }
-a:link {
+/* a:link {
   text-decoration: none;
   color: white;
-}
+} */
 /* a:active {
   text-decoration: none;
   box-shadow: 5px 5px #888888;
