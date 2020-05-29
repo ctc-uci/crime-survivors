@@ -11,64 +11,65 @@
   justify-content: space-between;
   background: linear-gradient(180deg, #5E73AF 0%, rgba(54, 134, 185, 0.65) 100%);
 }
-.footer-navigation {
+#footer-navigation {
   margin-top: 20px;
   margin-left: 40px;
   line-height: 30px
 }
-.footer .footer-navigation #subtitle {
+#footer-navigation #subtitle {
   font-size: 15px;
   font-style: normal;
   font-weight: bold;
 }
-.footer .footer-navigation .footer-local {
+#footer-navigation #footer-local {
   margin-bottom: 8px;
 }
-.footer .footer-navigation .footer-social-media {
+#footer-navigation #footer-social-media {
   line-height: 0px;
   display: inline-block;
   text-align: center;
   position: relative;
 }
-.footer .disclaimer  {
+#disclaimer  {
   margin-top: 20px;
   margin-right: 40px;
   width: 40%;
   text-align: center;
 }
-.footer .disclaimer b {
+#disclaimer b {
   font-size: 17px;
   font-style: normal; 
   line-height: 30px;
 }
-.footer #disclaimer-text {
+#disclaimer-text {
   font-size: 12px;
+  margin-bottom: 19px;
 }
-.footer-social-media .fb-link #fb-icon {
+#footer-social-media .fb-link #fb-icon {
   font-size: 1px;
   height: 19.92px;
   width: 20.92px;
 }
-.footer-social-media .ig-link #ig-icon {
+#footer-social-media .ig-link #ig-icon {
   font-size: 10px;
   height: 20px;
   width: 20px;
 }
-.footer-social-media .yt-link #yt-icon {
+#footer-social-media .yt-link #yt-icon {
   font-size: 10px;
   height: 14px;
   width: 20px;
 }
-.footer-social-media .twitter-link #twitter-icon {
+#footer-social-media .twitter-link #twitter-icon {
   font-size: 10px;
   height: 17px;
   width: 20.92px;
 }
-.footer-social-media .gplus-link #gplus-icon {
+/* #footer-social-media #gplus-link #gplus-icon {
   font-size: 1px;
   height: 17px;
   width: 20.92px;
-}
+} */
 img {
   vertical-align: middle;
 }
