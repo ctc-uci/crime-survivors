@@ -70,12 +70,7 @@
   height: 17px;
   width: 20.92px;
 } */
-img {
-  vertical-align: middle;
-}
-a {
-  padding-right: 10px;
-}
+
 /* a:link {
   text-decoration: none;
   color: white;
@@ -84,15 +79,37 @@ a {
   text-decoration: none;
   box-shadow: 5px 5px #888888;
 } */
-a:visited {
+
+#footer-social-media img {
+  vertical-align: middle;
+}
+
+#footer-social-media a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
+}
+
+#footer-social-media a:visited {
   text-decoration: none;
   color: white;
 }
-a:hover {
+
+#footer-social-media a:hover {
   text-decoration: none;
   color: white;
 }
-a:hover {
-  text-decoration: underline;
+
+#footer-local a {
+  text-decoration: none;
   color: white;
 }
+
+/* in case we want "contact us" to have different styling */
+/* #contact-us {
+  background: #4C6CA4;
+  border-radius: 25px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+} */
