@@ -36,7 +36,7 @@ const Footer = () => {
           <br />
           <Link to="/index/">General Guides</Link>
           <br />
-          <Link to="/index/">Contact Us</Link>
+          <Link id="contact-us" to="/index/">Contact Us</Link>
         </div>
         <div id="footer-social-media">
           <a id="fb-link" href="https://www.facebook.com/crimesurvivors">
