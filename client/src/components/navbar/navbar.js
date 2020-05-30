@@ -12,7 +12,11 @@ function resizeMainContainer() {
 
   const navbarWidth = screenWidth - sidebarWidth;
   const w = `${navbarWidth.toString()}px`;
-  document.querySelector('.nav-bar').style.width = w;
+  if (document.querySelector('.main-container') != null) {
+    document.querySelector('.main-container').style.width = w;
+  } else {
+    document.querySelector('.nav-bar').style.width = w;
+  }
 }
 
 const Navbar = () => {
