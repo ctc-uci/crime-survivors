@@ -1,27 +1,34 @@
 /* eslint-disable react/jsx-indent */
 /* eslint-disable no-undef */
-import React from 'react';
-
+import React, { useEffect } from 'react';
 import './navbar.css';
 import logo from '../../images/cs-logo.png';
 
 function resizeMainContainer() {
-  // const currentMainWidth = document.querySelector('.main-container').offsetWidth;
   const screenWidth = document.querySelector('.escape-container').offsetWidth;
-  const sidebarWidth = document.querySelector('.sidebar-container').offsetWidth;
+  const sidebar = document.querySelector('.sidebar-container');
+  const sidebarWidth = sidebar == null ? 0 : sidebar.offsetWidth;
 
-  const mainContainerWidth = screenWidth - sidebarWidth;
-  const w = `${mainContainerWidth.toString()}px`;
-  document.querySelector('.main-container').style.width = w;
-  // const mainContainerWidth = screenWidth - sidebarWidth;
-  // const w = `${mainContainerWidth.toString()}px`;
-  // document.querySelector('.main-container').style.width = w;
+  const navbarWidth = screenWidth - sidebarWidth;
+  const w = `${navbarWidth.toString()}px`;
+  if (document.querySelector('.main-container') != null) {
+    document.querySelector('.main-container').style.width = w;
+  } else {
+    document.querySelector('.nav-bar').style.width = w;
+  }
 }
 
-window.addEventListener('resize', resizeMainContainer);
-
-const Navbar = () => (
-  <div className="nav-bar" id="nav-bar" onLoad="resizeMainContainer()">
+const Navbar = () => {
+  useEffect(() => {
+    window.addEventListener('resize', resizeMainContainer);
+    // Resized
+    return () => {
+      // Clean Up
+      window.removeEventListener('resize', resizeMainContainer);
+    };
+  }, []);
+  return (
+  <div className="nav-bar" id="nav-bar">
   {/* <div className="nav-bar" id="nav-bar"> */}
     {/* links are nothing for now */}
     <div className="logo">
@@ -44,6 +51,7 @@ const Navbar = () => (
       </li>
     </ul>
   </div>
-);
+  );
+};
 
 export default Navbar;

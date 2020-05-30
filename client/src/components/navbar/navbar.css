@@ -59,11 +59,13 @@ html {
     justify-content: start;
     white-space: nowrap;
     overflow-x: auto;
+    justify-content: end;
   }
 } */
 
 @media all and (max-width: 600px) {
   .navigation {
+    justify-content: start;
     overflow-x: auto;
     /* background: pink; */
     white-space: nowrap;

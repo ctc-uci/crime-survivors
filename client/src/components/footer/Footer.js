@@ -1,44 +1,69 @@
 import React from 'react';
+import { Link, useStaticQuery, graphql } from 'gatsby';
 
-import TwitterIcon from '../../images/twitter-icon.png';
-import FacebookIcon from '../../images/facebook-icon.png';
-import GooglePlusIcon from '../../images/googleplus-icon.png';
-import YoutubeIcon from '../../images/youtube-icon.png';
-import InstagramIcon from '../../images/instagram-icon.png';
+import TwitterIcon from '../../images/twitter-icon.svg';
+import FacebookIcon from '../../images/facebook-icon.svg';
+// import GooglePlusIcon from '../../images/googleplus-icon.png';
+import YoutubeIcon from '../../images/youtube-icon.svg';
+import InstagramIcon from '../../images/instagram-icon.svg';
 import './Footer.css';
 
 
-const Footer = () => (
-  <div className="footer">
-    <div className="footer-info">
-      @ 2003-2019 Crime Survivors, Inc.
-      {' '}
-      All Rights Reserved.
-      <br />
-      Website by Commit the Change
+const Footer = () => {
+  const { title, body: { body } } = useStaticQuery(graphql`
+    query DislaimerQuery {
+      allContentfulDisclaimer {
+        edges {
+          node {
+            title
+            body {
+              body
+            }
+          }
+        }
+      }
+    }`).allContentfulDisclaimer.edges[0].node;
+
+  return (
+    <div className="footer">
+      <div id="footer-navigation">
+        <div id="footer-local">
+          <b id="subtitle">Crime Survivors Resources</b>
+          <br />
+          <Link to="/index/">Home</Link>
+          <br />
+          <Link to="/index/">Find your County</Link>
+          <br />
+          <Link to="/index/">General Guides</Link>
+          <br />
+          <Link id="contact-us" to="/index/">Contact Us</Link>
+        </div>
+        <div id="footer-social-media">
+          <a id="fb-link" href="https://www.facebook.com/crimesurvivors">
+            <img src={FacebookIcon} id="fb-icon" alt="Facebook" />
+          </a>
+          <a id="ig-link" href="https://www.instagram.com/crimesurvivors/">
+            <img src={InstagramIcon} id="ig-icon" alt="Instagram" />
+          </a>
+          <a id="yt-link" href="https://www.youtube.com/crimesurvivor">
+            <img src={YoutubeIcon} id="yt-icon" alt="Youtube" />
+          </a>
+          <a id="twitter-link" href="https://twitter.com/crimesurvivors">
+            <img src={TwitterIcon} id="twitter-icon" alt="Twitter" />
+          </a>
+          {/* <a id="gplus-link" href="https://plus.google.com/+CrimesurvivorsOrg/">
+            <img src={GooglePlusIcon} id="gplus-icon" alt="Google Plus" />
+          </a> */}
+        </div>
+      </div>
+      <div id="disclaimer">
+        <b>{title}</b>
+        <div id="disclaimer-text">
+          {body}
+        </div>
+      </div>
     </div>
-    <div className="footer-social-media">
-      <a className="fb-link" href="https://www.facebook.com/crimesurvivors">
-        <img src={FacebookIcon} id="fb-icon" alt="Facebook" />
-      </a>
-      {' '}
-      <a className="twitter-link" href="https://twitter.com/crimesurvivors">
-        <img src={TwitterIcon} id="twitter-icon" alt="Twitter" />
-      </a>
-      {' '}
-      <a className="gplus-link" href="https://plus.google.com/+CrimesurvivorsOrg/">
-        <img src={GooglePlusIcon} id="gplus-icon" alt="Google Plus" />
-      </a>
-      {' '}
-      <a className="yt-link" href="https://www.youtube.com/crimesurvivor">
-        <img src={YoutubeIcon} id="yt-icon" alt="Youtube" />
-      </a>
-      {' '}
-      <a className="ig-link" href="https://www.instagram.com/crimesurvivors/">
-        <img src={InstagramIcon} id="ig-icon" alt="Instagram" />
-      </a>
-    </div>
-  </div>
-);
+  );
+};
 
 export default Footer;
