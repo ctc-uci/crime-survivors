@@ -1,3 +1,11 @@
+.hidden{
+  display: none;
+}
+
+.sidebar-button{
+  position: absolute;
+}
+
 .sidebar {
   width: 272px;
   height: 100%;
@@ -23,3 +31,9 @@
 .sidebar-resource:hover {
   opacity: 0.5;
 }
+
+/* @media all and (max-width: 600px) {
+  .sidebar{
+    display: none;
+  }
+} */

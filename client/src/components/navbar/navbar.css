@@ -48,25 +48,24 @@ html {
   text-align: center;
 }
 
-.navigation a:hover {
+/* .navigation a:hover {
   background: #4C6CA4;
   border-radius: 25px;
   color: white;
-}
+} */
 
-@media all and (max-width: 800px) {
+/* @media all and (max-width: 800px) {
   .navigation {
-    /* background: green; */
+    justify-content: start;
     white-space: nowrap;
     overflow-x: auto;
   }
-}
+} */
 
 @media all and (max-width: 600px) {
   .navigation {
     overflow-x: auto;
     /* background: pink; */
-    padding: 0;
     white-space: nowrap;
   }
 }

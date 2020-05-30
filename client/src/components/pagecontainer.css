@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+}
+
+.main {
+  background-color: #f8f8ff;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+}
