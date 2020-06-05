@@ -4,7 +4,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
 
 // TODO: eslint error on the next line, not sure why it wont let me reference parent
-import '../styles/LandingPage.css'; // eslint-disable-line
+import '../styles/landingPage.css'; // eslint-disable-line
 import Navbar from '../components/navbar/navbar';
 import EscapeButton from '../components/escape/escapeButton';
 import BannerImage from '../images/Banner-Img.png';// eslint-disable-line
