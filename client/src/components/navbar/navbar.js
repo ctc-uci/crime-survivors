@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-indent */
 /* eslint-disable no-undef */
 import React, { useEffect } from 'react';
-
+import { Link } from 'gatsby';
 import './navbar.css';
-import logo from '../../images/cs-logo.png';
+import logo from '../../images/CrimeSurvivorsLogo.png';
 
 function resizeMainContainer() {
   const screenWidth = document.querySelector('.escape-container').offsetWidth;
@@ -30,25 +30,23 @@ const Navbar = () => {
   }, []);
   return (
   <div className="nav-bar" id="nav-bar">
-  {/* <div className="nav-bar" id="nav-bar"> */}
-    {/* links are nothing for now */}
     <div className="logo">
-      <a className="cs-logo-img" href="\">
+      <Link className="cs-logo-img" to="/LandingPage">
         <img src={logo} alt="Logo" />
-      </a>
+      </Link>
     </div>
     <ul className="navigation">
       <li>
-        <a href="/">Home</a>
+        <Link to="/LandingPage">Home</Link>
       </li>
       <li>
-        <a href="/">Find Your County</a>
+      <Link to="/LandingPage#county-section">Find Your County</Link>
       </li>
       <li>
-        <a href="/">General Guides</a>
+      <Link to="/">General Guides</Link>
       </li>
       <li>
-        <a href="/">Contact Us</a>
+        <a href="https://crimesurvivors.org/contact-us/" target="_blank" rel="noopener noreferrer">Contact Us</a>
       </li>
     </ul>
   </div>

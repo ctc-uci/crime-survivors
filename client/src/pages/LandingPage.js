@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 import '../styles/landingPage.css'; // eslint-disable-line
 import Navbar from '../components/navbar/navbar';
 import EscapeButton from '../components/escape/escapeButton';
+import Footer from '../components/footer/Footer';
 import BannerImage from '../images/Banner-Img.png';// eslint-disable-line
 import guideGraphic1 from '../images/Guide-Find-An-Advocate.svg';// eslint-disable-line
 import guideGraphic2 from '../images/Guide-Heal-And-Recover.svg';// eslint-disable-line
@@ -107,9 +108,8 @@ const LandingPage = () => {
           <img className="bgCountyTop" alt="bgBannerTop2" src={bgCountyTop2} />
           <img className="bgCountyBottom" alt="bgBannerBottom" src={bgCountyBottom} />
         </div>
-
-        <p>Footer</p>
       </div>
+      <Footer />
     </div>
   );
 };
