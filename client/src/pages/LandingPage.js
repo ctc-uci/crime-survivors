@@ -1,11 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // eslint-disable-line
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
 import { pathify } from '../utils/commonUtils';
 
-// TODO: eslint error on the next line, not sure why it wont let me reference parent
-import '../styles/landingPage.css'; // eslint-disable-line
+import '../styles/landingPage.css';
 import Navbar from '../components/navbar/navbar';
 import EscapeButton from '../components/escape/escapeButton';
 import Footer from '../components/footer/Footer';
@@ -23,19 +21,6 @@ import bgCountyBottom from '../images/Background-County-Bottom.svg';// eslint-di
 
 
 const LandingPage = () => {
-  const data = useStaticQuery(graphql`
-    query CountyQuery {
-      allContentfulResource {
-        distinct(field: location)
-      }
-    }`);
-
-  // no proptype with this method of using static query
-  // TODO: https://www.gatsbyjs.org/docs/static-query/#typechecking
-
-  const { allContentfulResource } = data;
-  const { distinct } = allContentfulResource; // eslint-disable-line
-
   const fakeCountyData = [
     { county: 'City of Los Angeles', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
     { county: 'Los Angeles County', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
@@ -59,10 +44,6 @@ const LandingPage = () => {
       <EscapeButton />
       <Navbar />
       <div id="container">
-        {/* <p>Escape the site</p>
-        <p>Header</p> */}
-
-
         <div id="banner-section">
           <div id="banner-container">
             <div id="banner-text-container">
@@ -113,14 +94,6 @@ const LandingPage = () => {
       <Footer />
     </div>
   );
-};
-
-LandingPage.defaultProps = {
-
-};
-
-LandingPage.propTypes = {
-
 };
 
 export default LandingPage;
