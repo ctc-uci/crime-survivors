@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'; // eslint-disable-line
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
+import { pathify } from '../utils/commonUtils';
 
 // TODO: eslint error on the next line, not sure why it wont let me reference parent
 import '../styles/landingPage.css'; // eslint-disable-line
@@ -36,13 +37,13 @@ const LandingPage = () => {
   const { distinct } = allContentfulResource; // eslint-disable-line
 
   const fakeCountyData = [
-    { county: 'Los Angeles County', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
-    { county: 'Orange County', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
-    { county: 'San Bernadino County', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
-    { county: 'Los Angeles County2', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
-    { county: 'Orange County2', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
-    { county: 'San Bernadino County2', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
-    { county: 'Los Angeles County3', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' }];
+    { county: 'City of Los Angeles', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
+    { county: 'Los Angeles County', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
+    { county: 'Orange County', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
+    { county: 'San Bernardino', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
+    { county: 'Ventura County', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
+    { county: 'San Diego County', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
+    { county: 'Riverside County', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' }];
 
 
   const guideBoxData = [
@@ -67,7 +68,7 @@ const LandingPage = () => {
             <div id="banner-text-container">
               <h1 className="blue">Crime Survivors Resources</h1>
               <p style={{ maxWidth: '500px', minWidth: '300px' }}>The mission of Crime Survivors is to provide hope and healing to victims and survivors of crime through advocacy and the support of resources, information, and empowerment. All victims of crime have the right and responsibility to survive.</p>
-              <button id="find-your-county-btn" type="button">Find your County</button>
+              <Link id="find-your-county-btn" to={pathify(['LandingPage'], 'county-section')}>Find your County</Link>
             </div>
             <div id="banner-image-container">
               <img id="banner-image" alt="banner" src={BannerImage} />
@@ -78,7 +79,7 @@ const LandingPage = () => {
         </div>
 
         <div id="guide-section">
-          <button className="guide-btn" type="button">General Guides</button>
+          <Link className="guide-btn" to={pathify(['guide', 'overview'])}>General Guides</Link>
           <div className="guide-box-container">
             {guideBoxData.map((guide) => (
               <div className="guide-box">
@@ -97,7 +98,7 @@ const LandingPage = () => {
           <p style={{ maxWidth: '600px', textAlign: 'center' }}>These guides are filled with resources to help victims become survivors. The resources and referrals provided herein can be the first step for victims and their families to rebuild their lives.</p>
           <div id="county-container">
             {fakeCountyData.map((countyData) => (
-              <Link className="no-decor" to="/">
+              <Link className="no-decor" to={pathify([countyData.county, 'overview'])}>
                 <div className="county-card" style={{ backgroundImage: `url(${countyData.image})` }} key={uuidv4()}>
                   <p className="county-text">{countyData.county}</p>
                 </div>
