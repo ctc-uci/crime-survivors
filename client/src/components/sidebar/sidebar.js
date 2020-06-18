@@ -6,27 +6,21 @@ import Category from './category/category';
 import './sidebar.css';
 
 const Sidebar = ({ props }) => {
-  // TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
-
   const [sidebarOpen, setSidebarState] = useState(true);
   const { sidebarData } = props;
 
-  let main;
-  let sidebarContainer;
-  let sidebar;
-  let mobile;
-
-  function check() {
+  function resizeWindow() {
+    const main = document.querySelector('.main-container');
+    const sidebarContainer = document.querySelector('.sidebar-container');
+    const sidebar = document.querySelector('.sidebar');
+    const mobile = document.querySelector('.escape-container').offsetWidth <= 600;
     if (sidebarOpen) {
-      // console.log(mobile);
-      // console.log(document.querySelector('.escape-container').offsetWidth);
       if (mobile) {
         sidebar.style.display = 'block';
         sidebar.style.width = '100%';
         sidebarContainer.style.width = '100%';
         main.style.display = 'none';
       } else {
-        // main.style.display = 'block';
         sidebar.style.display = 'block';
         sidebar.style.width = '272px';
         sidebarContainer.style.width = 'initial';
@@ -41,24 +35,12 @@ const Sidebar = ({ props }) => {
   }
 
 
-  function resizeWindow() {
-    main = document.querySelector('.main-container');
-    sidebarContainer = document.querySelector('.sidebar-container');
-    sidebar = document.querySelector('.sidebar');
-    mobile = document.querySelector('.escape-container').offsetWidth <= 600;
-
-    check();
-  }
-
-
   useEffect(() => {
-    main = document.querySelector('.main-container');
-    sidebarContainer = document.querySelector('.sidebar-container');
-    sidebar = document.querySelector('.sidebar');
-    mobile = document.querySelector('.escape-container').offsetWidth <= 600;
     window.addEventListener('resize', resizeWindow);
-
-    check();
+    resizeWindow();
+    return () => {
+      window.removeEventListener('resize', resizeWindow);
+    };
   });
 
 

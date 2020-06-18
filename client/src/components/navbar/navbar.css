@@ -6,7 +6,6 @@ html {
 
 .nav-bar {
   width: inherit;
-  /* background-color: red; */
   display: flex;
   align-items: center; 
   justify-content: space-between; 
@@ -15,7 +14,7 @@ html {
 .logo {
   display: flex;
   flex-grow: 1;
-  padding-left: 25px;
+  padding: 10px 0 10px 25px;
 }
 
 .cs-logo-img {
@@ -31,7 +30,6 @@ html {
   overflow-x: auto;
   list-style: none;
   margin: 0; 
-  /* background: deepskyblue; */
 }
 
 .navigation a {
@@ -56,21 +54,11 @@ html {
 
 /* @media all and (max-width: 800px) {
   .navigation {
-    justify-content: start;
     white-space: nowrap;
     overflow-x: auto;
     justify-content: end;
   }
 } */
-
-@media all and (max-width: 600px) {
-  .navigation {
-    justify-content: start;
-    overflow-x: auto;
-    /* background: pink; */
-    white-space: nowrap;
-  }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
