@@ -9,7 +9,6 @@ import GuideBody from '../components/GuideBody';
 const GuidePage = ({ data }) => {
   const { contentfulGuide /* , sidebarData */ } = data;
 
-
   // console.log(contentfulGuide);
   return (
     <PageContainer
