@@ -35,7 +35,6 @@ const ExampleReactFunctional = (props) => {
   );
 };
 
-
 // Defaults values for props, required by eslint
 ExampleReactFunctional.defaultProps = {
   resource: {

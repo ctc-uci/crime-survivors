@@ -19,7 +19,6 @@ import bgCountyTop1 from '../images/Background-County-Top.svg';// eslint-disable
 import bgCountyTop2 from '../images/Background-County-Top2.svg';// eslint-disable-line
 import bgCountyBottom from '../images/Background-County-Bottom.svg';// eslint-disable-line
 
-
 const LandingPage = () => {
   const fakeCountyData = [
     { county: 'City of Los Angeles', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' },
@@ -29,7 +28,6 @@ const LandingPage = () => {
     { county: 'Ventura County', image: 'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B' },
     { county: 'San Diego County', image: 'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg' },
     { county: 'Riverside County', image: 'https://media.gettyimages.com/photos/skyscrapers-of-los-angeles-skylinearchitectureurbancityscape-picture-id478821794?s=612x612' }];
-
 
   const guideBoxData = [
     { title: 'Find an Advocate', svg: guideGraphic1, number: 1 },
