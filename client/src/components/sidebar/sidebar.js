@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
+import { IconContext } from 'react-icons';
+import { FaBars } from 'react-icons/fa';
 import Category from './category/category';
 import './sidebar.css';
 
@@ -34,9 +36,7 @@ const Sidebar = ({ props }) => {
     }
   }
 
-
   useEffect(() => {
-    console.log(sidebarData);
     window.addEventListener('resize', resizeWindow);
     resizeWindow();
     return () => {
@@ -44,13 +44,26 @@ const Sidebar = ({ props }) => {
     };
   });
 
-
   return (
     <div className="sidebar-container">
-      <button type="button" className={`sidebar-button${sidebarOpen ? ' hidden' : ''}`} onClick={() => { setSidebarState(true); }}>OPEN SIDEBAR</button>
+      <button type="button" className={`link-button sidebar-button${sidebarOpen ? ' hidden' : ''}`} onClick={() => { setSidebarState(true); }}>
+        <IconContext.Provider value={{ color: 'black', size: '3em' }}>
+          <div>
+            <FaBars />
+          </div>
+        </IconContext.Provider>
+      </button>
       <div className="sidebar">
         <h1>Title</h1>
-        <button type="button" onClick={() => { setSidebarState(false); }}>hide</button>
+        <button type="button" className="link-button" onClick={() => { setSidebarState(false); }}>
+          <IconContext.Provider value={{ color: 'white', size: '3em' }}>
+            <div>
+              <FaBars />
+            </div>
+          </IconContext.Provider>
+
+        </button>
+
         {sidebarData.group.map((category) => (
           <div key={uuidv4()}>
             <Category

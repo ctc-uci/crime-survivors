@@ -31,3 +31,18 @@
 .sidebar-resource:hover {
   opacity: 0.5;
 }
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+
+.link-button:hover,
+.link-button:focus {
+text-decoration: none;
+outline: none;
+}
