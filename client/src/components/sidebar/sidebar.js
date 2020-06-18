@@ -28,7 +28,7 @@ const Sidebar = ({ props }) => {
       } else {
         // main.style.display = 'block';
         sidebar.style.display = 'block';
-        sidebar.style.width = '272';
+        sidebar.style.width = '272px';
         sidebarContainer.style.width = 'initial';
         main.style.display = 'block';
       }
