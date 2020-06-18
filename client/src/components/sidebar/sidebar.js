@@ -36,6 +36,7 @@ const Sidebar = ({ props }) => {
 
 
   useEffect(() => {
+    console.log(sidebarData);
     window.addEventListener('resize', resizeWindow);
     resizeWindow();
     return () => {
@@ -46,17 +47,12 @@ const Sidebar = ({ props }) => {
 
   return (
     <div className="sidebar-container">
-      <button type="button" className="sidebar-button" onClick={() => { setSidebarState(true); }}>OPEN SIDEBAR</button>
+      <button type="button" className={`sidebar-button${sidebarOpen ? ' hidden' : ''}`} onClick={() => { setSidebarState(true); }}>OPEN SIDEBAR</button>
       <div className="sidebar">
         <h1>Title</h1>
         <button type="button" onClick={() => { setSidebarState(false); }}>hide</button>
         {sidebarData.group.map((category) => (
           <div key={uuidv4()}>
-            {/* <p>
-            {`${selectedCategory}asda`}
-            {category.categoryId}
-          </p> */}
-
             <Category
               categoryName={category.category}
               resources={category.resources}
