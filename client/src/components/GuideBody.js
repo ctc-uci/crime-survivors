@@ -5,7 +5,6 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { BLOCKS } from '@contentful/rich-text-types';
 import '../styles/CategoryPage.css';
 
-
 function GuideBody({ contentfulGuide }) {
   // console.log(contentfulGuide);
   const { title, generalDescription, guideSections } = contentfulGuide;

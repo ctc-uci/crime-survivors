@@ -8,7 +8,6 @@ import YoutubeIcon from '../../images/youtube-icon.svg';
 import InstagramIcon from '../../images/instagram-icon.svg';
 import './Footer.css';
 
-
 const Footer = () => {
   const { title, body: { body } } = useStaticQuery(graphql`
     query DislaimerQuery {

@@ -50,7 +50,6 @@ const Location = ({ location }) => (
 Location.propTypes = countyPageTypes.location;
 Location.defaultProps = countyPageDefault.location;
 
-
 function filterDups(resources) {
   const categorySet = new Set();
   resources.forEach(({ category }) => categorySet.add(category));
