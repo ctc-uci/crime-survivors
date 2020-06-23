@@ -16,6 +16,7 @@ const Sidebar = ({ props }) => {
     const sidebarContainer = document.querySelector('.sidebar-container');
     const sidebar = document.querySelector('.sidebar');
     const mobile = document.querySelector('.escape-container').offsetWidth <= 600;
+
     if (sidebarOpen) {
       if (mobile) {
         sidebar.style.display = 'block';
@@ -23,6 +24,9 @@ const Sidebar = ({ props }) => {
         sidebarContainer.style.width = '100%';
         main.style.display = 'none';
       } else {
+        const mainHeight = main.offsetHeight;
+        sidebar.style.maxHeight = `${mainHeight}px`;
+
         sidebar.style.display = 'block';
         sidebar.style.width = '272px';
         sidebarContainer.style.width = 'initial';
@@ -56,7 +60,7 @@ const Sidebar = ({ props }) => {
       <div className="sidebar">
         <h1>Title</h1>
         <button type="button" className="link-button" onClick={() => { setSidebarState(false); }}>
-          <IconContext.Provider value={{ color: 'white', size: '3em' }}>
+          <IconContext.Provider value={{ color: 'white', size: '2em' }}>
             <div>
               <FaBars />
             </div>
