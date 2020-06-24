@@ -46,16 +46,14 @@ html {
   text-align: center;
 }
 
-.navigation a:hover {
+/* .navigation a:hover {
   background: #4C6CA4;
   border-radius: 25px;
   color: white;
-}
+} */
 
 @media all and (max-width: 800px) {
   .navigation {
-    white-space: nowrap;
-    overflow-x: auto;
     justify-content: end;
   }
 }

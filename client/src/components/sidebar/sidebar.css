@@ -1,19 +1,29 @@
+.hidden{
+  display: none;
+}
+
+.sidebar-button{
+  position: absolute;
+}
+
 .sidebar {
+  overflow: scroll;
+  position: relative;
   width: 272px;
   height: 100%;
   background: linear-gradient(180deg, #425A9F 0%, #8EAEC5 100%);
   padding: 20px;
-  overflow: wrap;
   border-radius: 4px;
   overflow: wrap;
 }
 
 .sidebar-resource-container{
   padding-left: 12px;
+  line-height: 18px;
+  margin: 7px 0;
 }
 
 .sidebar-resource {
-  /* margin-left: 20px; */
   font-size: 14px;
   color: white;
   text-decoration: none;
@@ -22,4 +32,22 @@
 
 .sidebar-resource:hover {
   opacity: 0.5;
+}
+
+.link-button {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+
+.link-button:hover,
+.link-button:focus {
+text-decoration: none;
+outline: none;
 }
