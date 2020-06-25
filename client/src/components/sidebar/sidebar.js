@@ -30,7 +30,6 @@ const Sidebar = ({ props }) => {
         main.style.display = 'block';
         const mainHeight = main.offsetHeight;
         sidebar.style.maxHeight = `${mainHeight}px`;
-        console.log(mainHeight);
       }
     } else {
       sidebar.style.display = 'none';
