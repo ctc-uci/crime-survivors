@@ -24,13 +24,12 @@ const Sidebar = ({ props }) => {
         sidebarContainer.style.width = '100%';
         main.style.display = 'none';
       } else {
-        const mainHeight = main.offsetHeight;
-        sidebar.style.maxHeight = `${mainHeight}px`;
-
         sidebar.style.display = 'block';
         sidebar.style.width = '272px';
         sidebarContainer.style.width = 'initial';
         main.style.display = 'block';
+        const mainHeight = main.offsetHeight;
+        sidebar.style.maxHeight = `${mainHeight}px`;
       }
     } else {
       sidebar.style.display = 'none';
