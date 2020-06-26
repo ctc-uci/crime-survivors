@@ -4,23 +4,20 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
 import GuideBody from '../components/GuideBody';
-// import Sidebar from '../components/sidebar/sidebar';
+import Sidebar from '../components/sidebar/sidebar';
+import GuideSidebarContent from '../components/sidebar/content/guideSidebarContent';
 
 const GuidePage = ({ data }) => {
-  const { contentfulGuide /* , sidebarData */ } = data;
+  const { contentfulGuide, sidebarData } = data;
 
   // console.log(contentfulGuide);
   return (
     <PageContainer
-    //   sidebar={(
-    //     <Sidebar
-    //       props={{
-    //         sidebarData,
-    //         resourceId: '',
-    //         category: pageContext.category,
-    //       }}
-    //     />
-    //   )}
+      sidebar={(
+        <Sidebar
+          content={<GuideSidebarContent content={sidebarData} />}
+        />
+    )}
       body={<GuideBody contentfulGuide={contentfulGuide} />}
     />
   );
@@ -37,6 +34,11 @@ export const query = graphql`
         content {
           content
         }
+      }
+    }
+    sidebarData: allContentfulGuide {
+      nodes {
+        title
       }
     }
   }  
