@@ -5,6 +5,7 @@ import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
 import CategoryBody from '../components/CategoryBody';
 import Sidebar from '../components/sidebar/sidebar';
+import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
 const CategoryPage = ({ data, pageContext }) => {
   // console.table(['HELLO', pageContext]);
@@ -15,11 +16,7 @@ const CategoryPage = ({ data, pageContext }) => {
     <PageContainer
       sidebar={(
         <Sidebar
-          props={{
-            sidebarData,
-            resourceId: '',
-            selecedCategory: pageContext.category,
-          }}
+          content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={pageContext.category} />}
         />
       )}
       body={<CategoryBody props={resources} />}

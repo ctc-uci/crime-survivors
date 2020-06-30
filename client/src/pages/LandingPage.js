@@ -93,16 +93,8 @@ const LandingPage = () => {
               <img id="banner-image" alt="banner" src={BannerImage} />
             </div>
           </div>
-          <img
-            className="bgBannerBottom"
-            alt="bgBannerBottom1"
-            src={bgBannerBottom1}
-          />
-          <img
-            className="bgBannerBottom"
-            alt="bgBannerBottom2"
-            src={bgBannerBottom2}
-          />
+          <img className="bgBannerBottom" alt="bgBannerBottom1" src={bgBannerBottom1} />
+          <img className="bgBannerBottom02" alt="bgBannerBottom2" src={bgBannerBottom2} />
         </div>
 
         <div id="guide-section">
@@ -148,12 +140,8 @@ const LandingPage = () => {
             ))}
           </div>
           <img className="bgCountyTop" alt="bgBannerTop1" src={bgCountyTop1} />
-          <img className="bgCountyTop" alt="bgBannerTop2" src={bgCountyTop2} />
-          <img
-            className="bgCountyBottom"
-            alt="bgBannerBottom"
-            src={bgCountyBottom}
-          />
+          <img className="bgCountyTop2" alt="bgBannerTop2" src={bgCountyTop2} />
+          <img className="bgCountyBottom" alt="bgBannerBottom" src={bgCountyBottom} />
         </div>
       </div>
       <Footer />

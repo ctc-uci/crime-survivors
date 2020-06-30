@@ -1,15 +1,12 @@
 /* eslint-disable no-undef */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { v4 as uuidv4 } from 'uuid';
 import { IconContext } from 'react-icons';
 import { FaBars } from 'react-icons/fa';
-import Category from './category/category';
 import './sidebar.css';
 
-const Sidebar = ({ props }) => {
+const Sidebar = ({ content }) => {
   const [sidebarOpen, setSidebarState] = useState(true);
-  const { sidebarData } = props;
 
   function resizeWindow() {
     const main = document.querySelector('.main-container');
@@ -67,80 +64,19 @@ const Sidebar = ({ props }) => {
 
         </button>
 
-        {sidebarData.group.map((category) => (
-          <div key={uuidv4()}>
-            <Category
-              categoryName={category.category}
-              resources={category.resources}
-              selected={false}
-            />
-          </div>
-        ))}
+        {/* Render sidebar content */}
+        {content}
       </div>
     </div>
   );
 };
 
 Sidebar.defaultProps = {
-  props: {
-    sidebarData: {
-      group: [
-        {
-          category: 'fieldValue',
-          resources: [
-            {
-              title: 'title',
-              id: 'id',
-            },
-          ],
-        },
-      ],
-    },
-    resourceId: 'resourceId',
-    categoryId: 'categoryId',
-  },
-  sidebarData: {
-    group: [
-      {
-        category: 'fieldValue',
-        resources: [
-          {
-            title: 'title',
-            id: 'id',
-          },
-        ],
-      },
-    ],
-  },
+  content: null,
 };
 
 Sidebar.propTypes = {
-  props: {
-    sidebarData: PropTypes.shape({
-      group: PropTypes.arrayOf(
-        PropTypes.shape({
-          category: PropTypes.string,
-          resources: PropTypes.arrayOf({
-            title: PropTypes.string,
-            id: PropTypes.string,
-          }),
-        }),
-      ),
-    }),
-    resourceId: PropTypes.string,
-    categoryId: PropTypes.string,
-  },
-  sidebarData: PropTypes.shape({
-    group: PropTypes.arrayOf(
-      PropTypes.shape({
-        category: PropTypes.string,
-        resources: PropTypes.arrayOf({
-          title: PropTypes.string,
-          id: PropTypes.string,
-        }),
-      }),
-    ),
-  }),
+  content: PropTypes.element,
 };
 
 export default Sidebar;
