@@ -1,227 +1,210 @@
 h1 {
-    font-size: 64px;
+  font-size: 64px;
 }
 
 .no-margin {
-    margin: 0;
+  margin: 0;
 }
 
 .blue {
-    color: #40589E
+  color: #40589e;
 }
 
 .no-decor {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #container {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: stretch;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
 }
 
 #banner-section {
-    position: relative;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 32px 0px 32px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
 }
 
 #banner-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #banner-text-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1 1 auto;
 }
 
 #find-your-county-btn {
-    background-color: #677CB3;
-    color: white;
-    border: none;
-    padding: 8px 16px 8px 16px;
-    text-align: center;
-    border-radius: 50px;
-    text-decoration-line: none;
+  background-color: #677cb3;
+  color: white;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration-line: none;
 }
 
 #banner-image-container {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 16px;
-    flex: 1 1 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 16px;
+  flex: 1 1 auto;
 }
 
 #banner-image {
-    width: 600px;
-    margin: 32px 16px 32px 32px;
-    box-shadow: 32px -32px 1px #5E73AF;
+  width: 600px;
+  margin: 32px 16px 32px 32px;
+  box-shadow: 32px -32px 1px #5e73af;
 }
 
 .bgBannerBottom {
-    position: absolute;
-    margin: 0;
-    bottom: 0;
-    left: 0;
-    height: 250px;
-    width: 100%;
-    z-index: -1;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  height: 250px;
+  width: 100%;
+  z-index: -1;
 }
 
 #guide-section {
-    display: flex;
-    flex-flow: column;
-    background-color: #ECF1FF;
-    justify-content: center;
-    align-items: stretch;
-    padding: 84px 32px 84px 32px;
+  display: flex;
+  flex-flow: column;
+  background-color: #ecf1ff;
+  justify-content: center;
+  align-items: stretch;
+  padding: 84px 32px 84px 32px;
 }
 
 .guide-btn {
-    background-color: #4C6CA4;
-    color: white;
-    border: none;
-    padding: 8px 64px 8px 64px;
-    margin-bottom: 32px;
-    text-align: center;
-    align-self: center;
-    border-radius: 50px;
-    box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
-    text-decoration-line: none;
-}
-
-.guide-box-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  background-color: #4c6ca4;
+  color: white;
+  border: none;
+  padding: 8px 64px 8px 64px;
+  margin-bottom: 32px;
+  text-align: center;
+  align-self: center;
+  border-radius: 50px;
+  box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
+  text-decoration-line: none;
 }
 
 .guide-box {
-    display: flex;
-    position: relative;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    width: 175px;
-    height: 175px;
-    background-color: white;
-    margin: 16px 32px 16px 32px;
-    border-radius: 25px;
-    text-align: center;
-    box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
-}
-
-.guide-box-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-    margin-top: 16px;
-}
-
-.guide-box-text {
-    font-size: 16px;
-    margin: 0px 16px 0px 16px;
+  display: flex;
+  position: relative;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  background-color: white;
+  margin: 16px 32px 16px 32px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
 }
 
 .guide-box-number {
-    position: absolute;
-    top: 150px;
-    left: -25px;
-    min-width: 50px;
-    min-height: 50px;
-    background-color: #E4E9F4;
-    border-radius: 25px;
-    box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
-    z-index: 1;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #60585D;
-    padding: 10px 0;
-    text-align: center;
+  position: absolute;
+  top: 150px;
+  left: -25px;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: #e4e9f4;
+  border-radius: 25px;
+  box-shadow: 0px 4px 2px rgba(96, 77, 142, 0.5);
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #60585d;
+  padding: 10px 0;
+  text-align: center;
 }
 
 #county-section {
-    position: relative;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#county-container  {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    max-width: 1080px;
+#county-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1080px;
 }
 
+.county-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 
-.county-card  {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+  width: 200px;
+  height: 275px;
+  margin: 16px;
+  border-radius: 10px;
 
-    width: 200px;
-    height: 275px;
-    margin: 16px;
-    border-radius: 10px;
-
-    background-size: cover;
-    background-color: hsla(250, 45%, 30%, 0.6);
-    background-blend-mode: darken;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  background-size: cover;
+  background-color: hsla(250, 45%, 30%, 0.6);
+  background-blend-mode: darken;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .county-card:hover {
-    animation-name: fadeout;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
+  animation-name: fadeout;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeout {
-    from {background-color: rgba(96, 77, 143, 0.75);}
-    to {background-color: rgba(0,0,0,0);}
+  from {
+    background-color: rgba(96, 77, 143, 0.75);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
-.county-text  {
-    font-family: Helvetica;
-    margin: 16px;
-    font-size: 24px;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px #000000;
+.county-text {
+  font-family: Helvetica;
+  margin: 16px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000000;
 }
 
 .bgCountyTop {
-    position: absolute;
-    margin: 0;
-    top: 0;
-    left: 0;
-    height: 250px;
-    width: 100%;
-    z-index: -1;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  height: 250px;
+  width: 100%;
+  z-index: -1;
 }
 
 .bgCountyBottom {
-    position: absolute;
-    margin: 0;
-    bottom: 0;
-    right: 0;
-    height: 250px;
-    width: 100%;
-    z-index: -1;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  height: 250px;
+  width: 100%;
+  z-index: -1;
 }
