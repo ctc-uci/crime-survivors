@@ -75,8 +75,8 @@ const LandingPage = () => {
         <div id="banner-section">
           <div id="banner-container">
             <div id="banner-text-container">
-              <h1 className="blue">Crime Survivors Resources</h1>
-              <p style={{ maxWidth: '500px', minWidth: '300px' }}>
+              <h1 className="blue lp-header">Crime Survivors Resources</h1>
+              <p className="lp-subheader" style={{ maxWidth: '500px', minWidth: '300px' }}>
                 The mission of Crime Survivors is to provide hope and healing to
                 victims and survivors of crime through advocacy and the support
                 of resources, information, and empowerment. All victims of crime
@@ -115,10 +115,10 @@ const LandingPage = () => {
         </div>
 
         <div id="county-section">
-          <h2 className="blue" style={{ margin: '84px 0px 16px 0px' }}>
-            COUNTY RESOURCE GUIDES
+          <h2 className="blue lp-guide-title" style={{ margin: '84px 0px 16px 0px' }}>
+            County Resource Guides
           </h2>
-          <p style={{ maxWidth: '600px', textAlign: 'center' }}>
+          <p className="lp-guide-header" style={{ maxWidth: '600px', textAlign: 'center' }}>
             These guides are filled with resources to help victims become
             survivors. The resources and referrals provided herein can be the
             first step for victims and their families to rebuild their lives.
