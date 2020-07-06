@@ -25,9 +25,9 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div id="footer-navigation">
-        <div id="footer-local">
-          <b id="subtitle">Crime Survivors Resources</b>
+      <div className="footer-navigation">
+        <div className="footer-local">
+          <b className="subtitle">Crime Survivors Resources</b>
           <br />
           <Link to="/index/">Home</Link>
           <br />
@@ -37,27 +37,27 @@ const Footer = () => {
           <br />
           <Link id="contact-us" to="/index/">Contact Us</Link>
         </div>
-        <div id="footer-social-media">
-          <a id="fb-link" href="https://www.facebook.com/crimesurvivors">
-            <img src={FacebookIcon} id="fb-icon" alt="Facebook" />
+        <div className="footer-social-media">
+          <a className="fb-link" href="https://www.facebook.com/crimesurvivors">
+            <img src={FacebookIcon} className="fb-icon" alt="Facebook" />
           </a>
-          <a id="ig-link" href="https://www.instagram.com/crimesurvivors/">
-            <img src={InstagramIcon} id="ig-icon" alt="Instagram" />
+          <a className="ig-link" href="https://www.instagram.com/crimesurvivors/">
+            <img src={InstagramIcon} className="ig-icon" alt="Instagram" />
           </a>
-          <a id="yt-link" href="https://www.youtube.com/crimesurvivor">
-            <img src={YoutubeIcon} id="yt-icon" alt="Youtube" />
+          <a className="yt-link" href="https://www.youtube.com/crimesurvivor">
+            <img src={YoutubeIcon} className="yt-icon" alt="Youtube" />
           </a>
-          <a id="twitter-link" href="https://twitter.com/crimesurvivors">
-            <img src={TwitterIcon} id="twitter-icon" alt="Twitter" />
+          <a iclassNamed="twitter-link" href="https://twitter.com/crimesurvivors">
+            <img src={TwitterIcon} className="twitter-icon" alt="Twitter" />
           </a>
           {/* <a id="gplus-link" href="https://plus.google.com/+CrimesurvivorsOrg/">
             <img src={GooglePlusIcon} id="gplus-icon" alt="Google Plus" />
           </a> */}
         </div>
       </div>
-      <div id="disclaimer">
+      <div className="disclaimer">
         <b>{title}</b>
-        <div id="disclaimer-text">
+        <div className="disclaimer-text">
           {body}
         </div>
       </div>
