@@ -1,0 +1,81 @@
+div.resource-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  font-family: "Poppins";
+}
+
+div.resource {
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #40589E;
+  margin: 0px 0px 50px 50px;
+  padding-bottom: 20px;
+  max-width: 1000px;
+}
+
+button.title-banner {
+  display: flex;
+  flex-direction: row;
+
+  color: #ffffff;
+  padding: 20px 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+button.not-copied{
+  background-color: #4C6CA4;
+}
+
+button.copied {
+  background-color: #1E3357;
+}
+
+button.title-banner:hover{
+  cursor: pointer;
+}
+
+div.copy-status {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+div.not-copied {
+  color: #1E3357;
+  border-color: #1E3357;
+  background-color: #4C6CA4;
+}
+div.copied {
+  color: #4C6CA4;
+  border-color: #4C6CA4;
+  background-color: #1E3357;
+}
+
+div.contact {
+  padding-left: 100px;
+  text-align: left;
+}
+
+div.desc {
+  padding-left: 50px;
+  text-align: left;
+}
+

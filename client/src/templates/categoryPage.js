@@ -1,13 +1,12 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
-import CategoryBody from '../components/CategoryBody';
+import CategoryPage from '../components/CategoryPage/CategoryPage';
 import Sidebar from '../components/sidebar/sidebar';
 import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
-const CategoryPage = ({ data, pageContext }) => {
+const categoryPage = ({ data, pageContext }) => {
   // console.table(['HELLO', pageContext]);
   const { source, sidebarData } = data;
   const { resources } = source;
@@ -19,7 +18,7 @@ const CategoryPage = ({ data, pageContext }) => {
           content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={pageContext.category} />}
         />
       )}
-      body={<CategoryBody props={resources} />}
+      body={<CategoryPage resources={resources} />}
     />
   );
 };
@@ -31,6 +30,7 @@ export const query = graphql`
     ) {
       resources: nodes {
         id
+        location
         category
         title
         phone {
@@ -60,10 +60,11 @@ export const query = graphql`
 `;
 
 // Defaults values for props, required by eslint
-CategoryPage.defaultProps = {
+categoryPage.defaultProps = {
   data: {
     source: {
       resources: [{
+        location: 'location',
         address: 'address',
         category: 'category',
         phone: [{ desc: 'desc', number: '(555) 555-5555' }],
@@ -93,11 +94,12 @@ CategoryPage.defaultProps = {
 };
 
 // // Proptype validation, required by eslint
-CategoryPage.propTypes = {
+categoryPage.propTypes = {
   data: PropTypes.shape({
     source: PropTypes.shape({
       resources: PropTypes.arrayOf(
         PropTypes.shape({
+          location: PropTypes.string,
           address: PropTypes.string,
           category: PropTypes.string,
           phone: PropTypes.arrayOf(
@@ -133,4 +135,4 @@ CategoryPage.propTypes = {
   }),
 };
 
-export default CategoryPage;
+export default categoryPage;
