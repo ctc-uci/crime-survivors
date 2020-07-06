@@ -1,10 +1,45 @@
 const path = require('path');
-const { generatePath, pathify } = require('./src/utils/commonUtils'); // forced ES5 for some reason
+const { pathify } = require('./src/utils/commonUtils'); // forced ES5 for some reason
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  // const queryYamlNames = ['allOrangeCountyYaml'];
+  const queryCounties = `
+    {
+      allContentfulResource {
+        nodes {
+          location
+        }
+      }
+    }
+  `;
+
+  const generateCountyPages = (query) => new Promise((resolve, reject) => {
+    graphql(query).then((result) => {
+      if (result.errors) {
+        reject(result.errors);
+      }
+
+      const { nodes } = result.data.allContentfulResource;
+      const urls = new Set();
+      nodes.forEach((node) => {
+        const { location } = node;
+        const newPath = pathify([location, '']);
+        if (urls.has(newPath)) {
+          return;
+        }
+        urls.add(newPath);
+        createPage({
+          path: newPath, // your url -> /location/category
+          component: path.resolve('./src/templates/countyPage.js'), // your template component
+          context: {
+            location,
+          },
+        });
+      });
+      resolve();
+    });
+  });
 
   const queryCategories = `
     {
@@ -28,7 +63,7 @@ exports.createPages = ({ graphql, actions }) => {
       nodes.forEach((node) => {
         const { location } = node;
         const { category } = node;
-        const newPath = generatePath(location, category);
+        const newPath = pathify([location, category]);
         if (urls.has(newPath)) {
           return;
         }
@@ -84,7 +119,11 @@ exports.createPages = ({ graphql, actions }) => {
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them
   return new Promise((resolve, reject) => {
-    const promises = [generateCategoryPages(queryCategories), generateGuidePages(queryGuides)];
+    const promises = [
+      generateCountyPages(queryCounties),
+      generateCategoryPages(queryCategories),
+      generateGuidePages(queryGuides),
+    ];
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
