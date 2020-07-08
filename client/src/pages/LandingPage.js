@@ -108,7 +108,7 @@ const LandingPage = () => {
                   <img className="no-margin" src={guide.svg} alt={guide.svg} />
                 </div>
                 <p className="guide-box-text">{guide.title}</p>
-                <div className="guide-box-number">{guide.number}</div>
+                {/* <div className="guide-box-number">{guide.number}</div> */}
               </div>
             ))}
           </div>
