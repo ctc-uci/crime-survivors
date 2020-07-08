@@ -8,14 +8,17 @@ import CategorySidebarContent from '../components/sidebar/content/categorySideba
 
 const categoryPage = ({ data, pageContext }) => {
   // console.table(['HELLO', pageContext]);
+
+  console.log('here', data, pageContext);
   const { source, sidebarData } = data;
   const { resources } = source;
+  const { category, location } = pageContext;
 
   return (
     <PageContainer
       sidebar={(
         <Sidebar
-          content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={pageContext.category} />}
+          content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
         />
       )}
       body={<CategoryPage resources={resources} />}

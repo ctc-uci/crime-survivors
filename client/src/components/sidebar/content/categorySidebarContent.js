@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Category from '../category/category';
 import '../sidebar.css';
 
-const CategorySidebarContent = ({ content }) => (
+const CategorySidebarContent = ({ content, location }) => (
   <div>
     { content.group.map((category) => (
       <div key={uuidv4()}>
@@ -12,6 +12,7 @@ const CategorySidebarContent = ({ content }) => (
           categoryName={category.category}
           resources={category.resources}
           selected={false}
+          location={location}
         />
       </div>
     ))}
@@ -32,6 +33,7 @@ CategorySidebarContent.defaultProps = {
       },
     ],
   },
+  location: 'location',
 };
 
 CategorySidebarContent.propTypes = {
@@ -46,6 +48,7 @@ CategorySidebarContent.propTypes = {
       }),
     ),
   }),
+  location: PropTypes.string,
 };
 
 export default CategorySidebarContent;

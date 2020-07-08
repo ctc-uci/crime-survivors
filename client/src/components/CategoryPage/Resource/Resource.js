@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import './Resource.css';
 
-import { pathify } from '../../../utils/commonUtils';
+import { pathify, whiteSpaceToDash } from '../../../utils/commonUtils';
 
 const resourcePropType = PropTypes.shape({
   title: PropTypes.string,
@@ -133,7 +133,7 @@ const Resource = ({ resource }) => {
       {website != null && Websites(website)}
       {image != null && Img(image)}
       {desc != null && Desc(desc.desc)}
-      <a href={`#${title}`}> </a>
+      <a href={`#${whiteSpaceToDash(title)}`}> </a>
     </div>
   );
 };
