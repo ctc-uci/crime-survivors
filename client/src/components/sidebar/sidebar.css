@@ -15,6 +15,24 @@
   padding: 20px;
   border-radius: 4px;
   overflow: wrap;
+  overflow-x: hidden;
+  /* hide scrollbar for edge, ie and firefox */
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #425A9F 0%, #8EAEC5 100%);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  height: 10px;
+  background: #2b3f78;
+  border-radius: 15px;
 }
 
 .sidebar-resource-container{
