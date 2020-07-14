@@ -9,8 +9,6 @@ import GuideSidebarContent from '../components/sidebar/content/guideSidebarConte
 
 const GuidePage = ({ data }) => {
   const { contentfulGuide, sidebarData } = data;
-
-  // console.log(contentfulGuide);
   return (
     <PageContainer
       sidebar={(

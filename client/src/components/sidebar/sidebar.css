@@ -2,10 +2,6 @@
   display: none;
 }
 
-.sidebar-button{
-  position: absolute;
-}
-
 .sidebar {
   overflow: scroll;
   position: relative;

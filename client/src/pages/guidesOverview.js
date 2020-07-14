@@ -2,17 +2,18 @@
 /* eslint-disable react/react-in-jsx-scope */
 
 import React from 'react';
+import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
-// import Sidebar from '../components/sidebar/sidebar';
-// import CategoryBody from '../components/CategoryBody';
-import '../styles/guidesOverview.css';
-import '../styles/common.css';
 import guideGraphic1 from "../images/Guide-Find-An-Advocate.svg" // eslint-disable-line
 import guideGraphic2 from "../images/Guide-Heal-And-Recover.svg" // eslint-disable-line
 import guideGraphic3 from "../images/Guide-Learn-About-Victims-Rights.svg" // eslint-disable-line
 import guideGraphic4 from "../images/Guide-Obtain-Crisis-Support.svg" // eslint-disable-line
 import guideGraphic5 from "../images/Guide-Pay-For-Crime.svg" // eslint-disable-line
+import Sidebar from '../components/sidebar/sidebar';
+import GuideSidebarContent from '../components/sidebar/content/guideSidebarContent';
 import wave from '../images/Background-Banner-Bottom.svg';
+import '../styles/guidesOverview.css';
+import '../styles/common.css';
 
 const guideBoxData = [
   { title: 'Find an Advocate', svg: guideGraphic1 },
@@ -22,7 +23,7 @@ const guideBoxData = [
   { title: 'Heal and Recover', svg: guideGraphic5 },
 ];
 
-const temp = (
+const guidesOverviewBody = (
   <div className="guides-overview-container">
     <div className="go-header-container">
       <h1 className="go-title">General Guides</h1>
@@ -54,6 +55,25 @@ const temp = (
   </div>
 );
 
-const guidesOverview = () => <PageContainer body={temp} />;
+const guidesOverviewPage = (data) => (
+  <PageContainer
+    sidebar={(
+      <Sidebar
+        content={<GuideSidebarContent content={data} />}
+      />
+    )}
+    body={guidesOverviewBody}
+  />
+);
 
-export default guidesOverview;
+export const query = graphql`
+  query GuideQuer {
+    allContentfulGuide {
+      nodes {
+        title
+      }
+    }
+  }  
+`;
+
+export default guidesOverviewPage;

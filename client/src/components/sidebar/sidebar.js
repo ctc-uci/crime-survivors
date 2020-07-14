@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable no-undef */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
@@ -13,24 +15,35 @@ const Sidebar = ({ content }) => {
     const sidebarContainer = document.querySelector('.sidebar-container');
     const sidebar = document.querySelector('.sidebar');
     const mobile = document.querySelector('.escape-container').offsetWidth <= 600;
+    const sidebarItem = document.querySelector('.sidebar-item');
+    const sidebarTitle = document.querySelector('.sidebar-title');
+    const hamburgerIcon = document.querySelector('.link-button');
 
     if (sidebarOpen) {
       if (mobile) {
+        sidebarItem.style.display = 'block';
+        sidebarTitle.style.display = 'block';
         sidebar.style.display = 'block';
         sidebar.style.width = '100%';
         sidebarContainer.style.width = '100%';
         main.style.display = 'none';
       } else {
+        sidebarContainer.style.width = 'initial';
+        sidebarItem.style.display = 'block';
+        sidebarTitle.style.display = 'block';
         sidebar.style.display = 'block';
         sidebar.style.width = '272px';
-        sidebarContainer.style.width = 'initial';
         main.style.display = 'block';
         const mainHeight = main.offsetHeight;
         sidebar.style.maxHeight = `${mainHeight}px`;
       }
     } else {
-      sidebar.style.display = 'none';
-      sidebarContainer.style.width = '0%';
+      hamburgerIcon.style.right = '1px';
+      hamburgerIcon.style.top = '20px';
+      sidebarContainer.style.width = 'initial';
+      sidebar.style.width = '50px';
+      sidebarItem.style.display = 'none';
+      sidebarTitle.style.display = 'none';
       main.style.display = 'block';
       main.style.width = '100%';
     }
@@ -46,26 +59,26 @@ const Sidebar = ({ content }) => {
 
   return (
     <div className="sidebar-container">
-      <button type="button" className={`link-button sidebar-button${sidebarOpen ? ' hidden' : ''}`} onClick={() => { setSidebarState(true); }}>
-        <IconContext.Provider value={{ color: 'black', size: '3em' }}>
-          <div>
-            <FaBars />
-          </div>
-        </IconContext.Provider>
-      </button>
-      <div className="sidebar">
-        <h1>Title</h1>
-        <button type="button" className="link-button" onClick={() => { setSidebarState(false); }}>
+      <div
+        className="sidebar"
+        onClick={() => {
+          if (!sidebarOpen) {
+            setSidebarState(!sidebarOpen);
+          }
+        }}
+      >
+        <h1 className="sidebar-title">Title</h1>
+        <button type="button" className="link-button" onClick={() => { setSidebarState(!sidebarOpen); }}>
           <IconContext.Provider value={{ color: 'white', size: '2em' }}>
             <div>
               <FaBars />
             </div>
           </IconContext.Provider>
-
         </button>
-
         {/* Render sidebar content */}
-        {content}
+        <div className="sidebar-item">
+          {content}
+        </div>
       </div>
     </div>
   );
