@@ -31,16 +31,16 @@ const Navbar = () => {
   return (
   <div className="nav-bar" id="nav-bar">
     <div className="logo">
-      <Link className="cs-logo-img" to="/LandingPage">
+      <Link className="cs-logo-img" to="/">
         <img src={logo} alt="Logo" />
       </Link>
     </div>
     <ul className="navigation">
       <li>
-        <Link to="/LandingPage">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-      <Link to="/LandingPage#county-section">Find Your County</Link>
+      <Link to="/#county-section">Find Your County</Link>
       </li>
       <li>
       <Link to="/">General Guides</Link>

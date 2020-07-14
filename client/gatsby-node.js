@@ -116,6 +116,13 @@ exports.createPages = ({ graphql, actions }) => {
     });
   });
 
+  const generateHomePage = () => {
+    createPage({
+      path: '/',
+      component: path.resolve('./src/components/LandingPage.js'),
+    });
+  };
+
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them
   return new Promise((resolve, reject) => {
@@ -124,6 +131,9 @@ exports.createPages = ({ graphql, actions }) => {
       generateCategoryPages(queryCategories),
       generateGuidePages(queryGuides),
     ];
+
+    // static pages
+    generateHomePage();
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });

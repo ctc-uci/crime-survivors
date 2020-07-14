@@ -5,9 +5,9 @@ import { pathify } from '../utils/commonUtils';
 
 import '../styles/landingPage.css';
 import '../styles/common.css';
-import Navbar from '../components/navbar/navbar';
-import EscapeButton from '../components/escape/escapeButton';
-import Footer from '../components/footer/Footer';
+import Navbar from './navbar/navbar';
+import EscapeButton from './escape/escapeButton';
+import Footer from './footer/Footer';
 import BannerImage from "../images/Banner-Img.png" // eslint-disable-line
 import guideGraphic1 from "../images/Guide-Find-An-Advocate.svg" // eslint-disable-line
 import guideGraphic2 from "../images/Guide-Heal-And-Recover.svg" // eslint-disable-line
@@ -84,7 +84,7 @@ const LandingPage = () => {
               </p>
               <Link
                 id="find-your-county-btn"
-                to={pathify(['LandingPage'], 'county-section')}
+                to={pathify([''], 'county-section')}
               >
                 Find your County
               </Link>
