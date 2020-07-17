@@ -1,4 +1,5 @@
 /* global navigator */
+/* global window */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
@@ -89,7 +90,17 @@ const Phones = (phones) => (
 const Websites = (websites) => (
   <div className="contact">
     Websites
-    {websites.map((link) => <li><a href={link}>{link}</a></li>)}
+    {websites.map((link) => (
+      <li>
+        <button
+          className="weblink"
+          type="button"
+          onClick={() => window.open(link)}
+        >
+          <u>{link}</u>
+        </button>
+      </li>
+    ))}
   </div>
 );
 const Emails = (emails) => (
