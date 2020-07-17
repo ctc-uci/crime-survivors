@@ -29,13 +29,13 @@ const Footer = () => {
         <div className="footer-local">
           <b className="subtitle">Crime Survivors Resources</b>
           <br />
-          <Link to="/index/">Home</Link>
+          <Link to="/LandingPage">Home</Link>
           <br />
-          <Link to="/index/">Find your County</Link>
+          <Link to="/LandingPage#county-section">Find your County</Link>
           <br />
-          <Link to="/index/">General Guides</Link>
+          <Link to="/guides/overview">General Guides</Link>
           <br />
-          <Link id="contact-us" to="/index/">Contact Us</Link>
+          <Link id="contact-us" to="https://crimesurvivors.org/contact-us/">Contact Us</Link>
         </div>
         <div className="footer-social-media">
           <a className="fb-link" href="https://www.facebook.com/crimesurvivors">
@@ -50,9 +50,6 @@ const Footer = () => {
           <a iclassNamed="twitter-link" href="https://twitter.com/crimesurvivors">
             <img src={TwitterIcon} className="twitter-icon" alt="Twitter" />
           </a>
-          {/* <a id="gplus-link" href="https://plus.google.com/+CrimesurvivorsOrg/">
-            <img src={GooglePlusIcon} id="gplus-icon" alt="Google Plus" />
-          </a> */}
         </div>
       </div>
       <div className="disclaimer">
