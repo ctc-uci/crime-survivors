@@ -98,7 +98,7 @@ const LandingPage = () => {
         </div>
 
         <div id="guide-section">
-          <Link className="guide-btn" to={pathify(['guide', 'overview'])}>
+          <Link className="guide-btn" to={pathify(['guides', 'overview'])}>
             General Guides
           </Link>
           <div className="guide-icon-container">
@@ -127,7 +127,7 @@ const LandingPage = () => {
             {fakeCountyData.map((countyData) => (
               <Link
                 className="no-decor"
-                to={pathify([countyData.county, 'overview'])}
+                to={pathify([countyData.county, ''])}
               >
                 <div
                   className="county-card"
