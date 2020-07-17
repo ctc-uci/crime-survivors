@@ -61,6 +61,7 @@ const Sidebar = ({ content }) => {
     <div className="sidebar-container">
       <div
         className="sidebar"
+        /* The sidebar has a click handler so that users dont need to rely on the small icon */
         onClick={() => {
           if (!sidebarOpen) {
             setSidebarState(!sidebarOpen);
