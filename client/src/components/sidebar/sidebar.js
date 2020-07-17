@@ -45,7 +45,7 @@ const Sidebar = ({ content }) => {
       sidebarItem.style.display = 'none';
       sidebarTitle.style.display = 'none';
       main.style.display = 'block';
-      main.style.width = '100%';
+      main.style.width = 'calc(100% - 50px)';
     }
   }
 
