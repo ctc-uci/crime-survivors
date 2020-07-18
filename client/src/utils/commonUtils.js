@@ -10,9 +10,9 @@ const pathify = (pathArray, resource = null, endWithForwardSlash = false, fullPa
     if (cur === null) {
       return acc;
     }
-    return `${whiteSpaceToDash(acc)}/${whiteSpaceToDash(cur.replace(/[^a-zA-Z0-9\- ]/g, ''))}`;
+    return `${acc}/${cur.replace(/[^a-zA-Z0-9\- ]/g, '')}`;
   };
-  let urlPath = pathArray.reduce(reducer);
+  let urlPath = whiteSpaceToDash(pathArray.reduce(reducer));
   urlPath += endWithForwardSlash === true ? '/' : '';
   urlPath += resource !== null ? `#${whiteSpaceToDash(resource)}` : '';
   if (fullPath === true) {
