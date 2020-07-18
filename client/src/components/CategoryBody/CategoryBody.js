@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Resources, resourcePropType, defaultResourceProp } from './Resource/Resource';
 
-import './CategoryPage.css';
+import './CategoryBody.css';
 
 const guideDisplay = {
   'Los Angeles County': 'LA County',
@@ -34,7 +34,7 @@ Category.defaultProps = {
   category: 'CATEGORY',
 };
 
-const CategoryPage = ({ resources }) => {
+const CategoryBody = ({ resources }) => {
   const { location, category } = resources[0];
   return (
     <div>
@@ -43,11 +43,11 @@ const CategoryPage = ({ resources }) => {
     </div>
   );
 };
-CategoryPage.propTypes = {
+CategoryBody.propTypes = {
   resources: PropTypes.arrayOf(resourcePropType),
 };
-CategoryPage.defaultProps = {
+CategoryBody.defaultProps = {
   resources: [defaultResourceProp],
 };
 
-export default CategoryPage;
+export default CategoryBody;

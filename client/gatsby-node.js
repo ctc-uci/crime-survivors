@@ -31,7 +31,7 @@ exports.createPages = ({ graphql, actions }) => {
         urls.add(newPath);
         createPage({
           path: newPath, // your url -> /location/category
-          component: path.resolve('./src/templates/countyPage.js'), // your template component
+          component: path.resolve('./src/templates/CountyPage.js'), // your template component
           context: {
             location,
           },
@@ -70,7 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
         urls.add(newPath);
         createPage({
           path: newPath, // your url -> /location/category
-          component: path.resolve('./src/templates/categoryPage.js'), // your template component
+          component: path.resolve('./src/templates/CategoryPage.js'), // your template component
           context: {
             category,
             location,

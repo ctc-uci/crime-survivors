@@ -3,21 +3,22 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
 import Sidebar from '../components/sidebar/sidebar';
-import CountyPage from '../components/CountyPage/CountyPage';
+import CountyBody from '../components/CountyBody/CountyBody';
 import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
-const CountyPg = ({ data, pageContext }) => {
+const CountyPage = ({ data, pageContext }) => {
   const { sidebarData, quotes } = data;
+  const { category, location } = pageContext;
   return (
     <div>
       <PageContainer
         sidebar={(
           <Sidebar
-            content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={pageContext.category} />}
+            content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
           />
         )}
         body={(
-          <CountyPage
+          <CountyBody
             location={pageContext.location}
             quotes={quotes.nodes}
           />
@@ -53,7 +54,7 @@ export const query = graphql`
   }
 `;
 
-CountyPg.propTypes = {
+CountyPage.propTypes = {
   data: PropTypes.shape({
     sidebarData: PropTypes.shape({
       group: PropTypes.arrayOf(
@@ -83,7 +84,7 @@ CountyPg.propTypes = {
     location: PropTypes.string,
   }),
 };
-CountyPg.defaultProps = {
+CountyPage.defaultProps = {
   data: {
     sidebarData: {
       group: [{
@@ -112,4 +113,4 @@ CountyPg.defaultProps = {
   },
 };
 
-export default CountyPg;
+export default CountyPage;

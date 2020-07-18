@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
-import CategoryPage from '../components/CategoryPage/CategoryPage';
+import CategoryBody from '../components/CategoryBody/CategoryBody';
 import Sidebar from '../components/sidebar/sidebar';
 import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
-const categoryPage = ({ data, pageContext }) => {
+const CategoryPage = ({ data, pageContext }) => {
   // console.table(['HELLO', pageContext]);
 
   console.log('here', data, pageContext);
@@ -21,7 +21,7 @@ const categoryPage = ({ data, pageContext }) => {
           content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
         />
       )}
-      body={<CategoryPage resources={resources} />}
+      body={<CategoryBody resources={resources} />}
     />
   );
 };
@@ -63,7 +63,7 @@ export const query = graphql`
 `;
 
 // Defaults values for props, required by eslint
-categoryPage.defaultProps = {
+CategoryPage.defaultProps = {
   data: {
     source: {
       resources: [{
@@ -97,7 +97,7 @@ categoryPage.defaultProps = {
 };
 
 // // Proptype validation, required by eslint
-categoryPage.propTypes = {
+CategoryPage.propTypes = {
   data: PropTypes.shape({
     source: PropTypes.shape({
       resources: PropTypes.arrayOf(
@@ -138,4 +138,4 @@ categoryPage.propTypes = {
   }),
 };
 
-export default categoryPage;
+export default CategoryPage;
