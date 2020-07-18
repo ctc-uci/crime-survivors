@@ -79,3 +79,12 @@ div.desc {
   text-align: left;
 }
 
+button.weblink {
+  border: none;
+  outline: none;
+}
+
+button.weblink:hover {
+  cursor: pointer;
+  color: #4C6CA4;
+}
