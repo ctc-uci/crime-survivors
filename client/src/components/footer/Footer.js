@@ -29,13 +29,13 @@ const Footer = () => {
         <div className="footer-local">
           <b className="subtitle">Crime Survivors Resources</b>
           <br />
-          <Link to="/LandingPage">Home</Link>
+          <Link to="/">Home</Link>
           <br />
-          <Link to="/LandingPage#county-section">Find your County</Link>
+          <Link to="/#county-section">Find your County</Link>
           <br />
           <Link to="/guides/overview">General Guides</Link>
           <br />
-          <Link id="contact-us" to="https://crimesurvivors.org/contact-us/">Contact Us</Link>
+          <a href="https://crimesurvivors.org/contact-us/">Contact Us</a>
         </div>
         <div className="footer-social-media">
           <a className="fb-link" href="https://www.facebook.com/crimesurvivors">
