@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './CountyPage.css';
+import './CountyBody.css';
 import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes';
 
 import city from './images/city.png';
@@ -21,11 +21,11 @@ const guideDisplay = {
   'Ventura County': 'Ventura County',
 };
 
-const countyPageTypes = {
+const countyBodyTypes = {
   location: PropTypes.string,
   quotes: quotesTypes,
 };
-const countyPageDefault = {
+const countyBodyDefault = {
   location: 'LOCATION',
   quotes: quotesDefault,
 };
@@ -59,10 +59,10 @@ const LandingHeader = ({ location }) => (
     </div>
   </div>
 );
-LandingHeader.propTypes = countyPageTypes.location;
-LandingHeader.defaultProps = countyPageDefault.location;
+LandingHeader.propTypes = countyBodyTypes.location;
+LandingHeader.defaultProps = countyBodyDefault.location;
 
-const CountyPage = ({ location, quotes }) => (
+const CountyBody = ({ location, quotes }) => (
   <div className="county-container">
     <LandingHeader location={location} />
     <img src={purple} id="purple" alt="" />
@@ -74,7 +74,7 @@ const CountyPage = ({ location, quotes }) => (
     <Quotes quotes={quotes} />
   </div>
 );
-CountyPage.propTypes = countyPageTypes;
-CountyPage.defaultProps = countyPageDefault;
+CountyBody.propTypes = countyBodyTypes;
+CountyBody.defaultProps = countyBodyDefault;
 
-export default CountyPage;
+export default CountyBody;
