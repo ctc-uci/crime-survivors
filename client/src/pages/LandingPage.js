@@ -127,7 +127,7 @@ const LandingPage = () => {
             {fakeCountyData.map((countyData) => (
               <Link
                 className="no-decor"
-                to={pathify([countyData.county, ''])}
+                to={pathify([countyData.county])}
               >
                 <div
                   className="county-card"
