@@ -33,33 +33,31 @@ const defaultResourceProp = {
 };
 
 const Title = ({ title, location, category }) => {
-  const [copyStatus, setCopyStatus] = useState('');
-  const [hideStatus, setHideStatus] = useState(true);
+  const [copyStatus, setCopyStatus] = useState(false);
 
   const copy = (loc, cat, t) => {
     navigator.clipboard.writeText(pathify([loc, cat], t, false, true)).then(
       () => {
-        setCopyStatus('Link copied to clipboard!');
+        setCopyStatus(true);
       },
       () => {
-        setCopyStatus("Couldn't copy link to this resource");
+        setCopyStatus(false);
       },
     );
-    setHideStatus(false);
+    setTimeout(
+      () => setCopyStatus(false), 3000,
+    );
   };
 
   return (
-    <div>
+    <div className={`title-banner ${copyStatus ? 'copied' : ''}`}>
+      <div>{title}</div>
       <button
         type="button"
-        className={`title-banner ${hideStatus ? 'not-copied' : 'copied'}`}
+        className={`copyLinkButton ${copyStatus ? 'copied' : ''}`}
         onClick={() => copy(location, category, title)}
-        // onMouseLeave={() => setHideStatus(true)}
       >
-        {title}
-        <div className={`copy-status ${hideStatus ? 'not-copied' : 'copied'}`}>
-          {hideStatus ? 'Copy link to clipboard' : copyStatus}
-        </div>
+        {copyStatus ? 'Copied to clipboard!' : 'Copy link to clipboard'}
       </button>
     </div>
   );
@@ -79,7 +77,7 @@ const Phones = (phones) => (
   <div className="contact">
     Phone Numbers
     {phones.map((phone) => (
-      <li>
+      <li key={uuidv4()}>
         {phone.desc ? `${phone.desc}: ` : null}
         {' '}
         {phone.number}
@@ -106,7 +104,7 @@ const Websites = (websites) => (
 const Emails = (emails) => (
   <div className="contact">
     Emails
-    {emails.map((email) => <li>{email}</li>)}
+    {emails.map((email) => <li key={uuidv4()}>{email}</li>)}
   </div>
 );
 const Hours = (hours) => (
