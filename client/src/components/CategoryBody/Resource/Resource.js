@@ -36,7 +36,7 @@ const Title = ({ title, location, category }) => {
   const [hideStatus, setHideStatus] = useState(true);
 
   const copy = (loc, cat, t) => {
-    navigator.clipboard.writeText(pathify([loc, cat], t)).then(
+    navigator.clipboard.writeText(pathify([loc, cat], t, false, true)).then(
       () => {
         setCopyStatus('Link copied to clipboard!');
       },
@@ -118,13 +118,12 @@ const Desc = (desc) => (
   </div>
 );
 
-// https://designshack.net/articles/html/how-to-link-to-specific-points-in-a-page-and-animate-the-scroll/
 const Resource = ({ resource }) => {
   const {
     location, category, title, desc, phone, website, email, hours, address, image,
   } = resource;
   return (
-    <div key={uuidv4()} id={title} className="resource">
+    <div key={uuidv4()} id={whiteSpaceToDash(title)} className="resource">
       <Title title={title} location={location} category={category} />
       {phone != null && Phones(phone)}
       {email != null && Emails(email)}
@@ -133,7 +132,6 @@ const Resource = ({ resource }) => {
       {website != null && Websites(website)}
       {image != null && Img(image)}
       {desc != null && Desc(desc.desc)}
-      <a href={`#${whiteSpaceToDash(title)}`}> </a>
     </div>
   );
 };
