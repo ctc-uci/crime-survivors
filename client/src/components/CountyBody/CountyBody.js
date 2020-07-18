@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './CountyBody.css';
 import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes';
-
 import city from './images/city.png';
-import cityBackColor from './images/city-backcolor.png';
 import purple from './images/purple.svg';
 import green1 from './images/green1.svg';
 import green2 from './images/green2.svg';
@@ -55,7 +53,7 @@ const LandingHeader = ({ location }) => (
     </div>
     <div className="header-image">
       <img src={city} id="city" alt="city" />
-      <img src={cityBackColor} id="back" alt="back" />
+      {/* <img src={cityBackColor} id="back" alt="back" /> */}
     </div>
   </div>
 );

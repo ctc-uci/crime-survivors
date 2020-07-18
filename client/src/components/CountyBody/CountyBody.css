@@ -40,18 +40,8 @@ div.header-image {
 }
 
 img#city {
-  position: absolute;
   z-index: 1;
-  top: 30px;
-  left: 17%; 
-  /* width: auto; */
-}
-
-img#back {
-  position: absolute;
-  z-index: -1;
-  top: 0%;
-  left: 20%; 
+  box-shadow: 16px -16px 1px #5e73af;
   /* width: auto; */
 }
 
