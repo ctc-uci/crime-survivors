@@ -40,8 +40,7 @@ const Quote = (quote, idx) => (
 
 const Quotes = ({ quotes }) => (
   <div className="quotes">
-    {quotes[0] && Quote(quotes[0], 0)}
-    {quotes[1] && Quote(quotes[1], 1)}
+    {quotes.map((quote, index) => Quote(quote, index))}
   </div>
 );
 

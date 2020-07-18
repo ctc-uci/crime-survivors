@@ -62,18 +62,29 @@ const LandingHeader = ({ location }) => (
 LandingHeader.propTypes = countyBodyTypes.location;
 LandingHeader.defaultProps = countyBodyDefault.location;
 
-const CountyBody = ({ location, quotes }) => (
-  <div className="county-container">
-    <LandingHeader location={location} />
-    <img src={purple} id="purple" alt="" />
-    <img src={green1} id="green1" alt="" />
-    <img src={green2} id="green2" alt="" />
-    <img src={blue1} id="blue1" alt="" />
-    <img src={blue2} id="blue2" alt="" />
-    {/* Expects only two quotes (so only two in Contentful per location) */}
-    <Quotes quotes={quotes} />
-  </div>
-);
+const CountyBody = ({ location, quotes }) => {
+  const wavesOnQuotes = [
+    <div>
+      <img src={green1} id="green1" alt="" />
+      <img src={green2} id="green2" alt="" />
+    </div>,
+    <div>
+      <img src={blue1} id="blue1" alt="" />
+      <img src={blue2} id="blue2" alt="" />
+    </div>,
+  ];
+
+  const wavesToRender = quotes.map((_, index) => wavesOnQuotes[index % 2]);
+
+  return (
+    <div className="county-container">
+      <LandingHeader location={location} />
+      <img src={purple} id="purple" alt="" />
+      {wavesToRender}
+      <Quotes quotes={quotes} />
+    </div>
+  );
+};
 CountyBody.propTypes = countyBodyTypes;
 CountyBody.defaultProps = countyBodyDefault;
 
