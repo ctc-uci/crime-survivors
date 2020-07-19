@@ -1,11 +1,27 @@
 .sidebar-category{
+  display: inline-block;
   background: none!important;
   border: none;
-  padding: 0!important;
-  font-family: 'Source Sans Pro';
+  padding: 10px 0 !important;
+  font-family: "Poppins" !important;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 21px;
   cursor: pointer;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+.purple{
+  color: red !important;
 }
 
 .sidebar-category:focus{
     outline: none;
+}
+
+.resource-group{
+  border-left: 1px solid white;
+  margin-left: 12px;
 }

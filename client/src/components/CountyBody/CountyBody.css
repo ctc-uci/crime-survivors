@@ -1,0 +1,106 @@
+/* Styling for general page layout */
+div.county-container {
+  position: relative;
+}
+
+div.landing-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 30px 40px 30px 40px;
+  text-align: left;
+  font-family: "Poppins";
+}
+
+div.location {
+  font-size: 40px;
+  color: #40589e;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+div.disclaimer {
+  word-wrap: break-word;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* 
+img#city {
+   margin-right: 2%;
+}
+
+img#purple {
+  position: absolute;
+  top: 18%;
+  left: 0%;
+  height: 200px;
+  width: 55% 
+}
+
+img#green1 {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  height: 200px;
+  width: 100%;
+}
+img#green2 {
+  position: absolute;
+  top: 52%;
+  left: 0%;
+  height: 200px;
+  width: 100%;
+}
+
+img#blue1 {
+  position: absolute;
+  top: 77%;
+  left: 0%;
+  height: 200px;
+  width: 100%; 
+}
+img#blue2 {
+  position: absolute;
+  top: 84%;
+  left: 0%;
+  height: 200px;
+  width: 100%;
+} */
+
+@media only screen and (max-width: 1350px) {
+  div.landing-header {
+    flex-direction: column;
+  }
+
+  div.landing-text {
+    width: 55%;
+  }
+
+  div.disclaimer {
+    justify-self: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+
+  div.disclaimer {
+    min-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  div.landing-header {
+    margin-left: 50px;
+  }
+
+  div.landing-text {
+    width: 80%;
+  }
+}
