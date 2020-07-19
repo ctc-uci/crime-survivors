@@ -8,6 +8,7 @@ import { FaBars } from 'react-icons/fa';
 import './sidebar.css';
 
 const Sidebar = ({ content }) => {
+  console.log('here2', content);
   const [sidebarOpen, setSidebarState] = useState(true);
 
   function resizeWindow() {
