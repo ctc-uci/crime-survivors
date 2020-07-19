@@ -3,13 +3,12 @@ div.county-container {
   position: relative;
 }
 
-
 div.landing-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
-  padding: 30px 0px 30px 40px;
+  padding: 30px 40px 30px 40px;
   text-align: left;
   font-family: "Poppins";
 }
@@ -31,18 +30,9 @@ div.disclaimer {
   line-height: 24px;
 }
 
-div.header-image {
-  display: flex;
-  align-items: flex-end;
-  right: 5%;
-  position: relative;
-  width: 100%;
-}
-
+/* 
 img#city {
-  z-index: 1;
-  box-shadow: 16px -16px 1px #5e73af;
-  /* width: auto; */
+   margin-right: 2%;
 }
 
 img#purple {
@@ -81,4 +71,36 @@ img#blue2 {
   left: 0%;
   height: 200px;
   width: 100%;
+} */
+
+@media only screen and (max-width: 1350px) {
+  div.landing-header {
+    flex-direction: column;
+  }
+
+  div.landing-text {
+    width: 55%;
+  }
+
+  div.disclaimer {
+    justify-self: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+
+  div.disclaimer {
+    min-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  div.landing-header {
+    margin-left: 50px;
+  }
+
+  div.landing-text {
+    width: 80%;
+  }
 }
