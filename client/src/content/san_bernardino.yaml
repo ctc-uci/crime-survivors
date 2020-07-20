@@ -366,117 +366,616 @@
   address: P.O. Box 627, San Pedro, CA 90733 
 
 #16
+# Domestic Violence section
+
+#17
+# Victim's Rights section (under Domestic Violence)
+
+# Who to Call
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Domestic Violence
+  title: Adult Protective Services
+  desc: 24 hours per day; 7 days a week
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (800) 451-5155
   website: ~
   email: ~
   hours: ~
   address: ~ 
 
-#17
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: Domestic Violence
+  title: Domestic Violence Hotline
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (800) 978-3600 
   website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Bernandino
+  category: Domestic Violence
+  title: National Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 799-7233 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~  
+
+- location: San Bernandino
+  category: Domestic Violence
+  title: Victim Information and Notification Everyday (VINE)
+  desc: A service by the Los Angeles County Sheriff’s Department to notify you when the status of an inmate changes
+  phone:
+    - desc: ~ 
+      number: (877) 411-5588
+  website:
+    - http://www.vinelink.com/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Domestic Violence
+  title: Grace Center (Five Acre Program)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: 626) 355-4545 
+  website:
+    - http://www.grace-center.org/
   email: ~
   hours: ~
   address: ~ 
 
 #18
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Domestic Violence Resources
+  title: W.E.A.V.E. 24-hour support line
+  desc: Offers a 24-hour support and counseling line
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: (916) 920-2952
+  website:
+    - http://www.weaveinc.org/
   email: ~
   hours: ~
   address: ~ 
+
+- location: San Bernandino
+  category: Domestic Violence Resources
+  title: Safe At Home; Confidential Address Program
+  desc: 'Safe at Home is a confidential mail-forwarding program administered by the CA’s Secretary
+of State’s Office, which provides a confidential P.O. Box to domestic violence victims. Also,
+Safe at Home helps with filing name change documents.'
+  phone:
+    - desc: ~ 
+      number: (877) 322-5227 
+    - desc: TTY/TDD
+      number: (916) 651-1304 
+  website:
+    - http://www.sos.ca.gov/safeathome/
+  email:
+    - safeathome@sos.ca.gov
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Domestic Violence Resources
+  title: California Partnership to End Domestic Violence
+  desc: 'Provides referrals to local service providers, shelters, and legal services, as well as training,
+education and technical assistance for direct service providers'
+  phone:
+    - desc: ~ 
+      number: (916) 444-7163
+  website:
+    - http://www.cpedv.org/
+  email: ~
+  hours: Monday-Friday 9AM - 5PM
+  address: ~ 
+
+- location: San Bernandino
+  category: Domestic Violence Resources
+  title: National Domestic Violence Hotline
+  desc: 'National Domestic Violence Hotline is for those that have experienced domestic violence,
+as well as their family and friends. Services include crisis intervention, information about
+domestic violence and referrals to local programs in many languages. 24/7 access to
+domestic violence advocates. Advocates available to help individuals who are deaf or hard
+of hearing. Chat function available.'
+  phone:
+    - desc: Hot Line
+      number: 1-800-799-7233 (SAFE)
+    - desc: TTY 
+      number: 1-800-787-3224 
+    - desc: Videophone
+      number: 1-855-812-1001
+  website:
+    - http://www.ndvh.org/
+  email:
+    - ndvh@ndvh.org
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Domestic Violence Resources
+  title: San Bernardino Sexual Assault Services (SBSAS)
+  desc: 'Provides support for victims and survivors of sexual assault and domestic violence, including
+individual and group counseling, referral and resource information, and court and medical
+accompaniment. Services are free. Bilingual services offered. available.'
+  phone:
+    - desc: 24 hour
+      number: (909) 885-8884
+    - desc: Toll-Free Crisis Line 
+      number: 1-800-656-4673 
+    - desc: Morango Basin Office 
+      number: (760) 369-3353 
+    - desc: Redlands Office 
+      number: (909) 335-8777
+  website:
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 505 North Arrowhead, Suite 100, San Bernardino, CA 92410 
 
 #19
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Domestic Violence Resources
+  title: Lucerne Valley Domestic Violence Outreach
+  desc: 'Provides legal assistance, service referrals, emergency shelter (72 hours), and counseling. Court ordered programs are also available.'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: (760) 248-2064
+    - desc: FAX
+      number: (760) 248-9194
+  website:
+    - http://www.lucernevalley.net/orgs/domestic/info.htm
   email: ~
   hours: ~
-  address: ~ 
+  address: 32649 Highway 18 P.O. Box 2033, Lucerne Valley, CA 92356
+
+- location: San Bernandino
+  category: Domestic Violence Resources
+  title: Yucaipa Outreach (SBSAS Branch)
+  desc: 'Provides support services for survivors and victims of sexual assault and domestic violence,
+including individual and group counseling, referral and resource information, and court and
+medical accompaniment.'
+  phone:
+    - desc: ~ 
+      number: (909) 790-9374
+  website:
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 34282 Yucaipa Boulevard, Yucaipa, CA 92399
 
 #20
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Legal
+  title: The National Crime Victim Bar Association
+  desc: 'The National Center for Victims of Crime is a nonprofit organization that advocates for
+victims’ rights, trains professionals who work with victims, and serves as a source of
+information on victims’ issues.'
+  phone:
+    - desc: ~ 
+      number: (202) 467-8700
+    - desc: FAX
+      number: (202) 467-8701
+  website:
+    - http://www.victimbar.org/
+  email: ~
+  hours: ~
+  address: 2000 M Street NW, Suite 480, Washington DC, DC 20036
+
+- location: San Bernandino
+  category: Legal
+  title: State Bar of California Lawyer Referral Services
+  desc: Offers Toll-Free referral to lawyer referral services throughout the state
+  phone:
+    - desc: ~ 
+      number: (866) 442-2529
+    - desc: Alt. Phone 
+      number: (415) 538-2250 
+    - desc: Alt. Phone 2
+      number: 1-800-843-9053
+  website:
+    - http://www.calbar.ca.gov/Public/LawyerReferralServicesLRS.aspx
+  email: ~
+  hours: ~
+  address: 180 Howard St., San Francisco, CA 94105 
+
+- location: San Bernandino
+  category: Legal
+  title: Attorney Search Network
+  desc: State Bar Certified Lawyer Referral Service
+  phone:
+    - desc: ~ 
+      number: 1-800-215-1190
+    - desc: Alt. Phone 
+      number: (818) 817-0920
+    - desc: FAX 
+      number: (818) 817-0935 
+  website: 
+    - http://www.getareferral.com/
+  email:
+    - http://www.getareferral.com/
+  hours: ~
+  address: 16161 Ventura Blvd., Suite 672, Encino, CA 91436
+
+- location: San Bernandino
+  category: Legal
+  title: WomensLaw.org
+  desc: 'Offers legal definitions, links to court forms, definitions of crimes and abuse, and instructions
+on how to prepare for court.'
   phone:
     - desc: ~ 
       number: ~ 
-  website: ~
+  website:
+    - http://www.womenslaw.org/
   email: ~
   hours: ~
   address: ~ 
+
+- location: San Bernandino
+  category: Legal
+  title: Office of Justice Program - Victim Law
+  desc: 'Victim Law is a searchable database of victims’ rights legal provisions including federal,
+state, and territorial statutes, tribal laws, state constitutional amendments, court rules,
+administrative code provisions, and summaries of related court decisions and attorney
+general opinions.'
+  phone: ~ 
+  website:
+   - http://ojp.gov/programs/victims.htm
+  email: ~
+  hours: ~
+  address: 810 Seventh Street, Washington D.C., 20531 
 
 #21
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
+  category: Legal
+  title: LawHelpCA
+  desc: 'LawHelpCA is California’s official and free legal resource. Offers reliable information about
+common legal issues, written by reputable sources on 16 general topics and over 140
+specific subtopics. Also offers a directory of legitimate and pre-screened organizations that
+offer free or low-cost legal advice and representation.'
+  phone: ~ 
+  website:
+    - http://lawhelpca.org/
   email: ~
   hours: ~
   address: ~ 
+
+- location: San Bernandino
+  category: Legal
+  title: Inland Counties Legal Service (Indio)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: 1-800-226-4257 
+    - desc: Alt. Phone 
+      number: (760) 342-1591
+  website:
+    - http://www.inlandlegal.org/
+  email: ~
+  hours: ~
+  address: 82632C US Highway 111, Indio, CA 92201 
+
+- location: San Bernandino
+  category: Legal
+  title: Inland Counties Legal Service (San Bernardino)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 884-8615
+    - desc: Toll Free
+      number: 1-800-677-4257
+  website:
+    - http://www.inlandlegal.org/
+  email: ~
+  hours: ~
+  address: 715 North Arrowhead Avenue, San Bernadino, CA 91730
+
+- location: San Bernandino
+  category: Legal
+  title: Inland Counties Legal Service (Victorville)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (888) 245-4257
+    - desc: Toll Free 
+      number: 1-888-805-6455
+  website:
+    - http://www.inlandlegal.org/
+  email: ~
+  hours: ~
+  address: 13911 Park Ave., Suite 210, Victorville, CA 92392
+
+- location: San Bernandino
+  category: Legal
+  title: Inland Counties Legal Service (Riverside)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (888) 245-4257 
+    - desc: Alt. Phone 
+      number: (951) 368-2555
+  website:
+    - http://www.inlandlegal.org/
+  email: ~
+  hours: ~
+  address: 1040 Iowa Avenue Suite 109, Riverside, CA 92507
+
+- location: San Bernandino
+  category: Legal
+  title: Inland Counties Legal Service (Rancho Cucamonga)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 980-0982
+    - desc: Alt. Phone
+      number: 1-800-977-4257
+  website:
+    - http://www.inlandlegal.org/
+  email: ~
+  hours: ~
+  address: 10565 Civic Center Drive, Suite 200,Rancho Cucamonga, CA 91730
+
+- location: San Bernandino
+  category: Legal
+  title: Legal Aid Society of San Bernardino
+  desc: Provides legal aid around family law, landlord-tenant/eviction, restraining orders, bankruptcy, wills, conservatorships, and guardianships. 
+  phone:
+    - desc: ~ 
+      number: (909) 889-7328 
+  website:
+    - http://legalaidofsb.org/
+  email: ~
+  hours: ~
+  address: 588 W. 6th Street, San Bernardino, CA 92410
 
 #22
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: District Attorney’s Offices
+  title: San Bernardino County District Attorney
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (909) 382-3669 
+    - desc: FAX 
+      number: (909) 382-7674
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: 303 West 3 Street, 6th Floor, San Bernardino, CA 92415-0502
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: Central Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 382-3800
+    - desc: FAX
+      number: (909) 784-0315 
+  website: ~
+  email: ~
+  hours: ~
+  address: 303 West 3rd Street, San Bernardino, CA 92415-0502 
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: Victorville Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 243-8600
+    - desc: FAX 
+      number: (760) 208-4186
+  website: ~
+  email: ~
+  hours: ~
+  address: 14455 Civic Dr., Suite 300, Victorville, CA 92392 
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: Morongo Basin Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 366-4120 
+    - desc: FAX 
+      number: (760) 366-4126 
+  website: ~
+  email: ~
+  hours: ~
+  address: 6527 White Feather Road, Joshua Tree, CA 92252
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: West Valley Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 989-0056
+    - desc: FAX 
+      number: (909) 895-4156
+  website: ~
+  email: ~
+  hours: ~
+  address: 8303 Haven Ave., 4th Floor, Rancho Cucamonga, CA 91730 
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: Barton Plaza Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 895-4156 
+  website: ~
+  email: ~
+  hours: ~
+  address: 10535 Foothill Blvd, Suite 235, Rancho Cucamonga, CA 91730 
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: Specialized Prosecutions Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 382-7755
+  website: ~
+  email: ~
+  hours: ~
+  address: 303 West 3rd Street, San Bernardino, CA 92415-0511 
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: San Bernardino Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 382-7712 
+    - desc: FAX
+      number: (909) 784-0315 
+  website: ~
+  email: ~
+  hours: ~
+  address: 303 West 3rd Street, San Bernardino, CA 92415-0502 
+
+- location: San Bernandino
+  category: District Attorney’s Offices
+  title: Victorville Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 552-6960 
+    - desc: FAX
+      number: (760) 208-4187
+  website: ~
+  email: ~
+  hours: ~
+  address: 15371 Civic Drive, 3rd Floor, Victorville, CA 92392
 
 #23
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Probation Departments
+  title: Probation Department (Adult)
+  desc: 'The Department investigates and reports to the court on sentences or special programs
+for persons convicted of crimes and juveniles brought before the Court. It supervises
+persons during their probationary period.'
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (909) 386-1810 
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: 175 West 5th Street, San Bernardino, CA 92415 
 
-#24
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: Probation Departments
+  title: Probation Department (Juvenile)
+  desc: 'The Department investigates and reports to the court on sentences or special programs
+for persons convicted of crimes and juveniles brought before the Court. It supervises
+persons during their probationary period.'
+  phone:
+    - desc: ~ 
+      number: (909) 383-2700
+    - desc: FAX 
+      number: (909) 383-2936
+  website: ~
+  email: ~
+  hours: ~
+  address: 150 West Street, San Bernardino, CA 92415
+
+- location: San Bernandino
+  category: Sheriff Departments
+  title: Sheriff-San Bernardino County
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (909) 387-3545
+    - desc: Alt. Phone
+      number: (909) 884-0156
+  website:
+    - http://www.sbcounty.gov/sheriff/
+  email: ~
+  hours: ~
+  address: 655 East 3rd Street, San Bernardino, CA 92415
+
+- location: San Bernandino
+  category: Police Departments
+  title: San Bernardino Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 384-5742  
+    - desc: ~ 
+      number: (909) 383-5311 
+  website: ~
+  email: ~
+  hours: Monday – Friday 7 AM – 6 PM (Closed on holidays.)
+  address: 710 North D Street, San Bernardino, CA. 92401
+
+- location: San Bernandino
+  category: Police Departments
+  title: Rancho Cucamonga Police Station
+  desc: ~
+  phone:
+    - desc: Emergency
+      number: 9-1-1
+    - desc: Non-Emergency 
+      number: (909) 941-1488  
+    - desc: Business Line
+      number: (909) 477-2800
+  website: ~
+  email:
+    - RCPD@CityofRC.us
+  hours: Monday-Friday 8 AM-5 PM
+  address: 10510 Civic Center Drive, Rancho Cucamonga, CA 91730 
+
+#24
+- location: San Bernandino
+  category: Police Departments
+  title: Upland Police Department
+  desc: ~
+  phone:
+    - desc: Business 
+      number: (909) 946-7624
+    - desc: Dispatch 
+      number: (909) 982-1331
+  website: ~
+  email: ~
+  hours: Monday - Friday 8 AM – 5 PM
+  address: 1499 W. 13th St., Upland, CA 91786
+
+- location: San Bernandino
+  category: Police Departments
+  title: City of Fontana Police Department
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 350-7740
+  website: ~
+  email: ~
+  hours: ~
+  address: 17005 Upland Ave, Fontana, CA 92335 
+
+- location: San Bernandino
+  category: Police Departments
+  title: Ontario Police Department
+  desc: ~
+  phone:
+    - desc: Front Desk 
+      number: (909) 395-2001
+    - desc: Emergency
+      number: 9-1-1
+    - desc: Dispatch
+      number: (909) 986-6711
   website: ~
   email: ~
   hours: ~
@@ -484,25 +983,162 @@
 
 #25
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Victim Assistance -- Advocate
+  title: Shelters
+  desc: 'Domesticshelters.org is a national user-friendly searchable directory of domestic violence
+service providers. The online search allows victims of domestic violence to find local
+community services by distance and in a variety of languages, including: Emergency
+Services, Legal Services, Financial Services, Counseling Services, Housing Services, Support
+Services, Children’s Services, and Community Educational Services'
   phone:
     - desc: ~ 
       number: ~ 
-  website: ~
-  email: ~
+  website:
+    - https://www.domesticshelters.org/
+  email:
+    - domesticshelters@gmail.com
   hours: ~
   address: ~ 
 
-#26
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Victim Assistance -- Advocate
+  title: Desert Sanctuary Inc. / Haley House
+  desc: Provides 6-month emergency shelter for women and children
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (760) 256-3441
+    - desc: Alt. Phone  
+      number: (760) 256-3733 
+    - desc: Alt Phone 2 
+      number: 1-800-982-2221
+  website: ~
+  email:
+    - haleyhouse@verizon.net
+  hours: ~
+  address: 703 East Main Street, Barstow, CA 92311 
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: DOVES of Big Bear Valley, Inc
+  desc: 'Services include temporary shelter, child/adult counseling, support groups and long-term
+housing. Also provides legal assistance, such as court accompaniment, and help with
+restraining orders. They have an additional center located in Twin Peaks. Additional offices
+available at Lake Arrowhead and Big Bear City.'
+  phone:
+    - desc: Crisis Hotline
+      number: 1-800-851-7601
+    - desc: Office
+      number: (909) 866-1546
+  website: 
+    - http://www.doves4help.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 3646 41943 Big Bear Blvd., Big Bear Lake, CA 92315
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: Family Assistance Program
+  desc: 'Provides 90 day emergency shelter which accepts women and children, one pet. Services
+include counseling, clinics for restraining orders, bilingual court support, parenting/family
+classes, and housing assistance programs.'
+  phone:
+    - desc: ~ 
+      number: (760) 949-4357
+    - desc: Alt. Phone  
+      number: (760) 843-0701
+    - desc: Alt Phone 2 
+      number: (866) 770-7867 
+  website:
+    - http://www.hddvp.org/
+  email: ~
+  hours: ~
+  address: 15075 7th Street, Victorville, CA 92395
+
+#26
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: Option House
+  desc: 'Provides emergency shelter for battered women and children (up to 60 days). Services
+include drop-in, TRO, court accompaniment, support groups, and referrals.'
+  phone:
+    - desc: Crisis Line 
+      number: (909) 381-3471
+    - desc: Alt. Phone
+      number: (909) 383-1602
+  website:
+    - http://www.optionhouse.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 970, San Bernardino , CA 92402
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: Morongo Basin Unity Home, Inc
+  desc: 'Provides shelter, youth programs, substance abuse programs, visitation supervision, and
+court advocates/support services to victims of domestic violence.'
+  phone:
+    - desc: ~ 
+      number: (760) 366-9663 
+  website: http://www.joshuatreevillage.com/508/mbuh.htm
+  email: ~
+  hours: ~
+  address: PO Box 1662, Joshua Tree, CA 92252 
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: Lucerne Valley Domestic Violence Outreach
+  desc: 'Provides legal assistance, information of services available in the community, emergency
+shelter (72 hours), and counseling. Court ordered programs also available. '
+  phone:
+    - desc: ~ 
+      number:  (760) 248-2064
+    - desc: FAX
+      number: 760-248-9194 
+  website:
+    - http://www.lucernevalley.net/orgs/domestic/info.htm
+  email: ~
+  hours: ~
+  address: 32649 Highway 18 P.O. Box 2033, Lucerne Valley, CA 92356
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: Good Shepherd Convent/Shelter
+  desc: 'Provides a long-term, non-emergency treatment and education oriented transitional
+shelter for battered women and children. Women with male children must be under age 12.
+Provides housing up to one year.'
+  phone:
+    - desc: ~ 
+      number: (323) 737-6114
+    - desc: FAX 
+      number: (323) 737-6113 
+  website:
+    - http://www.goodshepherdshelter.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 19487, Los Angeles, CA 90019
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: El Centro Corps Community Center
+  desc: 'Provides emergency assistance for food and shelter. Emergency groceries available 3 times
+yearly with income verification. Other services include: Social Services, Rental and Bill
+assistance, Adult Rehabilitation, Domestic Violence, and Teen Pregnancy assistance.'
+  phone:
+    - desc: ~ 
+      number: (760) 352-4528 
+  website:
+    - http://www.sandiego.salvationarmy.org/sierra_del_mar/elcentro
+  email: ~
+  hours: ~
+  address: 375 N. Fifth Street El Centro, CA 92243 
+
+- location: San Bernandino
+  category: Victim Assistance -- Advocate
+  title: Better Way of San Bernardino
+  desc: '90 day emergency shelter and transitional housing are available.'
+  phone:
+    - desc: Hotline/Shelter
+      number: (760) 955-8723 
   website: ~
   email: ~
   hours: ~
@@ -510,38 +1146,244 @@
 
 #27
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Sexual Assault/Rape
+  title: Safe Helpline (DoD)
+  desc: 'Department of Defense (DoD) Safe Helpline is a crisis support service for members of the
+DoD community affected by sexual assault. Safe Helpline provides live, one-on-one support
+and information to the worldwide DoD community. The service is confidential, anonymous,
+secure, and available worldwide 24/7 by click, call or text. Text location (zip code or installation/base name) to 55-247 (inside the U.S.) or 001- 202-470-5546 (outside the U.S.) to contact
+nearest resource. DoD Safe Helpline is operated by RAINN. RAINN will not share your name
+or any other personally identifying information with DoD or your chain of command.'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
+      number: (877) 995-5247 
+    - desc: Text (outside the U.S.)
+      number: (202) 470-5546
+    - desc: Text (in the U.S.)
+      number: 55- 247 
+  website:
+    - http://www.safehelpline.org/
+  email:
+    - info@safehelpline.org
   hours: ~
   address: ~ 
+
+- location: San Bernandino
+  category: Sexual Assault/Rape
+  title: Alta Loma Psychological Association
+  desc: 'Specializes in rape trauma and crisis intervention. Serves individuals (male and female),
+couples, children, and families.'
+  phone:
+    - desc: ~ 
+      number: (909) 980-3567
+  website:
+    - http://www.altalomapsychological.com/
+  email: ~
+  hours: Monday – Friday 9 AM – 6 PM
+  address: 9089 Baseline Road, Suite 200, Rancho Cucamonga, CA 91730
+
+- location: San Bernandino
+  category: Sexual Assault/Rape
+  title: Yucaipa Outreach (SBSAS Branch)
+  desc: 'Provides support services for survivors and victims of sexual assault and domestic violence,
+including individual and group counseling, referral and resource information, and court and
+medical accompaniment. '
+  phone:
+    - desc: ~ 
+      number: (909) 790-9374
+  website:
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 34282 Yucaipa Boulevard, Yucaipa, CA 92399 
+
+- location: San Bernandino
+  category: Sexual Assault/Rape
+  title: San Bernardino Sexual Assault Services
+  desc: 'Offers a 24-hour crisis line. Provides understanding and support to victims of sexual assault
+and domestic violence through immediate crisis intervention, follow-up services, one on
+one counseling, accompaniment, and advocacy services. All services are available to victims,
+their families, significant others, and friends, at no charge, irrespective of socio-economic
+status, gender, ethnic origin or sexual orientation. '
+  phone:
+    - desc: (24 hour crisis hotline)  
+      number: 1-909-885-8884
+    - desc: Alt. Phone (24 hour crisis hotline)  
+      number: 1-800-656-4673 
+  website:
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 74333 Highway 111 Suite 204, Palm Desert, CA 92260
 
 #28
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Sexual Assault/Rape
+  title: Project S.I.S.T.E.R
+  desc: 'Provides support groups and individual counseling for rape and incest survivors, referrals,
+workshops and parenting classes, self-defense classes. Services offered in Spanish and
+English.'
+  phone:
+    - desc: 24-hour Hotline
+      number: (909) 626-4357
+    - desc: Alt. Phone
+      number: (909) 623-1619 
+    - desc: Alt. Phone 2  
+      number: (909) 966-4155 
+  website: 
+    - http://www.projectsister.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 1369, Pomona, CA 91769-1369
+
+- location: San Bernandino
+  category: Sexual Assault/Rape
+  title: San Bernardino Sexual Assault Services (SBSAS)
+  desc: 'Provides support services for survivors and victims of sexual assault and domestic violence,
+including individual and group counseling, referral and resource information, and court and
+medical accompaniment.'
+  phone:
+    - desc: 24 Hour
+      number: (909) 885-8884
+    - desc: Toll-Free Crisis Line 
+      number: 1-800-656-4673
+    - desc: Morango Basin Office
+      number: (760) 369-3353
+    - desc: Redlands Office
+      number: (909) 335-8777
+  website: 
+    - http://www.sbsas.org/
+  email: ~
+  hours: ~
+  address: 505 North Arrowhead, Suite 100, San Bernardino, CA 92410
+
+- location: San Bernandino
+  category: Suicide Resources
+  title: 121 Help.me
+  desc: '121help.me is a program of the North American Alliance of Child Helplines (NAACH). The
+goal of the program is to create universal crisis portals for children/youth, both on the
+phone and on-line, as mechanisms to reach qualified, professional crisis counselors 24/7.'
+  phone:
+    - desc: Help Line 1-855-201-2121  
+      number: ~ 
+  website:
+    - http://www.121help.me/
+  email:
+    - info@121help.me
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Suicide Resources
+  title: California Youth Crisis Hotline
+  desc: 'The California Youth Crisis Line (CYCL) is a statewide, toll free, 24-hour, confidential Hotline
+available to teens and young adults ages 12-24 and/or any adults supporting youth. CYCL
+is also an immediate, reliable, and free link between youth and local services. Offers help
+finding homeless youth shelters, youth-serving medical clinics, on-going counseling
+services and much more throughout California.'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: 1- 800-843-5200
+    - desc: Alt. Phone 
+      number:  (916) 340-0505 
+  website: 
+    - http://www.sbsas.org/
+  email:
+    - paul@calyouth.org
+  hours: ~
+  address: P.O. Box 163147, Sacramento, CA 95816
+
+#29
+- location: San Bernandino
+  category: Suicide Resources
+  title: GLBT National Help Center
+  desc: 'The Gay, Lesbian, Bisexual and Transgender (GLBT) National Help Center, founded in 1996,
+is a non-profit, tax-exempt organization that provides vital peer-support, community
+connections and resource information to people with questions regarding sexual
+orientation and/or gender identity. Utilizing a diverse group of GLBT volunteers, operates
+two national hotlines, the GLBT National Hotline and the GLBT National Youth Talkline, as
+well as private, volunteer one-to-one online chat, that helps both youth and adults with
+coming-out issues, safer-sex information, school bullying, family concerns, relationship
+problems and a lot more. Also maintains the largest collection of resources for the GLBT
+community in the United States, with 15,000 local resources for cities and towns across the
+country. '
+  phone:
+    - desc: ~ 
+      number: 1-888-843-4564 
+    - desc: Youth Hotline  
+      number: 1-800-246-PRIDE (1-800-246-7743) 
+    - desc: Administrative Phone
+      number: (415) 355-0003
+  website:
+    - http://glnh.org/
+  email:
+    - help@GLBThotline.org
+  hours: ~
+  address: '2261 Market Street, #296, San Francisco, CA 94114' 
+
+- location: San Bernandino
+  category: Suicide Resources
+  title: National Suicide Prevention Hotline
+  desc: '24-hour, toll-free suicide prevention service available to anyone in suicidal crisis. The service
+is free and confidential. Website has live chat resource for the deaf and hard of hearing
+individuals.'
+  phone:
+    - desc: ~ 
+      number: 1-800-273-TALK (8255)
+    - desc: Spanish
+      number: 1-888-628-9454 
+  website:
+    - http://www.suicidepreventionlifeline.org/
   email: ~
   hours: ~
   address: ~ 
 
-#29
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Suicide Resources
+  title: Peer to Peer Crisis Teen Line
+  desc: 'National Crisis Line for Teens. Operates between 6PM and 10PM.'
   phone:
     - desc: ~ 
-      number: ~ 
+      number: 1-800-852-8336 
+    - desc: Alt. Phone
+      number: (310) 855-4673
+    - desc: Text “Teen” to
+      number: 839863 
+  website:
+    - http://teenlineonline.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 48750, Los Angeles, CA 90048
+
+- location: San Bernandino
+  category: Suicide Resources
+  title: The Trevor Project
+  desc: 'Provides crisis intervention and suicide prevention services to lesbian, gay, bisexual,
+transgender and questioning (LGBTQ) young people ages 13-24.'
+  phone:
+    - desc: ~ 
+      number: 1-866-488-7386
+    - desc: Text “Trevor” to 
+      number: 1-202-304-1200
+  website:
+    - http://www.thetrevorproject.org/
+  email: ~
+  hours: ~
+  address: P.O. Box 69232, West Hollywood, CA 90069 
+
+- location: San Bernandino
+  category: Suicide Resources
+  title: Veterans 24 hrs. Crisis Line
+  desc: 'The Veterans Crisis Line, online chat, and text-messaging service are free to all Veterans,
+even if not registered with the U.S. Department of Veterans Affairs (VA) or enrolled in VA
+health care.'
+  phone:
+    - desc: ~ 
+      number: 1-800-273-8255  
+    - desc: Text 
+      number: 838255
+    - desc: TTY Service
+      number: 1-800-799-4889
   website: ~
   email: ~
   hours: ~
@@ -549,291 +1391,806 @@
 
 #30
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: Support Services
+  title: California Missing Children Hotline
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (800) 222-3463
+  website:
+    - http://www.oag.ca.gov/missing
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Bernandino
+  category: Support Services
+  title: Mothers Against Drunk Drivers (MADD)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) I-AM-MADD
+  website:
+    - http://www.maddcalifornia.org/vip
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Bernandino
+  category: Therapists/Counselors
+  title: 2-1-1/Infolink Los Angeles County
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: 2-1-1
+    - desc: ~ 
+      number: (909) 252-4903
+  website:
+    - http://www.211sb.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Therapists/Counselors
+  title: Casa de la Familia
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 413-7777 
   website: ~
+  email: ~
+  hours: ~
+  address: 3550 Wilshire Blvd., Suite 670, Los Angeles, CA 90010 
+
+- location: San Bernandino
+  category: Therapists/Counselors
+  title: Los Angeles County Psychological Association
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 905-0410 
+  website: 
+    - http://www.lapsych.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Therapists/Counselors
+  title: Pasadena Mental Health Center (PMHC)
+  desc: 
+  phone:
+    - desc: ~ 
+      number: (626) 798-0907
+  website: 
+    - http://www.pmhcenter.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Therapists/Counselors
+  title: Foothill Family Services Agency
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 993-3000
+  website:
+    - http://www.foothillfamily.org/index.php
   email: ~
   hours: ~
   address: ~ 
 
 #31
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: 211 United Way
+  desc: 'Free and confidential information and referrals 24/7, including utility assistance, support
+groups, services for employment or counseling, childcare, food, clothing, shelter, assistance
+during or after a crisis, and aid for elderly.'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: 2-1-1
+  website:
+    - http://www.ieuw.org/
+  email:
+    - lserrano@ieuw.org
+  hours: ~
+  address: 9624 Hermosa Ave., Rancho Cucamonga, AL 91730 
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: San Bernardino County Victim Witness Assistance Center
+  desc: 'Victim advocates offer crime-related crisis counseling and, when necessary, emergency
+services: food, shelter, clothing, medical care and transportation. Staff can provide
+information about the status of a case before, during, and after prosecution. A Victim
+Advocate can also help coordinate a scheduled appearance and let you know what to
+expect. When needed, Victim Services Advocates accompany victims, witnesses, and family
+members to court proceedings for support. '
+  phone:
+    - desc: ~ 
+      number: (909) 382-3846 
+    - desc: FAX
+      number: (919) 382-7674
+  website: 
+    - http://www.sbcountyda.org/HelpingVictims.aspx
   email: ~
   hours: ~
-  address: ~ 
+  address: '303 West Third St. Plus multiple locations throughout the county, San Bernardino, CA 92415'
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Parents of Murdered Children, Inc. - Los Angeles Chapter
+  desc: 'Self-help group provides physical and emotional support, and links survivors. Meetings are
+held the 1st Saturday of each month from 12 - 2 PM at the Harry Bridges Community Labor
+Center 350 W 5th Street, Suite 209, San Pedro, CA'
+  phone:
+    - desc: ~ 
+      number: (310) 626-3592
+    - desc: National Office
+      number: 1-888-818-7662
+    - desc: FAX
+      number: (513) 345-4489
+  website:
+    - http://www.pomc.com/chapters/los_angeles_chapter.htm
+  email:
+    - lachapterofpomc@gmail.com
+  hours: ~
+  address: PO Box 6695, San Pedro, Ca 90734
 
 #32
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: California Victims Compensation Program
+  desc: 'CalVCP provides eligible victims with reimbursement for many crime-related expenses.
+CalVCP funding comes from restitution paid by criminal offenders through fines, orders,
+penalty assessments and federal matching funds.'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: (800) 777-9229
+    - desc: Compensation Claims
+      number: (800) 777-9229
+  website:
+    - http://www.vcgcb.ca.gov/
+  email: ~
+  hours: ~
+  address: P.O. Box 48, Sacramento, CA 95812-0048
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: CDCR Inmate Locator
+  desc: 'Offers 24-hour locating services for inmates within the California Department of Corrections
+system. Enter CDC number or name & date of birth to receive inmate’s location. Does not
+provide release information.'
+  phone:
+    - desc: ~ 
+      number: (916) 445-6713
+  website:
+    - http://inmatelocator.cdcr.ca.gov/
   email: ~
   hours: ~
   address: ~ 
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: VINE (Victim Information and Notification Everyday) Network
+  desc: 'Victims can use the telephone or Internet to search for information regarding their
+offender’s custody status and register to receive phone and e-mail notification when status
+changes. Service is free and anonymous. A VINEmobile app is now available to victims; more
+information about the app can be found on the VINE website. '
+  phone:
+    - desc: Statewide
+      number: (877) 411-5588 
+    - desc: TTY 
+      number: 866-847-1298
+  website:
+    - http://www.vinelink.com/
+  email: 
+    - victimservices@cdcr.ca.gov
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: MADD Victim/Survivor Hotline
+  desc: 'MADD advocates can help victims and survivors of drunk driving with grief and emotional
+support, injury support, and legal and financial recovery. MADD helps with applications for
+the victim’s compensation program. Offers a 24/7 helpline.'
+  phone:
+    - desc: ~ 
+      number: 1-877-MADD-HELP (623-3435)
+    - desc: FAX 
+      number: (972) 869-2206 
+  website:
+    - http://www.madd.org/victim-services/
+  email:
+    - email.ca.state@madd.org
+  hours: ~
+  address: 511 E. John Carpenter Frwy Ste 700, Irving, TX 75062
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: National Office for Victims of Crime - OVC
+  desc: OVC provides substantial funding to state victim assistance and compensation programs.
+  phone:
+    - desc: ~ 
+      number: (800) 627-6872  
+  website:
+    - http://www.ojp.usdoj.gov/ovc
+  email: ~
+  hours: ~
+  address: 810 7th Street NW, Washington, DC 20531 
 
 #33
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Office of Victim/Survivor Rights and Services
+  desc: 'Website provides valuable information for victims, survivors, or witnesses to a crime, given
+the offender was sentenced to the California Department of Corrections and Rehabilitation
+(CDCR) either in an adult or juvenile facility.'
   phone:
     - desc: ~ 
-      number: ~ 
+      number: 1-877-256-6877 
+  website:
+    - http://www.cdcr.ca.gov/victim_services/index.html
+  email:
+    - victimservices@cdcr.ca.gov
+  hours: ~
+  address: P.O. Box 942883, Sacramento, CA 94283
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Survivors of Violent Loss
+  desc: 'Online support group helping to address the issue of traumatic grief among co-victims of
+homicide, suicide, drunk driving, and terrorist fatalities.'
+  phone:
+    - desc: ~ 
+      number: (619) 685-0005
+  website:
+    - http://svlp.org/
+  email: 
+    - svlp@svlp.org
+  hours: ~
+  address: ~ 
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Therapists Counselors
+  desc: 'Services include: individual therapy, play therapy for children, group therapy, anger
+management, and specialized military services.'
+  phone:
+    - desc: ~ 
+      number: (760) 361-7124 
+  website:
+    - http://www.mbmh.org/29_Palms_Clinic.html
+  email: ~
+  hours: ~
+  address: 5910 Adobe Road Suite E, 29 Palms, CA 92277 
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Barstow Recovery Residential
+  desc: 'Provides psychological care for families and individuals. Services include: individual therapy,
+group therapy, adolescent treatment, 12-step meetings, and community services.'
+  phone:
+    - desc: ~ 
+      number: (760) 256-7313 
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: PO Box 1275 308 E. Fredricks St, Barstow , CA 92311
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Big Bear Services
+  desc: 'Provides psychological care for families and individuals. Services include: individual therapy,
+group therapy, adolescent treatment, and community services.'
+  phone:
+    - desc: ~ 
+      number: (909) 878-0101 
+  website: ~
+  email: ~
+  hours: ~
+  address: 41945 Big Bear Blvd Suite 208, Big Bear Lake, CA 92315 
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Uplift Family Services - San Bernardino
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 266-2700
+    - desc: Emergency Crisis Line 
+      number: 1-877-412-7474
+    - desc: FAX 
+      number: (909) 266-2710
+  website:
+    - http://upliftfs.org/
+  email: ~
+  hours: ~
+  address: 572 N. Arrowhead Avenue, Suite 200, San Bernardino, CA 92401 
 
 #34
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Family Service Agency of San Bernardino
+  desc: 'Provides services including: counseling, suicide and crisis intervention, parenting classes,
+anger management, domestic violence batterers’ intervention program, kinship program,
+child abuse prevention, and intervention program.'
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (909) 886-6737
+  website: ~
+  email:
+    - familysvceo@msn.com
+  hours: ~
+  address: 1669 North E Street, San Bernardino, CA 92405
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Loma Linda University Counseling and Family Clinic
+  desc: 'Services include: individual, child, marriage, and family counseling; child abuse; parenting,
+divorce, stress management, eating disorders, substance abuse; and bereavement issues.
+Operates on a sliding scale when person is financially unable to pay. Medical not accepted.'
+  phone:
+    - desc: ~ 
+      number: (909) 558-9500 
+  website:
+    - http://lomalindahealth.org/medical-center/behavioral-health-institute/index.page
+  email: 
+    - lguillen@llu.edu
+  hours: ~
+  address: 1686 Barton Road, Redlands, CA 92373
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Lucerne Clinic
+  desc: 'Provides psychological care for families. Services include: individual therapy, play therapy
+for children, group therapy, anger management, and a community center.'
+  phone:
+    - desc: ~ 
+      number: (760) 248-6612 
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: 32770 Old Woman Springs Road Suite C, Lucerne Valley, CA 92356
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Morongo Basin Mental Health Services
+  desc: Offers a wide range of counseling services.
+  phone:
+    - desc: ~ 
+      number: (760) 365-3022
+  website: ~
+  email: ~
+  hours: ~
+  address: 55475 Santa Fe Trail, Yucca Valley, CA 92284
+
+- location: San Bernandino
+  category: Crime Victim Services and Resources (NONPROFITS HELPING VICTIMS)
+  title: Family Resource Center of Yucca Valley
+  desc: 'Services include: coping with trauma, grief counseling, child development, parenting skills,
+and strengthening family program.'
+  phone:
+    - desc: ~ 
+      number:  (760) 369-3130
+  website: ~
+  email: ~
+  hours: ~
+  address: 58967 Business Center Drive Suite C/D, Yucca Valley, CA 92284
 
 #35
+# Safety and Self Defense section
 - location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
+  category: Safety & Self Defense
+  title: GET SAFE
+  desc: 'Training * Education * Empowerment'
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number:  (714) 834-0050
+    - desc: ~ 
+      number:  (714) 834-0070 
+  website:
+    - http://www.getsafeusa.com/
   email: ~
   hours: ~
-  address: ~ 
+  address: 1263 S. Wright St., Santa Ana, CA 92705
 
 #36
+# California Victim Compensation Program
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: California Victim Compensation Program (CalVCP)
+  title: CalVCP
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: (800) 777-9229
+  website:
+    - http://www.calvcp.ca.gov/
   email: ~
   hours: ~
   address: ~ 
 
 #37
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
+# More on California Victim Compensation Program
 
 #38
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: Bureau of Victim Services
+  title: Administration Office
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (626) 927-2500
+    - desc: ~
+      number: (800) 380-3811 
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: 3204 Rosemead Blvd., Suite 200, El Monte, CA 91731
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Airport Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 727-6516
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 11701 S. La Cienega Blvd., Room 611, Los Angeles, CA 90045
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Antelope Valley Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (661) 974-7717 
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 42011 4th Street West, Room 3530, Lancaster, CA 93534
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Central L.A.P.D
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 627-1619
+  website: ~
+  email: ~
+  hours: ~
+  address: 251 E. Sixth St., Los Angeles, CA 90014
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Claims Verification Program
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 572-6366
+    - desc: ~ 
+      number: (800) 492-5944
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: P.O. Box 6228, El Monte, CA 91734
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Compton Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 603-7579
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 200 W. Compton Blvd., Room 700, Compton, CA 90220
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Clara Shortridge Foltz Criminal Justice Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 974-7499
+    - desc: ~ 
+      number: (800) 380-3811
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 210 W. Temple St., Suite 12-514, Los Angeles, CA 90012
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Clara Shortridge Foltz Criminal Justice Center Parole Revocation, Victim Assistance Program
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 893-7899 
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 210 W. Temple St., Suite 7-512, Los Angeles, CA 90012
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: East L.A. Area Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (323) 780-2045 
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 4848 E. Civic Center Way, Room 201, Los Angeles, CA 90022
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: El Monte Area Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 575-5565
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 11234 E. Valley Blvd., Room 110, El Monte, CA 91731
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Elder Abuse Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 257-2304
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 211 West temple Street, Suite 900, Los Angeles, CA 90012
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Inglewood Area Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 419-6764
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: One Regent St., Room 405, Inglewood, CA 90301
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Family Violence Division (VM)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 974-7410
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 210 W. Temple St., Room 18-603, Los Angeles, CA 90012
 
 #39
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: Bureau of Victim Services
+  title: L.A.P.D. Hollywood
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
+      number: (323) 871-1184 
   website: ~
   email: ~
   hours: ~
-  address: ~ 
+  address: 1358 N. Wilcox Ave., Los Angeles, CA 90028
 
-#40
 - location: San Bernandino
-  category: ~
-  title: ~
+  category: Bureau of Victim Services
+  title: L.A.P.D. Southeast (VM)
   desc: ~
   phone:
     - desc: ~ 
-      number: ~ 
-  website: ~
+      number: (323) 754-8064
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 145 W. 108th St., Room 107, Los Angeles, CA 90061
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: L.A.P.D. Southwest (VM)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (323) 296-8645 
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 1546 Martin Luther King Blvd., Los Angeles, CA 90062
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Long Beach Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (562) 247-2068
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 275 Magnolia Ave., Suite 3195, Long Beach, CA 90802
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Norwalk Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (562) 807-7230
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 12720 Norwalk Blvd., Room 201, Norwalk, CA 90650
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Pasadena Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 356-5727 
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 300 E. Walnut St., Room 107, Pasadena, CA 91101
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Pomona Branch Office (VM)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 620-3381
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 400 Civic Center Plaza, Room 201, Pomona, CA 91766
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Rampart L.A.P.D (VM)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 483-6731 
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 1401 W. 6th St., Los Angeles, CA 90017
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: San Fernando Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 898-2406
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 900 3rd St., 3rd Floor, San Fernando, CA 91340
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Sex Crimes Division Hall of Justice
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 257-2054
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 320 W. Temple St., Room 740, Los Angeles, CA 90012
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Special Emphasis Advocacy Program Compton Branch Office(VM)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 603-7127
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 200 W. Compton Blvd., Room 700, Compton, CA 90220
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Torrance Branch Office (VM)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 222-3599
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 825 Maple Ave., Room 190, Torrance, CA 90503
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: Van Nuys Branch Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 374-3075
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 6230 Sylmar Ave., 2nd Floor, Van Nuys, CA 91401
+
+- location: San Bernandino
+  category: Bureau of Victim Services
+  title: West Covina Area Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 813-3220
+  website:
+    - http://da.lacounty.gov/victims
+  email: ~
+  hours: ~
+  address: 1427 West Covina Pkwy., West Covina, CA 91790
+
+#40
+- location: San Bernandino
+  category: Crime & Trauma Scene Cleanup
+  title: Crime Scene Steri-Clean, LLC (San Bernardino/Riverside Counties)
+  desc: '*24 Hour Suicide/ Homicide/Trauma Cleanup *Free Estimates'
+  phone:
+    - desc: ~ 
+      number: (909) 481-2285 
+  website:
+    - http://www.crimecleaners.com/
   email: ~
   hours: ~
   address: ~ 
 
 #41
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
+# Helping the Emotionally Injured After Tragedy Strikes section
 
 #42
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
+# Helping the Emotionally Injured After Tragedy Strikes section
 
-#43
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#44
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#45
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#46
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#47
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#48
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#49
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#50
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-
-#51
-- location: San Bernandino
-  category: ~
-  title: ~
-  desc: ~
-  phone:
-    - desc: ~ 
-      number: ~ 
-  website: ~
-  email: ~
-  hours: ~
-  address: ~ 
-#52
-#53
-#54
-#55
-#56
+#43 - #56
+# And so on... (other sections about other topics)
