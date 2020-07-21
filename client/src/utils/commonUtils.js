@@ -19,6 +19,8 @@ const pathify = (pathArray, resource = null, endWithForwardSlash = false, fullPa
     /* eslint-disable no-undef, no-console */
     if (typeof window === 'undefined') {
       console.warn('Window property does not exist, cannot retrieve hostname, fullPath=true flag ignored.');
+    } else if (process.env.NODE_ENV !== 'production') {
+      urlPath = `${window.location.hostname}:${window.location.port}/${urlPath}`;
     } else {
       urlPath = `${window.location.hostname}/${urlPath}`;
     }
