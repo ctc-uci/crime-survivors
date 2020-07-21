@@ -1079,7 +1079,8 @@ court advocates/support services to victims of domestic violence.'
   phone:
     - desc: ~ 
       number: (760) 366-9663 
-  website: http://www.joshuatreevillage.com/508/mbuh.htm
+  website: 
+    - http://www.joshuatreevillage.com/508/mbuh.htm
   email: ~
   hours: ~
   address: PO Box 1662, Joshua Tree, CA 92252 
@@ -1160,7 +1161,7 @@ or any other personally identifying information with DoD or your chain of comman
     - desc: Text (outside the U.S.)
       number: (202) 470-5546
     - desc: Text (in the U.S.)
-      number: 55- 247 
+      number: 55-247 
   website:
     - http://www.safehelpline.org/
   email:
@@ -1264,8 +1265,8 @@ medical accompaniment.'
 goal of the program is to create universal crisis portals for children/youth, both on the
 phone and on-line, as mechanisms to reach qualified, professional crisis counselors 24/7.'
   phone:
-    - desc: Help Line 1-855-201-2121  
-      number: ~ 
+    - desc: Help Line
+      number: 1-855-201-2121  
   website:
     - http://www.121help.me/
   email:
@@ -1348,7 +1349,7 @@ individuals.'
     - desc: Alt. Phone
       number: (310) 855-4673
     - desc: Text “Teen” to
-      number: 839863 
+      number: '839863' 
   website:
     - http://teenlineonline.org/
   email: ~
@@ -1381,7 +1382,7 @@ health care.'
     - desc: ~ 
       number: 1-800-273-8255  
     - desc: Text 
-      number: 838255
+      number: '838255'
     - desc: TTY Service
       number: 1-800-799-4889
   website: ~
