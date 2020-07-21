@@ -30,49 +30,6 @@ div.disclaimer {
   line-height: 24px;
 }
 
-/* 
-img#city {
-   margin-right: 2%;
-}
-
-img#purple {
-  position: absolute;
-  top: 18%;
-  left: 0%;
-  height: 200px;
-  width: 55% 
-}
-
-img#green1 {
-  position: absolute;
-  top: 45%;
-  left: 0%;
-  height: 200px;
-  width: 100%;
-}
-img#green2 {
-  position: absolute;
-  top: 52%;
-  left: 0%;
-  height: 200px;
-  width: 100%;
-}
-
-img#blue1 {
-  position: absolute;
-  top: 77%;
-  left: 0%;
-  height: 200px;
-  width: 100%; 
-}
-img#blue2 {
-  position: absolute;
-  top: 84%;
-  left: 0%;
-  height: 200px;
-  width: 100%;
-} */
-
 @media only screen and (max-width: 1350px) {
   div.landing-header {
     flex-direction: column;
@@ -91,7 +48,7 @@ img#blue2 {
 @media only screen and (min-width: 1350px) {
 
   div.disclaimer {
-    min-width: 500px;
+    min-width: 300px;
   }
 }
 
