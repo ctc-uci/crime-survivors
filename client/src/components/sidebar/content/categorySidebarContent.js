@@ -2,10 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import Category from '../category/category';
+import CategoryOverview from '../category/categoryOverview';
 import '../sidebar.css';
 
 const CategorySidebarContent = ({ content, location }) => (
   <div>
+    <div>
+      <CategoryOverview
+        selected={false}
+        location={location}
+      />
+    </div>
     { content.group.map((category) => (
       <div key={uuidv4()}>
         <Category

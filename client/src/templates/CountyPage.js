@@ -9,6 +9,7 @@ import CategorySidebarContent from '../components/sidebar/content/categorySideba
 const CountyPage = ({ data, pageContext }) => {
   const { sidebarData, quotes } = data;
   const { category, location } = pageContext;
+
   return (
     <div>
       <PageContainer
