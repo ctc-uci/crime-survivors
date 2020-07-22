@@ -1,7 +1,8 @@
 # Page numbers are commented so you can reference a section via ctrl + F
 
 # YAML format
-# - category: ~
+# - location: San Diego
+#   category: ~
 #   title: ~
 #   desc: ~
 #   phone:
@@ -10,115 +11,1621 @@
 #   website: ~
 #   email: ~
 #   hours: ~
-#   address: ~ 
+#   address: ~  
 ---
 
-#1
-#2
-#3
-#4
-#5
-#6
-#7
-#8
 #9
+- location: San Diego
+  category: Adolescent Resources
+  title: San Diego Youth Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (866) 752-2327 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Adolescent Resources
+  title: California Youth Crisis Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 448-4663 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Adolescent Resources
+  title: National Runaway Switchboard
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 621-4000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Adolescent Resources
+  title: Peer to Peer Crisis Teen Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 852-8336 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Adolescent Resources
+  title: StandUp for Kids- San Diego 
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 237-5437 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego County Courts
+  title: Central
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 450-5700 
+  website: ~
+  email: ~
+  hours: ~
+  address: 220 West Broadway, San Diego, CA 92101
+
+- location: San Diego
+  category: San Diego County Courts
+  title: Hall of Justice
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 450-7275 
+  website: ~
+  email: ~
+  hours: ~
+  address: 330 West Broadway, San Diego, CA 92101
+  
+- location: San Diego
+  category: San Diego County Courts
+  title: Family Court
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 450-7777 
+  website: ~
+  email: ~
+  hours: ~
+  address: 1555 Sixth Avenue, San Diego, CA 92101
+
+- location: San Diego
+  category: San Diego County Courts
+  title: Madge Bradley Courthouse
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 450-7676
+  website: ~
+  email: ~
+  hours: ~
+  address: 1409 Fourth Avenue, San Diego, CA 92101
+
+- location: San Diego
+  category: San Diego County Courts
+  title: Kearny Mesa Courthouse
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 634-1900 
+  website: ~
+  email: ~
+  hours: ~
+  address: 8950 Clairemont Mesa Blvd., San Diego, CA 92123
+
+- location: San Diego
+  category: San Diego County Courts
+  title: Juvenile Courthouse
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 634-1600 
+  website: ~
+  email: ~
+  hours: ~
+  address: 2851 Meadowlark Drive, San Diego, CA 92123
+
+- location: San Diego
+  category: San Diego County Courts
+  title: East County Regional Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 456-4100 
+  website: ~
+  email: ~
+  hours: ~
+  address: 250 East Main Street, El Cajon, CA 92020 
+
 #10
+- location: San Diego
+  category: San Diego County Courts
+  title: North County Regional Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 201-8600 
+  website: ~
+  email: ~
+  hours: ~
+  address: 325 South Melrose, Vista, CA 92081
+
+- location: San Diego
+  category: San Diego County Courts
+  title: South County Regional Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 746-6416
+  website: ~
+  email: ~
+  hours: ~
+  address: 500 3rd Avenue, Chula Vista, CA 91910
+
+- location: San Diego
+  category: San Diego County Courts
+  title: Ramona Branc
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 738-2400
+  website: ~
+  email: ~
+  hours: ~
+  address: 1428 Montecito Road, Ramona, CA 92065 
+
+- location: San Diego
+  category: Crisis Services
+  title: Peer to Peer Crisis Teen Line 
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 852-8336
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crisis Services
+  title: Suicide Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: 1-800-SUICIDE (784-2344)
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crisis Services
+  title: Suicide Hotline for Adolescents
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 999-9999 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crisis Services
+  title: Suicide Hotline for Teens
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 949-0057 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crisis Services
+  title: Youth Crisis Hotline
+  desc: Runaway youth, family, and friends
+  phone:
+    - desc: ~ 
+      number: (800) 843-5200
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+
 
 #11
+- location: San Diego
+  category: Battered Women Shelters
+  title: Becky’s House
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 239-0355 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Battered Women Shelters
+  title: Women’s Resource Center
+  desc: ~
+  phone:
+    - desc: 24 hour Hotline 
+      number: (760) 757-3500 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #12
+- location: San Diego
+  category: Who to Call
+  title: Adult Protective Services
+  desc: ~
+  phone:
+    - desc: 24 hours per day; 7 days per week
+      number: (800) 510-2020
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Who to Call
+  title: Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 978-3600
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Who to Call
+  title: National Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 799-SAFE
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Who to Call
+  title: Love is Respect (Teen Dating Violence)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (866) 331-9474
+  website:
+    - https://www.loveisrespect.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Who to Call
+  title: San Diego Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (888) 385-4657
+  website:
+    - http://www.sddvc.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Who to Call
+  title: Access and Crisis Line 
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 479-3339
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: South Bay Community Services, 24 hour hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 640-2933 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Carol’s House
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (877) 633-1112 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Domestic Violence Info and Referral Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 234-3164 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Women’s Resource Center, 24 hour hotline
+  desc: Emergency shelter and Transitional Housing
+  phone:
+    - desc: ~ 
+      number: (760) 757-3500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Center for Community Solutions, Crisis Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (888) 385-4657 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Coastal Location
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 272-5777
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: La Mesa Location
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 697-7477
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: North County Location
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 747-6282 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Legal Clinic 
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 272-1574
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Project Safehouse
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 267-8023 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Domestic Violence Resources
+  title: Hidden Valley House
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 480-0055
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: AARP Legal Network Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 424-3410 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: Battered Women’s Legal Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 239-2341 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: Kids in Court
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 966-8682 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: Legal Aid Society Foundation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 399-4529
+  website:
+    - https://lafla.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: Lawyer Referral and Information Service
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 243-1525
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: Men’s Legal Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 239-5100 
+  website:
+  email: ~
+  hours: ~
+  address: ~ 
+
 #13
+- location: San Diego
+  category: Legal Resources
+  title: San Diego County Bar Association
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 464-1529
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: US Attorney’s Office- Victim Witness Coord.
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 557-5527 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Legal Resources
+  title: Victim/Witness Assistance
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 239-5100 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: Main Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 531-4040 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+  
+- location: San Diego
+  category: District Attorney's Offices
+  title: South Bay Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 691-4695 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: El Cajon Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 441-4588 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: Vista Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 806-4004 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: Juvenile Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 694-4774
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: Stalking Strike Force Unit
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 515-8900
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: Child Abduction Unit
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 531-4345 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: District Attorney's Offices
+  title: Computer & Technology Crime
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 531-3660 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Probation Departments
+  title: El Cajon Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 441-3441 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Probation Departments
+  title: Ohio Street Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 574-5500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Probation Departments
+  title: Hall of Justice
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 515-8202
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Probation Departments
+  title: South County Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 498-2111
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Probation Departments
+  title: North County Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 806-2333
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Probation Departments
+  title: Juvenile Probation Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 694-4600
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: General Info
+  desc: ~
+  phone:
+    - desc: Non-Emergency
+      number: (858) 565-5200
+  website:
+    - https://www.sdsheriff.net/ 
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Administrative Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 974-2222
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: 4S Ranch Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 521-5200
+  website: ~ 
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Alpine Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 659-2600 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Borrego Springs Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 767-5656 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Boulevard/Jacumba Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 766-4585
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Campo Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 478-5378 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Encinitas Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 966-3500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Fallbrook Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 451-3100 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Imperial Beach Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 498-2400
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #14
+- location: San Diego
+  category: San Diego Sheriff
+  title: Julian Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 765-4718
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Lemon Grove Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 337-2000 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Pine Valley Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 473-8774
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Poway Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 513-2800
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Ramona Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 789-9157
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Ranchita Office
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 473-8774
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: San Marcos Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 510-5200
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Santee Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 956-4000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Valley Center Substation
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 751-4400
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Sheriff
+  title: Vista Station
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 940-4551
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Police Department
+  title: General Info
+  desc: ~
+  phone:
+    - desc: Non-Emergency 
+      number: (619) 531-2000 
+    - desc: Non-Emergency
+      number: (858) 484-3154
+  website:
+    - https://www.sandiego.gov/police
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Headquarters
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 531-2000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Central Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 744-9500 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Eastern Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 495-7900 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Mid-City Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 516-3000 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Northern Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 552-1799
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Northeastern Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 538-8000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Northwestern Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 523-7000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Southern Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 424-0400
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Southeastern Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 527-3500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+- location: San Diego
+  category: San Diego Police Department
+  title: Western Division
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 692-4800
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #15
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: Battered Women’s Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 234-3164
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: Center for Community Solutions
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 272-1767
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: EYE Counseling and Crisis Services
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 486-4998 
+    - desc: ~ 
+      number: (760) 747-6281 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: Navy Sexual Assault Victim Intervention
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 556-8709
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: Rachel’s Women’s Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 696-0873 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: Salvation Army Family Development Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 239-6221
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: SD Rescue Mission Women & Children
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 687-3720 x 36
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: St. Vincent de Paul
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 233-8500 x1214
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Sexual Assault/Rape
+  title: Women’s Resource Center, North County
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (760) 757-3500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Suicide Resources
+  title: 24 Hour Crisis Hotline San Diego County
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 479-3339
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Suicide Resources
+  title: National Hope Line Network
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 784-2433
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Suicide Resources
+  title: Suicide Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: 1-800-SUICIDE (784-2344)
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Suicide Resources
+  title: Suicide Hotline for Adolescents
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 999-9999
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Suicide Resources
+  title: Suicide Hotline for Teens
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 949-0057
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Suicide Resources
+  title: The Trevor Lifeline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (866) 488-7386
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Supportive Services
+  title: California Missing Children Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 222-3463 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Supportive Services
+  title: Mothers Against Drunk Drivers (MADD)
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) I-AM-MADD
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Supportive Services
+  title: National Alliance on Mental Illness
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 543-1434
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Therapists/Counselors
+  title: 2-1-1/Infolink San Diego
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: 2-1-1
+  website:
+    - https://211sandiego.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Therapists/Counselors
+  title: Access and Crisis Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 479-3339
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Therapists/Counselors
+  title: Casa de la Familia
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 384-7848
+  website: ~
+  email: ~
+  hours: ~
+  address: 3550 Wilshire Blvd, Suite 670, Los Angeles, CA 90010
+
+- location: San Diego
+  category: Therapists/Counselors
+  title: San Diego Psychological Association
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 277-1463
+  website:
+    - https://sdpsych.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
 #16
+- location: San Diego
+  category: Therapists/Counselors
+  title: San Diego Psychiatric Hospital
+  desc: Walk-in emergency mental health services are available
+  phone:
+    - desc: ~ 
+      number: (619) 692-8200
+  website: ~
+  email: ~
+  hours: ~
+  address: 3853 Rosecrans Street, San Diego, CA 92110 
+
+- location: San Diego
+  category: Therapists/Counselors
+  title: Survivors of Violent Loss
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (619) 685-0005
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Services
+  title: Victims of Crime Resource Center
+  desc: Please refer to website for locations and phone numbers to resources in your area.
+  phone:
+    - desc: ~ 
+      number: (800) VICTIMS (842-8467)
+    - desc: Hearing Impaired
+      number: (800) 735-2929
+  website:
+    - https://1800victims.org/
+  email:
+    - victims2@pacific.edu
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Services
+  title: California State Board of Control
+  desc: Revenue Recovery and Compliance Division, Financial recovery options for victims of crime in California
+  phone:
+    - desc: ~ 
+      number: (800) 777-9229
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Services
+  title: Crime Survivors, Inc.
+  desc: Advice, guidance, and support for victims of crime
+  phone: ~ 
+  website:
+    - https://crimesurvivors.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Services
+  title: Crime Victims’ Reparations Board
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 562-5874
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Services
+  title: National Organization for Victim Assistance
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) TRY-NOVA 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Services
+  title: National Victim Center
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) FYI-CALL
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Resources
+  title: Parents of Murdered Children
+  desc: 'POMC is a National non-profit organization dedicated to families and friends of those who have died by
+violence. All chapters offer monthly support groups, parole blocks, court accompaniment, community
+outreach and education.'
+  phone: ~ 
+  website:
+    - http://pomc.org/
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Resources
+  title: San Diego Chapter
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (858) 292-4784
+  website: ~
+  email:
+    - sandiegoPOMC@aol.com
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Resources
+  title: The Crime Victim’s Fund
+  desc: 'The concept of The Crime Victims Fund Emergency Victim Assistance program was created nearly 30 years
+ago. It is a private victim/vendor stipend program that was created in response to the urgent needs of
+victims of crime as identified by a cross-range of community helpers'
+  phone:
+    - desc: ~ 
+      number: (619) 702-8725 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
+- location: San Diego
+  category: Crime Victims Resources
+  title: Bereaved Parents of the US
+  desc: 'Bereaved Parents of the USA (BP/USA) is a national non-profit self-help group that offers support, understanding, compassion and hope to bereaved parents, grandparents and siblings struggling to rebuild their
+lives after the death of their children, grandchildren or siblings. All facilitators for the San Diego North
+Inland Chapter are bereaved parents that have had group facilitators training.'
+  phone:
+    - desc: ~ 
+      number: (619) 994-3010
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+
 #17
-#18
-#19
-#20
+- location: San Diego
+  category: Crime Victims Resources
+  title: Crime Victims United Charitable Foundation
+  desc: 'CVUCF works with At Risk Children Adoptions, Teddy Bears Rooms for Children in various Court Houses,
+Literacy Programs, Victim Support, education and help with change of venue.'
+  phone:
+    - desc: ~ 
+      number: (916) 928-4797
+  website:
+    - http://www.crimevictimsunited.com/
+  email:
+    - mail@crimevictimsunited.com
+  hours: ~
+  address: 1346 N. Market Blvd., Sacramento CA 95834 
 
-#21
-#22
-#23
-#24
-#25
-#26
-#27
-#28
-#29
-#30
+- location: San Diego
+  category: Crime Victims Resources
+  title: Justice for Murder Victims
+  desc: 'JMV is a support group in San Francisco for Homicide Victims Survivors. Meetings are held on the first
+Wednesday of each month except August.JMV works with CVUCF with the At Risk Children Adoptions and
+Teddy Bear Rooms.'
+  phone:
+    - desc: ~ 
+      number: (415) 731-9880
+  website:
+    - http://vocal-jmv.org/
+  email:
+    - vocal@vocal-jmv.org
+  hours: ~
+  address: P.O. Box 16670, San Francisco CA 94116 
 
-#31
-#32
-#33
-#34
-#35
-#36
-#37
-#38
-#39
-#40
+- location: San Diego
+  category: Crime Victims Resources
+  title: The Joyful Child Foundation
+  desc: 'The Joyful Child Foundation’s programs focus on proactive approaches in dealing with the difficult issues
+of violence against children while celebrating the gift that is every child. '
+  phone:
+    - desc: ~ 
+      number: (866) 756-9385
+  website: ~
+  email:
+    - inquiry@thejoyfulchild.org
+  hours: ~
+  address: PO Box 12680, Westminster, Ca. 92685 
 
-#41
-#42
-#43
-#44
-#45
-#46
-#47
-#48
-#49
-#50
-
-#51
-#52
-#53
-#54
-#55
-#56
-#57
-#58
-#59
-#60
-
-#61
-#62
-#63
-#64
-#65
-#66
-#67
-#68
-#69
-#70
-
-#71
-#72
-#73
-#74
-#75
-#76
-#77
-#78
-#79
-#80
-
-#81
-#82
-#83
-#84
-#85
-#86
-#87
-#88
-#89
-#90
-
-#91
-#92
-#93
-#94
-#95
-#96
-#97
-#98
-#99
-#100
+- location: San Diego
+  category: Crime Victims Resources
+  title: Casa de la Familia
+  desc: 'Casa de la Familia provides short term and long term therapy with a culturally sensitive team. We treat
+victims of domestic violence, sexual or physical abuse, child abuse, assault, rape, human trafficking, and
+elder abuse'
+  phone:
+    - desc: ~ 
+      number: (213) 384-7848 
+    - desc: ~ 
+      number: (213) 384-8498 
+  website: ~
+  email: ~
+  hours: ~
+  address: 3550 Wilshire Blvd, Suite 670, Los Angeles, CA 90010

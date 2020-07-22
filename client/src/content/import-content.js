@@ -6,7 +6,7 @@ const client = contentful.createClient({
   accessToken: 'CFPAT-4DzCJZZjNbwSXj8LS87IUZZlz0EoCfyCVG0-vd0fdu4',
 });
 
-let jsonData = require('./san_bernardino.json')
+let jsonData = require('./san_diego.json')
 
 function populate(environment) {
   for (let i = 0; i < jsonData.length; i += 1) {
