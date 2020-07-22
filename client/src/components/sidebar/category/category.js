@@ -25,7 +25,7 @@ function Category({ categoryName, resources, selected, location }) {
           : resources.map((resource) => (
             <div className="sidebar-resource-container" key={uuidv4()}>
               {resource.title ? (
-                <Link className="sidebar-resource" to={pathify([location, categoryName], resource.title)}>
+                <Link className="sidebar-resource" to={pathify(['../..', location, categoryName], resource.title)}>
                   {resource.title}
                 </Link>
               ) : null}
