@@ -2,6 +2,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import PageContainer from '../components/pagecontainer';
 import guideGraphic1 from "../images/Guide-Find-An-Advocate.svg" // eslint-disable-line
@@ -55,16 +56,43 @@ const guidesOverviewBody = (
   </div>
 );
 
-const guidesOverviewPage = (data) => (
-  <PageContainer
-    sidebar={(
-      <Sidebar
-        content={<GuideSidebarContent content={data} />}
-      />
+const guidesOverviewPage = ({ data }) => (
+  <div>
+    <PageContainer
+      sidebar={(
+        <Sidebar
+          content={<GuideSidebarContent content={data.allContentfulGuide} />}
+        />
     )}
-    body={guidesOverviewBody}
-  />
+      body={guidesOverviewBody}
+    />
+  </div>
+
 );
+
+guidesOverviewPage.propTypes = {
+  data: PropTypes.shape({
+    allContentfulGuide: PropTypes.shape({
+      nodes: PropTypes.arrayOf(
+        PropTypes.shape({
+          title: PropTypes.string,
+        }),
+      ),
+    }),
+  }),
+};
+
+guidesOverviewPage.defaultProps = {
+  data: {
+    content: {
+      nodes: [
+        {
+          title: 'title',
+        },
+      ],
+    },
+  },
+};
 
 export const query = graphql`
   query GuideQuer {
