@@ -48,7 +48,7 @@ const LandingPage = () => {
         'https://www.cbre.us/-/media/cbre/countryunitedstates/corporate-offices/southern%20california/orange%20county/orangecounty_module_768x582.png?mh=0&w=768&mw=0&h=582&la=en&hash=739D4EF8215D3CB09D8CD0293346ECF50460F36B',
     },
     {
-      county: 'San Diego County',
+      county: 'San Diego',
       image:
         'https://siteselection.com/issues/2016/sep/images/SB_Arrowhead1.jpg',
     },
