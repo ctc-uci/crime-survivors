@@ -14,7 +14,7 @@ const guideDisplay = {
   'Los Angeles County': 'LA County',
   'Orange County': 'OC',
   'Riverside County': 'Riverside County',
-  'San Bernandino': 'San Bernandino',
+  'San Bernardino': 'San Bernardino',
   'San Diego': 'SD',
   'Los Angeles': 'LA',
   'Ventura County': 'Ventura County',
