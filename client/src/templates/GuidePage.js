@@ -13,6 +13,7 @@ const GuidePage = ({ data }) => {
     <PageContainer
       sidebar={(
         <Sidebar
+          title="General Guide"
           content={<GuideSidebarContent content={sidebarData} />}
         />
     )}

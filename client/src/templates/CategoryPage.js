@@ -18,6 +18,7 @@ const CategoryPage = ({ data, pageContext }) => {
     <PageContainer
       sidebar={(
         <Sidebar
+          title={location}
           content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
         />
       )}

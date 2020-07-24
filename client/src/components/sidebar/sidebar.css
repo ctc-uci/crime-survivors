@@ -8,13 +8,21 @@
   width: 272px;
   height: 100%;
   background: linear-gradient(180deg, #425A9F 0%, #8EAEC5 100%);
-  padding: 20px;
+  padding: 96px 20px 20px 20px;
   border-radius: 4px;
   overflow: wrap;
   overflow-x: hidden;
   /* hide scrollbar for edge, ie and firefox */
   /* -ms-overflow-style: none;
   scrollbar-width: none; */
+}
+
+.sidebar-title {
+  font-size: 36px;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins";
+  margin-bottom: 8px;
 }
 
 .sidebar::-webkit-scrollbar {

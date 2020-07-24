@@ -7,7 +7,7 @@ import { IconContext } from 'react-icons';
 import { FaBars } from 'react-icons/fa';
 import './sidebar.css';
 
-const Sidebar = ({ content }) => {
+const Sidebar = ({ title, content }) => {
   const [sidebarOpen, setSidebarState] = useState(true);
 
   function resizeWindow() {
@@ -68,7 +68,7 @@ const Sidebar = ({ content }) => {
           }
         }}
       >
-        <h1 className="sidebar-title">Title</h1>
+        <h1 className="sidebar-title">{title}</h1>
         <button type="button" className="link-button" onClick={() => { setSidebarState(!sidebarOpen); }}>
           <IconContext.Provider value={{ color: 'white', size: '2em' }}>
             <div>
@@ -86,10 +86,12 @@ const Sidebar = ({ content }) => {
 };
 
 Sidebar.defaultProps = {
+  title: 'string',
   content: null,
 };
 
 Sidebar.propTypes = {
+  title: PropTypes.string,
   content: PropTypes.element,
 };
 
