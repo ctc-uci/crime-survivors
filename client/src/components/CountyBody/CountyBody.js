@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './CountyBody.css';
+import './image.css';
 import { Quotes, quotesTypes, quotesDefault } from './Quotes/Quotes';
-import city from './images/city.png';
+import city from './images/city.svg';
 import purple from './images/purple.svg';
 import green1 from './images/green1.svg';
 import green2 from './images/green2.svg';
@@ -13,7 +14,7 @@ const guideDisplay = {
   'Los Angeles County': 'LA County',
   'Orange County': 'OC',
   'Riverside County': 'Riverside County',
-  'San Bernandino': 'San Bernandino',
+  'San Bernardino': 'San Bernardino',
   'San Diego': 'SD',
   'Los Angeles': 'LA',
   'Ventura County': 'Ventura County',
@@ -30,7 +31,7 @@ const countyBodyDefault = {
 
 const LandingHeader = ({ location }) => (
   <div className="landing-header">
-    <div>
+    <div className="landing-text">
       <div className="location">
         {guideDisplay[location]}
         {' '}
@@ -51,10 +52,7 @@ const LandingHeader = ({ location }) => (
         .
       </div>
     </div>
-    <div className="header-image">
-      <img src={city} id="city" alt="city" />
-      {/* <img src={cityBackColor} id="back" alt="back" /> */}
-    </div>
+    <img src={city} id="city" alt="city" />
   </div>
 );
 LandingHeader.propTypes = countyBodyTypes.location;
