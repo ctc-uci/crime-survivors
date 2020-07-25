@@ -7,9 +7,6 @@ import Sidebar from '../components/sidebar/sidebar';
 import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
 const CategoryPage = ({ data, pageContext }) => {
-  // console.table(['HELLO', pageContext]);
-
-  console.log('here', data, pageContext);
   const { source, sidebarData } = data;
   const { resources } = source;
   const { category, location } = pageContext;

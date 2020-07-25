@@ -1,20 +1,31 @@
+/* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
-import { pathify } from '../../../utils/commonUtils';
+import { pathify, whiteSpaceToDash } from '../../../utils/commonUtils';
 import './category.css';
-// TODO: Use resourceId/CategoryId to jump to section and/or hide/collapse other categories
 
 // eslint-disable-next-line object-curly-newline
-function Category({ categoryName, resources, selected, location }) {
-  const [hide, setHide] = useState(true);
+function Category({ categoryName, resources, location }) {
+  const [, resourceTitle] = window.location.href.split('#');
+
+  function isCurrentPage() {
+    if (!resourceTitle) { // no anchor tag
+      return true;
+    }
+
+    return !(resources.filter((obj) => whiteSpaceToDash(obj.title) === resourceTitle).length);
+  }
+
+  const [hide, setHide] = useState(isCurrentPage);
+
   return (
     <div>
       <button
         type="button"
-        className={`sidebar-category ${selected ? 'purple' : ''}`}
+        className="sidebar-category"
         onClick={() => setHide(!hide)}
       >
         {`> ${categoryName}`}
@@ -25,7 +36,7 @@ function Category({ categoryName, resources, selected, location }) {
           : resources.map((resource) => (
             <div className="sidebar-resource-container" key={uuidv4()}>
               {resource.title ? (
-                <Link className="sidebar-resource" to={pathify(['../..', location, categoryName], resource.title)}>
+                <Link className={`sidebar-resource ${whiteSpaceToDash(resource.title) === resourceTitle ? 'blue' : ''}`} to={pathify([location, categoryName], resource.title)}>
                   {resource.title}
                 </Link>
               ) : null}
