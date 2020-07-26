@@ -61,6 +61,7 @@ const guidesOverviewPage = ({ data }) => (
     <PageContainer
       sidebar={(
         <Sidebar
+          title="General Guide"
           content={<GuideSidebarContent content={data.allContentfulGuide} />}
         />
     )}
