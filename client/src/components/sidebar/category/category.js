@@ -8,8 +8,8 @@ import { pathify, whiteSpaceToDash } from '../../../utils/commonUtils';
 import './category.css';
 
 // eslint-disable-next-line object-curly-newline
-function Category({ categoryName, resources, location }) {
-  const [, resourceTitle] = window.location.href.split('#');
+function Category({ categoryName, resources, location, url }) {
+  const resourceTitle = url.hash.substr(1); // remove '#' symbol
 
   function isCurrentPage() {
     if (!resourceTitle) { // no anchor tag
@@ -55,6 +55,7 @@ Category.defaultProps = {
       id: 'id',
     },
   ],
+  url: {},
 };
 
 Category.propTypes = {
@@ -62,6 +63,19 @@ Category.propTypes = {
   resources: PropTypes.arrayOf({
     title: PropTypes.string,
     id: PropTypes.string,
+  }),
+  url: PropTypes.shape({
+    hash: PropTypes.string,
+    host: PropTypes.string,
+    hostname: PropTypes.string,
+    href: PropTypes.string,
+    key: PropTypes.string,
+    origin: PropTypes.string,
+    pathname: PropTypes.string,
+    port: PropTypes.string,
+    protocol: PropTypes.string,
+    search: PropTypes.string,
+    state: PropTypes.string,
   }),
 };
 
