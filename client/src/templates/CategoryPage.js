@@ -6,7 +6,7 @@ import CategoryBody from '../components/CategoryBody/CategoryBody';
 import Sidebar from '../components/sidebar/sidebar';
 import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
-const CategoryPage = ({ data, pageContext }) => {
+const CategoryPage = ({ data, pageContext, location: url }) => {
   const { source, sidebarData } = data;
   const { resources } = source;
   const { category, location } = pageContext;
@@ -16,7 +16,7 @@ const CategoryPage = ({ data, pageContext }) => {
       sidebar={(
         <Sidebar
           title={location}
-          content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
+          content={<CategorySidebarContent url={url} content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
         />
       )}
       body={<CategoryBody resources={resources} />}
@@ -92,6 +92,7 @@ CategoryPage.defaultProps = {
     category: 'category',
     location: 'location',
   },
+  location: {},
 };
 
 // // Proptype validation, required by eslint
@@ -133,6 +134,19 @@ CategoryPage.propTypes = {
   pageContext: PropTypes.shape({
     category: PropTypes.string,
     location: PropTypes.string,
+  }),
+  location: PropTypes.shape({
+    hash: PropTypes.string,
+    host: PropTypes.string,
+    hostname: PropTypes.string,
+    href: PropTypes.string,
+    key: PropTypes.string,
+    origin: PropTypes.string,
+    pathname: PropTypes.string,
+    port: PropTypes.string,
+    protocol: PropTypes.string,
+    search: PropTypes.string,
+    state: PropTypes.string,
   }),
 };
 
