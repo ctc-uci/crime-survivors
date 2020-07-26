@@ -6,7 +6,7 @@ import Sidebar from '../components/sidebar/sidebar';
 import CountyBody from '../components/CountyBody/CountyBody';
 import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
 
-const CountyPage = ({ data, pageContext }) => {
+const CountyPage = ({ data, pageContext, location: url }) => {
   const { sidebarData, quotes } = data;
   const { category, location } = pageContext;
 
@@ -16,7 +16,7 @@ const CountyPage = ({ data, pageContext }) => {
         sidebar={(
           <Sidebar
             title={location}
-            content={<CategorySidebarContent content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
+            content={<CategorySidebarContent url={url} content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
           />
         )}
         body={(
@@ -85,7 +85,9 @@ CountyPage.propTypes = {
     category: PropTypes.string,
     location: PropTypes.string,
   }),
+  location: {},
 };
+
 CountyPage.defaultProps = {
   data: {
     sidebarData: {
@@ -113,6 +115,19 @@ CountyPage.defaultProps = {
     category: 'category',
     location: 'location',
   },
+  location: PropTypes.shape({
+    hash: PropTypes.string,
+    host: PropTypes.string,
+    hostname: PropTypes.string,
+    href: PropTypes.string,
+    key: PropTypes.string,
+    origin: PropTypes.string,
+    pathname: PropTypes.string,
+    port: PropTypes.string,
+    protocol: PropTypes.string,
+    search: PropTypes.string,
+    state: PropTypes.string,
+  }),
 };
 
 export default CountyPage;
