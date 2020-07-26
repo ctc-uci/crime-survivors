@@ -98,7 +98,7 @@ const LandingPage = () => {
         </div>
 
         <div id="guide-section">
-          <Link className="guide-btn" to={pathify(['guides', 'overview'])}>
+          <Link className="guide-btn" to={pathify(['guide'])}>
             General Guides
           </Link>
           <div className="guide-icon-container">

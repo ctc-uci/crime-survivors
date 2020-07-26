@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
+import { pathify } from '../../utils/commonUtils';
 
 import TwitterIcon from '../../images/twitter-icon.svg';
 import FacebookIcon from '../../images/facebook-icon.svg';
@@ -33,7 +34,7 @@ const Footer = () => {
           <br />
           <Link to="/#county-section">Find your County</Link>
           <br />
-          <Link to="/guides/overview">General Guides</Link>
+          <Link to={pathify(['guide'])}>General Guides</Link>
           <br />
           <a href="https://crimesurvivors.org/contact-us/">Contact Us</a>
         </div>
