@@ -1,0 +1,13 @@
+.escape-container{
+    height: 56px;
+    text-align: center;
+    background-color: #74e4d2;
+    font-family: "Poppins";
+}
+
+.escape-container a{
+    line-height: 56px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

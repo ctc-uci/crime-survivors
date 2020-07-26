@@ -1,0 +1,17 @@
+image: node
+
+stages:
+  - lint
+
+eslint:
+  stage: lint
+
+  script:
+    - npm i -g eslint
+    - npm install eslint-config-airbnb --save-dev
+    - npx install-peerdeps --dev eslint-config-airbnb
+    - npm --prefix client install client
+    - eslint --ext js,jsx .
+# This code essentially uses Docker to pull node and uses node to install/configure eslint.
+# Replace “client” in the second line of the script to the name of the folder holding your client code (if it is not named “client”).
+# The last line of our script “eslint --ext js,jsx .” indicates that we are running ESLint on all files in our project that have the extensions js or jsx.

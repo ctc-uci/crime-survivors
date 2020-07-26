@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #5E73AF 0%, rgba(54, 134, 185, 0.65) 100%);
+}
+.footer-navigation {
+  margin-top: 20px;
+  margin-left: 40px;
+  line-height: 30px
+}
+.footer-navigation .subtitle {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+}
+.footer-navigation .footer-local {
+  margin-bottom: 8px;
+}
+.footer-navigation .footer-social-media {
+  line-height: 0px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.disclaimer  {
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 40%;
+  text-align: center;
+}
+.disclaimer b {
+  font-size: 17px;
+  font-style: normal; 
+  line-height: 30px;
+}
+.disclaimer-text {
+  font-size: 12px;
+  margin-bottom: 19px;
+}
+.footer-social-media .fb-link .fb-icon {
+  font-size: 1px;
+  height: 19.92px;
+  width: 20.92px;
+}
+.footer-social-media .ig-link .ig-icon {
+  font-size: 10px;
+  height: 20px;
+  width: 20px;
+}
+.footer-social-media .yt-link .yt-icon {
+  font-size: 10px;
+  height: 14px;
+  width: 20px;
+}
+.footer-social-media .twitter-link .twitter-icon {
+  font-size: 10px;
+  height: 17px;
+  width: 20.92px;
+}
+/* #footer-social-media #gplus-link #gplus-icon {
+  font-size: 1px;
+  height: 17px;
+  width: 20.92px;
+} */
+
+/* a:link {
+  text-decoration: none;
+  color: white;
+} */
+/* a:active {
+  text-decoration: none;
+  box-shadow: 5px 5px #888888;
+} */
+
+.footer-social-media img {
+  vertical-align: middle;
+}
+
+.footer-social-media a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
+}
+
+.footer-social-media a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-social-media a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-local a {
+  text-decoration: none;
+  color: white;
+}
+
+/* in case we want "contact us" to have different styling */
+/* #contact-us {
+  background: #4C6CA4;
+  border-radius: 25px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+} */

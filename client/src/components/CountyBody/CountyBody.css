@@ -1,0 +1,63 @@
+/* Styling for general page layout */
+div.county-container {
+  position: relative;
+}
+
+div.landing-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 30px 40px 30px 40px;
+  text-align: left;
+  font-family: "Poppins";
+}
+
+div.location {
+  font-size: 40px;
+  color: #40589e;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+div.disclaimer {
+  word-wrap: break-word;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 1350px) {
+  div.landing-header {
+    flex-direction: column;
+  }
+
+  div.landing-text {
+    width: 55%;
+  }
+
+  div.disclaimer {
+    justify-self: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+
+  div.disclaimer {
+    min-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  div.landing-header {
+    margin-left: 50px;
+  }
+
+  div.landing-text {
+    width: 80%;
+  }
+}
