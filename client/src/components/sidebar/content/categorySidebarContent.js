@@ -5,7 +5,7 @@ import Category from '../category/category';
 import CategoryOverview from '../category/categoryOverview';
 import '../sidebar.css';
 
-const CategorySidebarContent = ({ content, location }) => (
+const CategorySidebarContent = ({ content, location, url }) => (
   <div>
     <div>
       <CategoryOverview
@@ -16,6 +16,7 @@ const CategorySidebarContent = ({ content, location }) => (
     { content.group.map((category) => (
       <div key={uuidv4()}>
         <Category
+          url={url}
           categoryName={category.category}
           resources={category.resources}
           selected={false}
@@ -41,6 +42,7 @@ CategorySidebarContent.defaultProps = {
     ],
   },
   location: 'location',
+  url: {},
 };
 
 CategorySidebarContent.propTypes = {
@@ -56,6 +58,19 @@ CategorySidebarContent.propTypes = {
     ),
   }),
   location: PropTypes.string,
+  url: PropTypes.shape({
+    hash: PropTypes.string,
+    host: PropTypes.string,
+    hostname: PropTypes.string,
+    href: PropTypes.string,
+    key: PropTypes.string,
+    origin: PropTypes.string,
+    pathname: PropTypes.string,
+    port: PropTypes.string,
+    protocol: PropTypes.string,
+    search: PropTypes.string,
+    state: PropTypes.string,
+  }),
 };
 
 export default CategorySidebarContent;
