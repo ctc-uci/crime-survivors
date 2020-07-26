@@ -4,16 +4,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import PageContainer from '../components/pagecontainer';
+import PageContainer from './pagecontainer';
 import guideGraphic1 from "../images/Guide-Find-An-Advocate.svg" // eslint-disable-line
 import guideGraphic2 from "../images/Guide-Heal-And-Recover.svg" // eslint-disable-line
 import guideGraphic3 from "../images/Guide-Learn-About-Victims-Rights.svg" // eslint-disable-line
 import guideGraphic4 from "../images/Guide-Obtain-Crisis-Support.svg" // eslint-disable-line
 import guideGraphic5 from "../images/Guide-Pay-For-Crime.svg" // eslint-disable-line
-import Sidebar from '../components/sidebar/sidebar';
-import GuideSidebarContent from '../components/sidebar/content/guideSidebarContent';
+import Sidebar from './sidebar/sidebar';
+import GuideSidebarContent from './sidebar/content/guideSidebarContent';
 import wave from '../images/Background-Banner-Bottom.svg';
-import '../styles/guidesOverview.css';
+import '../styles/guide-overview-page.css';
 import '../styles/common.css';
 
 const guideBoxData = [
@@ -24,7 +24,7 @@ const guideBoxData = [
   { title: 'Heal and Recover', svg: guideGraphic5 },
 ];
 
-const guidesOverviewBody = (
+const GuideOverviewBody = (
   <div className="guides-overview-container">
     <div className="go-header-container">
       <h1 className="go-title">General Guides</h1>
@@ -56,7 +56,7 @@ const guidesOverviewBody = (
   </div>
 );
 
-const guidesOverviewPage = ({ data }) => (
+const GuideOverviewPage = ({ data }) => (
   <div>
     <PageContainer
       sidebar={(
@@ -65,13 +65,13 @@ const guidesOverviewPage = ({ data }) => (
           content={<GuideSidebarContent content={data.allContentfulGuide} />}
         />
     )}
-      body={guidesOverviewBody}
+      body={GuideOverviewBody}
     />
   </div>
 
 );
 
-guidesOverviewPage.propTypes = {
+GuideOverviewPage.propTypes = {
   data: PropTypes.shape({
     allContentfulGuide: PropTypes.shape({
       nodes: PropTypes.arrayOf(
@@ -83,7 +83,7 @@ guidesOverviewPage.propTypes = {
   }),
 };
 
-guidesOverviewPage.defaultProps = {
+GuideOverviewPage.defaultProps = {
   data: {
     content: {
       nodes: [
@@ -105,4 +105,4 @@ export const query = graphql`
   }  
 `;
 
-export default guidesOverviewPage;
+export default GuideOverviewPage;

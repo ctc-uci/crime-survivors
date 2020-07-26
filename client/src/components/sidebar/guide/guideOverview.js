@@ -6,7 +6,7 @@ import './guide.css';
 function Guide() {
   return (
     <div>
-      <Link to={pathify(['guidesOverview'])}>
+      <Link to={pathify(['guide'])}>
         <button
           type="button"
           className="sidebar-guide"

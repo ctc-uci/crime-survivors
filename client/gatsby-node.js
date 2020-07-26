@@ -123,6 +123,13 @@ exports.createPages = ({ graphql, actions }) => {
     });
   };
 
+  const generateGuideOverviewPage = () => {
+    createPage({
+      path: '/guide/',
+      component: path.resolve('./src/components/GuideOverviewPage.js'),
+    });
+  };
+
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them
   return new Promise((resolve, reject) => {
@@ -134,6 +141,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // static pages
     generateHomePage();
+    generateGuideOverviewPage();
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
