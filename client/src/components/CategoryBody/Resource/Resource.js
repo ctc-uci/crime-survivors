@@ -19,6 +19,8 @@ const resourcePropType = PropTypes.shape({
   hours: PropTypes.string,
   address: PropTypes.string,
   image: PropTypes.string,
+  location: PropTypes.string,
+  category: PropTypes.string,
 });
 
 const defaultResourceProp = {
@@ -30,6 +32,8 @@ const defaultResourceProp = {
   hours: null,
   address: null,
   image: null,
+  location: 'LOCATION',
+  category: 'CATEGORY',
 };
 
 const Title = ({ title, location, category }) => {
@@ -146,13 +150,9 @@ const Resource = ({ resource }) => {
 };
 Resource.propTypes = {
   resource: resourcePropType,
-  location: PropTypes.string,
-  category: PropTypes.string,
 };
 Resource.defaultProps = {
   resource: defaultResourceProp,
-  location: 'LOCATION',
-  category: 'CATEGORY',
 };
 
 const Resources = ({ resources }) => (
