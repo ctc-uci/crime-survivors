@@ -1,38 +1,19 @@
 /* global navigator */
 /* global window */
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import './Resource.css';
-
+import { TitlePropType, ResourcePropType } from '../interfaces';
 import { pathify, whiteSpaceToDash } from '../../../utils/commonUtils';
 
-const resourcePropType = PropTypes.shape({
-  title: PropTypes.string,
-  desc: PropTypes.shape({ desc: PropTypes.string }),
-  phone: PropTypes.arrayOf(PropTypes.shape({
-    desc: PropTypes.string,
-    number: PropTypes.string,
-  })),
-  website: PropTypes.arrayOf(PropTypes.string),
-  email: PropTypes.arrayOf(PropTypes.string),
-  hours: PropTypes.string,
-  address: PropTypes.string,
-  image: PropTypes.string,
-});
-
+const [
+  location, category, title, desc, phone, website, email, hours, address
+] = ['', '', '', {desc: ''}, [], [], [], '', '',]
 const defaultResourceProp = {
-  title: null,
-  desc: null,
-  phone: null,
-  website: null,
-  email: null,
-  hours: null,
-  address: null,
-  image: null,
+  location, category, title, desc, phone, website, email, hours, address,
 };
 
-const Title = ({ title, location, category }) => {
+const Title: React.FC<TitlePropType> = ({ title, location, category }) => {
   const [copyStatus, setCopyStatus] = useState(false);
 
   const copy = (loc, cat, t) => {
@@ -62,15 +43,11 @@ const Title = ({ title, location, category }) => {
     </div>
   );
 };
-Title.propTypes = {
-  title: PropTypes.string,
-  location: PropTypes.string,
-  category: PropTypes.string,
-};
+
 Title.defaultProps = {
-  title: 'TITLE',
-  location: 'LOCATION',
-  category: 'CATEGORY',
+  title,
+  location,
+  category,
 };
 
 const Phones = (phones) => (
@@ -118,18 +95,18 @@ const Addr = (address) => (
     <li>{address}</li>
   </div>
 );
-const Img = (image) => (
-  <div>{image}</div>
-);
+
 const Desc = (desc) => (
   <div className="desc">
     {desc}
   </div>
 );
 
-const Resource = ({ resource }) => {
+const Resource: React.FC<{resource: ResourcePropType}> = (
+  { resource }
+) => {
   const {
-    location, category, title, desc, phone, website, email, hours, address, image,
+    location, category, title, desc, phone, website, email, hours, address,
   } = resource;
   return (
     <div key={uuidv4()} id={whiteSpaceToDash(title)} className="resource">
@@ -139,34 +116,24 @@ const Resource = ({ resource }) => {
       {hours != null && Hours(hours)}
       {address != null && Addr(address)}
       {website != null && Websites(website)}
-      {image != null && Img(image)}
       {desc != null && Desc(desc.desc)}
     </div>
   );
 };
-Resource.propTypes = {
-  resource: resourcePropType,
-  location: PropTypes.string,
-  category: PropTypes.string,
-};
 Resource.defaultProps = {
   resource: defaultResourceProp,
-  location: 'LOCATION',
-  category: 'CATEGORY',
 };
 
-const Resources = ({ resources }) => (
+const Resources: React.FC<{resources: ResourcePropType[]}> = ({ resources }) => (
   <div className="resource-container">
     {' '}
     {resources.map((resource) => <Resource resource={resource} />)}
     {' '}
   </div>
 );
-Resources.propTypes = { resources: PropTypes.arrayOf(resourcePropType) };
 Resources.defaultProps = { resources: [defaultResourceProp] };
 
 export {
   Resources,
-  resourcePropType,
   defaultResourceProp,
 };

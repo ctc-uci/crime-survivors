@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Resources, resourcePropType, defaultResourceProp } from './Resource/Resource';
+import { Resources, defaultResourceProp } from './Resource/Resource';
+import { CategoryPropType, ResourcePropType } from './interfaces';
 
 import './CategoryBody.css';
 
@@ -14,7 +15,7 @@ const guideDisplay = {
   'Ventura County': 'Ventura County',
 };
 
-const Category = ({ location, category }) => (
+const Category: React.FC<CategoryPropType> = ({ location, category }) => (
   <div className="category">
     <p id="location">
       {guideDisplay[location]}
@@ -25,26 +26,21 @@ const Category = ({ location, category }) => (
     <p id="category">{category}</p>
   </div>
 );
-Category.propTypes = {
-  location: PropTypes.string,
-  category: PropTypes.string,
-};
 Category.defaultProps = {
   location: 'LOCATION',
   category: 'CATEGORY',
 };
 
-const CategoryBody = ({ resources }) => {
+const CategoryBody: React.FC<{resources: ResourcePropType[]}> = (
+  { resources }
+) => {
   const { location, category } = resources[0];
   return (
     <div>
       <Category location={location} category={category} />
-      <Resources resources={resources} location={location} category={category} />
+      <Resources resources={resources} />
     </div>
   );
-};
-CategoryBody.propTypes = {
-  resources: PropTypes.arrayOf(resourcePropType),
 };
 CategoryBody.defaultProps = {
   resources: [defaultResourceProp],
