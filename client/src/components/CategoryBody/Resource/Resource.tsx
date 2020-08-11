@@ -1,5 +1,3 @@
-/* global navigator */
-/* global window */
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './Resource.css';
@@ -7,8 +5,9 @@ import { TitlePropType, ResourcePropType } from '../interfaces';
 import { pathify, whiteSpaceToDash } from '../../../utils/commonUtils';
 
 const [
-  location, category, title, desc, phone, website, email, hours, address
-] = ['', '', '', {desc: ''}, [], [], [], '', '',]
+  location, category, title, desc, phone, website, email, hours, address,
+] = ['', '', '', { desc: '' }, [], [], [], '', ''];
+
 const defaultResourceProp = {
   location, category, title, desc, phone, website, email, hours, address,
 };
@@ -16,7 +15,7 @@ const defaultResourceProp = {
 const Title: React.FC<TitlePropType> = ({ title, location, category }) => {
   const [copyStatus, setCopyStatus] = useState(false);
 
-  const copy = (loc, cat, t) => {
+  const copy = (loc: string, cat: string, t: string) => {
     navigator.clipboard.writeText(pathify([loc, cat], t, false, true)).then(
       () => {
         setCopyStatus(true);
@@ -50,8 +49,8 @@ Title.defaultProps = {
   category,
 };
 
-const Phones = (phones) => (
-  <div className="contact">
+const Phones = (phones: ResourcePropType['phone']) => (
+  <>
     Phone Numbers
     {phones.map((phone) => (
       <li key={uuidv4()}>
@@ -60,10 +59,10 @@ const Phones = (phones) => (
         {phone.number}
       </li>
     ))}
-  </div>
+  </>
 );
-const Websites = (websites) => (
-  <div className="contact">
+const Websites = (websites: ResourcePropType['website']) => (
+  <>
     Websites
     {websites.map((link) => (
       <li>
@@ -76,34 +75,11 @@ const Websites = (websites) => (
         </button>
       </li>
     ))}
-  </div>
-);
-const Emails = (emails) => (
-  <div className="contact">
-    Emails
-    {emails.map((email) => <li key={uuidv4()}>{email}</li>)}
-  </div>
-);
-const Hours = (hours) => (
-  <div className="contact">
-    <li>{hours}</li>
-  </div>
-);
-const Addr = (address) => (
-  <div className="contact">
-    Address
-    <li>{address}</li>
-  </div>
-);
-
-const Desc = (desc) => (
-  <div className="desc">
-    {desc}
-  </div>
+  </>
 );
 
 const Resource: React.FC<{resource: ResourcePropType}> = (
-  { resource }
+  { resource },
 ) => {
   const {
     location, category, title, desc, phone, website, email, hours, address,
@@ -111,12 +87,21 @@ const Resource: React.FC<{resource: ResourcePropType}> = (
   return (
     <div key={uuidv4()} id={whiteSpaceToDash(title)} className="resource">
       <Title title={title} location={location} category={category} />
-      {phone != null && Phones(phone)}
-      {email != null && Emails(email)}
-      {hours != null && Hours(hours)}
-      {address != null && Addr(address)}
-      {website != null && Websites(website)}
-      {desc != null && Desc(desc.desc)}
+      <div className="contact">
+        {phone && Phones(phone)}
+
+        {email && 'Emails'}
+        {email && email.map((e) => <li key={uuidv4()}>{e}</li>)}
+
+        {hours && 'Hours'}
+        {hours && <li>{hours}</li>}
+
+        {address && 'Address'}
+        {address && <li>{address}</li>}
+
+        {website && Websites(website)}
+      </div>
+      {desc && <div className="desc">{desc.desc}</div>}
     </div>
   );
 };

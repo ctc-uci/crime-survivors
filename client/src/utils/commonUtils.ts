@@ -1,12 +1,17 @@
-const whiteSpaceToDash = (string) => string.replace(/ /g, '-');
+export const whiteSpaceToDash = (str: string) => str.replace(/ /g, '-');
 
 /* Example:
 *     pathify(["Orange County", "Legal"], "AARP Legal Network Services", false, true)
 *     returns
 *     "Orange-County/Legal#AARP-Legal-Network-Services"
 */
-const pathify = (pathArray, resource = null, endWithForwardSlash = false, fullPath = false) => {
-  const reducer = (acc, cur) => {
+export const pathify = (
+  pathArray: [string, string],
+  resource: string = '',
+  endWithForwardSlash: boolean = false,
+  fullPath: boolean = false,
+) => {
+  const reducer = (acc: string, cur: string) => {
     if (cur === null) {
       return acc;
     }
@@ -14,7 +19,7 @@ const pathify = (pathArray, resource = null, endWithForwardSlash = false, fullPa
   };
   let urlPath = `/${whiteSpaceToDash(pathArray.reduce(reducer))}`;
   urlPath += endWithForwardSlash === true ? '/' : '';
-  urlPath += resource !== null ? `#${whiteSpaceToDash(resource)}` : '';
+  urlPath += resource ? `#${whiteSpaceToDash(resource)}` : '';
   if (fullPath === true) {
     /* eslint-disable no-undef, no-console */
     if (typeof window === 'undefined') {
@@ -27,12 +32,4 @@ const pathify = (pathArray, resource = null, endWithForwardSlash = false, fullPa
     /* eslint-enable no-undef, no-console */
   }
   return encodeURI(urlPath);
-};
-
-const anotherFunction = () => 'hello world';
-
-module.exports = {
-  anotherFunction,
-  pathify,
-  whiteSpaceToDash,
 };

@@ -2,14 +2,20 @@ module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
   extends: [
     'airbnb',
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
+    'airbnb-typescript'
+    // 'eslint:recommended',
+    // 'plugin:react/recommended',
+    // 'plugin:@typescript-eslint/recommended',
   ],
   settings: {
     react: {
       version: 'detect',
     },
+    "import/resolver": {
+      "node": {
+        "paths": ["./src"]
+      }
+    }
   },
   env: {
     browser: true,
@@ -18,6 +24,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'react'],
   parserOptions: {
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true,
     },
@@ -27,7 +34,10 @@ module.exports = {
   rules: {
     'react/prop-types': 'off', // Disable prop-types as we use TypeScript for type checking
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/extensions': 'off',
+    'no-shadow': 'off',
+    // 'no-unused-va'
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', 'tsx'] }],
   },
   overrides: [
     // Override some TypeScript rules just for .js files

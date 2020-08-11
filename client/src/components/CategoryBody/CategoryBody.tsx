@@ -1,11 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Resources, defaultResourceProp } from './Resource/Resource';
 import { CategoryPropType, ResourcePropType } from './interfaces';
 
 import './CategoryBody.css';
 
-const guideDisplay = {
+const guideDisplay: {[key: string]: string} = {
   'Los Angeles County': 'LA County',
   'Orange County': 'OC',
   'Riverside County': 'Riverside County',
@@ -32,7 +31,7 @@ Category.defaultProps = {
 };
 
 const CategoryBody: React.FC<{resources: ResourcePropType[]}> = (
-  { resources }
+  { resources },
 ) => {
   const { location, category } = resources[0];
   return (

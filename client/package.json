@@ -27,9 +27,7 @@
     "react-icons": "^3.10.0",
     "uuid": "^7.0.2"
   },
-  "devDependencies": {
-    "prettier": "^1.19.1"
-  },
+  "devDependencies": {},
   "keywords": [
     "gatsby"
   ],
