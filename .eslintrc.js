@@ -34,9 +34,7 @@ module.exports = {
   rules: {
     'react/prop-types': 'off', // Disable prop-types as we use TypeScript for type checking
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'import/extensions': 'off',
     'no-shadow': 'off',
-    // 'no-unused-va'
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', 'tsx'] }],
   },
   overrides: [
