@@ -3,7 +3,7 @@ import path from 'path';
 import { GatsbyCreatePages } from './gatsbyCreatePageType';
 import { pathify } from './src/utils/commonUtils'; // forced ES5 for some reason
 
-const createPages: GatsbyCreatePages = ({ graphql, actions }) => {
+export const createPages: GatsbyCreatePages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const queryCounties = `
@@ -148,5 +148,3 @@ const createPages: GatsbyCreatePages = ({ graphql, actions }) => {
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
 };
-
-export default createPages;
