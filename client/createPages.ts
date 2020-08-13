@@ -72,7 +72,7 @@ export const createPages: GatsbyCreatePages = ({ graphql, actions }) => {
         urls.add(newPath);
         createPage({
           path: newPath, // your url -> /location/category
-          component: path.resolve('./src/templates/CategoryPage.js'), // your template component
+          component: path.resolve('./src/templates/CategoryPage.tsx'), // your template component
           context: {
             category,
             location,
