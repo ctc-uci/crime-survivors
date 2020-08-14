@@ -29,10 +29,7 @@ const pathify = (pathArray, resource = null, endWithForwardSlash = false, fullPa
   return encodeURI(urlPath);
 };
 
-const anotherFunction = () => 'hello world';
-
 module.exports = {
-  anotherFunction,
   pathify,
   whiteSpaceToDash,
 };
