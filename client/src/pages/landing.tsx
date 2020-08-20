@@ -89,7 +89,7 @@ function Points({point}: {point: string}) {
         color: "white",
     }
     return (
-        <Card title={point} extra={<a href="#">More</a>} style={{ width: 300 }}>
+        <Card title={point} style={{ width: 300 }}>
             <Text>Popover content goes here and here and here</Text>
         </Card>
     )
