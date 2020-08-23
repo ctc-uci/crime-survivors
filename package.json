@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Welcome",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react-fns": "^1.4.0"
+  },
   "devDependencies": {
     "eslint": "^7.2.0",
     "eslint-config-airbnb": "^18.2.0",
