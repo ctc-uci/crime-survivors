@@ -19,3 +19,11 @@
 .menu-button {
     margin: 16px;
 }
+
+.middle-section{
+    background-image: linear-gradient(
+        #00232993, 
+        #00232993
+      )
+      ,url('../images/TestPage_middleimg.png');
+}
