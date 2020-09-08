@@ -1,5 +1,4 @@
 [build]
-  base = "client"
   command = "gatsby build"
   publish = "public"
   functions = "lambda"
