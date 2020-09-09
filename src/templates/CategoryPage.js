@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import PageContainer from '../components/pagecontainer';
-import CategoryBody from '../components/CategoryBody/CategoryBody';
-import Sidebar from '../components/sidebar/sidebar';
-import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
+
+// TODO THIS ESLINT DISABLE IS TEMPORARY
+/* eslint-disable no-unused-vars */
 
 const CategoryPage = ({ data, pageContext, location: url }) => {
   const { source, sidebarData } = data;
@@ -12,17 +11,11 @@ const CategoryPage = ({ data, pageContext, location: url }) => {
   const { category, location } = pageContext;
 
   return (
-    <PageContainer
-      sidebar={(
-        <Sidebar
-          title={location}
-          content={<CategorySidebarContent url={url} content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
-        />
-      )}
-      body={<CategoryBody resources={resources} />}
-    />
+    <div />
   );
 };
+
+/* eslint-enable no-unused-vars */
 
 export const query = graphql`
   query CategoryQuery($category: String!, $location: String!) {

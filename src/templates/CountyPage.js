@@ -1,34 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import PageContainer from '../components/pagecontainer';
-import Sidebar from '../components/sidebar/sidebar';
-import CountyBody from '../components/CountyBody/CountyBody';
-import CategorySidebarContent from '../components/sidebar/content/categorySidebarContent';
+
+// TODO THIS ESLINT DISABLE IS TEMPORARY
+/* eslint-disable no-unused-vars */
 
 const CountyPage = ({ data, pageContext, location: url }) => {
   const { sidebarData, quotes } = data;
   const { category, location } = pageContext;
 
-  return (
-    <div>
-      <PageContainer
-        sidebar={(
-          <Sidebar
-            title={location}
-            content={<CategorySidebarContent url={url} content={sidebarData} resourceId="" selecedCategory={category} location={location} />}
-          />
-        )}
-        body={(
-          <CountyBody
-            location={pageContext.location}
-            quotes={quotes.nodes}
-          />
-        )}
-      />
-    </div>
-  );
+  return <div />;
 };
+
+/* eslint-enable no-unused-vars */
 
 export const query = graphql`
     query CountyQuery( $location: String! ) {
