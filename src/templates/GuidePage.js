@@ -2,25 +2,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import PageContainer from '../components/pagecontainer';
-import GuideBody from '../components/GuideBody';
-import Sidebar from '../components/sidebar/sidebar';
-import GuideSidebarContent from '../components/sidebar/content/guideSidebarContent';
+
+// TODO THIS ESLINT DISABLE IS TEMPORARY
+/* eslint-disable no-unused-vars */
 
 const GuidePage = ({ data }) => {
   const { contentfulGuide, sidebarData } = data;
-  return (
-    <PageContainer
-      sidebar={(
-        <Sidebar
-          title="General Guide"
-          content={<GuideSidebarContent content={sidebarData} />}
-        />
-    )}
-      body={<GuideBody contentfulGuide={contentfulGuide} />}
-    />
-  );
+  return <div />;
 };
+
+/* eslint-enable no-unused-vars */
 
 export const query = graphql`
   query GuideQuery($title: String!) {

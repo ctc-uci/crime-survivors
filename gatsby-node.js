@@ -1,5 +1,5 @@
 const path = require('path');
-const { pathify } = require('./src/utils/commonUtils'); // forced ES5 for some reason
+const { pathify } = require('./src/common/utils/commonUtils'); // forced ES5 for some reason
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -116,17 +116,17 @@ exports.createPages = ({ graphql, actions }) => {
     });
   });
 
-  const generateHomePage = () => {
+  const generateLandingPage = () => {
     createPage({
       path: '/',
-      component: path.resolve('./src/components/LandingPage.js'),
+      component: path.resolve('./src/components/landingPage/LandingPage.ts'),
     });
   };
 
-  const generateGuideOverviewPage = () => {
+  const generateGuideLandingPage = () => {
     createPage({
       path: '/guide/',
-      component: path.resolve('./src/components/GuideOverviewPage.js'),
+      component: path.resolve('./src/components/guideLandingPage/GuideLandingPage.ts'),
     });
   };
 
@@ -140,8 +140,8 @@ exports.createPages = ({ graphql, actions }) => {
     ];
 
     // static pages
-    generateHomePage();
-    generateGuideOverviewPage();
+    generateLandingPage();
+    generateGuideLandingPage();
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
