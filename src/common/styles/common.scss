@@ -1,0 +1,18 @@
+@mixin flex-column() {
+    display: flex;
+    flex-flow: column;
+}
+
+@mixin flex-row() {
+    display: flex;
+    flex-flow: row;
+}
+
+@mixin sticky($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    position: fixed;
+    z-index: 100;
+    top: $top;
+    $right: $right;
+    $bottom: $bottom;
+    $left: $left;    
+}

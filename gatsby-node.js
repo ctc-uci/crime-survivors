@@ -119,7 +119,7 @@ exports.createPages = ({ graphql, actions }) => {
   const generateLandingPage = () => {
     createPage({
       path: '/',
-      component: path.resolve('./src/components/landingPage/LandingPage.ts'),
+      component: path.resolve('./src/components/landingPage/LandingPage.tsx'),
     });
   };
 
