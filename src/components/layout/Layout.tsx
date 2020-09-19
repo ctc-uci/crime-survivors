@@ -2,13 +2,13 @@ import React, { FunctionComponent } from 'react';
 import './layout.scss';
 
 interface LayoutProps {
-    header: React.ReactElement,
-    content: React.ReactElement,
-    footer: React.ReactElement,
-    leftSidebar?: React.ReactElement,
-    rightSidebar?: React.ReactElement,
-    enableLeftSidebar?: boolean,
-    enableRightSidebar?: boolean
+  header: React.ReactElement,
+  content: React.ReactElement,
+  footer: React.ReactElement,
+  leftSidebar?: React.ReactElement,
+  rightSidebar?: React.ReactElement,
+  enableLeftSidebar?: boolean,
+  enableRightSidebar?: boolean
 }
 
 const defaultProps: LayoutProps = {

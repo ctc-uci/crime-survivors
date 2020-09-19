@@ -11,7 +11,7 @@ eslint:
     - npm i eslint-config-airbnb
     - npx install-peerdeps eslint-config-airbnb
     - npm install --only=prod
-    - eslint --ext js,jsx .
+    - npm run eslint-fix
 # This code essentially uses Docker to pull node and uses node to install/configure eslint.
 # Replace “client” in the second line of the script to the name of the folder holding your client code (if it is not named “client”).
 # The last line of our script “eslint --ext js,jsx .” indicates that we are running ESLint on all files in our project that have the extensions js or jsx.
