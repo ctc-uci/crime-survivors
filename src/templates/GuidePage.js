@@ -2,33 +2,45 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import Layout from '../components/layout/Layout';
+import GuideContent from '../components/guideContent/GuideContent';
+import Navbar from '../components/navbar/navbar';
 
 // TODO THIS ESLINT DISABLE IS TEMPORARY
 /* eslint-disable no-unused-vars */
 
-const GuidePage = ({ data }) => {
-  const { contentfulGuide, sidebarData } = data;
-  return <div />;
+const GuidePage = ({ data, pageContext }) => {
+  const { generalGuide, generalGuideSidebar } = data;
+  const { category } = pageContext;
+
+  return (
+    <Layout
+      header={<Navbar location={{ pathname: '/guides' }} />}
+      content={<GuideContent generalGuide={generalGuide} category={category} />}
+      enableLeftSidebar
+      enableRightSidebar
+    />
+  );
 };
 
 /* eslint-enable no-unused-vars */
 
 export const query = graphql`
-  query GuideQuery($title: String!) {
-    contentfulGuide(title: {eq: $title}) {
-      title
-      generalDescription {
-        generalDescription
-      }
-      guideSections {
+  query GuideQuery($category: String!) {
+    generalGuide: allContentfulGeneralGuide(filter: {category: {eq: $category}}) {
+      nodes {
+        title: identifier
         content {
           content
         }
       }
     }
-    sidebarData: allContentfulGuide {
-      nodes {
-        title
+    generalGuideSidebar: allContentfulGeneralGuide {
+      group(field: category) {
+        category: fieldValue
+        nodes {
+          title: identifier
+        }
       }
     }
   }  

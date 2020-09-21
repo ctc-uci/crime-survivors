@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarPropType> = ({ location }) => (
     </div>
     <div className="menu">
       { options.map(({ path, displayName }) => {
-        const mark = location.pathname.includes(path) ? 'selected' : '' ;
+        const mark = location.pathname.includes(path) ? 'selected' : '';
         return (
           <div key={v4()} className={`menu-item ${mark}`}>
             <a className={`nav-item ${mark}`} href={path}>

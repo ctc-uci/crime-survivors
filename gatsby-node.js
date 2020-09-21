@@ -85,10 +85,8 @@ exports.createPages = ({ graphql, actions }) => {
 
   const queryGuides = `
     {
-      allContentfulGuide {
-        nodes {
-          title
-        }
+      allContentfulGeneralGuide {
+        categories: distinct(field: category)
       }
     }
     `;
@@ -99,14 +97,13 @@ exports.createPages = ({ graphql, actions }) => {
         reject(result.errors);
       }
 
-      const { nodes } = result.data.allContentfulGuide;
-      nodes.forEach((node) => {
-        const { title } = node;
+      const { categories } = result.data.allContentfulGeneralGuide;
+      categories.forEach((category) => {
         createPage({
-          path: pathify(['guide', title]), // your url -> /location/category
+          path: pathify(['guide', category]), // your url -> /location/category
           component: path.resolve('./src/templates/GuidePage.js'), // your template component
           context: {
-            title,
+            category,
             // data here will be passed as props to the component `this.props.pathContext`,
             // as well as to the graphql query as graphql arguments.
           },
