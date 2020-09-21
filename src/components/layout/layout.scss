@@ -3,34 +3,23 @@
 $maxLayoutWidth: 1400px;
 $leftSidebarWidth: 240px;
 $rightSidebarWidth: 240px;
-$headerPadding: 100px;
-$mobileSize: 900px;
 
 div.main-layout {
-    @include flex-column();
+    @include flex-column;
     max-width: $maxLayoutWidth;
     margin: 0 auto;
 
     >div.header {
-        @include flex-column();
         @include sticky($top: 0);
         width: 100%;
         max-width: $maxLayoutWidth;
     }
 
-    @media only screen and (max-width: #{$mobileSize}){
+    @media only screen and (max-width: #{$mobileWidth}){
         >div.middle {
-            @include flex-column();
-            padding-top: $headerPadding;
-            min-height: calc(100vh - #{$headerPadding});
-    
-            >div.left-sidebar {
-                @include flex-column();
-            }
-    
-            >div.content {
-                @include flex-column();
-            }
+            @include flex-column;
+            padding-top: $desktopHeaderHeight;
+            min-height: calc(100vh - #{$desktopHeaderHeight});
 
             >div.right-sidebar {
                 display: none;
@@ -38,29 +27,23 @@ div.main-layout {
         }
     }
 
-    @media only screen and (min-width: #{$mobileSize}){
+    @media only screen and (min-width: #{$mobileWidth}){
         >div.middle {
-            @include flex-row();
-            padding-top: $headerPadding;
-            min-height: calc(100vh - #{$headerPadding});
+            @include flex-row;
+            padding-top: $mobileHeaderHeight;
+            min-height: calc(100vh - #{$mobileHeaderHeight});
     
             >div.left-sidebar {
-                @include flex-column();
                 min-width: $leftSidebarWidth;
             }
+
             >div.content {
-                @include flex-column();
                 flex-grow: 1;
             }
     
             >div.right-sidebar {
-                @include flex-column();
                 min-width: $rightSidebarWidth;
             }
         }
-    }
-
-    >div.footer {
-        @include flex-column();
     }
 }

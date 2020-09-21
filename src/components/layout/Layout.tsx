@@ -31,7 +31,7 @@ const Layout: FunctionComponent<LayoutProps> = ({
       <div className="content">{content}</div>
       {enableRightSidebar && (<div className="right-sidebar">{rightSidebar}</div>)}
     </div>
-    <div className="footer">{footer}</div>
+    {footer}
   </div>
 );
 

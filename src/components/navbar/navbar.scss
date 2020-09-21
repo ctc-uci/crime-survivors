@@ -1,0 +1,99 @@
+@import '../../common/styles/common';
+
+$textColor: #e7e7e7;
+$navbarBgColor: #2C3E54;
+$mobileMenuBgColor: #468590;
+
+$csLogoDiameter: 60px;
+$menuHeight: 50px;
+
+$desktopFontSize: 16px;
+$mobileFontSize: 12px;
+
+@mixin default-container{
+    @include flex-row;
+    width: 100%;
+    align-items: center;
+}
+
+div.navbar {
+    @include default-container;
+    justify-content: space-around;
+    background-color: $navbarBgColor;
+}
+
+div.logo {
+    @include default-container;
+    padding: 30px;
+
+    img {
+        height: $csLogoDiameter;
+        width: $csLogoDiameter;
+        margin: 0px 30px;
+    }
+
+    div {
+        color: $textColor;
+        font-size: $desktopFontSize;
+        &.organization {
+            font-weight: bold;
+            font-size: $desktopFontSize * 3 / 2;
+        }
+    }
+
+    @media only screen and (max-width: $mobileWidth) {
+        img {
+            height: $csLogoDiameter * 2 / 3;
+            width: $csLogoDiameter * 2 / 3;
+        }
+
+        div {
+            font-size: $mobileFontSize;
+            &.organization {
+                font-size: $mobileFontSize * 3 / 2;
+            }
+        }
+    }
+}
+
+div.menu {
+    @include default-container;
+    justify-content: space-around;
+    min-height: $menuHeight;
+
+    div.menu-item {
+        @include flex-row;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        min-height: $menuHeight;
+    }
+
+    a {
+        color: $textColor;
+        text-decoration: none;
+        &.selected {
+            border-bottom: 3px solid white;
+        }
+    }
+
+    @media only screen and (max-width: $mobileWidth) {
+        div.selected {
+            background-color: $navbarBgColor;
+        }
+
+        a.selected {
+            border-bottom: none;
+        }
+    }
+}
+
+@media only screen and (max-width: $mobileWidth) {
+    div.navbar {
+        flex-flow: column;
+    }
+
+    div.menu {
+        background-color: $mobileMenuBgColor;
+    }
+}

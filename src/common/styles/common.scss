@@ -1,9 +1,20 @@
-@mixin flex-column() {
+// breakpoints
+$mobileWidth: 900px;
+
+// padding for sticky header 
+$desktopHeaderHeight: 150px;
+$mobileHeaderHeight: 120px;
+
+html, body {
+    margin: 0;
+}
+
+@mixin flex-column {
     display: flex;
     flex-flow: column;
 }
 
-@mixin flex-row() {
+@mixin flex-row {
     display: flex;
     flex-flow: row;
 }
@@ -16,3 +27,4 @@
     $bottom: $bottom;
     $left: $left;    
 }
+
