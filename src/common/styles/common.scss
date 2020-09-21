@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: Lato;
+}
+
+p.h0{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 24px 0 24px 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
 // breakpoints
 $mobileWidth: 900px;
 
@@ -28,3 +66,12 @@ html, body {
     $left: $left;    
 }
 
+// anchor tag padding: https://css-tricks.com/hash-tag-links-padding/
+@mixin anchor-tag-padding {
+    display: block; 
+    content: " "; 
+    margin-top: -100px; 
+    height: 100px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
