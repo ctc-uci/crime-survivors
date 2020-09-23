@@ -138,7 +138,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // static pages
     generateLandingPage();
-    generateGuideLandingPage();
+    // generateGuideLandingPage();
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
