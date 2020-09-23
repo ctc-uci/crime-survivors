@@ -2,6 +2,7 @@ image: node
 
 stages:
   - lint
+  - build
 
 eslint:
   stage: lint
@@ -12,6 +13,15 @@ eslint:
     - npx install-peerdeps eslint-config-airbnb
     - npm install --only=prod
     - npm run eslint-fix
-# This code essentially uses Docker to pull node and uses node to install/configure eslint.
-# Replace “client” in the second line of the script to the name of the folder holding your client code (if it is not named “client”).
-# The last line of our script “eslint --ext js,jsx .” indicates that we are running ESLint on all files in our project that have the extensions js or jsx.
+# This code essentially uses Docker to pull node and uses node to install/configure eslint and run the eslint script
+
+variables:
+  NODE_ENV: 'pipeline'
+
+preprod_gatsby_build:
+  stage: build
+
+  script:
+    - npm i
+    - npm run build
+# This code will try to run gatsby build to make sure your code is deployable.

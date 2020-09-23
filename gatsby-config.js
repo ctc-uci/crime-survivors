@@ -1,6 +1,7 @@
 // development: use dotenv and .env.* files
+// pipeline: use gitlab UI
 // production:  use netlify UI or netlify.toml
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== 'production' || process.env.NODE_ENV !== 'pipeline') {
   /* eslint-disable global-require */
   // console.log(process.env.NODE_ENV);
   require('dotenv').config({
