@@ -1,0 +1,17 @@
+@import '../../../common/styles/common';
+
+div.learn-button {
+    @include flex-row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    background-color: #316E83;
+    border-radius: 2px;
+    margin-top: 10px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}

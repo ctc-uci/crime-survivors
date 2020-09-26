@@ -1,0 +1,78 @@
+@import '../../common/styles/common';
+
+* {
+  box-sizing: border-box;
+}
+
+div.center-flex-row {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.carousel-wrapper {
+  @include flex-column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+
+  div.carousel {
+    @include flex-row;
+    width: 790px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  button.prevButton, button.nextButton {
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+    
+    img.leftArrow {
+      margin-right: 20px;
+    }
+
+    img.rightarrow {
+      margin-left: 20px;
+    }
+
+    @media only screen and (max-width: 320px){
+      img.leftArrow {
+        margin-right: 0px;
+      }
+  
+      img.rightarrow {
+        margin-left: 0px;
+      }
+    }
+  }
+
+
+  div.item {
+    width: 250px;
+    margin: 0px 10px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  div.selected {
+    border: 1px solid #000;
+  }
+
+  @media only screen and (max-width: #{$mobileWidth}){
+    div.carousel {
+      width: 250px;
+    }
+  
+    div.selected {
+      border: none;
+    }
+  }
+}
