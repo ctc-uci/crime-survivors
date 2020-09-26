@@ -1,4 +1,5 @@
 import React from 'react';
+import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import Layout from '../layout/Layout';
 import Navbar from '../navbar/navbar';
 
@@ -6,14 +7,22 @@ const Header = () => <div style={{ backgroundColor: 'purple' }}><Navbar location
 const Context = () => <div style={{ backgroundColor: 'blue' }}><h1>Content</h1></div>;
 const Footer = () => <div style={{ backgroundColor: 'red' }}><h1>Footer</h1></div>;
 
-const LandingPage = () => (
-  <Layout
-    header={Header()}
-    content={Context()}
-    footer={Footer()}
-    enableLeftSidebar
-    enableRightSidebar
-  />
-);
+const LandingPage: React.FC<LandingPageProps> = ({ location: url }) => {
+  console.log(url);
+
+  return (
+    <Layout
+      header={Header()}
+      content={Context()}
+      footer={Footer()}
+      enableLeftSidebar
+      enableRightSidebar
+    />
+  );
+};
+
+interface LandingPageProps {
+  location: UrlRouter
+}
 
 export default LandingPage;
