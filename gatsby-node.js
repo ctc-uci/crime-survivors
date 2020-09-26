@@ -7,9 +7,7 @@ exports.createPages = ({ graphql, actions }) => {
   const queryCounties = `
     {
       allContentfulResource {
-        nodes {
-          location
-        }
+        locations: distinct(field: location)
       }
     }
   `;
@@ -20,18 +18,12 @@ exports.createPages = ({ graphql, actions }) => {
         reject(result.errors);
       }
 
-      const { nodes } = result.data.allContentfulResource;
-      const urls = new Set();
-      nodes.forEach((node) => {
-        const { location } = node;
+      const { locations } = result.data.allContentfulResource;
+      locations.forEach((location) => {
         const newPath = pathify([location, '']);
-        if (urls.has(newPath)) {
-          return;
-        }
-        urls.add(newPath);
         createPage({
-          path: newPath, // your url -> /location/category
-          component: path.resolve('./src/templates/CountyPage.js'), // your template component
+          path: newPath,
+          component: path.resolve('./src/templates/CountyPage.tsx'), // your template component
           context: {
             location,
           },
@@ -59,18 +51,18 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       const { nodes } = result.data.allContentfulResource;
-      const urls = new Set();
+      const uniqueUrls = new Set();
+
       nodes.forEach((node) => {
-        const { location } = node;
-        const { category } = node;
+        const { location, category } = node;
         const newPath = pathify([location, category]);
-        if (urls.has(newPath)) {
+        if (uniqueUrls.has(newPath)) {
           return;
         }
-        urls.add(newPath);
+        uniqueUrls.add(newPath);
         createPage({
           path: newPath, // your url -> /location/category
-          component: path.resolve('./src/templates/CategoryPage.js'), // your template component
+          component: path.resolve('./src/templates/CategoryPage.tsx'), // your template component
           context: {
             category,
             location,
@@ -101,7 +93,7 @@ exports.createPages = ({ graphql, actions }) => {
       categories.forEach((category) => {
         createPage({
           path: pathify(['guide', category]), // your url -> /location/category
-          component: path.resolve('./src/templates/GuidePage.js'), // your template component
+          component: path.resolve('./src/templates/GuidePage.tsx'), // your template component
           context: {
             category,
             // data here will be passed as props to the component `this.props.pathContext`,
