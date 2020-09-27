@@ -4,6 +4,7 @@ import { CategoryPageProps, CategoryPagePropsDefaultProps } from './CategoryPage
 import Layout from '../components/layout/Layout';
 import CategoryContent from '../components/categoryContent/CategoryContent';
 import Navbar from '../components/navbar/navbar';
+import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
 
 const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location: url }) => {
   const { categoryData, sidebarData } = data;
@@ -11,7 +12,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location
   const { category, location } = pageContext;
 
   console.log('1', nodes);
-  console.log('2', sidebarData.group);
+  console.log('2', sidebarData);
   console.log('3', category, location);
   console.log('4', url);
 
@@ -26,6 +27,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location
         />
       )}
       enableLeftSidebar
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} />}
       enableRightSidebar
     />
   );

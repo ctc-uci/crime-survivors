@@ -5,12 +5,13 @@ import { GuidePageProps, GuidePageDefaultProps } from './GuidePage.interface';
 import Layout from '../components/layout/Layout';
 import GuideContent from '../components/guideContent/GuideContent';
 import Navbar from '../components/navbar/navbar';
+import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
 
 const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data, location: url }) => {
   const { guideData, sidebarData } = data;
   const { category } = pageContext;
 
-  console.log('1', sidebarData.group);
+  console.log('1', sidebarData);
   console.log('2', category);
   console.log('3', url);
 
@@ -19,6 +20,7 @@ const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data, location: url 
       header={<Navbar location={{ pathname: '/guide' }} />}
       content={<GuideContent generalGuide={guideData} category={category} />}
       enableLeftSidebar
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} />}
       enableRightSidebar
     />
   );
