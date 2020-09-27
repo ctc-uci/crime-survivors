@@ -1,0 +1,93 @@
+@import "../../../common/styles/common";
+
+$anchorActiveColor: #316E83;
+$fontSize: 18px;
+$lineHeight: 22px;
+
+@mixin element-padding {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+@mixin a-style {
+  color: #707070;
+  text-decoration: none;
+  transition: padding-left 0.3s, color 0.3s, font-weight 0.3s;
+}
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width:  $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+div.right-sidebar {
+  @include flex-row;
+  position: sticky;
+  top: $desktopHeaderHeight;
+  font-weight: normal;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  width: 'inherit';
+
+  >div.divider {
+    width: 0.1px;
+    height: initial;
+    background: #5D5D5D;
+    border: 0.1px solid #5D5D5D;
+    margin-right: 10%;
+  }
+
+  >div.sidebar-elements {
+    @include element-padding;
+    @include flex-column;
+    @include scrollbars(3px, $anchorActiveColor, inherit);
+    line-height: $lineHeight;
+    margin-right: 15%;
+    overflow-y: scroll;
+    max-height: calc(100vh - 41vh);
+
+    >div.right-sidebar-subtitle {
+      color: $anchorActiveColor; // even tho its not an anchor teehee;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 17%;
+      padding-bottom: 17%;
+    }
+
+    >a.sidebar-link, a.sidebar-link:link,
+     a.sidebar-link:visited, a.sidebar-link:active {
+      @include a-style;
+      @include element-padding;
+      cursor: pointer;
+    }
+
+    >a.sidebar-link:hover {
+      @include element-padding;
+    }
+
+    >a.sidebar-link.active {
+      @include a-style;
+      @include element-padding;
+      padding-left: +4%;
+      color: $anchorActiveColor;
+      font-weight: 550;
+    }
+  }
+}

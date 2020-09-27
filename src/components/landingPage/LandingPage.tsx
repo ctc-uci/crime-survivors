@@ -3,6 +3,11 @@ import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import Layout from '../layout/Layout';
 import Carousel from '../carousel/carousel';
 import Navbar from '../navbar/navbar';
+import RightSidebar from '../dualSidebar/rightSidebar/RightSidebar';
+
+const category = 'Domestic Violence Resources';
+const resources = ['House of Ruth', 'New Star Family Justice Center', 'Office of Samoan Affairs', 'Peace Over Violence',
+  'Project Peacemakers', 'Shepherds\'s Door', 'Su Casa', 'Tarzana Treatment Centers'];
 
 function genItem(num: number) {
   return {
@@ -23,16 +28,20 @@ for (let i = 0; i < 5; i += 1) {
 }
 
 const Header = () => <div style={{ backgroundColor: 'purple' }}><Navbar location={{ pathname: '/home' }} /></div>;
-const Footer = () => <div style={{ backgroundColor: 'red' }}><h1>Footer</h1></div>;
+const Footer = () => <div style={{ backgroundColor: 'red', minHeight: '500px' }}><h1>Footer</h1></div>;
 
 const LandingPage: React.FC<LandingPageProps> = ({ location: url }) => (
-  <Layout
-    header={Header()}
-    content={<Carousel location={url} items={items} />}
-    footer={Footer()}
-    enableLeftSidebar
-    enableRightSidebar
-  />
+  <>
+    <Layout
+      header={Header()}
+      // temp CategoryContent component
+      content={<Carousel location={url} items={items} />}
+      footer={Footer()}
+      rightSidebar={RightSidebar({ category, resources })}
+      enableLeftSidebar
+      enableRightSidebar
+    />
+  </>
 );
 
 interface LandingPageProps {
