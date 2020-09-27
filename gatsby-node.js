@@ -112,12 +112,12 @@ exports.createPages = ({ graphql, actions }) => {
     });
   };
 
-  const generateGuideLandingPage = () => {
-    createPage({
-      path: '/guide/',
-      component: path.resolve('./src/components/guideLandingPage/GuideLandingPage.ts'),
-    });
-  };
+  // const generateGuideLandingPage = () => {
+  //   createPage({
+  //     path: '/guide/',
+  //     component: path.resolve('./src/components/guideLandingPage/GuideLandingPage.ts'),
+  //   });
+  // };
 
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them

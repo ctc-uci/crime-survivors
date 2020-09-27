@@ -2,6 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { CountyPageProps, CountyPageDefaultProps } from './CountyPage.interface';
 
+import Layout from '../components/layout/Layout';
+import Navbar from '../components/navbar/navbar';
+import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
+
 const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: url }) => {
   const { featuredSection, sidebarData, quotes } = data;
   const { location } = pageContext;
@@ -12,7 +16,15 @@ const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: ur
   console.log('4', location);
   console.log('5', url);
 
-  return <div />;
+  return (
+    <Layout
+      header={<Navbar location={{ pathname: '/guide' }} />}
+      // content={<GuideContent generalGuide={guideData} category={category} />}
+      enableLeftSidebar
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} />}
+      enableRightSidebar
+    />
+  );
 };
 
 export const query = graphql`
@@ -28,7 +40,7 @@ export const query = graphql`
       filter: { location: { eq: $location } }
     ) {
       group(field: category) {
-        resources: nodes {
+        nodes {
           id
           title
         }
