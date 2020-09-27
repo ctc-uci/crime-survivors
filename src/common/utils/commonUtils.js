@@ -1,16 +1,15 @@
-const whiteSpaceToDash = (str) => str.replace(/ /g, '-');
-
 const windowExists = () => typeof window !== 'undefined';
+
+const urlEncode = (str) => str.replace(/ /g, '_');
 
 /* Example:
 *     pathify(["Orange County", "Legal"], "AARP Legal Network Services", false, true)
 *     returns
 *     "Orange-County/Legal#AARP-Legal-Network-Services"
 */
-
 const pathify = (
   pathArray,
-  resource = '',
+  hash = '',
   endWithForwardSlash = false,
   fullPath = false,
 ) => {
@@ -18,11 +17,13 @@ const pathify = (
     if (cur === null) {
       return acc;
     }
-    return `${acc}/${cur.replace(/[^a-zA-Z0-9\- ]/g, '')}`;
+    return `${acc}/${cur.replace(/[^a-zA-Z0-9\-_ ]/g, '')}`;
   };
-  let urlPath = `/${whiteSpaceToDash(pathArray.reduce(reducer))}`;
+  let urlPath = `/${urlEncode(pathArray.reduce(reducer))}`;
+
+  // Additional options
   urlPath += endWithForwardSlash === true ? '/' : '';
-  urlPath += resource ? `#${whiteSpaceToDash(resource)}` : '';
+  urlPath += hash ? `#${urlEncode(hash)}` : '';
   if (fullPath === true) {
     /* eslint-disable no-undef, no-console */
     if (typeof window === 'undefined') {
@@ -34,11 +35,12 @@ const pathify = (
     }
     /* eslint-enable no-undef, no-console */
   }
+
   return encodeURI(urlPath);
 };
 
 module.exports = {
   pathify,
   windowExists,
-  whiteSpaceToDash,
+  urlEncode,
 };

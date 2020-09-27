@@ -26,7 +26,7 @@ const Layout: FunctionComponent<LayoutProps> = ({
   header, content, footer, leftSidebar, rightSidebar, enableLeftSidebar, enableRightSidebar,
 }) => (
   <div className="main-layout">
-    <EscapeButton/>
+    <EscapeButton />
     <div className="header">{header}</div>
     <div className="middle">
       {enableLeftSidebar && (<div className="left-sidebar">{leftSidebar}</div>)}

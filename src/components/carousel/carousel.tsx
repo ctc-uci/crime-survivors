@@ -63,9 +63,9 @@ const Carousel: React.FC<CarouselPropType> = ({ items, location }) => {
         <MoveButton className="prevButton" dir={Prev} />
         <div className="carousel">
           {items.map((item, index) => (
-            <div 
-              key={v4()} 
-              id={`item-${index}`} 
+            <div
+              key={v4()}
+              id={`item-${index}`}
               className={`item ${index === idx ? 'selected' : ''}`}
             >
               <Item {...item} />
