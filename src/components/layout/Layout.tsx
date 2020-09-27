@@ -1,5 +1,7 @@
 import React, { FunctionComponent } from 'react';
+
 import EscapeButton from '../escapeButton/EscapeButton';
+
 import './layout.scss';
 
 interface LayoutProps {
@@ -29,9 +31,9 @@ const Layout: FunctionComponent<LayoutProps> = ({
     <EscapeButton />
     <div className="header">{header}</div>
     <div className="middle">
-      {enableLeftSidebar && (<div className="left-sidebar">{leftSidebar}</div>)}
+      {enableLeftSidebar && (<div className="layout-left-sidebar">{leftSidebar}</div>)}
       <div className="content">{content}</div>
-      {enableRightSidebar && (<div className="right-sidebar">{rightSidebar}</div>)}
+      {enableRightSidebar && (<div className="layout-right-sidebar">{rightSidebar}</div>)}
     </div>
     {footer}
   </div>

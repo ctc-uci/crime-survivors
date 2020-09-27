@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
-    "@contentful/rich-text-types": "^14.1.0",
+    "@types/react-scroll": "^1.8.0",
     "antd": "^4.6.5",
     "contentful": "^7.14.4",
     "dotenv": "^8.2.0",
@@ -26,6 +26,7 @@
     "react-floating-action-button": "^1.0.5",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.10.0",
+    "react-scroll": "^1.8.1",
     "typescript": "^4.0.2",
     "uuid": "^7.0.2"
   },

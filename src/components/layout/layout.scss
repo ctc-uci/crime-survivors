@@ -24,7 +24,7 @@ div.main-layout {
                 padding: 16px;
             }
 
-            >div.right-sidebar {
+            >div.layout-right-sidebar {
                 display: none;
             }
         }
@@ -36,7 +36,7 @@ div.main-layout {
             padding-top: $mobileHeaderHeight;
             min-height: calc(100vh - #{$mobileHeaderHeight});
     
-            >div.left-sidebar {
+            >div.layout-left-sidebar {
                 min-width: $leftSidebarWidth;
             }
 
@@ -45,7 +45,7 @@ div.main-layout {
                 padding: 16px;
             }
     
-            >div.right-sidebar {
+            >div.layout-right-sidebar {
                 min-width: $rightSidebarWidth;
             }
         }
