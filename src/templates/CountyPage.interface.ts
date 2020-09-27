@@ -1,4 +1,6 @@
-import { UrlRouter, UrlRouterDefaultProps } from '../common/interfaces/global.interfaces';
+import {
+  UrlRouter, UrlRouterDefaultProps, SidebarData, SidebarDataDefaultProps,
+} from '../common/interfaces/global.interfaces';
 
 export interface CountyPageProps{
   pageContext:{
@@ -10,7 +12,7 @@ export interface CountyPageProps{
 
 export interface CountyPageData {
   featuredSection: FeaturedSection,
-  sidebarData: CountyPageSidebar,
+  sidebarData: SidebarData,
   quotes: Quotes
 }
 
@@ -32,15 +34,6 @@ export interface Quotes {
   }[]
 }
 
-export interface CountyPageSidebar{
-  group: {
-    category: string,
-    nodes: {
-      id: string,
-      title: string, }[]
-  }[]
-}
-
 export const CountyPageDefaultProps: CountyPageProps = {
   pageContext: {
     location: 'string',
@@ -53,15 +46,7 @@ export const CountyPageDefaultProps: CountyPageProps = {
         }],
       }],
     },
-    sidebarData: {
-      group: [{
-        category: 'string',
-        nodes: [{
-          id: 'string',
-          title: 'string',
-        }],
-      }],
-    },
+    sidebarData: SidebarDataDefaultProps,
     quotes: {
       nodes: [{
         author: 'string',

@@ -29,3 +29,21 @@ export const UrlRouterDefaultProps: UrlRouter = {
     key: 'string',
   },
 };
+
+export interface SidebarData{
+  group: {
+    category: string,
+    nodes: {
+      title: string
+    }[]
+  }[]
+}
+
+export const SidebarDataDefaultProps: SidebarData = {
+  group: [{
+    category: 'string',
+    nodes: [{
+      title: 'string',
+    }],
+  }],
+};
