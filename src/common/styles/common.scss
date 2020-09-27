@@ -36,6 +36,20 @@ p {
     font-weight: 400;
 }
 
+a {
+    color: #57936E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #57936E !important;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #626865;
+}
+
 // breakpoints
 $mobileWidth: 900px;
 $maxLayoutWidth: 1400px;

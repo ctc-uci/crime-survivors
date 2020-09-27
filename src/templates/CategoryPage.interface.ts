@@ -17,22 +17,24 @@ export interface CategoryPageData{
 }
 
 export interface CategoryPageContent{
-  nodes: {
-    id: string,
-    location: string,
-    title: string,
-    address: string,
-    category: string,
-    phone: {
-      desc: string,
-      number: string,
-    },
-    desc: {
-      desc: string
-    },
-    website: string,
-    email: string,
-  }[]
+  nodes: ResourceContent[]
+}
+
+export interface ResourceContent {
+  id: string,
+  location: string,
+  title: string,
+  address: string,
+  category: string,
+  phone: {
+    desc: string,
+    number: string,
+  }[],
+  desc: {
+    desc: string
+  },
+  website: string,
+  email: string,
 }
 
 export interface CategoryPageSidebar{
@@ -57,10 +59,10 @@ export const CategoryPagePropsDefaultProps: CategoryPageProps = {
         title: 'string',
         address: 'string',
         category: 'string',
-        phone: {
+        phone: [{
           desc: 'string',
           number: 'string',
-        },
+        }],
         desc: {
           desc: 'string',
         },
