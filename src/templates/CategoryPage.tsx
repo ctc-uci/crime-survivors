@@ -1,6 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { CategoryPageProps, CategoryPagePropsDefaultProps } from './CategoryPage.interface';
+import Layout from '../components/layout/Layout';
+import CategoryContent from '../components/categoryContent/CategoryContent';
+import Navbar from '../components/navbar/navbar';
 
 const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location: url }) => {
   const { categoryData, sidebarData } = data;
@@ -13,7 +16,18 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location
   console.log('4', url);
 
   return (
-    <div />
+    <Layout
+      header={<Navbar location={{ pathname: '/' }} />}
+      content={(
+        <CategoryContent
+          categoryData={categoryData}
+          category={category}
+          location={location}
+        />
+      )}
+      enableLeftSidebar
+      enableRightSidebar
+    />
   );
 };
 
