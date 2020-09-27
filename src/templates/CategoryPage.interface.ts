@@ -1,4 +1,6 @@
-import { UrlRouter, UrlRouterDefaultProps } from '../common/interfaces/global.interfaces';
+import {
+  UrlRouter, UrlRouterDefaultProps, SidebarData, SidebarDataDefaultProps,
+} from '../common/interfaces/global.interfaces';
 
 export interface CategoryPageProps{
   pageContext: {
@@ -11,7 +13,7 @@ export interface CategoryPageProps{
 
 export interface CategoryPageData{
   categoryData: CategoryPageContent,
-  sidebarData: CategoryPageSidebar
+  sidebarData: SidebarData
 }
 
 export interface CategoryPageContent{
@@ -66,15 +68,7 @@ export const CategoryPagePropsDefaultProps: CategoryPageProps = {
         email: 'string',
       }],
     },
-    sidebarData: {
-      group: [{
-        category: 'string',
-        nodes: [{
-          id: 'string',
-          title: 'string',
-        }],
-      }],
-    },
+    sidebarData: SidebarDataDefaultProps,
   },
   location: UrlRouterDefaultProps,
 };

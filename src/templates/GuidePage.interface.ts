@@ -1,4 +1,6 @@
-import { UrlRouter, UrlRouterDefaultProps } from '../common/interfaces/global.interfaces';
+import {
+  UrlRouter, UrlRouterDefaultProps, SidebarData, SidebarDataDefaultProps,
+} from '../common/interfaces/global.interfaces';
 
 export interface GuidePageProps{
   pageContext: {
@@ -10,7 +12,7 @@ export interface GuidePageProps{
 
 export interface GuidePageData{
   guideData: GuidePageContent,
-  sidebarData: GuideSidebar
+  sidebarData: SidebarData
 }
 
 export interface GuidePageContent {
@@ -19,15 +21,6 @@ export interface GuidePageContent {
     content: {
       content: string
     }
-  }[]
-}
-
-export interface GuideSidebar{
-  group: {
-    category: string,
-    nodes: [{
-      id: string,
-      title: string, }]
   }[]
 }
 
@@ -44,15 +37,7 @@ export const GuidePageDefaultProps: GuidePageProps = {
         },
       }],
     },
-    sidebarData: {
-      group: [{
-        category: 'string',
-        nodes: [{
-          id: 'string',
-          title: 'string',
-        }],
-      }],
-    },
+    sidebarData: SidebarDataDefaultProps,
   },
   location: UrlRouterDefaultProps,
 };
