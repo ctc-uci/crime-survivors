@@ -18,7 +18,7 @@ div.main-layout {
         >div.middle {
             @include flex-column;
             padding-top: $desktopHeaderHeight;
-            min-height: calc(100vh - #{$desktopHeaderHeight});
+            min-height: 100vh;
     
             >div.content {
                 padding: 16px;
@@ -34,7 +34,7 @@ div.main-layout {
         >div.middle {
             @include flex-row;
             padding-top: $mobileHeaderHeight;
-            min-height: calc(100vh - #{$mobileHeaderHeight});
+            min-height: 100vh;
     
             >div.layout-left-sidebar {
                 min-width: $leftSidebarWidth;

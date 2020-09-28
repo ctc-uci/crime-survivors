@@ -28,7 +28,6 @@ for (let i = 0; i < 5; i += 1) {
 }
 
 const Header = () => <div style={{ backgroundColor: 'purple' }}><Navbar location={{ pathname: '/home' }} /></div>;
-const Footer = () => <div style={{ backgroundColor: 'red', minHeight: '500px' }}><h1>Footer</h1></div>;
 
 const LandingPage: React.FC<LandingPageProps> = ({ location: url }) => (
   <>
@@ -36,7 +35,6 @@ const LandingPage: React.FC<LandingPageProps> = ({ location: url }) => (
       header={Header()}
       // temp CategoryContent component
       content={<Carousel location={url} items={items} />}
-      footer={Footer()}
       rightSidebar={RightSidebar({ category, resources })}
       enableLeftSidebar
       enableRightSidebar
