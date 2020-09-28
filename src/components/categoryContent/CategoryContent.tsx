@@ -1,5 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import { urlEncode } from '../../common/utils/commonUtils';
 import { CategoryPageContent, ResourceContent } from '../../templates/CategoryPage.interface';
 import './category-content.scss';
 
@@ -34,7 +35,7 @@ const CategoryContent: React.FC<CategoryPageProps> = ({ categoryData, category }
     <hr className="blue" />
     {/* TODO: fix hr not responding to max-width */}
     {categoryData.nodes.map((resource) => (
-      <div id={encodeURI(resource.title)} key={uuidv4()}>
+      <div id={urlEncode(resource.title)} key={uuidv4()}>
         <ResourceSection
           id={resource.id}
           location={resource.location}
