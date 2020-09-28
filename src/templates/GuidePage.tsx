@@ -20,7 +20,7 @@ const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data, location: url 
       header={<Navbar location={{ pathname: '/guide' }} />}
       content={<GuideContent generalGuide={guideData} category={category} />}
       enableLeftSidebar
-      leftSidebar={<LeftSidebar sidebarData={sidebarData} />}
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} location="guide" />}
       enableRightSidebar
     />
   );

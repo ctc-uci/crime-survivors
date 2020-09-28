@@ -1,6 +1,6 @@
 const windowExists = () => typeof window !== 'undefined';
 
-const urlEncode = (str) => str.replace(/ /g, '_');
+const urlEncode = (str) => encodeURI(str.replace(/ /g, '_').replace(/[^a-zA-Z0-9\-_ ]/g, ''));
 
 /* Example:
 *     pathify(["Orange County", "Legal"], "AARP Legal Network Services", false, true)
@@ -17,9 +17,9 @@ const pathify = (
     if (cur === null) {
       return acc;
     }
-    return `${acc}/${cur.replace(/[^a-zA-Z0-9\-_ ]/g, '')}`;
+    return `${acc}/${urlEncode(cur)}`;
   };
-  let urlPath = `/${urlEncode(pathArray.reduce(reducer))}`;
+  let urlPath = `/${pathArray.reduce(reducer)}`;
 
   // Additional options
   urlPath += endWithForwardSlash === true ? '/' : '';

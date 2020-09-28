@@ -60,6 +60,7 @@ $mobileHeaderHeight: 120px;
 
 html, body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 @mixin flex-column {
@@ -85,8 +86,8 @@ html, body {
 @mixin anchor-tag-padding {
     display: block; 
     content: " "; 
-    margin-top: -100px; 
-    height: 100px; 
+    margin-top: -140px; 
+    height: 140px; 
     visibility: hidden; 
     pointer-events: none;
 }
