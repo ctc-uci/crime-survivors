@@ -12,18 +12,20 @@ const { SubMenu } = Menu;
 
 interface LeftSidebarProps {
   location: string,
+  title: string,
   sidebarData: SidebarData
 }
 
 const defaultProps: LeftSidebarProps = {
   location: 'string',
+  title: 'Menu',
   sidebarData: SidebarDataDefaultProps,
 };
 
-const LeftSidebar: FunctionComponent<LeftSidebarProps> = ({ sidebarData, location }) => (
+const LeftSidebar: FunctionComponent<LeftSidebarProps> = ({ sidebarData, location, title }) => (
   <div>
     <Menu className="left-sidebar" mode="inline">
-    <PageHeader title={location} />
+      <PageHeader title={title} />
 
       {sidebarData.group.map((obj) => (
         <SubMenu className="test" title={obj.category}>

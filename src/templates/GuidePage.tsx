@@ -17,9 +17,11 @@ const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data }) => {
       header={<Navbar location={{ pathname: '/guide' }} />}
       content={<GuideContent generalGuide={guideData} category={category} />}
       enableLeftSidebar
-      leftSidebar={<LeftSidebar sidebarData={sidebarData} location="General Guides" /* TODO: export to const */ />}
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} location="guides" title="General Guides" /* TODO: export to const */ />}
       enableRightSidebar
-      rightSidebar={<RightSidebar category={category} resources={rightSidebarData} />}
+      rightSidebar={
+        <RightSidebar category={category} resources={rightSidebarData} />
+    }
     />
   );
 };
