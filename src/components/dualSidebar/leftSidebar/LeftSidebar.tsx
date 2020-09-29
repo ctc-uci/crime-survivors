@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Menu } from 'antd';
+import { Menu, PageHeader } from 'antd';
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'gatsby';
 
@@ -21,19 +21,23 @@ const defaultProps: LeftSidebarProps = {
 };
 
 const LeftSidebar: FunctionComponent<LeftSidebarProps> = ({ sidebarData, location }) => (
-  <Menu className="left-sidebar" mode="inline">
-    {sidebarData.group.map((obj) => (
-      <SubMenu className="test" title={obj.category}>
-        {obj.nodes.map((resource) => (
-          <Menu.Item key={uuidv4()}>
-            <Link to={pathify([location, obj.category], resource.title, false, false)}>
-              {resource.title}
-            </Link>
-          </Menu.Item>
-        ))}
-      </SubMenu>
-    ))}
-  </Menu>
+  <div>
+    <Menu className="left-sidebar" mode="inline">
+    <PageHeader title={location} />
+
+      {sidebarData.group.map((obj) => (
+        <SubMenu className="test" title={obj.category}>
+          {obj.nodes.map((resource) => (
+            <Menu.Item key={uuidv4()}>
+              <Link to={pathify([location, obj.category], resource.title, false, false)}>
+                {resource.title}
+              </Link>
+            </Menu.Item>
+          ))}
+        </SubMenu>
+      ))}
+    </Menu>
+  </div>
 );
 
 LeftSidebar.defaultProps = defaultProps;
