@@ -47,3 +47,15 @@ export const SidebarDataDefaultProps: SidebarData = {
     }],
   }],
 };
+
+export interface RightSidebarData{
+  nodes: {
+    title: string
+  }[]
+}
+
+export const RightSidebarDataDefaultProps: RightSidebarData = {
+  nodes: [{
+    title: 'string',
+  }],
+};

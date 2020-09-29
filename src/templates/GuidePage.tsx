@@ -4,16 +4,13 @@ import { GuidePageProps, GuidePageDefaultProps } from './GuidePage.interface';
 
 import Layout from '../components/layout/Layout';
 import GuideContent from '../components/guideContent/GuideContent';
-import Navbar from '../components/navbar/navbar';
+import Navbar from '../components/navbar/Navbar';
 import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
+import RightSidebar from '../components/dualSidebar/rightSidebar/RightSidebar';
 
-const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data, location: url }) => {
-  const { guideData, sidebarData } = data;
+const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data }) => {
+  const { guideData, sidebarData, rightSidebarData } = data;
   const { category } = pageContext;
-
-  console.log('1', sidebarData);
-  console.log('2', category);
-  console.log('3', url);
 
   return (
     <Layout
@@ -22,6 +19,7 @@ const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data, location: url 
       enableLeftSidebar
       leftSidebar={<LeftSidebar sidebarData={sidebarData} location="guide" />}
       enableRightSidebar
+      rightSidebar={<RightSidebar category={category} resources={rightSidebarData} />}
     />
   );
 };
@@ -42,6 +40,11 @@ export const query = graphql`
         nodes {
           title: identifier
         }
+      }
+    }
+    rightSidebarData: allContentfulGeneralGuide(filter: {category: {eq: $category}}) {
+      nodes {
+        title: identifier
       }
     }
   }  

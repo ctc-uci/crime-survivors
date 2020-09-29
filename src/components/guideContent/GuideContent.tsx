@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
+import { Element } from 'react-scroll';
 import './guide-content.scss';
 import { urlEncode } from '../../common/utils/commonUtils';
 
@@ -37,10 +38,10 @@ const GuideContent: FunctionComponent<GuideContentProps> = ({ category, generalG
     <p className="h0">{category}</p>
     <hr className="blue" />
     {generalGuide.nodes.map((guide) => (
-      <div id={urlEncode(guide.title)} className="guide-section" key={uuidv4()}>
+      <Element name={urlEncode(guide.title)} id={urlEncode(guide.title)} className="guide-section" key={uuidv4()}>
         <div className="guide-section-contentful">{documentToReactComponents(JSON.parse(guide.content.content), options)}</div>
         <hr className="blue-long" />
-      </div>
+      </Element>
     ))}
   </div>
 );

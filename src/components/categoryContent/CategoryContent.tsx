@@ -1,5 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import { Element } from 'react-scroll';
 import { urlEncode } from '../../common/utils/commonUtils';
 import { CategoryPageContent, ResourceContent } from '../../templates/CategoryPage.interface';
 import './category-content.scss';
@@ -13,7 +14,7 @@ interface CategoryPageProps {
 const ResourceSection: React.FC<ResourceContent> = ({
   title, address, phone, desc, website, email,
 }) => (
-  <div className="resource-section">
+  <Element className="resource-section" name={urlEncode(title)}>
     <h1>{title}</h1>
     <p>{desc.desc}</p>
     <p>{address}</p>
@@ -26,7 +27,7 @@ const ResourceSection: React.FC<ResourceContent> = ({
     ))}
     <p><a href={website}>{website}</a></p>
     <p><a href={`mailto:${email}`}>{email}</a></p>
-  </div>
+  </Element>
 );
 
 const CategoryContent: React.FC<CategoryPageProps> = ({ categoryData, category }) => (

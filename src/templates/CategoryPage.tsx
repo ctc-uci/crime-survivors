@@ -3,18 +3,13 @@ import { graphql } from 'gatsby';
 import { CategoryPageProps, CategoryPagePropsDefaultProps } from './CategoryPage.interface';
 import Layout from '../components/layout/Layout';
 import CategoryContent from '../components/categoryContent/CategoryContent';
-import Navbar from '../components/navbar/navbar';
+import Navbar from '../components/navbar/Navbar';
 import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
+import RightSidebar from '../components/dualSidebar/rightSidebar/RightSidebar';
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location: url }) => {
-  const { categoryData, sidebarData } = data;
-  const { nodes } = categoryData;
+const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data }) => {
+  const { categoryData, sidebarData, rightSidebarData } = data;
   const { category, location } = pageContext;
-
-  console.log('1', nodes);
-  console.log('2', sidebarData);
-  console.log('3', category, location);
-  console.log('4', url);
 
   return (
     <Layout
@@ -29,6 +24,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data, location
       enableLeftSidebar
       leftSidebar={<LeftSidebar sidebarData={sidebarData} location={location} />}
       enableRightSidebar
+      rightSidebar={<RightSidebar category={category} resources={rightSidebarData} />}
     />
   );
 };
@@ -64,6 +60,13 @@ export const query = graphql`
           title
         }
         category: fieldValue
+      }
+    }
+    rightSidebarData: allContentfulResource(
+      filter: { category: { eq: $category }, location: { eq: $location } }
+    ) {
+      nodes {
+        title
       }
     }
   }

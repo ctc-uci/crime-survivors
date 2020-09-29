@@ -1,5 +1,7 @@
 import {
-  UrlRouter, UrlRouterDefaultProps, SidebarData, SidebarDataDefaultProps,
+  UrlRouter, UrlRouterDefaultProps,
+  SidebarData, SidebarDataDefaultProps,
+  RightSidebarData, RightSidebarDataDefaultProps,
 } from '../common/interfaces/global.interfaces';
 
 export interface CategoryPageProps{
@@ -13,7 +15,8 @@ export interface CategoryPageProps{
 
 export interface CategoryPageData{
   categoryData: CategoryPageContent,
-  sidebarData: SidebarData
+  sidebarData: SidebarData,
+  rightSidebarData: RightSidebarData
 }
 
 export interface CategoryPageContent{
@@ -71,6 +74,7 @@ export const CategoryPagePropsDefaultProps: CategoryPageProps = {
       }],
     },
     sidebarData: SidebarDataDefaultProps,
+    rightSidebarData: RightSidebarDataDefaultProps,
   },
   location: UrlRouterDefaultProps,
 };

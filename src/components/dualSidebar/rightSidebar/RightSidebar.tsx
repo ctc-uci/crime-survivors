@@ -1,13 +1,14 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'react-scroll';
 
 import './right-sidebar.scss';
-
-const { urlEncode } = require('../../../common/utils/commonUtils');
+import { RightSidebarData } from '../../../common/interfaces/global.interfaces';
+import { urlEncode } from '../../../common/utils/commonUtils';
 
 interface RightSidebarProps {
   category: string,
-  resources: string[],
+  resources: RightSidebarData
 }
 
 const RightSidebar = ({ category, resources }: RightSidebarProps) => (
@@ -17,17 +18,18 @@ const RightSidebar = ({ category, resources }: RightSidebarProps) => (
       <div className="right-sidebar-subtitle">
         {category}
       </div>
-      {resources.map((element: string) => (
+      {resources.nodes.map(({ title }) => (
         <Link
+          key={uuidv4()}
           activeClass="active"
           className="sidebar-link"
-          to={urlEncode(element)}
+          to={urlEncode(title)}
           spy
           smooth
-          offset={-140}
+          offset={-40}
           duration={400}
         >
-          {element}
+          {title}
         </Link>
       ))}
     </div>
