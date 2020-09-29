@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { CountyPageProps, CountyPageDefaultProps } from './CountyPage.interface';
 
 import Layout from '../components/layout/Layout';
-import Navbar from '../components/navbar/navbar';
+import Navbar from '../components/navbar/Navbar';
 import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
 
 const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: url }) => {

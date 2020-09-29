@@ -1,5 +1,7 @@
 import {
-  UrlRouter, UrlRouterDefaultProps, SidebarData, SidebarDataDefaultProps,
+  UrlRouter, UrlRouterDefaultProps,
+  SidebarData, SidebarDataDefaultProps,
+  RightSidebarData, RightSidebarDataDefaultProps,
 } from '../common/interfaces/global.interfaces';
 
 export interface GuidePageProps{
@@ -12,7 +14,8 @@ export interface GuidePageProps{
 
 export interface GuidePageData{
   guideData: GuidePageContent,
-  sidebarData: SidebarData
+  sidebarData: SidebarData,
+  rightSidebarData: RightSidebarData
 }
 
 export interface GuidePageContent {
@@ -38,6 +41,7 @@ export const GuidePageDefaultProps: GuidePageProps = {
       }],
     },
     sidebarData: SidebarDataDefaultProps,
+    rightSidebarData: RightSidebarDataDefaultProps,
   },
   location: UrlRouterDefaultProps,
 };
