@@ -22,7 +22,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data }) => {
         />
       )}
       enableLeftSidebar
-      leftSidebar={<LeftSidebar sidebarData={sidebarData} location={location} />}
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} location={location} title={location} />}
       enableRightSidebar
       rightSidebar={<RightSidebar category={category} resources={rightSidebarData} />}
     />

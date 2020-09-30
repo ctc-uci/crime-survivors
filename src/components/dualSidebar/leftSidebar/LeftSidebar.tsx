@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Menu } from 'antd';
+import { Menu, PageHeader } from 'antd';
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'gatsby';
 
@@ -12,28 +12,34 @@ const { SubMenu } = Menu;
 
 interface LeftSidebarProps {
   location: string,
+  title: string,
   sidebarData: SidebarData
 }
 
 const defaultProps: LeftSidebarProps = {
   location: 'string',
+  title: 'Menu',
   sidebarData: SidebarDataDefaultProps,
 };
 
-const LeftSidebar: FunctionComponent<LeftSidebarProps> = ({ sidebarData, location }) => (
-  <Menu className="left-sidebar" mode="inline">
-    {sidebarData.group.map((obj) => (
-      <SubMenu className="test" title={obj.category}>
-        {obj.nodes.map((resource) => (
-          <Menu.Item key={uuidv4()}>
-            <Link to={pathify([location, obj.category], resource.title, false, false)}>
-              {resource.title}
-            </Link>
-          </Menu.Item>
-        ))}
-      </SubMenu>
-    ))}
-  </Menu>
+const LeftSidebar: FunctionComponent<LeftSidebarProps> = ({ sidebarData, location, title }) => (
+  <div>
+    <Menu className="left-sidebar" mode="inline">
+      <PageHeader title={title} />
+
+      {sidebarData.group.map((obj) => (
+        <SubMenu className="test" title={obj.category}>
+          {obj.nodes.map((resource) => (
+            <Menu.Item key={uuidv4()}>
+              <Link to={pathify([location, obj.category], resource.title, false, false)}>
+                {resource.title}
+              </Link>
+            </Menu.Item>
+          ))}
+        </SubMenu>
+      ))}
+    </Menu>
+  </div>
 );
 
 LeftSidebar.defaultProps = defaultProps;

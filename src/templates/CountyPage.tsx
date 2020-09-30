@@ -21,7 +21,7 @@ const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: ur
       header={<Navbar location={{ pathname: '/guide' }} />}
       // content={<GuideContent generalGuide={guideData} category={category} />}
       enableLeftSidebar
-      leftSidebar={<LeftSidebar sidebarData={sidebarData} />}
+      leftSidebar={<LeftSidebar sidebarData={sidebarData} location={location} title={location} />}
       enableRightSidebar
     />
   );
