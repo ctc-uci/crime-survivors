@@ -1,0 +1,1614 @@
+# Page numbers are commented so you can reference a section via ctrl + F
+
+# YAML format
+# - location: ~
+#   category: ~
+#   title: ~
+#   desc: ~
+#   phone:
+#     - desc: ~ 
+#       number: ~ 
+#   website: ~
+#   email: ~
+#   hours: ~
+#   address: ~ 
+---
+
+#1
+- location: Los Angeles City
+  category: Adolescent Resources
+  title: California Youth Crisis Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 448-4663 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+#2
+- location: Los Angeles City
+  category: Adolescent Resources
+  title: National Runaway Switchboard
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 621-4000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+#3
+- location: Los Angeles City
+  category: Adolescent Resources
+  title: Peer to Peer Crisis Teen Line
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 852-8336
+  website: ~
+  email: ~
+  hours: ~
+  address: ~ 
+#4
+- location: Los Angeles City
+  category: Adolescent Resources
+  title: Teen Solutions
+  desc: For families of teens in trouble, teensolutions.com
+  phone:
+    - desc: ~ 
+      number: (800) 429-6099 
+  website: teensolutions.com
+  email: ~
+  hours: ~
+  address: ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+#5
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Valley Oasis - Antelope Valley
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (661) 949-1916
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 4226, Lancaster, CA 93539 
+#6
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Good Shepherd Shelter - Central & West Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (323) 737-6111
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 19487, Los Angeles, CA 90019
+#7
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: House of Ruth - Pomona
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 623-4364
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 459, Claremont, CA 91711
+#8
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Haven Hills - San Fernando Valley
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 887-7481
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 260, Canoga Park, CA 91305
+#9
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Tamar House Family Violence Project - San Fernando Valley
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 908-5007
+  website: ~
+  email: ~
+  hours: ~
+  address: 8134 Van Nuys Blvd., Panorama City, CA 91402
+#10
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Angel Step Inn - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (562) 906-5061
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 689, Downey, CA 90241
+#11
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Glendale YWCA DV Project - San Gabriel Valley & East Los Angeles
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 242-4155
+  website: ~
+  email: ~
+  hours: ~
+  address: 735 E. Lexington Dr., Glendale, CA 91206
+#12
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Pathways DV Shelter - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 350-4029
+  website: ~
+  email: ~
+  hours: ~
+  address: 3800 Penn Marr, El Monte, CA 91732
+#13
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: 1736 Family Crisis Center - South Bay
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 372-4674
+  website: ~
+  email: ~
+  hours: ~
+  address: 103 Torrance Blvd., Suite 101, Redondo Beach, CA 90277
+#14
+- location: Los Angeles City
+  category: Domestic Violence Shelters
+  title: Rainbow Services - South Bay
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: P.O. Box 627, San Pedro, CA 90733
+
+
+
+
+
+
+
+
+#15
+- location: Los Angeles City
+  category: Who to Call
+  title: Adult Protective Services
+  desc: 24 hours per day; 7 days per week
+  phone:
+    - desc: ~ 
+      number: (800) 451-5155
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#16
+- location: Los Angeles City
+  category: Who to Call
+  title: Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 978-3600
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#17
+- location: Los Angeles City
+  category: Who to Call
+  title: National Domestic Violence Hotline
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (800) 799-SAFE
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#18
+- location: Los Angeles City
+  category: Who to Call
+  title: SafeWay Out
+  desc: 24 hour shelter and counseling for homicide and gang victims
+  phone:
+    - desc: ~ 
+      number: (800) 978-3600
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#19
+- location: Los Angeles City
+  category: Who to Call
+  title: VINE - Victim Information and Notification Everyday
+  desc: A service by the Los Angeles County Sheriff’s Department to notify you when the status of an inmate changes.
+  phone:
+    - desc: ~ 
+      number: (800) 721-8021
+  website: http://www.vinelink.com/
+  email: ~
+  hours: ~
+  address: ~
+#20
+- location: Los Angeles City
+  category: Who to Call
+  title: Five Acres
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 355-4545
+  website: http://www.5acres.org/
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+
+
+
+
+#21
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Assn. to Aid Victims of Domestic Violence - Antelope Valley, Palmdale & Santa Clarita
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (805) 259-4357
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#22
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Valley Oasis - Antelope Valley, Palmdale & Santa Clarita
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (805) 945-6736
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#23
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Oshun - Antelope Valley, Palmdale & Santa Clarita
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (805) 727-1299
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#24
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Center for Pacific Asian Family - Central & West Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 653-4042
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#25
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Dominguez Family Shelter - Central & West Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 764-4022
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#26
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Sojourn - Central & West Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 264-6644
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#27
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Good Shepherd Shelter - Central & West Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 737-6111
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#28
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: House of Ruth - Pomona
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (909) 988-5559
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#29
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Haven Hills - San Fernando Valley
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 887-6589
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#30
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Tamar House - San Fernando Valley
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 505-0900
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#31
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Angel Step Inn - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (562) 906-5060
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#32
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: East L.A. Shelter - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 268-7564
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#33
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: El Monte Youth Development Center - San Gabriel Valley & East Los Angeles
+  desc: (Pathways Domestic Violence Shelter)
+  phone:
+    - desc: ~ 
+      number: (626) 455-0026
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#34
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Glendale YWCA - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (818) 242-1106
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#35
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Women & Children Crisis Center - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (562) 945-3939
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#36
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: YWCA-WINGS - San Gabriel Valley & East Los Angeles
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (626) 967-0658
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#37
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: 1736 Family Crisis Center - South Central
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 745-6434
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#38
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Jenesse Center - South Central
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (213) 731-6500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#39
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: 1736 Family Crisis Center - South Bay
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 379-3620
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#40
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Rainbow Services - South Bay
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (310) 547-9343
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#41
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Su Casa - South Bay
+  desc: ~
+  phone:
+    - desc: ~
+      number: (562) 421-3297
+    - desc: 24 Hour Hotline
+      number: (562) 402-4888
+  website: http://www.sucasadv.org/
+  email: ~
+  hours: ~
+  address: 3840 Woodruff Ave., Suite 203, Long Beach, CA 90808
+#42
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Women Shelter of Long Beach - South Bay
+  desc: ~
+  phone:
+    - desc: ~ 
+      number: (562) 437-7233
+  website: http://www.womenshelterlb.org/
+  email: ~
+  hours: ~
+  address: 930 Pacific Ave., Long Beach, CA 90813
+#43
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Center for Pacific Asian Family…24 Hour Hotline - South Bay
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (800) 339-3940
+  website: http://www.nurturingchange.org/
+  email: ~
+  hours: ~
+  address: "543 N. Fairfax Ave. #108, Los Angeles, CA 90036"
+#44
+- location: Los Angeles City
+  category: Shelter Hotlines
+  title: Sojourn Services for Battered Women and Their Children (a project of OPCC) - South Bay
+  desc: "Mission Statement: Sojourn provides women and their children a safe space to regroup,
+rebuild and reestablish their self-esteem and lives. Sojourn honors diversity, serving
+without discrimination clients of any cases, culture, race, ethnicity, age, faith, sexual
+orientation, physical and mental ability or immigration status, including those who are
+traditionally underserved. Sojourn fosters solidarity among women and children, educates
+the community and society, and is committed to effecting political and social change
+through grassroots activism and a philosophy of individual empowerment."
+  phone:
+    - desc: ~ 
+      number: (310) 264-6644
+  website: http://www.opcc.org/
+  email: ~
+  hours: ~
+  address: 1453 16th St., Santa Monica, CA 90404-2715
+
+
+
+
+
+
+#45
+- location: Los Angeles City
+  category: Legal Resources
+  title: AARP Legal Network Services
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (800) 424-3410
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#46
+- location: Los Angeles City
+  category: Legal Resources
+  title: Legal Aid Society Foundation
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (800) 399-4529
+  website: http://www.lafla.org/
+  email: ~
+  hours: ~
+  address: ~
+#47
+- location: Los Angeles City
+  category: Legal Resources
+  title: Los Angeles County Bar Association
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (213) 627-2727
+  website: http://www.lacba.org/
+  email: ~
+  hours: ~
+  address: ~
+#48
+- location: Los Angeles City
+  category: Legal Resources
+  title: Lawyer Referral and Information Service
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (213) 243-1525
+  website: http://www.smartlaw.org/
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+
+#49
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Airport Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 727-6500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#50
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Alhambra Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 308-5302
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#51
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Antelope Valley Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (661) 974-7700
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#52
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Compton Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 603-7483
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#53
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Long Beach Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 491-6301
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#54
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Norwalk Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 807-7212
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#55
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Pasadena Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 356-5620
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#56
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Pomona Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (909) 620-3350
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#57
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: San Fernando Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 898-2511
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#58
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Torrance Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 222-3552
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#59
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Van Nuys Branch
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 374-2400
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#60
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Bellflower Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 804-8085
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#61
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: E. Los Angeles Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (323) 780-2032
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#62
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Downey Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 803-7100
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#63
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: El Monte Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 575-4155
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#64
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Glendale Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 500-3593
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#65
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Inglewood Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 419-5182
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#66
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: Santa Clarita Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (661) 253-7244
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#67
+- location: Los Angeles City
+  category: Branches & Area Courts
+  title: West Covina Area
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 813-3301
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+#68
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Antelope Valley Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (661) 945-6435
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#69
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Burbank Satellite
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 557-3525
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#70
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Compton Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 603-7462
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#71
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Eastlake Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (323) 226-8955
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#72
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Inglewood Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 419-5255
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#73
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Long Beach Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 491-6349
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#74
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Los Angeles HQ
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (213) 974-3512
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#75
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Los Padrinos Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 940-8827
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#76
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Pasadena Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 356-5785
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#77
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Pomona Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (909) 868-5322
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#78
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Sylmar Juvenile
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 364-2122
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#79
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Alhambra Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 308-5542
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#80
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Antelope Valley Juvenile Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (661) 951-1519
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#81
+- location: Los Angeles City
+  category: DA Juvenile Offices
+  title: Antelope Valley Sub Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (661) 974-7600
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+
+
+
+
+#82
+- location: Los Angeles City
+  category: Probation Departments
+  title: Centinela Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (323) 241-5800
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#83
+- location: Los Angeles City
+  category: Probation Departments
+  title: Crenshaw Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (323) 298-3511
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#84
+- location: Los Angeles City
+  category: Probation Departments
+  title: East Los Angeles Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (323) 780-2185
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#85
+- location: Los Angeles City
+  category: Probation Departments
+  title: East San Fernando Valley Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 374-2000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#86
+- location: Los Angeles City
+  category: Probation Departments
+  title: Firestone Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (323) 586-6469
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#87
+- location: Los Angeles City
+  category: Probation Departments
+  title: Foothill Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 356-5281
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#88
+- location: Los Angeles City
+  category: Probation Departments
+  title: Harbor Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 222-2672
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#89
+- location: Los Angeles City
+  category: Probation Departments
+  title: Long Beach Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 491-5807
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#90
+- location: Los Angeles City
+  category: Probation Departments
+  title: Pomona Valley Area Office
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (909) 469-4500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#91
+- location: Los Angeles City
+  category: Probation Departments
+  title: Pretrial Services – Bauchet Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (213) 974-5821
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#92
+- location: Los Angeles City
+  category: Probation Departments
+  title: Pretrial Services – Wilshire Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (213) 351-0373
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#93
+- location: Los Angeles City
+  category: Probation Departments
+  title: Rio Hondo Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (562) 908-3119
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#94
+- location: Los Angeles City
+  category: Probation Departments
+  title: Riverview Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 579-8506
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#95
+- location: Los Angeles City
+  category: Probation Departments
+  title: San Gabriel Valley Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (626) 575-4059
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#96
+- location: Los Angeles City
+  category: Probation Departments
+  title: Santa Monica Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 260-3542
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#97
+- location: Los Angeles City
+  category: Probation Departments
+  title: Santa Monica Sub Office (Airport) 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 727-6153
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#98
+- location: Los Angeles City
+  category: Probation Departments
+  title: South Central Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (310) 603-7311
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#99
+- location: Los Angeles City
+  category: Probation Departments
+  title: Valencia Sub Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (661) 253-7271
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#100
+- location: Los Angeles City
+  category: Probation Departments
+  title: Van Nuys (Juvenile) Area Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 373-8114
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+#101
+- location: Los Angeles City
+  category: Probation Departments
+  title: Van Nuys Juvenile Investigation Sub Office 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: (818) 374-6959
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#102
+- location: Los Angeles City
+  category: Probation Departments
+  title: 
+  desc: ~ 
+  phone:
+    - desc: ~ 
+      number: 
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#103
+#104
+#105
+#106
+#107
+#108
+#109
+#110
+#111
+#112
+#113
+#114
+#115
+#116
+#117
+#118
+#119
+#120
+#121
+#122
+#123
+#124
+#125
+#126
+#127
+#128
+#129
+#130
+#131
+#132
+#133
+#134
+#135
+#136
+#137
+#138
+#139
+#140
+#141
+#142
+#143
+#144
+#145
+#146
+#147
+#148
+#149
+#150
+#151
+#152
+#153
+#154
+#155
+#156
+#157
+#158
+#159
+#160
+#161
+#162
+#163
+#164
+#165
+#166
+#167
+#168
+#169
+#170
+#171
+#172
+#173
+#174
+#175
+#176
+#177
+#178
+#179
+#180
+#181
+#182
+#183
+#184
+#185
+#186
+#187
+#188
+#189
+#190
+#191
+#192
+#193
+#194
+#195
+#196
+#197
+#198
+#199
+
+#200
+#201
+#202
+#203
+#204
+#205
+#206
+#207
+#208
+#209
+#210
+#211
+#212
+#213
+#214
+#215
+#216
+#217
+#218
+#219
+#220
+#221
+#222
+#223
+#224
+#225
+#226
+#227
+#228
+#229
+#230
+#231
+#232
+#233
+#234
+#235
+#236
+#237
+#238
+#239
+#240
+#241
+#242
+#243
+#244
+#245
+#246
+#247
+#248
+#249
+#250
+#251
+#252
+#253
+#254
+#255
+#256
+#257
+#258
+#259
+#260
+#261
+#262
+#263
+#264
+#265
+#266
+#267
+#268
+#269
+#270
+#271
+#272
+#273
+#274
+#275
+#276
+#277
+#278
+#279
+#280
+#281
+#282
+#283
+#284
+#285
+#286
+#287
+#288
+#289
+#290
+#291
+#292
+#293
+#294
+#295
+#296
+#297
+#298
+#299
+#300
+#301
+#302
+#303
+#304
+#305
+#306
+#307
+#308
+#309
+#310
+#311
+#312
+#313
+#314
+#315
+#316
+#317
+#318
+#319
+#320
+#321
+#322
+#323
+#324
+#325
+#326
+#327
+#328
+#329
+#330
+#331
+#332
+#333
+#334
+#335
+#336
+#337
+#338
+#339
+#340
+#341
+#342
+#343
+#344
+#345
+#346
+#347
+#348
+#349
+#350
+#351
+#352
+#353
+#354
+#355
+#356
+#357
+#358
+#359
+#360
+#361
+#362
+#363
+#364
+#365
+#366
+#367
+#368
+#369
+#370
+#371
+#372
+#373
+#374
+#375
+#376
+#377
+#378
+#379
+#380
+#381
+#382
+#383
+#384
+#385
+#386
+#387
+#388
+#389
+#390
+#391
+#392
+#393
+#394
+#395
+#396
+#397
+#398
+#399
+#400
