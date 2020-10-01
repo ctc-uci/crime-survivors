@@ -1313,115 +1313,1302 @@ through grassroots activism and a philosophy of individual empowerment."
   email: ~
   hours: ~
   address: ~
-#103
-#104
-#105
-#106
-#107
-#108
-#109
-#110
-#111
-#112
-#113
-#114
-#115
-#116
-#117
-#118
-#119
-#120
-#121
-#122
-#123
-#124
-#125
-#126
-#127
-#128
-#129
-#130
-#131
-#132
-#133
-#134
-#135
-#136
-#137
-#138
-#139
-#140
-#141
-#142
-#143
-#144
-#145
-#146
-#147
-#148
-#149
-#150
-#151
-#152
-#153
-#154
-#155
-#156
-#157
-#158
-#159
-#160
-#161
-#162
-#163
-#164
-#165
-#166
-#167
-#168
-#169
-#170
-#171
-#172
-#173
-#174
-#175
-#176
-#177
-#178
-#179
-#180
-#181
-#182
-#183
-#184
-#185
-#186
-#187
-#188
-#189
-#190
-#191
-#192
-#193
-#194
-#195
-#196
-#197
-#198
-#199
 
+
+
+
+
+#103
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Altadena
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 798-1131
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#104
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Avalon
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 510-0174
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#105
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Carson
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 830-1123
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#106
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Century
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (323) 568-4800
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#107
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Cerritos
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 860-0044
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#108
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Compton
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 605-6500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#109
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Crescenta Valley
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 248-3464
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#110
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: East Los Angeles
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (323) 264-4151
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#111
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Industry
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 330-3322
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#112
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Lakewood
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 866-9061
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#113
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Lancaster
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (661) 948-8466
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#114
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Lennox
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 671-7531
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#115
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Lomita
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 539-1661
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#116
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Malibu / Lost Hills
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 878-1808
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#117
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Marina Del Rey
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 823-7762
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#118
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Norwalk 
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 863-8711
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#119
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Palmdale
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (661) 267-4300
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#120
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Pico Rivera
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 949-2421
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#121
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: San Dimas
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (909) 450-2700
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#122
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Santa Clarita Valley
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (661) 255-1121
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#123
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Temple
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 285-7171
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#124
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: Walnut/Diamond Bar
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 913-1715
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#125
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: (Walnut Sheriff’s Srv. Ctr.)
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (909) 559-4957
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#126
+- location: Los Angeles City
+  category: Sheriff Stations
+  title: West Hollywood
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 855-8850
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+
+
+
+#127
+- location: Los Angeles City
+  category: Police Departments
+  title: Central Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 486-6606
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#128
+- location: Los Angeles City
+  category: Police Departments
+  title: Devonshire Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 832-0633
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#129
+- location: Los Angeles City
+  category: Police Departments
+  title: Foothill Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 756-8861
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#130
+- location: Los Angeles City
+  category: Police Departments
+  title: Harbor Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 726-7700
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#131
+- location: Los Angeles City
+  category: Police Departments
+  title: Hollenbeck Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (323) 342-4100
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#132
+- location: Los Angeles City
+  category: Police Departments
+  title: Hollywood Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 972-2971
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#133
+- location: Los Angeles City
+  category: Police Departments
+  title: Mission Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 838-9800
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#134
+- location: Los Angeles City
+  category: Police Departments
+  title: Newton Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (323) 846-6547
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#135
+- location: Los Angeles City
+  category: Police Departments
+  title: North Hollywood Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 623-4016
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#136
+- location: Los Angeles City
+  category: Police Departments
+  title: Northeast Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 561-3211
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#137
+- location: Los Angeles City
+  category: Police Departments
+  title: Olympic Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 382-9109
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#138
+- location: Los Angeles City
+  category: Police Departments
+  title: Pacific Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 482-6334
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#139
+- location: Los Angeles City
+  category: Police Departments
+  title: Rampart Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 489-3010
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#140
+- location: Los Angeles City
+  category: Police Departments
+  title: 77th Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 485-4164
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#141
+- location: Los Angeles City
+  category: Police Departments
+  title: Southeast Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 972-1012
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#142
+- location: Los Angeles City
+  category: Police Departments
+  title: Southwest Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 485-2582
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#143
+- location: Los Angeles City
+  category: Police Departments
+  title: Topanga Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 756-4800
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#144
+- location: Los Angeles City
+  category: Police Departments
+  title: Van Nuys Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 374-9500
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#145
+- location: Los Angeles City
+  category: Police Departments
+  title: West Los Angeles Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 444-0701
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#146
+- location: Los Angeles City
+  category: Police Departments
+  title: West Valley Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 374-7611
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#147
+- location: Los Angeles City
+  category: Police Departments
+  title: Wilshire Community Station
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 473-0476
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+
+
+#148
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Su Casa Family Crisis & Support Center - Artesia
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 402-4888
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#149
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Cerritos Psychological Center
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 860-2210
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#150
+
+#151
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Safe at Home; Confidential Address Program
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (877) 322-5227
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#152
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Project S.I.S.T.E.R.  - Claremont
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 966-4155
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#153
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Y.W.C.A. of Los Angeles - Compton
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 764-1403
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#154
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: South Bay Rape Crisis Center - Lameda
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 545-2111
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#155
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Sexual Assault Crisis Agency - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 402-4888
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#156
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Center for the Pacific-Asian Families, Inc - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) 339-3940
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#157
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Coalition to Abolish Slavery & Trafficking - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 365-1906
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#158
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: East Los Angeles Rape & Battering Hotline - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) 585-6231
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#159
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Immaculate Care Center, Inc - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 383-1124
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#160
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Peace Over Violence - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 626-3393
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#161
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Rosa Parks Rape Crisis Center - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 854-4319
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#162
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Stalking and Threat Assessment Team - Long Beach
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 974-3950
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#163
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Foothill Family Services Agency - Pasadena
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 564-1613
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#164
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Rape Trauma Center UCLA - Santa Monica
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 319-4000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#165
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Rape Treatment Center UCLA
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 319-4000
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#166
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Sojourn Services for Battered Women
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (310) 264-6644
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#167
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Clinical Counseling Center - Sherman Oaks
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 986-1161
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#168
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Strength United
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 886-0453
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#169
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Stalking Resource Center - Washington
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) FYI-CALL
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#170
+- location: Los Angeles City
+  category: Sexual Assault/Rape
+  title: Foothill Family Services Agency - West Covina
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 338-9200
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+#171
+- location: Los Angeles City
+  category: Suicide Resources
+  title: Hotline of Southern California
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (562) 596-5548
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#172
+- location: Los Angeles City
+  category: Suicide Resources
+  title: National Hope Line Network
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) 784-2433
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#173
+- location: Los Angeles City
+  category: Suicide Resources
+  title: Suicide Hotline
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: 1-800-SUICIDE (784-2344)
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#174
+- location: Los Angeles City
+  category: Suicide Resources
+  title: Suicide Hotline for Adolescents
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) 999-9999
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#175
+- location: Los Angeles City
+  category: Suicide Resources
+  title: Suicide Hotline for Teens
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) 949-0057
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+#176
+- location: Los Angeles City
+  category: Suicide Resources
+  title: California Missing Children Hotline
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) 222-3463
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#177
+- location: Los Angeles City
+  category: Suicide Resources
+  title: Mothers Against Drunk Drivers (MADD)
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (800) I-AM-MADD
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+
+#178
+- location: Los Angeles City
+  category: Therapists/Counselors
+  title: Infolink Los Angeles County
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: 2-1-1
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#179
+- location: Los Angeles City
+  category: Therapists/Counselors
+  title: Casa de la Familia
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (213) 384-7848
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#180
+- location: Los Angeles City
+  category: Therapists/Counselors
+  title: Los Angeles County Psychological Association
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (818) 905-0410
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#181
+- location: Los Angeles City
+  category: Therapists/Counselors
+  title: Pasadena Mental Health Center (PMHC)
+  desc: ~ 
+  phone: 
+    - desc: ~ 
+      number: (626) 798-0907
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+
+
+
+
+
+
+#182
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Victims of Crime Resource Center
+  desc: Please refer to website for locations and phone numbers to resources in your area.
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: www.1800victims.org 
+  email: victims2@pacific.edu
+  hours: ~
+  address: ~
+
+#183
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Victims of Crime Resource Center
+  desc: Please refer to website for locations and phone numbers to resources in your area. 
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#184
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: California Victim Compensation Program (CalVCB)
+  desc: CalVCB can help pay bills and expenses that result from certain violent crimes.
+        Victims of crime who have been injured or have been threatened with injury may
+        be eligible for help
+  phone: 
+    - desc: ~ 
+      number: (800) 777-9229
+  website: ~
+  email: info@victims.ca.gov
+  hours: ~
+  address: ~
+#185
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Crime Survivors, Inc.
+  desc: Advice, guidance, and support for victims of crime
+  phone: 
+    - desc: ~ 
+      number: (949) 872-7895
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#186
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Crime Victims’ Reparations Board
+  desc: ~
+  phone: 
+    - desc: ~ 
+      number: (800) 562-5874
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#187
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: National Organization for Victim Assistance
+  desc: ~
+  phone: 
+    - desc: ~ 
+      number: (800) TRY-NOVA
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#188
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: National Victim Center
+  desc: ~
+  phone: 
+    - desc: ~ 
+      number: (800) FYI-CALL
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#189
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Parents of Murdered Children
+  desc: POMC is a national non-profit organization dedicated to families and friends of those
+  who have died by violence. All chapters offer monthly support groups, parole blocks,
+  court accompaniment, community outreach and education.
+  phone: 
+    - desc: ~ 
+      number: ~
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#190
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Antelope Valley Chapter
+  desc: P.O. Box 900932, Palmdale, CA 93590
+  phone: 
+    - desc: ~ 
+      number: (661) 949-2720
+  website: ~
+  email: Gotheart935@aol.com
+  hours: ~
+  address: ~
+#191
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Greater Orange County Chapter
+  desc: P.O. Box 67, Brea, CA 92822-0067
+  phone: 
+    - desc: ~ 
+      number: (714) 999-7132
+  website: www.gocpomc.org 
+  email: gocpomc@yahoo.com
+  hours: ~
+  address: ~
+#192
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Inland Empire Chapter
+  desc: P.O. Box 9413, Alta Loma, CA 91701
+  phone: 
+    - desc: ~ 
+      number: (909) 987-6164
+  website: www.pomc.org
+  email: iecpomc@aol.com 
+  hours: ~
+  address: ~
+#193
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: San Gabriel Chapter
+  desc: Please refer to website for locations and phone numbers to resources in your area. 
+  phone: 
+    - desc: ~ 
+      number: (626) 221-5737
+  website: www.pomc.org
+  email: getyourpowerback@aol.com
+  hours: ~
+  address: ~
+#194
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Justice For Homicide Victims
+  desc: Justice for Homicide Victims is a not-for-profit organization. We provide support and
+  information to survivors of homicide about their rights within the criminal justice system
+  and all other issues pertaining to the survivors of a victim of murder.
+  phone: 
+    - desc: ~ 
+      number: (310) 457-0030
+  website: www.justiceforhomicidevictims.com
+  email: ~
+  hours: ~
+  address: ~
+#195
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Homicide Victims Memorial Foundation
+  desc: The Homicide Victims Memorial is a unique outdoor interactive theater and the first
+  memorial in the nation dedicated exclusively to homicide victims. This beautiful, peaceful
+  memorial is provided by Justice for Homicide Victims, Inc. as a place for victims’ families
+  and friends to remember and honor their loved ones.
+  phone: 
+    - desc: ~ 
+      number: (562) 860-7303
+  website: www.HVMFoundation.org 
+  email: info@hvmfoundation.org
+  hours: ~
+  address: Rose Hills Mortuary and Cemetery, Whittier, CA 90601
+#196
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Loved Ones Victims Services
+  desc: Loved Ones Victims Services (LOVS) is dedicated to meeting the emotional and physical
+  needs of family members and friends who have lost loved ones to homicide. Our primary
+  objective is to provide individual, family, and group counseling for all, with an immediate
+  focus on young children.
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: www.lovs.org
+  email: ~
+  hours: ~
+  address: 5701 W. Slauson Ave., Ste. 116, Culver City, CA 90230
+#197
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Victims of Crime Resource Center
+  desc: Please refer to website for locations and phone numbers to resources in your area. 
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: ~
+  email: ~
+  hours: ~
+  address: ~
+#198
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Families & Friends of Murder Victims (FFMV)
+  desc: A non-profit organization dedicated to providing information, support, and
+  friendship to persons who have experienced the death of a loved one through
+  the violent act of murder.
+  Our mission is to restore a sense of hope and to provide a pathway to well-being to
+  those who have lost a loved one to murder and to those who are victims of
+  attempted murder.
+  phone: 
+    - desc: ~ 
+      number: (909) 798-4803
+  website: www.webersons.com 
+  email: ffmv.je@verizon.net
+  hours: ~
+  address: P.O. Box 11222, San Bernardino, CA 92423-1222
+#199
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Violent Trauma Awareness Project
+  desc: The Violent Trauma Awareness Project is dedicated to violent trauma victim recovery,
+heightened Post Traumatic Stress Disorder awareness and youth leadership development
+through valuable community partnerships and effective, responsive, caring programs that
+aid in the eradication of violent trauma in our society. 
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: ~
+  email: Stopcrime@VTAP.org
+  hours: ~
+  address: 449 So. Santa Fe Dr., Suite 200, Encinitas, CA 92024
 #200
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Crime Victims United Charitable Foundation
+  desc: CVUCF works with At Risk Children Adoptions, Teddy Bears Rooms for Children in
+  various Court Houses, Literacy Programs, Victim Support, education and help with
+  change of venue.
+  phone: 
+    - desc: ~ 
+      number: (916) 928-4797
+  website: www.crimevictimsunited.com 
+  email: mail@crimevictimsunited.com
+  hours: ~
+  address: 1346 N. Market Blvd., Sacramento, CA 95834
 #201
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Justice for Murder Victims
+  desc: JMV is a support group in San Francisco for Homicide Victims Survivors. Meetings are held
+  on the first Wednesday of each month except August. JMV works with CVUCF with the At
+  Risk Children Adoptions and Teddy Bear Rooms.
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: www.vocal-jmv.org
+  email: vocal@vocal-jmv.org
+  hours: ~
+  address: P.O. Box 16670, San Francisco, CA 94116
 #202
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: The Joyful Child Foundation
+  desc: The Joyful Child Foundation’s programs focus on proactive approaches in dealing with the
+  difficult issues of violence against children while celebrating the gift that is every child. 
+  phone: 
+    - desc: ~ 
+      number: (866) 756-9385
+  website: www.thejoyfulchildfoundation.org
+  email: inquiry@thejoyfulchild.org
+  hours: ~
+  address: PO Box 12680, Westminster, CA 92685
 #203
+- location: Los Angeles City
+  category: Crime Victim Services
+  title: Nicole Brown Foundation
+  desc: Our mission is to show the world that violence of any kind is simply wrong. We are here to
+  help those who have been hurt, educate those who do not know, and to make a difference
+  where no one else will. Domestic violence can be stopped, one person at a time.
+  phone: 
+    - desc: ~ 
+      number: (800) VICTIMS
+  website: www.nbcf.org
+  email: ~
+  hours: ~
+  address: PO Box 3777, Dana Point, CA 92629
+
+
+
+
+
+
+
 #204
+
 #205
+
 #206
+
 #207
+
 #208
+
 #209
+
 #210
+
 #211
 #212
 #213
