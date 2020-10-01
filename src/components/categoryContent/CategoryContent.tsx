@@ -12,19 +12,13 @@ interface CategoryPageProps {
 }
 
 const ResourceSection: React.FC<ResourceContent> = ({
-  title, address, phone, desc, website, email,
+  title, address, phoneNumbers, desc, website, email,
 }) => (
   <Element className="resource-section" name={urlEncode(title)}>
     <h1>{title}</h1>
     <p>{desc.desc}</p>
     <p>{address}</p>
-    {phone && phone.map((p) => (
-      <p>
-        {p.number}
-        {' '}
-        {p.desc}
-      </p>
-    ))}
+    {phoneNumbers && phoneNumbers.map((phone) => <p>{phone}</p>)}
     <p><a href={website}>{website}</a></p>
     <p><a href={`mailto:${email}`}>{email}</a></p>
   </Element>
@@ -43,7 +37,7 @@ const CategoryContent: React.FC<CategoryPageProps> = ({ categoryData, category }
           title={resource.title}
           address={resource.address}
           category={resource.category}
-          phone={resource.phone}
+          phoneNumbers={resource.phoneNumbers}
           desc={resource.desc}
           website={resource.website}
           email={resource.email}

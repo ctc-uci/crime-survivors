@@ -31,18 +31,16 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageContext, data }) => {
 
 export const query = graphql`
   query CategoryQuery($category: String!, $location: String!) {
-    categoryData: allContentfulResource(
-      filter: { category: { eq: $category }, location: { eq: $location } }
+    categoryData: allContentfulResourceGuide(
+      filter: { category: { eq: $category }, location: { eq: $location } },
+      sort: {order: ASC, fields: title}      
     ) {
       nodes {
         id
         location
         category
         title
-        phone {
-          number
-          desc
-        }
+        phoneNumbers: phoneNumber
         website
         email
         address
@@ -51,8 +49,9 @@ export const query = graphql`
         }
       }
     }
-    sidebarData: allContentfulResource(
-      filter: { location: { eq: $location } }
+    sidebarData: allContentfulResourceGuide(
+      filter: { location: { eq: $location } },
+      sort: {order: ASC, fields: title}
     ) {
       group(field: category) {
         nodes {
@@ -62,8 +61,9 @@ export const query = graphql`
         category: fieldValue
       }
     }
-    rightSidebarData: allContentfulResource(
-      filter: { category: { eq: $category }, location: { eq: $location } }
+    rightSidebarData: allContentfulResourceGuide(
+      filter: { category: { eq: $category }, location: { eq: $location } },
+      sort: {order: ASC, fields: title}
     ) {
       nodes {
         title

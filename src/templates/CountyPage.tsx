@@ -29,15 +29,19 @@ const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: ur
 
 export const query = graphql`
     query CountyQuery( $location: String! ) {
-    featuredSection: allContentfulResource(filter: {location: {eq: $location}}) {
+    featuredSection: allContentfulResourceGuide(
+      filter: {location: {eq: $location}},
+      sort: {order: ASC, fields: title}
+    ) {
       group(field: location, limit: 5) {
         nodes {
           title
         }
       }
     }
-    sidebarData: allContentfulResource(
-      filter: { location: { eq: $location } }
+    sidebarData: allContentfulResourceGuide(
+      filter: { location: { eq: $location } },
+      sort: {order: ASC, fields: title}
     ) {
       group(field: category) {
         nodes {

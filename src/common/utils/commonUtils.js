@@ -13,17 +13,17 @@ const pathify = (
   endWithForwardSlash = false,
   fullPath = false,
 ) => {
-  const reducer = (acc, cur) => {
-    if (cur === null) {
-      return acc;
-    }
-    return `${acc}/${urlEncode(cur)}`;
-  };
-  let urlPath = `/${pathArray.reduce(reducer)}`;
+  // encode
+  const encodedPathArray = pathArray.map((path) => urlEncode(path));
+  const encodedHash = urlEncode(hash);
+
+  // merge
+  const reducer = (acc, cur) => (cur ? `${acc}/${cur}` : acc);
+  let urlPath = `/${encodedPathArray.reduce(reducer)}`;
 
   // Additional options
   urlPath += endWithForwardSlash === true ? '/' : '';
-  urlPath += hash ? `#${urlEncode(hash)}` : '';
+  urlPath += hash ? `#${encodedHash}` : '';
   if (fullPath === true) {
     /* eslint-disable no-undef, no-console */
     if (typeof window === 'undefined') {

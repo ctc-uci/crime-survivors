@@ -6,7 +6,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   const queryCounties = `
     {
-      allContentfulResource {
+      allContentfulResourceGuide {
         locations: distinct(field: location)
       }
     }
@@ -18,7 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
         reject(result.errors);
       }
 
-      const { locations } = result.data.allContentfulResource;
+      const { locations } = result.data.allContentfulResourceGuide;
       locations.forEach((location) => {
         const newPath = pathify([location, '']);
         createPage({
@@ -35,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   const queryCategories = `
     {
-      allContentfulResource {
+      allContentfulResourceGuide {
         nodes {
           category
           location
@@ -50,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
         reject(result.errors);
       }
 
-      const { nodes } = result.data.allContentfulResource;
+      const { nodes } = result.data.allContentfulResourceGuide;
       const uniqueUrls = new Set();
 
       nodes.forEach((node) => {
