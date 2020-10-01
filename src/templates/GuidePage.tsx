@@ -28,7 +28,10 @@ const GuidePage: React.FC<GuidePageProps> = ({ pageContext, data }) => {
 
 export const query = graphql`
   query GuideQuery($category: String!) {
-    guideData: allContentfulGeneralGuide(filter: {category: {eq: $category}}) {
+    guideData: allContentfulGeneralGuide(
+      filter: {category: {eq: $category}},
+      sort: {order: ASC, fields: identifier}
+    ) {
       nodes {
         title: identifier
         content {
@@ -36,7 +39,9 @@ export const query = graphql`
         }
       }
     }
-    sidebarData: allContentfulGeneralGuide {
+    sidebarData: allContentfulGeneralGuide(
+      sort: {order: ASC, fields: identifier}
+    ) {
       group(field: category) {
         category: fieldValue
         nodes {
@@ -44,7 +49,10 @@ export const query = graphql`
         }
       }
     }
-    rightSidebarData: allContentfulGeneralGuide(filter: {category: {eq: $category}}) {
+    rightSidebarData: allContentfulGeneralGuide(
+      filter: {category: {eq: $category}},
+      sort: {order: ASC, fields: identifier}
+    ) {
       nodes {
         title: identifier
       }

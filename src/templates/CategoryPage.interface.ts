@@ -29,10 +29,7 @@ export interface ResourceContent {
   title: string,
   address: string,
   category: string,
-  phone: {
-    desc: string,
-    number: string,
-  }[],
+  phoneNumbers: string[],
   desc: {
     desc: string
   },
@@ -62,10 +59,7 @@ export const CategoryPagePropsDefaultProps: CategoryPageProps = {
         title: 'string',
         address: 'string',
         category: 'string',
-        phone: [{
-          desc: 'string',
-          number: 'string',
-        }],
+        phoneNumbers: ['string'],
         desc: {
           desc: 'string',
         },
