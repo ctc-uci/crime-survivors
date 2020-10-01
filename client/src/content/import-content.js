@@ -6,12 +6,12 @@ const client = contentful.createClient({
   accessToken: 'CFPAT-4DzCJZZjNbwSXj8LS87IUZZlz0EoCfyCVG0-vd0fdu4',
 });
 
-const jsonData = require('./san_bernardino.json');
+const jsonData = require('./ventura_county.json');
 
 function populate(environment) {
   for (let i = 0; i < jsonData.length; i += 1) {
     const item = jsonData[i];
-    environment.createEntry('resource', {
+    environment.createEntry('resourceGuide', {
       fields: {
         location: {
           'en-US': item.location,
@@ -25,8 +25,8 @@ function populate(environment) {
         desc: {
           'en-US': item.desc,
         },
-        phone: {
-          'en-US': item.phone,
+        phoneNumber: {
+          'en-US': item.phone ? item.phone.map((p) => `${p.number} ${p.desc ? p.desc : ''}`) : [],
         },
         website: {
           'en-US': item.website,
