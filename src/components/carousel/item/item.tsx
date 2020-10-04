@@ -11,7 +11,7 @@ export interface ItemPropType {
 }
 
 export const Item: React.FC<ItemPropType> = ({ title, body, link }) => (
-  <Card title={<b>{title}</b>}>
+  <Card title={<b>{title}</b>} style={{ height: 200 }}>
     <div>{body}</div>
     <div className="learn-button">
       <a href={link}>Learn More</a>

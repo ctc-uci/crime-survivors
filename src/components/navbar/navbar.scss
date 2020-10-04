@@ -1,8 +1,9 @@
 @import '../../common/styles/common';
 
-$textColor: #e7e7e7;
-$navbarBgColor: #2C3E54;
-$mobileMenuBgColor: #468590;
+$logoTextColor: #41579D;
+
+$primaryColor: #fff;
+$secondaryColor: #57936E;
 
 $csLogoDiameter: 60px;
 $menuHeight: 50px;
@@ -19,7 +20,7 @@ $mobileFontSize: 12px;
 div.navbar {
     @include default-container;
     justify-content: space-around;
-    background-color: $navbarBgColor;
+    background-color: $primaryColor;
 }
 
 div.logo {
@@ -33,7 +34,7 @@ div.logo {
     }
 
     div {
-        color: $textColor;
+        color: $logoTextColor;
         font-size: $desktopFontSize;
         &.organization {
             font-weight: bold;
@@ -70,19 +71,20 @@ div.menu {
     }
 
     a {
-        color: $textColor;
+        color: $secondaryColor;
         text-decoration: none;
         &.selected {
-            border-bottom: 3px solid white;
+            border-bottom: 3px solid #57936E;
         }
     }
 
     @media only screen and (max-width: $mobileWidth) {
         div.selected {
-            background-color: $navbarBgColor;
+            background-color: $primaryColor;
         }
 
         a.selected {
+            color: $secondaryColor;
             border-bottom: none;
         }
     }
@@ -94,6 +96,9 @@ div.menu {
     }
 
     div.menu {
-        background-color: $mobileMenuBgColor;
+        background-color: $secondaryColor;
+        a {
+            color: $primaryColor;
+        }
     }
 }

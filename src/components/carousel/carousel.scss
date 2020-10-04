@@ -1,5 +1,8 @@
 @import '../../common/styles/common';
 
+$carouselWidth: 795px;
+$mobileCarouselWidth: 250px;
+
 * {
   box-sizing: border-box;
 }
@@ -17,9 +20,13 @@ div.carousel-wrapper {
   overflow: hidden;
   width: 100%;
 
+  div.title {
+    text-align: left;
+  }
+
   div.carousel {
     @include flex-row;
-    width: 790px;
+    width: $carouselWidth;
     overflow: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -32,28 +39,8 @@ div.carousel-wrapper {
 
   button.prevButton, button.nextButton {
     border: none;
-    background-color: #FFF;
     cursor: pointer;
-    
-    img.leftArrow {
-      margin-right: 20px;
-    }
-
-    img.rightarrow {
-      margin-left: 20px;
-    }
-
-    @media only screen and (max-width: 320px){
-      img.leftArrow {
-        margin-right: 0px;
-      }
-  
-      img.rightarrow {
-        margin-left: 0px;
-      }
-    }
   }
-
 
   div.item {
     width: 250px;
@@ -68,7 +55,7 @@ div.carousel-wrapper {
 
   @media only screen and (max-width: #{$mobileWidth}){
     div.carousel {
-      width: 250px;
+      width: $mobileCarouselWidth;
     }
   
     div.selected {

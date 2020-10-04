@@ -1,9 +1,6 @@
 import React from 'react';
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import Layout from '../layout/Layout';
-import Carousel from '../carousel/carousel';
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 
 function genItem(num: number) {
   return {
@@ -23,12 +20,10 @@ for (let i = 0; i < 5; i += 1) {
   items.push(genItem(i));
 }
 
-const LandingPage: React.FC<LandingPageProps> = ({ location: url }) => (
+const LandingPage: React.FC<LandingPageProps> = ({}) => (
   <Layout
-    header={<Navbar location={{ pathname: '/home' }} />}
-      // temp CategoryContent component
-    content={<Carousel location={url} items={items} />}
-    footer={Footer()}
+    header={<div> </div>}
+    content={<></>}
     enableLeftSidebar
     enableRightSidebar
   />
