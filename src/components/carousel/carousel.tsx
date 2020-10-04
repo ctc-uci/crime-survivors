@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import { navigate } from 'gatsby';
 import { v4 } from 'uuid';
 
 import './carousel.scss';
@@ -6,7 +7,6 @@ import { ItemPropType, Item } from './item/item';
 import Dot from './dot/dot';
 import leftArrow from './left-arrow.svg';
 import rightArrow from './right-arrow.svg';
-import { windowExists } from '../../common/utils/commonUtils';
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
 
 enum ScrollDirection {
@@ -18,8 +18,8 @@ interface CarouselPropType {
   location: UrlRouter;
 }
 
-function scrapeIdxFromUrl(location: CarouselPropType['location']): number {
-  const matched = location.hash.match(/item-(?<pos>[0-9]+)/);
+function scrapeIdxFromUrl(url: CarouselPropType['location']): number {
+  const matched = url.hash.match(/item-(?<pos>[0-9]+)/);
   if (!matched || !matched.groups) {
     return 0;
   }
@@ -27,9 +27,10 @@ function scrapeIdxFromUrl(location: CarouselPropType['location']): number {
 }
 
 // min width for component is 876px
-const Carousel: React.FC<CarouselPropType> = ({ items, location }) => {
+const Carousel: React.FC<CarouselPropType> = ({ items, location: url }) => {
   const { Prev, Next } = ScrollDirection;
-  const [idx, setIdx] = useState(scrapeIdxFromUrl(location));
+  const [idx, setIdx] = useState(scrapeIdxFromUrl(url));
+  const carouselRef = useRef<HTMLDivElement>(null);
 
   // performs true modulus - % doesn't behave the same as it should in math for negative numbers
   const cycleIdx = (pos: number) => (pos < 0 ? items.length + pos : pos % items.length);
@@ -37,11 +38,28 @@ const Carousel: React.FC<CarouselPropType> = ({ items, location }) => {
   // moves to specified anchored element and updates idx
   const throwAnchor = (pos: number) => {
     const newIdx = cycleIdx(pos);
-    if (windowExists()) {
-      window.location.assign(`/#item-${newIdx}`);
-    }
+    navigate(`#item-${newIdx}`);
+    // console.log(carouselRef.current?.scrollLeft)
+    // if (carouselRef.current) {
+    //   carouselRef.current.scrollLeft = 0;
+    //   console.log(carouselRef, carouselRef.current, carouselRef.current.scroll)
+    // }
     setIdx(newIdx);
   };
+
+  const CarouselItems: React.FC = () => (
+    <div className="carousel" ref={carouselRef}>
+      {items.map((item, index) => (
+        <div
+          key={v4()}
+          id={`item-${index}`}
+          className={`item ${index === idx ? 'selected' : ''}`}
+        >
+          <Item {...item} />
+        </div>
+      ))}
+    </div>
+  );
 
   const MoveButton: React.FC<{className: string, dir: ScrollDirection}> = ({ className, dir }) => (
     <button
@@ -59,19 +77,9 @@ const Carousel: React.FC<CarouselPropType> = ({ items, location }) => {
 
   return (
     <div className="carousel-wrapper">
-      <div className="center-flex-row">
+      <div className="center-flex-row" style={{ justifyContent: 'space-between' }}>
         <MoveButton className="prevButton" dir={Prev} />
-        <div className="carousel">
-          {items.map((item, index) => (
-            <div
-              key={v4()}
-              id={`item-${index}`}
-              className={`item ${index === idx ? 'selected' : ''}`}
-            >
-              <Item {...item} />
-            </div>
-          ))}
-        </div>
+        <CarouselItems />
         <MoveButton className="nextButton" dir={Next} />
       </div>
 

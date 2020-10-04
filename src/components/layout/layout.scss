@@ -19,10 +19,6 @@ div.main-layout {
             @include flex-column;
             padding-top: $desktopHeaderHeight;
             min-height: 100vh;
-    
-            >div.content {
-                padding: 16px;
-            }
 
             >div.layout-right-sidebar {
                 display: none;
@@ -42,7 +38,6 @@ div.main-layout {
 
             >div.content {
                 flex-grow: 1;
-                padding: 16px;
             }
     
             >div.layout-right-sidebar {

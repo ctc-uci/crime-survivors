@@ -1,5 +1,6 @@
 const path = require('path');
 const { pathify } = require('./src/common/utils/commonUtils'); // forced ES5 for some reason
+const { GUIDE_LANDING_BASE } = require('./src/common/utils/constants');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -92,7 +93,7 @@ exports.createPages = ({ graphql, actions }) => {
       const { categories } = result.data.allContentfulGeneralGuide;
       categories.forEach((category) => {
         createPage({
-          path: pathify(['guide', category]), // your url -> /location/category
+          path: pathify([GUIDE_LANDING_BASE, category]), // your url -> /location/category
           component: path.resolve('./src/templates/GuidePage.tsx'), // your template component
           context: {
             category,
@@ -112,12 +113,12 @@ exports.createPages = ({ graphql, actions }) => {
     });
   };
 
-  // const generateGuideLandingPage = () => {
-  //   createPage({
-  //     path: '/guide/',
-  //     component: path.resolve('./src/components/guideLandingPage/GuideLandingPage.ts'),
-  //   });
-  // };
+  const generateGuideLandingPage = () => {
+    createPage({
+      path: '/guide/',
+      component: path.resolve('./src/components/guideLandingPage/GuideLandingPage.tsx'),
+    });
+  };
 
   // we use a Promise to make sure the data are loaded
   // before attempting to create the pages with them
@@ -130,7 +131,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // static pages
     generateLandingPage();
-    // generateGuideLandingPage();
+    generateGuideLandingPage();
 
     Promise.all(promises).then(() => resolve()).catch((error) => reject(error));
   });
