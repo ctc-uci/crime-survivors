@@ -6,6 +6,7 @@
 
 p.h0{
     font-size: 3rem;
+    line-height: 1em;
     font-weight: 700;
     margin: 24px 0 24px 0;
 }
@@ -49,6 +50,15 @@ a:hover {
 a:visited {
     color: #626865;
 }
+
+.blue {
+    color: #4C6CA4
+}
+
+.green {
+    color: #468590;
+}
+
 
 // breakpoints
 $mobileWidth: 900px;
