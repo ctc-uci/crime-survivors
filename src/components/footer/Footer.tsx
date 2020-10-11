@@ -15,7 +15,7 @@ const Footer: React.FC = () => (
       <Link to="/" className="footer-menu-submenu">Home</Link>
       <Link to="/#find-your-county" className="footer-menu-submenu">Find Your County</Link>
       <Link to="/guide" className="footer-menu-submenu">General Guides</Link>
-      <Link to="https://www.crimesurvivors.org" className="footer-menu-submenu">Contact Us</Link>
+      <a href="https://www.crimesurvivors.org" className="footer-menu-submenu">Contact Us</a>
     </div>
     <div className="footer-social-media footer-item">
       <a href="https://www.facebook.com/crimesurvivors"><img className="footer-icon" src={FacebookIcon} alt="facebook link" /></a>
