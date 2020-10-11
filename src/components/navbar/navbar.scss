@@ -25,12 +25,13 @@ div.navbar {
 
 div.logo {
     @include default-container;
+    flex: 2 2 auto;
     padding: 30px;
 
     img {
         height: $csLogoDiameter;
         width: $csLogoDiameter;
-        margin: 0px 30px;
+        margin-right: 30px;
     }
 
     div {
@@ -46,6 +47,7 @@ div.logo {
         img {
             height: $csLogoDiameter * 2 / 3;
             width: $csLogoDiameter * 2 / 3;
+            margin: 0px 10px;
         }
 
         div {
@@ -61,6 +63,8 @@ div.menu {
     @include default-container;
     justify-content: space-around;
     min-height: $menuHeight;
+    padding-right: 30px;
+    flex: 3 1 auto;
 
     div.menu-item {
         @include flex-row;
@@ -90,15 +94,49 @@ div.menu {
     }
 }
 
+a#donate-button {
+    @include flex-row;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: $primaryColor;
+    background-color: $secondaryColor;
+
+    border: solid $secondaryColor;
+    border-radius: 5px;
+
+    width: 125px;
+    height: 40px;
+}
+
+div.reveal-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: $mobileWidth) {
     div.navbar {
         flex-flow: column;
     }
 
+    div.logo {
+        padding: 15px;
+    }
+
     div.menu {
         background-color: $secondaryColor;
+        padding-right: 0px;
         a {
             color: $primaryColor;
+        }
+    }
+
+    div.reveal {
+        &-desktop {
+            display: none;
+        }
+        &-mobile {
+            display: inline;
         }
     }
 }

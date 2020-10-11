@@ -17,7 +17,7 @@ div.main-layout {
     @media only screen and (max-width: #{$mobileWidth}){
         >div.middle {
             @include flex-column;
-            padding-top: $desktopHeaderHeight;
+            padding-top: $mobileHeaderHeight;
             min-height: 100vh;
 
             >div.layout-right-sidebar {
@@ -29,7 +29,7 @@ div.main-layout {
     @media only screen and (min-width: #{$mobileWidth}){
         >div.middle {
             @include flex-row;
-            padding-top: $mobileHeaderHeight;
+            padding-top: $desktopHeaderHeight;
             min-height: 100vh;
     
             >div.layout-left-sidebar {
