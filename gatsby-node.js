@@ -1,6 +1,6 @@
 const path = require('path');
 const { pathify } = require('./src/common/utils/commonUtils'); // forced ES5 for some reason
-const { GUIDE_LANDING_BASE } = require('./src/common/utils/constants');
+const { GUIDES_PATH_PREFIX } = require('./src/common/utils/constants');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -93,7 +93,7 @@ exports.createPages = ({ graphql, actions }) => {
       const { categories } = result.data.allContentfulGeneralGuide;
       categories.forEach((category) => {
         createPage({
-          path: pathify([GUIDE_LANDING_BASE, category]), // your url -> /location/category
+          path: pathify([GUIDES_PATH_PREFIX, category]), // your url -> /location/category
           component: path.resolve('./src/templates/GuidePage.tsx'), // your template component
           context: {
             category,

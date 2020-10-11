@@ -10,7 +10,7 @@ import Carousel from '../carousel/carousel';
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import Navbar from '../navbar/Navbar';
 import landingPic from './assets/landing-pic.svg';
-import { GUIDE_LANDING_BASE } from '../../common/utils/constants';
+import { FIND_COUNTY_SECTION_ID, GUIDES_PATH_PREFIX } from '../../common/utils/constants';
 
 const { SubMenu } = Menu;
 
@@ -62,7 +62,7 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
       .map(({ identifier }) => identifier)
       .slice(0, 2)
       .join(', '),
-    link: pathify([GUIDE_LANDING_BASE, category]),
+    link: pathify([GUIDES_PATH_PREFIX, category]),
   }));
 
   return (
@@ -112,7 +112,7 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
                 {body.split(', ').map((guideTitle) => (
                   <Menu.Item key={v4()}>
                     <Link
-                      to={pathify([GUIDE_LANDING_BASE, title], guideTitle)}
+                      to={pathify([GUIDES_PATH_PREFIX, title], guideTitle)}
                       className="resource-ref"
                     >
                       {guideTitle}
@@ -135,7 +135,7 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
             county here.
           </p>
         </div>
-        <div className="half">
+        <div className="half" id={FIND_COUNTY_SECTION_ID}>
           <Menu mode="inline" style={{ border: '1px solid #000' }}>
             {locations.map((location) => (
               <Menu.Item key={v4()}>

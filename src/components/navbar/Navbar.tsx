@@ -1,26 +1,34 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { v4 } from 'uuid';
 import './navbar.scss';
 
 import logo from '../../common/media/CrimeSurvivorsLogo.svg';
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
+import {
+  HOME_PATH_PREFIX,
+  GUIDES_PATH_PREFIX,
+  FIND_COUNTY_SECTION_ID,
+  CONTACT_PATH_PREFIX,
+  DONATE_PATH,
+} from '../../common/utils/constants';
 
 const options = [
   {
     displayName: 'Home',
-    path: '/',
+    path: HOME_PATH_PREFIX,
   },
   {
     displayName: 'Find Your County',
-    path: '/location',
+    path: `#${FIND_COUNTY_SECTION_ID}`,
   },
   {
     displayName: 'General Guides',
-    path: '/guide',
+    path: GUIDES_PATH_PREFIX,
   },
   {
     displayName: 'Contact Us',
-    path: '/contact',
+    path: CONTACT_PATH_PREFIX,
   },
 ];
 
@@ -29,6 +37,12 @@ function pathMatches(currentPath: string, candidate: string): boolean {
   return currentPath === candidate
          || (candidateLen > 1 && currentPath.slice(0, candidateLen) === candidate);
 }
+
+const DonateButton: React.FC = () => (
+  <a href={DONATE_PATH} id="donate-button">
+    Donate
+  </a>
+);
 
 interface NavbarPropType {
   location: UrlRouter;
@@ -42,18 +56,24 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
         <div className="organization">Crime Survivors</div>
         Resource Guides
       </div>
+      <div className="reveal-mobile" style={{ marginLeft: 'auto' }}>
+        <DonateButton />
+      </div>
     </div>
     <div className="menu">
       {options.map(({ path, displayName }) => {
         const mark = pathMatches(url.pathname, path) ? 'selected' : '';
         return (
           <div key={v4()} className={`menu-item ${mark}`}>
-            <a className={`nav-item ${mark}`} href={path}>
+            <Link className={`nav-item ${mark}`} to={`${url.origin + path}`}>
               {displayName}
-            </a>
+            </Link>
           </div>
         );
       })}
+      <div className="reveal-desktop">
+        <DonateButton />
+      </div>
     </div>
   </div>
 );
