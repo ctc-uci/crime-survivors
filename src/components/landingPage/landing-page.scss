@@ -135,6 +135,13 @@
     width: 45%;
 }
 
+.accent-float-right2{
+    position: absolute;
+    right: 0px;
+    bottom: -16px;
+    width: 45%;
+}
+
 div.centered-flex-col {
     @include flex-column;
     align-items: center;

@@ -21,13 +21,14 @@ div.right-sidebar {
   font-weight: normal;
   font-size: $fontSize;
   line-height: $lineHeight;
-  width: 'inherit';
+  max-width: 270px;
+  margin-top: 16px;
 
   >div.divider {
     width: 0.1px;
     height: initial;
-    background: #5D5D5D;
-    border: 0.1px solid #5D5D5D;
+    background: #f0f0f0;
+    border: 0.1px solid #f0f0f0;
     margin-right: 10%;
   }
 
@@ -44,8 +45,8 @@ div.right-sidebar {
       color: $anchorActiveColor; // even tho its not an anchor teehee;
       font-size: 20px;
       font-weight: bold;
-      padding-top: 17%;
-      padding-bottom: 17%;
+      // padding-top: 17%;
+      // padding-bottom: 17%;
     }
 
     >a.sidebar-link, a.sidebar-link:link,

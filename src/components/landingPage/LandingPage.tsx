@@ -158,7 +158,7 @@ const CountyOverview: React.FC = () => {
         </div>
       </div>
       <div className="landing-page-county-overview-accent">
-        <img className="accent-float-right " alt="accent" src={LandingPageAccent} />
+        <img className="accent-float-right2" alt="accent" src={LandingPageAccent} />
       </div>
     </div>
   );

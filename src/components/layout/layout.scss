@@ -5,13 +5,21 @@ $rightSidebarWidth: 240px;
 
 div.main-layout {
     @include flex-column;
-    max-width: $maxLayoutWidth;
+    // width: 100vw;
     margin: 0 auto;
+    background: #f8f8f8;
 
     >div.header {
         @include sticky($top: 0);
         width: 100%;
         max-width: $maxLayoutWidth;
+    }
+
+    >div.middle {
+        max-width: $maxLayoutWidth;
+        >div.content {
+            margin: 0 40px;
+        }
     }
 
     @media only screen and (max-width: #{$mobileWidth}){
@@ -20,10 +28,15 @@ div.main-layout {
             padding-top: $mobileHeaderHeight;
             min-height: 100vh;
 
-
             >div.layout-right-sidebar {
                 display: none;
             }
+        }
+    }
+
+    @media only screen and (min-width: #{$maxLayoutWidth}){
+        >div.middle {
+            margin-left: calc((100vw - #{$maxLayoutWidth}) / 2);    
         }
     }
 
@@ -32,6 +45,7 @@ div.main-layout {
             @include flex-row;
             padding-top: $desktopHeaderHeight;
             min-height: 100vh;
+            // margin: auto;
     
             >div.layout-left-sidebar {
                 min-width: $leftSidebarWidth;
