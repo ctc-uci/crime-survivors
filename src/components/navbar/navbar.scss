@@ -21,6 +21,15 @@ div.navbar {
     @include default-container;
     justify-content: space-around;
     background-color: $primaryColor;
+    height: $headerHeight;
+    width: 100vw;
+
+}
+
+@media only screen and (min-width: $mobileWidth) {
+    div.navbar {
+        box-shadow: 0 1px 10px rgba(0,0,0,0.16);
+    }
 }
 
 div.logo {
@@ -66,11 +75,16 @@ div.menu {
     padding-right: 30px;
     flex: 3 1 auto;
 
+    @media only screen and (min-width: $mobileWidth) {
+        justify-content: flex-end;
+    }
+
     div.menu-item {
         @include flex-row;
         align-items: center;
         justify-content: center;
         flex-grow: 1;
+        max-width: 200px;
         min-height: $menuHeight;
     }
 
@@ -81,7 +95,7 @@ div.menu {
             border-bottom: 3px solid #57936E;
         }
     }
-
+    
     @media only screen and (max-width: $mobileWidth) {
         div.selected {
             background-color: $primaryColor;

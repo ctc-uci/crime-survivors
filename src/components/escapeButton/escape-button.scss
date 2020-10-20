@@ -12,6 +12,7 @@ a#escape-button {
     text-decoration: none;
     color: $textColor;
     background-color: $buttonColor;
+    z-index: 10000;
 
     border: solid $buttonColor;
     border-radius: 2px;
