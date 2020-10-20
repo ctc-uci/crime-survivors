@@ -4,8 +4,10 @@
   "description": "Welcome",
   "main": "index.js",
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@contentful/rich-text-react-renderer": "^13.4.0",
     "@contentful/rich-text-types": "^14.1.1",
+    "@react-hook/window-size": "^3.0.7",
     "@types/react-scroll": "^1.8.0",
     "antd": "^4.6.5",
     "contentful": "^7.14.4",

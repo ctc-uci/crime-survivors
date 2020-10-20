@@ -1,14 +1,52 @@
-.ant-menu-submenu-title, .ant-menu-item{
-    white-space: normal !important;
-    height: auto !important;
-    line-height: 30px !important;
-    margin-top: 10px !important;
+@import '../../../common/styles/common.scss';
+
+.ant-menu-submenu-title,
+.ant-menu-item {
+  white-space: normal !important;
+  height: auto !important;
+  line-height: 30px !important;
+  margin-top: 10px !important;
 }
 
-.ant-menu-submenu-arrow{
-    top: 16px !important;
+.ant-menu-submenu-arrow {
+  top: 16px !important;
 }
 
-.left-sidebar{
-    max-width: 270px;
+.left-sidebar {
+  max-width: 270px;
+  position: sticky;
+  top: $headerHeight;
+  height: calc(80vh - #{$headerHeight});
+  overflow: auto;
+  @include scrollbars(3px, $anchorActiveColor, inherit);
 }
+
+@media only screen and (max-width: $mobileWidth) {
+  .left-sidebar {
+    max-width: unset;
+    height: inherit;
+  }
+  .ant-menu-submenu-arrow {
+    padding-right: 24px;
+  }
+  .is-overlay {
+    position: fixed;
+    top: 125px;
+    bottom: 0px;
+    overflow-y: scroll;
+    z-index: 9999;
+  }
+  .is-overlay::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+

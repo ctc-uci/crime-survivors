@@ -1,6 +1,5 @@
 @import "../../../common/styles/common";
 
-$anchorActiveColor: #316E83;
 $fontSize: 18px;
 $lineHeight: 22px;
 
@@ -13,28 +12,6 @@ $lineHeight: 22px;
   color: #707070;
   text-decoration: none;
   transition: padding-left 0.3s, color 0.3s, font-weight 0.3s;
-}
-
-@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
-  // For Google Chrome
-  &::-webkit-scrollbar {
-    width:  $size;
-    height: $size;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: $foreground-color;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: $background-color;
-  }
-
-  // For Internet Explorer
-  & {
-    scrollbar-face-color: $foreground-color;
-    scrollbar-track-color: $background-color;
-  }
 }
 
 div.right-sidebar {

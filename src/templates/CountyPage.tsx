@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { graphql } from 'gatsby';
 import { CountyPageProps, CountyPageDefaultProps } from './CountyPage.interface';

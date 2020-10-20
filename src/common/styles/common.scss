@@ -65,8 +65,9 @@ $mobileWidth: 900px;
 $maxLayoutWidth: 1400px;
 
 // padding for sticky header 
-$desktopHeaderHeight: 125px;
-$mobileHeaderHeight: 125px;
+$headerHeight: 150px;
+$desktopHeaderHeight: $headerHeight;
+$mobileHeaderHeight: $headerHeight;
 
 html, body {
     margin: 0;
@@ -101,3 +102,27 @@ html, body {
     visibility: hidden; 
     pointer-events: none;
 }
+
+$anchorActiveColor: #316E83;
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+    // For Google Chrome
+    &::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: $background-color;
+    }
+  
+    // For Internet Explorer
+    & {
+      scrollbar-face-color: $foreground-color;
+      scrollbar-track-color: $background-color;
+    }
+  }
