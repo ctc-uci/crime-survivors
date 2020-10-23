@@ -11,17 +11,18 @@ export interface CountyPageProps{
 }
 
 export interface CountyPageData {
-  featuredSection: FeaturedSection,
+  featuredCategories: FeaturedCategories,
   sidebarData: SidebarData,
   quotes: Quotes
 }
 
-export interface FeaturedSection {
+export interface FeaturedCategories {
   group: {
+    fieldValue: string;
     nodes: {
-      title: string,
-    }[]
-  }[]
+      title: string;
+    }[];
+  }[];
 }
 
 export interface Quotes {
@@ -39,8 +40,9 @@ export const CountyPageDefaultProps: CountyPageProps = {
     location: 'string',
   },
   data: {
-    featuredSection: {
+    featuredCategories: {
       group: [{
+        fieldValue: 'string',
         nodes: [{
           title: 'string',
         }],
