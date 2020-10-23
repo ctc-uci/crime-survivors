@@ -7,12 +7,17 @@ stages:
 eslint:
   stage: lint
 
+  only:
+   - master
+
   script:
-    - npm i -g eslint
-    - npm i eslint-config-airbnb
-    - npx install-peerdeps eslint-config-airbnb
-    - npm install --only=prod
-    - npm run eslint-fix
+   - npm install eslint-config-airbnb@18.2.0 
+   - npm install -g eslint@7.2.0 
+   - npm install eslint-plugin-import@^2.21.2 
+   - npm install eslint-plugin-jsx-a11y@^6.3.0 
+   - npm install eslint-plugin-react@^7.20.0 
+   - npm install eslint-plugin-react-hooks@4.0.0 --force
+   - eslint --ext js,jsx .
 # This code essentially uses Docker to pull node and uses node to install/configure eslint and run the eslint script
 
 variables:
@@ -20,6 +25,9 @@ variables:
 
 preprod_gatsby_build:
   stage: build
+
+  only:
+   - master
 
   script:
     - npm i
