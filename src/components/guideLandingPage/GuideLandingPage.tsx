@@ -7,25 +7,12 @@ import './guideLandingPage.scss';
 import { pathify } from '../../common/utils/commonUtils';
 import Layout from '../layout/Layout';
 import Carousel from '../carousel/carousel';
-import { UrlRouter } from '../../common/interfaces/global.interfaces';
+import { GuideLandingQueryType, UrlRouter } from '../../common/interfaces/global.interfaces';
 import Navbar from '../navbar/Navbar';
 import landingPic from './assets/landing-pic.svg';
 import { FIND_COUNTY_SECTION_ID, GUIDES_PATH_PREFIX } from '../../common/utils/constants';
 
 const { SubMenu } = Menu;
-
-interface GuideLandingQueryType {
-  allContentfulGeneralGuide: {
-    distinct: string[];
-    nodes: {
-      identifier: string;
-      category: string[];
-    }[];
-  };
-  allContentfulResource: {
-    distinct: string[];
-  };
-}
 
 interface GuideLandingPagePropType {
   location: UrlRouter;
@@ -35,10 +22,11 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
   const { allContentfulGeneralGuide, allContentfulResource }: GuideLandingQueryType = useStaticQuery(graphql`
     query GuideLandingQuery{
       allContentfulGeneralGuide {
-        distinct(field: category)
-        nodes {
-          identifier
-          category
+        group(field: category, limit: 3) {
+          fieldValue
+          nodes {
+            identifier
+          }
         }
       }
       allContentfulResource {
@@ -47,22 +35,13 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
     }
   `);
 
-  const {
-    distinct: guideCategories,
-    nodes: guides,
-  } = allContentfulGeneralGuide;
+  const { group: guideCategories } = allContentfulGeneralGuide;
+  const { distinct: locations } = allContentfulResource;
 
-  const {
-    distinct: locations,
-  } = allContentfulResource;
-
-  const items = guideCategories.map((category) => ({
-    title: category,
-    body: guides.filter(({ category: categories }) => categories.includes(category))
-      .map(({ identifier }) => identifier)
-      .slice(0, 2)
-      .join(', '),
-    link: pathify([GUIDES_PATH_PREFIX, category]),
+  const items = guideCategories.map(({ fieldValue, nodes }) => ({
+    title: fieldValue,
+    body: nodes.map(({ identifier }) => identifier).join(', '),
+    link: pathify([GUIDES_PATH_PREFIX, fieldValue]),
   }));
 
   return (

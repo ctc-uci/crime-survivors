@@ -6,12 +6,13 @@ import { CountyPageProps, CountyPageDefaultProps } from './CountyPage.interface'
 import Layout from '../components/layout/Layout';
 import Navbar from '../components/navbar/Navbar';
 import LeftSidebar from '../components/dualSidebar/leftSidebar/LeftSidebar';
+import CountyContent from '../components/countyContent/CountyContent';
 
 const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: url }) => {
-  const { featuredSection, sidebarData, quotes } = data;
+  const { featuredCategories, sidebarData, quotes } = data;
   const { location } = pageContext;
 
-  console.log('1', featuredSection);
+  console.log('1', featuredCategories);
   console.log('2', quotes);
   console.log('3', sidebarData);
   console.log('4', location);
@@ -20,21 +21,25 @@ const CountyPage: React.FC<CountyPageProps> = ({ pageContext, data, location: ur
   return (
     <Layout
       header={<Navbar location={{ pathname: '/guide' }} />}
-      // content={<GuideContent generalGuide={guideData} category={category} />}
+      content={(
+        <CountyContent {...{
+          featuredCategories, quotes, location, url,
+        }}
+        />
+)}
       enableLeftSidebar
       leftSidebar={<LeftSidebar sidebarData={sidebarData} location={location} title={location} />}
-      enableRightSidebar
     />
   );
 };
 
 export const query = graphql`
     query CountyQuery( $location: String! ) {
-    featuredSection: allContentfulResourceGuide(
+    featuredCategories: allContentfulResourceGuide(
       filter: {location: {eq: $location}},
-      sort: {order: ASC, fields: title}
     ) {
-      group(field: location, limit: 5) {
+      group(field: category, limit: 3) {
+        fieldValue
         nodes {
           title
         }

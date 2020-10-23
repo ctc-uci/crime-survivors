@@ -59,3 +59,17 @@ export const RightSidebarDataDefaultProps: RightSidebarData = {
     title: 'string',
   }],
 };
+
+export interface GuideLandingQueryType {
+  allContentfulGeneralGuide: {
+    group: {
+      fieldValue: string;
+      nodes: {
+        identifier: string;
+      }[];
+    }[];
+  };
+  allContentfulResource: {
+    distinct: string[];
+  };
+}
