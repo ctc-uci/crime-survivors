@@ -12,7 +12,7 @@ import './landing-page.scss';
 
 import doubleDown from './assets/double-down.svg';
 import doubleDownOutline from './assets/double-down-outline.svg';
-import mapImg from './assets/socal_map.png';
+import mapImg from './assets/map.jpg';
 import BannerImg from '../../common/media/stock-photo.jpeg';
 import LandingPageAccent from '../../common/media/LandingPageAccent.png';
 import HeartIcon from '../../common/media/heart-icon.png';
@@ -41,15 +41,33 @@ const WelcomeSection: React.FC = () => (
             the right and responsibility to survive.
           </p>
           <div className="landing-page-welcome-section-half-text-container-button-array">
-            <Button style={{ marginRight: '8px' }} body="Find Your County" fgColor="#FFFFFF" bgColor="#316E83" />
-            <Button style={{ marginRight: '8px' }} body="Watch Video" fgColor="#316E83" bgColor="#FFFFFF" />
+            <Button
+              style={{ marginRight: '8px' }}
+              body="Find Your County"
+              fgColor="#FFFFFF"
+              bgColor="#316E83"
+            />
+            <Button
+              style={{ marginRight: '8px' }}
+              body={(
+                <a className="watch-video-button" href="https://www.youtube.com/watch?v=2e8vcalCGpU">
+                  Watch Video
+                </a>
+              )}
+              fgColor="#FFFFFF"
+              bgColor="#316E83"
+            />
           </div>
         </div>
       </div>
     </div>
     <div className="landing-page-welcome-section-bottom-layout">
       <img src={doubleDown} alt="scroll down icon" />
-      <img className="accent-float-right disappear-on-mobile" alt="accent" src={LandingPageAccent} />
+      <img
+        className="accent-float-right disappear-on-mobile"
+        alt="accent"
+        src={LandingPageAccent}
+      />
     </div>
   </div>
 );
@@ -59,27 +77,31 @@ const GuideSummaryOverview: React.FC = () => {
     {
       icon: BuildingIcon,
       title: 'Find an Advocate',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      desc:
+        'Need help with communication and cooperations across various public services? Make sure your rights are understood.',
     },
     {
       icon: PeopleIcon,
       title: 'Obtain Crisis Support',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      desc: 'Experiencing a crisis? Find support and community.',
     },
     {
       icon: BookIcon,
-      title: 'Learn About Victim\'s Rights',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      title: "Learn About Victim's Rights",
+      desc:
+        "You are entitled to various victim servicecs. Let's make sure they are understood.",
     },
     {
       icon: MoneyIcon,
       title: 'Pay for Crime-Related Expenses',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      desc:
+        'The aftermath of crime can be expensive. Figure out how you can be reimbursed for crime-related expenses.',
     },
     {
       icon: HeartIcon,
       title: 'Heal and Recover',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      desc:
+        'The road traveled in the aftermath of a violent crime is slightly different for everyone, but we all need help and understanding along the way.',
     },
   ];
 
@@ -92,9 +114,10 @@ const GuideSummaryOverview: React.FC = () => {
             <h1 className="blue">Our General Guides are here to help.</h1>
             <hr className="blue" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam.
+              Before looking at specific resources, we recommend checking out
+              our general guides. This information will come in handy for many
+              different scenarios. Here are some examples of what you might
+              find.
             </p>
           </div>
           {guideSummaryCardData.map(({ icon, title, desc }) => (
@@ -106,22 +129,33 @@ const GuideSummaryOverview: React.FC = () => {
           ))}
         </div>
         <div style={{ alignSelf: 'center', padding: '16px' }}>
-          <Button style={{ }} body="View Full Guides" fgColor="#FFFFFF" bgColor="#316E83" />
+          <Button
+            style={{}}
+            body="View Full Guides"
+            fgColor="#FFFFFF"
+            bgColor="#316E83"
+          />
         </div>
       </div>
-      <img className="double-down" src={doubleDownOutline} alt="two arrows down" />
+      <img
+        className="double-down"
+        src={doubleDownOutline}
+        alt="two arrows down"
+      />
     </div>
   );
 };
 
 const CountyOverview: React.FC = () => {
-  interface GuideCountyQuery{
+  interface GuideCountyQuery {
     allContentfulResourceGuide: {
       locations: string[]
     }
   }
-  const { allContentfulResourceGuide }: GuideCountyQuery = useStaticQuery(graphql`
-    query GuideCountyQuery{
+  const {
+    allContentfulResourceGuide,
+  }: GuideCountyQuery = useStaticQuery(graphql`
+    query GuideCountyQuery {
       allContentfulResourceGuide {
         locations: distinct(field: location)
       }
@@ -150,7 +184,9 @@ const CountyOverview: React.FC = () => {
             <ul>
               {locations.map((location) => (
                 <li>
-                  <p><Link to={pathify([location])}>{location}</Link></p>
+                  <p>
+                    <Link to={pathify([location])}>{location}</Link>
+                  </p>
                 </li>
               ))}
             </ul>
@@ -158,7 +194,11 @@ const CountyOverview: React.FC = () => {
         </div>
       </div>
       <div className="landing-page-county-overview-accent">
-        <img className="accent-float-right2" alt="accent" src={LandingPageAccent} />
+        <img
+          className="accent-float-right2"
+          alt="accent"
+          src={LandingPageAccent}
+        />
       </div>
     </div>
   );

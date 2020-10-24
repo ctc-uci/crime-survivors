@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface ButtonPropType {
-  body: string;
+  body: any;
   fgColor: string;
   bgColor: string;
   style?: object;

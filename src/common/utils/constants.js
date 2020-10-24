@@ -1,8 +1,8 @@
 const HOME_PATH_PREFIX = '/';
 const GUIDES_PATH_PREFIX = '/guide';
 const FIND_COUNTY_SECTION_ID = 'find-your-county';
-const CONTACT_PATH_PREFIX = '/contact';
-const DONATE_PATH = '/donate';
+const CONTACT_PATH_PREFIX = 'https://crimesurvivors.org/contact-us/';
+const DONATE_PATH = 'https://crimesurvivors.org/sponsor-donate/individuals/';
 const MOBILE_WIDTH = 900;
 
 module.exports = {
