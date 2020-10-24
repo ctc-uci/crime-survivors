@@ -26,16 +26,10 @@ const Footer: React.FC = () => (
     <div className="footer-disclaimer footer-item">
       <p className="footer-disclaimer-title">Disclaimer</p>
       <p className="footer-disclaimer-text">
-        The Crime Survivors Resource Guide has been created to provide general
-        educational information to help you identify services and resources.
-        The inclusion of an organization or service does not imply an endorsement
-        or recommendation of the organization or service, nor does exclusion imply
-        disapproval. While every effort is made to ensure the accuracy of the information
+        While every effort is made to ensure the accuracy of the information
         provided, we make no guarantees. All information is provided “as is” without warranty
         of any kind, and you assume full responsibility for using the information
-        contained herein. You understand and agree that Crime Survivors and its
-        affiliates are not responsible or liable for any claim, loss, or damage
-        resulting from the use of this information by you or any user.
+        contained herein.
       </p>
     </div>
   </div>

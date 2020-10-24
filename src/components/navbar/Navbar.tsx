@@ -17,35 +17,41 @@ const options = [
   {
     displayName: 'Home',
     path: HOME_PATH_PREFIX,
+    absolute: false,
   },
   {
     displayName: 'Find Your County',
     path: `#${FIND_COUNTY_SECTION_ID}`,
+    absolute: false,
   },
   {
     displayName: 'General Guides',
     path: GUIDES_PATH_PREFIX,
+    absolute: false,
   },
   {
     displayName: 'Contact Us',
     path: CONTACT_PATH_PREFIX,
+    absolute: true,
   },
 ];
 
 function pathMatches(currentPath: string, candidate: string): boolean {
   const candidateLen = candidate.length;
-  return currentPath === candidate
-         || (candidateLen > 1 && currentPath.slice(0, candidateLen) === candidate);
+  return (
+    currentPath === candidate
+    || (candidateLen > 1 && currentPath.slice(0, candidateLen) === candidate)
+  );
 }
 
 const DonateButton: React.FC = () => (
-  <a href={DONATE_PATH} id="donate-button">
+  <a target="_blank" rel="noreferrer" href={DONATE_PATH} id="donate-button">
     Donate
   </a>
 );
 
 interface NavbarPropType {
-  location: UrlRouter;
+  location: UrlRouter
 }
 
 const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
@@ -61,13 +67,17 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
       </div>
     </div>
     <div className="menu">
-      {options.map(({ path, displayName }) => {
+      {options.map(({ path, displayName, absolute }) => {
         const mark = pathMatches(url.pathname, path) ? 'selected' : '';
         return (
           <div key={v4()} className={`menu-item ${mark}`}>
-            <Link className={`nav-item ${mark}`} to={`${url.origin + path}`}>
-              {displayName}
-            </Link>
+            {absolute ? (
+              <a target="_blank" rel="noreferrer" href={path}>{displayName}</a>
+            ) : (
+              <Link className={`nav-item ${mark}`} to={`${url.origin + path}`}>
+                {displayName}
+              </Link>
+            )}
           </div>
         );
       })}

@@ -9,7 +9,7 @@ import Layout from '../layout/Layout';
 import Carousel from '../carousel/carousel';
 import { GuideLandingQueryType, UrlRouter } from '../../common/interfaces/global.interfaces';
 import Navbar from '../navbar/Navbar';
-import landingPic from './assets/landing-pic.svg';
+import landingPic from './assets/landing-pic.jpg';
 import { FIND_COUNTY_SECTION_ID, GUIDES_PATH_PREFIX } from '../../common/utils/constants';
 
 const { SubMenu } = Menu;

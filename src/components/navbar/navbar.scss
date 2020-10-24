@@ -114,7 +114,7 @@ a#donate-button {
     justify-content: center;
 
     text-decoration: none;
-    color: $primaryColor;
+    color: $primaryColor !important;
     background-color: $secondaryColor;
 
     border: solid $secondaryColor;
