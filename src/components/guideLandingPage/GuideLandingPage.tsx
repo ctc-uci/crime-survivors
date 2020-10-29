@@ -7,20 +7,31 @@ import './guideLandingPage.scss';
 import { pathify } from '../../common/utils/commonUtils';
 import Layout from '../layout/Layout';
 import Carousel from '../carousel/carousel';
-import { GuideLandingQueryType, UrlRouter } from '../../common/interfaces/global.interfaces';
+import {
+  GuideLandingQueryType,
+  UrlRouter,
+} from '../../common/interfaces/global.interfaces';
 import Navbar from '../navbar/Navbar';
 import landingPic from './assets/landing-pic.jpg';
-import { FIND_COUNTY_SECTION_ID, GUIDES_PATH_PREFIX } from '../../common/utils/constants';
+import {
+  FIND_COUNTY_SECTION_ID,
+  GUIDES_PATH_PREFIX,
+} from '../../common/utils/constants';
 
 const { SubMenu } = Menu;
 
 interface GuideLandingPagePropType {
-  location: UrlRouter;
+  location: UrlRouter
 }
 
-const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location: url }) => {
-  const { allContentfulGeneralGuide, allContentfulResource }: GuideLandingQueryType = useStaticQuery(graphql`
-    query GuideLandingQuery{
+const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({
+  location: url,
+}) => {
+  const {
+    allContentfulGeneralGuide,
+    allContentfulResource,
+  }: GuideLandingQueryType = useStaticQuery(graphql`
+    query GuideLandingQuery {
       allContentfulGeneralGuide {
         group(field: category, limit: 3) {
           fieldValue
@@ -46,16 +57,15 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
 
   return (
     <div className="guide-landing-container">
-
       {/* beginning message/section/summary */}
       <div className="guide-landing-section reversed-col">
         <div className="half">
           <p className="header">General Guides</p>
           <p className="description">
             The mission of Crime Survivors is to provide hope and healing to
-            victims and survivors of crime through advocacy and the support
-            of resources, information, and empowerment. All victims of crime
-            have the right and responsibility to survive.
+            victims and survivors of crime through advocacy and the support of
+            resources, information, and empowerment. All victims of crime have
+            the right and responsibility to survive.
           </p>
         </div>
         <div className="half center-flex-row" style={{ padding: 0 }}>
@@ -67,10 +77,21 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
       <div className="guide-landing-section">
         <div className="half" style={{ width: '100%' }}>
           <p className="subheader">5 ways Crime Survivors can help you</p>
-          <Carousel
-            items={items}
-            location={url}
-          />
+          <div className="general-guide-recommendation-card-container">
+            {items.map((item) => (
+              <div className="general-guide-recommendation-card">
+                <p className="general-guide-recommendation-card-title">
+                  {item.title}
+                </p>
+                <p className="general-guide-recommendation-card-body">
+                  {item.body}
+                </p>
+                <span className="general-guide-recommendation-card-link">
+                  <a href={item.link}>Learn More</a>
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -79,15 +100,17 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
         <div className="half">
           <p className="subheader">What&apos;s in each section?</p>
           <p className="description">
-            Curious about what each category contains? Get a
-            quick glance at the different resources available by
-            accessing the dropdown menu here.
+            Curious about what each category contains? Get a quick glance at the
+            different resources available by accessing the dropdown menu here.
           </p>
         </div>
         <div className="half">
           <Menu mode="inline" style={{ border: '1px solid #000' }}>
             {items.map(({ title, body }) => (
-              <SubMenu key={v4()} title={<p className="submenu-header">{title}</p>}>
+              <SubMenu
+                key={v4()}
+                title={<p className="submenu-header">{title}</p>}
+              >
                 {body.split(', ').map((guideTitle) => (
                   <Menu.Item key={v4()}>
                     <Link
@@ -109,16 +132,17 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
         <div className="half">
           <p className="subheader">Want county-specific information?</p>
           <p className="description">
-            We offer a wide range of support resources for
-            survivors in seven different counties. Find your
-            county here.
+            We offer a wide range of support resources for survivors in seven
+            different counties. Find your county here.
           </p>
         </div>
         <div className="half" id={FIND_COUNTY_SECTION_ID}>
           <Menu mode="inline" style={{ border: '1px solid #000' }}>
             {locations.map((location) => (
               <Menu.Item key={v4()}>
-                <Link to={pathify([location])} className="resource-ref">{location}</Link>
+                <Link to={pathify([location])} className="resource-ref">
+                  {location}
+                </Link>
               </Menu.Item>
             ))}
           </Menu>
@@ -128,7 +152,9 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({ location:
   );
 };
 
-const GuideLandingPage: React.FC<GuideLandingPagePropType> = ({ location: url }) => (
+const GuideLandingPage: React.FC<GuideLandingPagePropType> = ({
+  location: url,
+}) => (
   <Layout
     header={<Navbar location={url} />}
     content={<GuideLandingPageContent location={url} />}

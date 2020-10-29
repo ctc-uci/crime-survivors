@@ -4,6 +4,7 @@ import { v4 } from 'uuid';
 import './navbar.scss';
 
 import logo from '../../common/media/CrimeSurvivorsLogo.svg';
+import { pathify } from '../../common/utils/commonUtils';
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import {
   HOME_PATH_PREFIX,
@@ -21,7 +22,7 @@ const options = [
   },
   {
     displayName: 'Find Your County',
-    path: `#${FIND_COUNTY_SECTION_ID}`,
+    path: `${FIND_COUNTY_SECTION_ID}`,
     absolute: false,
   },
   {
@@ -72,9 +73,14 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
         return (
           <div key={v4()} className={`menu-item ${mark}`}>
             {absolute ? (
-              <a target="_blank" rel="noreferrer" href={path}>{displayName}</a>
+              <a target="_blank" rel="noreferrer" href={path}>
+                {displayName}
+              </a>
             ) : (
-              <Link className={`nav-item ${mark}`} to={`${url.origin + path}`}>
+              <Link
+                className={`nav-item ${mark}`}
+                to={pathify([path])}
+              >
                 {displayName}
               </Link>
             )}

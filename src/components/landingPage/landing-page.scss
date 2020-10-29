@@ -1,164 +1,165 @@
 @import "../../common/styles/common";
 
 .landing-page-welcome-section {
+  @include flex-column;
+  align-self: stretch;
+
+  &-layout {
+    @include flex-row;
+    justify-content: stretch;
+  }
+
+  &-half {
     @include flex-column;
-    align-self: stretch;
+    flex: 1;
 
-    &-layout {
+    &-img-container {
+      @include flex-row;
+      justify-content: flex-start;
+    }
+
+    &-text-container {
+      @include flex-column;
+      margin: auto;
+      padding: 24px;
+
+      &-button-array {
         @include flex-row;
-        justify-content: stretch;
+        flex-wrap: nowrap;
+        padding: 8px 0 8px 0;
+        justify-content: flex-start;
+      }
     }
+  }
 
-    &-half {
-        @include flex-column;
-        flex: 1;
-
-        &-img-container{
-            @include flex-row;
-            justify-content: flex-start;
-        }
-
-        &-text-container{
-            @include flex-column;
-            margin: auto;
-            padding: 24px;
-
-            &-button-array{
-                @include flex-row;
-                flex-wrap: nowrap;
-                padding: 8px 0 8px 0;
-                justify-content: flex-start;
-            }
-        }
+  &-bottom {
+    &-layout {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      height: 200px;
+      position: relative;
     }
-
-    &-bottom{
-        &-layout{
-            display: flex;
-            flex-flow: row;
-            justify-content: center;
-            height: 200px;
-            position: relative;
-        }
-    }
-}    
+  }
+}
 
 .landing-page-county-overview {
+  @include flex-column;
+  align-self: stretch;
+
+  &-layout {
+    @include flex-row;
+  }
+
+  &-half {
     @include flex-column;
-    align-self: stretch;
+    flex: 1;
 
-    &-layout{
-        @include flex-row;
+    &-img-container {
+      @include flex-row;
+      justify-content: flex-start;
     }
 
-    &-half {
-        @include flex-column;
-        flex: 1;
-
-        &-img-container{
-            @include flex-row;
-            justify-content: flex-start;
-        }
-
-        &-text-container{
-            @include flex-column;
-            margin: auto;
-            padding: 24px;
-        }
+    &-text-container {
+      @include flex-column;
+      margin: auto;
+      padding: 24px;
     }
+  }
 
-    &-accent{
-        position: relative;
-        height: 100px;
-    }
+  &-accent {
+    position: relative;
+    height: 100px;
+  }
 }
 
 .landing-page-guide {
-    background: url('./assets/guide-summary-bg.svg');
-    background-size: cover;
-    // height: 900px;
-    width: 100%;
+  background: url("./assets/guide-summary-bg.svg");
+  background-size: cover;
+  // height: 900px;
+  width: 100%;
 
-    &-cover{
-        @include flex-column;
-        margin: 10%;
-        padding: 48px;
-        align-self: center;
-        background-color: #fff;
-        border-radius: 10px;
-        border: 3px solid #08979C;
+  &-cover {
+    @include flex-column;
+    margin: 10%;
+    padding: 48px;
+    align-self: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid #08979c;
 
-        &-content{
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            grid-gap: 2rem;
+    &-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 2rem;
 
-            &-desc{
-                padding: 16px;
-            }
+      &-desc {
+        padding: 16px;
+      }
 
-            &-card{
-                padding: 16px 32px 16px 32px;
-            }
+      &-card {
+        padding: 16px 32px 16px 32px;
+
+        &-icon {
+            margin-bottom: 10px;
         }
+      }
     }
+  }
 }
 
 // rounded box effect
-.rounded-shadow{
-    $box-shadow-width: 25px;
-    border-radius: 0px 0px $box-shadow-width 0px;
-    box-shadow: $box-shadow-width $box-shadow-width #76aabb, 0 $box-shadow-width #76aabb, $box-shadow-width 0 #76aabb;
-    margin: 0 $box-shadow-width $box-shadow-width 0;
-    max-width: calc(100% - #{$box-shadow-width});
-    max-height: 100%;
-}    
+.rounded-shadow {
+  $box-shadow-width: 25px;
+  border-radius: 0px 0px $box-shadow-width 0px;
+  box-shadow: $box-shadow-width $box-shadow-width #76aabb,
+    0 $box-shadow-width #76aabb, $box-shadow-width 0 #76aabb;
+  margin: 0 $box-shadow-width $box-shadow-width 0;
+  max-width: calc(100% - #{$box-shadow-width});
+  max-height: 100%;
+}
 
 // hide on screen
 @media only screen and (max-width: $mobileWidth) {
-    .disappear-on-mobile {
-        display: none;
-    }
+  .disappear-on-mobile {
+    display: none;
+  }
 }
 
 // pad and cap long texts width
 .blurb {
-    max-width: 500px;
-    padding: 8px 0 8px 0;
+  max-width: 500px;
+  padding: 8px 0 8px 0;
 }
 
 // for the accent piece
-.accent-float-right{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 45%;
+.accent-float-right {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 45%;
 }
 
-.accent-float-right2{
-    position: absolute;
-    right: 0px;
-    bottom: -16px;
-    width: 45%;
+.accent-float-right2 {
+  position: absolute;
+  right: 0px;
+  bottom: -16px;
+  width: 45%;
 }
 
 div.centered-flex-col {
-    @include flex-column;
-    align-items: center;
-    justify-content: center;
+  @include flex-column;
+  align-items: center;
+  justify-content: center;
 }
 
-img {
-    &.double-down {
-        padding-bottom: 30px;
-    }
+.watch-video-button,
+.find-county-button {
+  color: white !important;
+  text-decoration: none !important;
 }
 
-.watch-video-button{
-    color: white !important;
-    text-decoration: none !important;
-}
-
-.watch-video-button:hover{
-    color: white !important;
+.watch-video-button:hover,
+.find-county-button:hover {
+  color: white !important;
 }

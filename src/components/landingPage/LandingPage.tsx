@@ -1,5 +1,6 @@
 import React from 'react';
-import { graphql, Link, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery, Link } from 'gatsby';
+// import { Link } from 'react-scroll';
 
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import { pathify } from '../../common/utils/commonUtils';
@@ -10,8 +11,6 @@ import Footer from '../footer/Footer';
 
 import './landing-page.scss';
 
-import doubleDown from './assets/double-down.svg';
-import doubleDownOutline from './assets/double-down-outline.svg';
 import mapImg from './assets/map.jpg';
 import BannerImg from '../../common/media/stock-photo.jpeg';
 import LandingPageAccent from '../../common/media/LandingPageAccent.png';
@@ -20,6 +19,8 @@ import MoneyIcon from '../../common/media/money-icon.png';
 import BookIcon from '../../common/media/book-icon.png';
 import PeopleIcon from '../../common/media/people-icon.png';
 import BuildingIcon from '../../common/media/building-icon.png';
+
+import { FIND_COUNTY_SECTION_ID } from '../../common/utils/constants';
 
 const WelcomeSection: React.FC = () => (
   <div className="landing-page-welcome-section">
@@ -43,14 +44,26 @@ const WelcomeSection: React.FC = () => (
           <div className="landing-page-welcome-section-half-text-container-button-array">
             <Button
               style={{ marginRight: '8px' }}
-              body="Find Your County"
+              body={(
+                <a
+                  className="find-county-button"
+                  href={`#${FIND_COUNTY_SECTION_ID}`}
+                >
+                  Find Your County
+                </a>
+              )}
               fgColor="#FFFFFF"
               bgColor="#316E83"
             />
             <Button
               style={{ marginRight: '8px' }}
               body={(
-                <a className="watch-video-button" href="https://www.youtube.com/watch?v=2e8vcalCGpU">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="watch-video-button"
+                  href="https://www.youtube.com/watch?v=2e8vcalCGpU"
+                >
                   Watch Video
                 </a>
               )}
@@ -62,7 +75,6 @@ const WelcomeSection: React.FC = () => (
       </div>
     </div>
     <div className="landing-page-welcome-section-bottom-layout">
-      <img src={doubleDown} alt="scroll down icon" />
       <img
         className="accent-float-right disappear-on-mobile"
         alt="accent"
@@ -122,7 +134,7 @@ const GuideSummaryOverview: React.FC = () => {
           </div>
           {guideSummaryCardData.map(({ icon, title, desc }) => (
             <div className="landing-page-guide-cover-content-card">
-              <img src={icon} alt={title} />
+              <img className="landing-page-guide-cover-content-card-icon" src={icon} alt={title} />
               <h3 className="blue">{title}</h3>
               <p>{desc}</p>
             </div>
@@ -137,11 +149,6 @@ const GuideSummaryOverview: React.FC = () => {
           />
         </div>
       </div>
-      <img
-        className="double-down"
-        src={doubleDownOutline}
-        alt="two arrows down"
-      />
     </div>
   );
 };
@@ -172,7 +179,10 @@ const CountyOverview: React.FC = () => {
             <img src={mapImg} className="rounded-shadow" alt="map" />
           </div>
         </div>
-        <div className="landing-page-county-overview-half">
+        <div
+          id="find-your-county"
+          className="landing-page-county-overview-half"
+        >
           <div className="landing-page-county-overview-half-text-container">
             <h1 className="blue">County Resource Guides</h1>
             <hr className="blue" />
