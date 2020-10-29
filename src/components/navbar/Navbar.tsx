@@ -18,21 +18,25 @@ const options = [
   {
     displayName: 'Home',
     path: HOME_PATH_PREFIX,
+    hash: '',
     absolute: false,
   },
   {
     displayName: 'Find Your County',
-    path: `${FIND_COUNTY_SECTION_ID}`,
+    path: '',
+    hash: `${FIND_COUNTY_SECTION_ID}`,
     absolute: false,
   },
   {
     displayName: 'General Guides',
     path: GUIDES_PATH_PREFIX,
+    hash: '',
     absolute: false,
   },
   {
     displayName: 'Contact Us',
     path: CONTACT_PATH_PREFIX,
+    hash: '',
     absolute: true,
   },
 ];
@@ -68,7 +72,9 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
       </div>
     </div>
     <div className="menu">
-      {options.map(({ path, displayName, absolute }) => {
+      {options.map(({
+        path, hash, displayName, absolute,
+      }) => {
         const mark = pathMatches(url.pathname, path) ? 'selected' : '';
         return (
           <div key={v4()} className={`menu-item ${mark}`}>
@@ -79,7 +85,7 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
             ) : (
               <Link
                 className={`nav-item ${mark}`}
-                to={pathify([path])}
+                to={pathify([path], hash)}
               >
                 {displayName}
               </Link>
