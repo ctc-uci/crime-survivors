@@ -45,12 +45,12 @@ const WelcomeSection: React.FC = () => (
             <Button
               style={{ marginRight: '8px' }}
               body={(
-                <a
+                <Link
                   className="link-button"
-                  href={pathify([''], FIND_COUNTY_SECTION_ID)}
+                  to={pathify([''], FIND_COUNTY_SECTION_ID)}
                 >
                   Find Your County
-                </a>
+                </Link>
               )}
               fgColor="#FFFFFF"
               bgColor="#316E83"
