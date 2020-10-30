@@ -144,7 +144,7 @@ const GuideSummaryOverview: React.FC = () => {
           <Button
             body={(
               <a
-                className="watch-video-button"
+                className="link-button"
                 href="/guide"
               >
                 View Full Guides
