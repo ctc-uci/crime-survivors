@@ -59,6 +59,16 @@ a:visited {
     color: #468590;
 }
 
+.link-button{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.link-button:hover {
+  color: white !important;
+}
+
+
 
 // breakpoints
 $mobileWidth: 900px;

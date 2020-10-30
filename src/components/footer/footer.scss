@@ -66,6 +66,10 @@
     .footer-menu{
         align-items: center;
     }
+
+    .footer-item{
+        flex-basis: unset !important; // addresses footer bug on iOS devices
+    }
 }
 
 @media only screen and (min-width: #{$mobileWidth}){

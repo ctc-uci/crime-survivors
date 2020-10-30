@@ -79,12 +79,12 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
         return (
           <div key={v4()} className={`menu-item ${mark}`}>
             {absolute ? (
-              <a target="_blank" rel="noreferrer" href={path}>
+              <a className="nav-link" target="_blank" rel="noreferrer" href={path}>
                 {displayName}
               </a>
             ) : (
               <Link
-                className={`nav-item ${mark}`}
+                className={`nav-item ${mark} nav-link`}
                 to={pathify([path], hash)}
               >
                 {displayName}

@@ -6,7 +6,7 @@ import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import { pathify } from '../../common/utils/commonUtils';
 import Layout from '../layout/Layout';
 import Navbar from '../navbar/Navbar';
-import Button from './Button';
+import Button from '../Button/Button';
 import Footer from '../footer/Footer';
 
 import './landing-page.scss';
@@ -46,8 +46,8 @@ const WelcomeSection: React.FC = () => (
               style={{ marginRight: '8px' }}
               body={(
                 <a
-                  className="find-county-button"
-                  href={`#${FIND_COUNTY_SECTION_ID}`}
+                  className="link-button"
+                  href={pathify([''], FIND_COUNTY_SECTION_ID)}
                 >
                   Find Your County
                 </a>
@@ -61,7 +61,7 @@ const WelcomeSection: React.FC = () => (
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  className="watch-video-button"
+                  className="link-button"
                   href="https://www.youtube.com/watch?v=2e8vcalCGpU"
                 >
                   Watch Video
@@ -142,8 +142,14 @@ const GuideSummaryOverview: React.FC = () => {
         </div>
         <div style={{ alignSelf: 'center', padding: '16px' }}>
           <Button
-            style={{}}
-            body="View Full Guides"
+            body={(
+              <a
+                className="watch-video-button"
+                href="/guide"
+              >
+                View Full Guides
+              </a>
+              )}
             fgColor="#FFFFFF"
             bgColor="#316E83"
           />

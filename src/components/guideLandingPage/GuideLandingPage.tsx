@@ -4,9 +4,10 @@ import { v4 } from 'uuid';
 import { Menu } from 'antd';
 
 import './guideLandingPage.scss';
+
 import { pathify } from '../../common/utils/commonUtils';
 import Layout from '../layout/Layout';
-import Carousel from '../carousel/carousel';
+import Button from '../Button/Button';
 import {
   GuideLandingQueryType,
   UrlRouter,
@@ -86,9 +87,13 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({
                 <p className="general-guide-recommendation-card-body">
                   {item.body}
                 </p>
-                <span className="general-guide-recommendation-card-link">
-                  <a href={item.link}>Learn More</a>
-                </span>
+                <Button
+                  body={(
+                    <a className="link-button" href={item.link}>Learn More</a>
+              )}
+                  fgColor="#FFFFFF"
+                  bgColor="#316E83"
+                />
               </div>
             ))}
           </div>
