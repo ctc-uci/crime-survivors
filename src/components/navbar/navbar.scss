@@ -26,10 +26,6 @@ div.navbar {
 
 }
 
-.nav-link:hover{
-    color: white !important;
-}
-
 @media only screen and (min-width: $mobileWidth) {
     div.navbar {
         box-shadow: 0 1px 10px rgba(0,0,0,0.16);

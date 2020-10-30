@@ -17,6 +17,7 @@
 }
 
 .left-sidebar {
+  position: sticky;
   max-width: 270px;
   top: $headerHeight;
   height: calc(80vh - #{$headerHeight});
@@ -32,6 +33,7 @@
 @media only screen and (max-width: $mobileWidth) {
   // remove sticky on ls container
   .left-sidebar {
+    position: unset;
     margin: 0;
     max-width: unset;
     height: auto;
