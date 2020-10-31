@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as SmoothLink } from 'react-scroll';
 import { Link } from 'gatsby';
 import { v4 } from 'uuid';
 import './navbar.scss';
@@ -18,25 +19,25 @@ const options = [
   {
     displayName: 'Home',
     path: HOME_PATH_PREFIX,
-    hash: '',
+    smooth: false,
     absolute: false,
   },
   {
     displayName: 'Find Your County',
-    path: '',
-    hash: `${FIND_COUNTY_SECTION_ID}`,
+    path: FIND_COUNTY_SECTION_ID,
+    smooth: true,
     absolute: false,
   },
   {
     displayName: 'General Guides',
     path: GUIDES_PATH_PREFIX,
-    hash: '',
+    smooth: false,
     absolute: false,
   },
   {
     displayName: 'Contact Us',
     path: CONTACT_PATH_PREFIX,
-    hash: '',
+    smooth: false,
     absolute: true,
   },
 ];
@@ -51,42 +52,64 @@ interface NavbarPropType {
   location: UrlRouter
 }
 
-const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
-  <div className="navbar">
-    <div className="logo">
-      <img src={logo} alt="cs-logo" />
-      <div>
-        <div className="organization">Crime Survivors</div>
-        Resource Guides
-      </div>
-      <div className="reveal-mobile" style={{ marginLeft: 'auto' }}>
-        <DonateButton />
-      </div>
-    </div>
-    <div className="menu">
-      {options.map(({
-        path, hash, displayName, absolute,
-      }) => (
-        <div key={v4()} className="menu-item">
-          {absolute ? (
-            <a className="nav-link" target="_blank" rel="noreferrer" href={path}>
-              {displayName}
-            </a>
-          ) : (
-            <Link
-              className="nav-item nav-link"
-              to={pathify([path], hash)}
-            >
-              {displayName}
-            </Link>
-          )}
+const Navbar: React.FC<NavbarPropType> = () => {
+  const getLinkType = (smooth: boolean, absolute: boolean, path: string, displayName: string) => {
+    if (smooth) {
+      return (
+        <SmoothLink
+          className="nav-item nav-link"
+          smooth
+          offset={-40}
+          duration={400}
+          to={path}
+        >
+          {displayName}
+        </SmoothLink>
+      );
+    }
+    if (absolute) {
+      return (
+        <a className="nav-link" target="_blank" rel="noreferrer" href={path}>
+          {displayName}
+        </a>
+      );
+    }
+    return (
+      <Link
+        className="nav-item nav-link"
+        to={pathify([path])}
+      >
+        {displayName}
+      </Link>
+    );
+  };
+
+  return (
+    <div className="navbar">
+      <div className="logo">
+        <img src={logo} alt="cs-logo" />
+        <div>
+          <div className="organization">Crime Survivors</div>
+          Resource Guides
         </div>
-      ))}
-      <div className="reveal-desktop">
-        <DonateButton />
+        <div className="reveal-mobile" style={{ marginLeft: 'auto' }}>
+          <DonateButton />
+        </div>
+      </div>
+      <div className="menu">
+        {options.map(({
+          smooth, absolute, path, displayName,
+        }) => (
+          <div key={v4()} className="menu-item">
+            {getLinkType(smooth, absolute, path, displayName)}
+          </div>
+        ))}
+        <div className="reveal-desktop">
+          <DonateButton />
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Navbar;

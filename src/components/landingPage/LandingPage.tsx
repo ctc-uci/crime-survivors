@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery, Link } from 'gatsby';
-// import { Link } from 'react-scroll';
+import { Link as ScrollLink, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import { pathify } from '../../common/utils/commonUtils';
@@ -41,13 +41,16 @@ const WelcomeSection: React.FC = () => (
             the right and responsibility to survive.
           </p>
           <div className="landing-page-welcome-section-half-text-container-button-array">
-            <Link
+            <ScrollLink
+              smooth
+              offset={-40}
+              duration={400}
               className="link-button"
-              to={pathify([''], FIND_COUNTY_SECTION_ID)}
+              to={FIND_COUNTY_SECTION_ID}
               style={{ marginRight: '8px' }}
             >
               Find Your County
-            </Link>
+            </ScrollLink>
             <a
               target="_blank"
               rel="noreferrer"
