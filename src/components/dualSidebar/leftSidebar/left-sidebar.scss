@@ -44,10 +44,10 @@
 
 @media only screen and (max-width: $mobileWidth) {
   .left-sidebar {
-    position: unset;
-    margin: 0;
+    position: static;
     max-width: unset;
     height: auto;
+    margin: 0;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
   .ant-menu-submenu-arrow {

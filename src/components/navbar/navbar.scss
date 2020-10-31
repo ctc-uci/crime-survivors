@@ -101,7 +101,7 @@ div.menu {
     
     @media only screen and (max-width: $mobileWidth) {
         div.selected {
-            background-color: $primaryColor;
+            background-color: $secondaryColor;
         }
 
         a.selected {
@@ -155,5 +155,9 @@ div.reveal-mobile {
         &-mobile {
             display: inline;
         }
+    }
+
+    .nav-link {
+        color: white !important;
     }
 }
