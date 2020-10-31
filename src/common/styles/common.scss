@@ -38,12 +38,12 @@ p {
 }
 
 a {
-    color: #57936E;
-    text-decoration: none;
+    color: #57936E !important;
+    text-decoration: none !important;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 a:visited {
@@ -61,10 +61,15 @@ a:visited {
 .link-button{
   color: white !important;
   text-decoration: none !important;
-}
-
-.link-button:hover {
-  color: white !important;
+  display: flex;
+  flex-flow: row;
+  border: 1px solid #FFFFFF;
+  border-radius: 4;
+  background-color: #316E83;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 // breakpoints
@@ -141,6 +146,8 @@ $anchorActiveColor: #316E83;
     background-color: white;
     padding: 20px;
     margin-bottom: 10px;
+    @include flex-column;
+    justify-content: space-between;
   
     &-container {
       display: flex;
@@ -169,4 +176,3 @@ $anchorActiveColor: #316E83;
       }
     }
   }
-  

@@ -7,7 +7,6 @@ import './guideLandingPage.scss';
 
 import { pathify } from '../../common/utils/commonUtils';
 import Layout from '../layout/Layout';
-import Button from '../Button/Button';
 import {
   GuideLandingQueryType,
   UrlRouter,
@@ -87,13 +86,7 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({
                 <p className="recommendation-card-body">
                   {item.body}
                 </p>
-                <Button
-                  body={(
-                    <a className="link-button" href={item.link}>Learn More</a>
-              )}
-                  fgColor="#FFFFFF"
-                  bgColor="#316E83"
-                />
+                <a className="link-button" href={item.link}>Learn More</a>
               </div>
             ))}
           </div>

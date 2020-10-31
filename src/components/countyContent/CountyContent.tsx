@@ -4,7 +4,6 @@ import { Menu } from 'antd';
 import { v4 } from 'uuid';
 
 import './countyContent.scss';
-import Button from '../Button/Button';
 import { pathify } from '../../common/utils/commonUtils';
 import { FeaturedCategories, Quotes } from '../../templates/CountyPage.interface';
 import { GuideLandingQueryType, UrlRouter } from '../../common/interfaces/global.interfaces';
@@ -98,19 +97,15 @@ const CountyContent: React.FC<CountyContentPropType> = ({
           <div className="recommendation-card-container">
             {items.map((item) => (
               <div className="recommendation-card">
-                <p className="recommendation-card-title">
-                  {item.title}
-                </p>
-                <p className="recommendation-card-body">
-                  {item.body}
-                </p>
-                <Button
-                  body={(
-                    <a className="link-button" href={item.link}>Learn More</a>
-              )}
-                  fgColor="#FFFFFF"
-                  bgColor="#316E83"
-                />
+                <div>
+                  <p className="recommendation-card-title">
+                    {item.title}
+                  </p>
+                  <p className="recommendation-card-body">
+                    {item.body}
+                  </p>
+                </div>
+                <a className="link-button" href={item.link}>Learn More</a>
               </div>
             ))}
           </div>

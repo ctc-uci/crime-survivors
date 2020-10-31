@@ -41,14 +41,6 @@ const options = [
   },
 ];
 
-function pathMatches(currentPath: string, candidate: string): boolean {
-  const candidateLen = candidate.length;
-  return (
-    currentPath === candidate
-    || (candidateLen > 1 && currentPath.slice(0, candidateLen) === candidate)
-  );
-}
-
 const DonateButton: React.FC = () => (
   <a target="_blank" rel="noreferrer" href={DONATE_PATH} id="donate-button">
     Donate
@@ -74,25 +66,22 @@ const Navbar: React.FC<NavbarPropType> = ({ location: url }) => (
     <div className="menu">
       {options.map(({
         path, hash, displayName, absolute,
-      }) => {
-        const mark = pathMatches(url.pathname, path) ? 'selected' : '';
-        return (
-          <div key={v4()} className={`menu-item ${mark}`}>
-            {absolute ? (
-              <a className="nav-link" target="_blank" rel="noreferrer" href={path}>
-                {displayName}
-              </a>
-            ) : (
-              <Link
-                className={`nav-item ${mark} nav-link`}
-                to={pathify([path], hash)}
-              >
-                {displayName}
-              </Link>
-            )}
-          </div>
-        );
-      })}
+      }) => (
+        <div key={v4()} className="menu-item">
+          {absolute ? (
+            <a className="nav-link" target="_blank" rel="noreferrer" href={path}>
+              {displayName}
+            </a>
+          ) : (
+            <Link
+              className="nav-item nav-link"
+              to={pathify([path], hash)}
+            >
+              {displayName}
+            </Link>
+          )}
+        </div>
+      ))}
       <div className="reveal-desktop">
         <DonateButton />
       </div>

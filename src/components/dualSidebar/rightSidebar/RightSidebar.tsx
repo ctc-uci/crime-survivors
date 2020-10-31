@@ -24,7 +24,6 @@ const RightSidebar = ({ category, resources }: RightSidebarProps) => (
           activeClass="active"
           className="sidebar-link"
           to={urlEncode(title)}
-          spy
           smooth
           offset={-40}
           duration={400}

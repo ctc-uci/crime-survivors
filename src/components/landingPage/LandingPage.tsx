@@ -6,7 +6,6 @@ import { UrlRouter } from '../../common/interfaces/global.interfaces';
 import { pathify } from '../../common/utils/commonUtils';
 import Layout from '../layout/Layout';
 import Navbar from '../navbar/Navbar';
-import Button from '../Button/Button';
 import Footer from '../footer/Footer';
 
 import './landing-page.scss';
@@ -42,34 +41,21 @@ const WelcomeSection: React.FC = () => (
             the right and responsibility to survive.
           </p>
           <div className="landing-page-welcome-section-half-text-container-button-array">
-            <Button
+            <Link
+              className="link-button"
+              to={pathify([''], FIND_COUNTY_SECTION_ID)}
               style={{ marginRight: '8px' }}
-              body={(
-                <Link
-                  className="link-button"
-                  to={pathify([''], FIND_COUNTY_SECTION_ID)}
-                >
-                  Find Your County
-                </Link>
-              )}
-              fgColor="#FFFFFF"
-              bgColor="#316E83"
-            />
-            <Button
-              style={{ marginRight: '8px' }}
-              body={(
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link-button"
-                  href="https://www.youtube.com/watch?v=2e8vcalCGpU"
-                >
-                  Watch Video
-                </a>
-              )}
-              fgColor="#FFFFFF"
-              bgColor="#316E83"
-            />
+            >
+              Find Your County
+            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="link-button"
+              href="https://www.youtube.com/watch?v=2e8vcalCGpU"
+            >
+              Watch Video
+            </a>
           </div>
         </div>
       </div>
@@ -141,18 +127,12 @@ const GuideSummaryOverview: React.FC = () => {
           ))}
         </div>
         <div style={{ alignSelf: 'center', padding: '16px' }}>
-          <Button
-            body={(
-              <a
-                className="link-button"
-                href="/guide"
-              >
-                View Full Guides
-              </a>
-              )}
-            fgColor="#FFFFFF"
-            bgColor="#316E83"
-          />
+          <a
+            className="link-button"
+            href="/guide"
+          >
+            View Full Guides
+          </a>
         </div>
       </div>
     </div>
