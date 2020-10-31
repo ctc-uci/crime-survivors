@@ -31,7 +31,6 @@
 }
 
 @media only screen and (max-width: $mobileWidth) {
-  // remove sticky on ls container
   .left-sidebar {
     position: unset;
     margin: 0;

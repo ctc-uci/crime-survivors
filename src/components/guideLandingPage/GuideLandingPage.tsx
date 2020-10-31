@@ -78,13 +78,13 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({
       <div className="guide-landing-section">
         <div className="half" style={{ width: '100%' }}>
           <p className="subheader">5 ways Crime Survivors can help you</p>
-          <div className="general-guide-recommendation-card-container">
+          <div className="recommendation-card-container">
             {items.map((item) => (
-              <div className="general-guide-recommendation-card">
-                <p className="general-guide-recommendation-card-title">
+              <div className="recommendation-card">
+                <p className="recommendation-card-title">
                   {item.title}
                 </p>
-                <p className="general-guide-recommendation-card-body">
+                <p className="recommendation-card-body">
                   {item.body}
                 </p>
                 <Button

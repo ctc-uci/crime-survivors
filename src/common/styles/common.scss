@@ -133,3 +133,40 @@ $anchorActiveColor: #316E83;
       scrollbar-track-color: $background-color;
     }
   }
+
+
+.recommendation-card {
+    width: 400px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+  
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    &-title {
+      margin-top: 0 !important;
+      font-size: 18px;
+      font-weight: 900;
+      border-bottom: 1px solid gray;
+    }
+  
+    &-body {
+      font-size: 14px;
+      color: #595959 !important;
+    }
+  
+    &-link {
+      padding: 10px;
+      border-radius: 4px;
+      background-color: #316E83;
+      a {
+          color: white !important;
+      }
+    }
+  }
+  
