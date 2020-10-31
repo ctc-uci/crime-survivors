@@ -42,6 +42,16 @@
   position: unset;
 }
 
+@media only screen and (min-width: $mobileWidth) {
+  .left-sidebar > .ant-menu > .ant-menu-submenu{
+    display: block !important;
+  }
+
+  .ant-page-header-heading-left > .ant-page-header-back {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: $mobileWidth) {
   .left-sidebar {
     position: static;
@@ -61,8 +71,13 @@
     overflow-y: scroll;
     z-index: 9999;
   }
+
   .is-overlay::-webkit-scrollbar {
     display: none;
+  }
+
+  .ant-page-header-heading-left > .ant-page-header-back {
+    display: block;
   }
 }
 

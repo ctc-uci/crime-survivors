@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Menu, PageHeader } from 'antd';
 
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'gatsby';
-import { useWindowWidth } from '@react-hook/window-size';
+// import { useWindowWidth } from '@react-hook/window-size';
 
 import {
   SidebarData,
@@ -13,7 +13,6 @@ import {
 import 'antd/dist/antd.css';
 import './left-sidebar.scss';
 import { pathify } from '../../../common/utils/commonUtils';
-import { MOBILE_WIDTH } from '../../../common/utils/constants';
 
 const { SubMenu } = Menu;
 
@@ -35,21 +34,12 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
   title,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const currentWidth = useWindowWidth();
-
-  // Similar to componentDidMount and componentDidUpdate:
-  useEffect(() => {
-    // Update the document title using the browser API
-    console.log(`current width = ${currentWidth}`);
-    console.log(MOBILE_WIDTH);
-  });
 
   const handleClick = (e: { stopPropagation: () => void }) => {
     e.stopPropagation();
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
-  const mobileWidth = MOBILE_WIDTH;
   const selectedMenuIcon = mobileMenuOpen ? <CloseOutlined /> : <MenuOutlined />;
 
   return (
@@ -60,7 +50,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
       >
         <PageHeader
           // utilizing backIcon built-in prop but overriding the callback to simply open/close menu
-          backIcon={currentWidth <= mobileWidth ? selectedMenuIcon : false}
+          backIcon={selectedMenuIcon}
           onBack={() => {
             setMobileMenuOpen(!mobileMenuOpen);
           }}
@@ -68,7 +58,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
         />
         {sidebarData.group.map((obj) => (
           <SubMenu
-            className={mobileMenuOpen || currentWidth > mobileWidth ? 'show' : 'hide'}
+            className={mobileMenuOpen ? 'show' : 'hide'}
             title={obj.category}
           >
             {obj.nodes.map((resource) => (
