@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, PageHeader } from 'antd';
 
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
@@ -36,6 +36,13 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const currentWidth = useWindowWidth();
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // Update the document title using the browser API
+    console.log(`current width = ${currentWidth}`);
+    console.log(MOBILE_WIDTH);
+  });
 
   const handleClick = (e: { stopPropagation: () => void }) => {
     e.stopPropagation();
