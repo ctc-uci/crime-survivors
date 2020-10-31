@@ -10,7 +10,7 @@ a#escape-button {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: $textColor;
+    color: #FFFFFF !important;
     background-color: $buttonColor;
     z-index: 10000;
 
@@ -20,7 +20,7 @@ a#escape-button {
     width: $buttonWidth;
     height: $buttonHeight;
 
-    margin: 0px 30px 0px auto;
+    margin: 0px 30px 0px auto
 }
 
 a#escape-button.flipped {

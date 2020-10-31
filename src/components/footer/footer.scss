@@ -14,6 +14,7 @@
     @include flex-column;
     justify-content: center;
 
+
     .footer-menu-title{
         color: #FFFFFF;
         font-weight: bold;
@@ -23,7 +24,7 @@
     .footer-menu-submenu{
         display: block;
         margin-bottom: 10px;
-        color: #FFFFFF;
+        color: #FFFFFF !important;
         font-size: 15px;
     }
 }
