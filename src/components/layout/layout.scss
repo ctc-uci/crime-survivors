@@ -7,7 +7,7 @@ div.main-layout {
     @include flex-column;
     // width: 100vw;
     margin: 0 auto;
-    background: #f8f8f8;
+    background: #ffffff;
 
     >div.header {
         @include sticky($top: 0);
@@ -17,8 +17,10 @@ div.main-layout {
 
     >div.middle {
         max-width: $maxLayoutWidth;
+        background: #f8f8f8;
         >div.content {
-            margin: 0 40px;
+            padding: 0 40px;
+            background: #fdfdfd;
         }
     }
 
