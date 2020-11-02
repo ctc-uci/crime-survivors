@@ -10,7 +10,6 @@ div.center-flex-row {
 div.guide-landing {
   &-container {
     @include flex-column;
-    background: #ebebeb;
   }
 
   &-section {

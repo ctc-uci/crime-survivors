@@ -26,7 +26,7 @@ const ResourceSection: React.FC<ResourceContent> = ({
 
 const CategoryContent: React.FC<CategoryPageProps> = ({ categoryData, category }) => (
   <div>
-    <p className="h0">{category}</p>
+    <p className="h0 blue">{category}</p>
     <hr className="blue" />
     {/* TODO: fix hr not responding to max-width */}
     {categoryData.nodes.map((resource) => (
