@@ -14,7 +14,7 @@
 <br />
 <p align="center">
   <a href="https://gitlab.com/committhechange.uci/crimesurvivors">
-    <img src="src\common\media\CrimeSurvivorsLogo.svg" alt="Logo" width="80" height="80">
+    <img src="/src/common/media/CrimeSurvivorsLogo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Crime Survivors Resource Guides Project</h3>
@@ -24,12 +24,6 @@
     <br />
     <a href="https://gitlab.com/committhechange.uci/crimesurvivors"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://gitlab.com/committhechange.uci/crimesurvivors">View Demo</a>
-    ·
-    <a href="https://gitlab.com/committhechange.uci/crimesurvivors/issues">Report Bug</a>
-    ·
-    <a href="https://gitlab.com/committhechange.uci/crimesurvivors/issues">Request Feature</a>
   </p>
 </p>
 
