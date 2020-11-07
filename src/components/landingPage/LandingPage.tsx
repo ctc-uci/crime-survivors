@@ -19,7 +19,7 @@ import BookIcon from '../../common/media/book-icon.png';
 import PeopleIcon from '../../common/media/people-icon.png';
 import BuildingIcon from '../../common/media/building-icon.png';
 
-import { FIND_COUNTY_SECTION_ID } from '../../common/utils/constants';
+import { FIND_COUNTY_SECTION_ID, GENERAL_GUIDE_SECTION_ID } from '../../common/utils/constants';
 
 const WelcomeSection: React.FC = () => (
   <div className="landing-page-welcome-section">
@@ -48,14 +48,13 @@ const WelcomeSection: React.FC = () => (
             >
               Find Your County
             </Link>
-            <a
-              target="_blank"
-              rel="noreferrer"
+            <Link
               className="link-button"
-              href="https://www.youtube.com/watch?v=2e8vcalCGpU"
+              to={pathify([''], GENERAL_GUIDE_SECTION_ID)}
+              style={{ marginRight: '8px' }}
             >
-              Watch Video
-            </a>
+              General Guides
+            </Link>
           </div>
         </div>
       </div>
@@ -104,7 +103,7 @@ const GuideSummaryOverview: React.FC = () => {
   ];
 
   return (
-    <div className="landing-page-guide centered-flex-col">
+    <div className="landing-page-guide centered-flex-col" id={GENERAL_GUIDE_SECTION_ID}>
       <div className="landing-page-guide-cover">
         <div className="landing-page-guide-cover-content">
           <div className="landing-page-guide-cover-content-desc">
@@ -166,7 +165,7 @@ const CountyOverview: React.FC = () => {
           </div>
         </div>
         <div
-          id="find-your-county"
+          id={FIND_COUNTY_SECTION_ID}
           className="landing-page-county-overview-half"
         >
           <div className="landing-page-county-overview-half-text-container">
