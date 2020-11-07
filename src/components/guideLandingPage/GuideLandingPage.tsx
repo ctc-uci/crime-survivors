@@ -29,7 +29,7 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({
 }) => {
   const {
     allContentfulGeneralGuide,
-    allContentfulResource,
+    allContentfulResourceGuide,
   }: GuideLandingQueryType = useStaticQuery(graphql`
     query GuideLandingQuery {
       allContentfulGeneralGuide {
@@ -40,14 +40,14 @@ const GuideLandingPageContent: React.FC<GuideLandingPagePropType> = ({
           }
         }
       }
-      allContentfulResource {
+      allContentfulResourceGuide {
         distinct(field: location)
       }
     }
   `);
 
   const { group: guideCategories } = allContentfulGeneralGuide;
-  const { distinct: locations } = allContentfulResource;
+  const { distinct: locations } = allContentfulResourceGuide;
 
   const items = guideCategories.map(({ fieldValue, nodes }) => ({
     title: fieldValue,
