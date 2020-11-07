@@ -150,6 +150,7 @@ const CountyContent: React.FC<CountyContentPropType> = ({
         {quotes.nodes.length > 0
           ? (
             <div className="half" style={{ width: '100%' }}>
+              <p className="subheader">Quotes from our community</p>
               <Menu mode="inline" style={{ border: '1px solid #000' }}>
                 {quotes.nodes.map(({ author, organization, quote }) => (
                   <SubMenu key={v4()} title={<p className="submenu-header">{`A message from the ${organization}`}</p>}>

@@ -130,7 +130,7 @@ const GuideSummaryOverview: React.FC = () => {
             className="link-button"
             href="/guide"
           >
-            View Full Guides
+            View General Guides
           </a>
         </div>
       </div>
