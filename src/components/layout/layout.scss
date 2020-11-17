@@ -1,0 +1,65 @@
+@import '../../common/styles/common.scss';
+
+$leftSidebarWidth: 240px;
+$rightSidebarWidth: 240px;
+
+div.main-layout {
+    @include flex-column;
+    // width: 100vw;
+    margin: 0 auto;
+    background: #ffffff;
+
+    >div.header {
+        @include sticky($top: 0);
+        width: 100%;
+        max-width: $maxLayoutWidth;
+    }
+
+    >div.middle {
+        max-width: $maxLayoutWidth;
+        background: #f8f8f8;
+        >div.content {
+            padding: 0 40px;
+            background: #fdfdfd;
+        }
+    }
+
+    @media only screen and (max-width: #{$mobileWidth}){
+        >div.middle {
+            @include flex-column;
+            padding-top: $mobileHeaderHeight;
+            min-height: 100vh;
+
+            >div.layout-right-sidebar {
+                display: none;
+            }
+        }
+    }
+
+    @media only screen and (min-width: #{$maxLayoutWidth}){
+        >div.middle {
+            margin-left: calc((100vw - #{$maxLayoutWidth}) / 2);    
+        }
+    }
+
+    @media only screen and (min-width: #{$mobileWidth}){
+        >div.middle {
+            @include flex-row;
+            padding-top: $desktopHeaderHeight;
+            min-height: 100vh;
+            // margin: auto;
+    
+            >div.layout-left-sidebar {
+                min-width: $leftSidebarWidth;
+            }
+
+            >div.content {
+                flex-grow: 1;
+            }
+    
+            >div.layout-right-sidebar {
+                min-width: $rightSidebarWidth;
+            }
+        }
+    }
+}

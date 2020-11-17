@@ -1,0 +1,70 @@
+@import "../../../common/styles/common";
+
+$fontSize: 18px;
+$lineHeight: 22px;
+
+@mixin element-padding {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+@mixin a-style {
+  color: #707070 !important;
+  text-decoration: none;
+}
+
+div.right-sidebar {
+  @include flex-row;
+  position: sticky;
+  top: $desktopHeaderHeight;
+  font-weight: normal;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  max-width: 270px;
+  margin-top: 16px;
+
+  >div.divider {
+    width: 0.1px;
+    height: initial;
+    background: #f0f0f0;
+    border: 1px solid #57936E;
+    margin-right: 10%;
+  }
+
+  >div.sidebar-elements {
+    @include element-padding;
+    @include flex-column;
+    @include scrollbars(3px, $anchorActiveColor, inherit);
+    line-height: $lineHeight;
+    margin-right: 15%;
+    overflow-y: scroll;
+    max-height: calc(100vh - 41vh);
+
+    >div.right-sidebar-subtitle {
+      color: $anchorActiveColor; // even tho its not an anchor teehee;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 8px;
+      padding-bottom: 20px;
+    }
+
+    >a.sidebar-link, a.sidebar-link:link,
+     a.sidebar-link:visited, a.sidebar-link:active {
+      @include a-style;
+      @include element-padding;
+      cursor: pointer;
+    }
+
+    >a.sidebar-link:hover {
+      @include element-padding;
+    }
+
+    >a.sidebar-link.active {
+      @include a-style;
+      @include element-padding;
+      padding-left: +4%;
+      color: $anchorActiveColor;
+      font-weight: 550;
+    }
+  }
+}

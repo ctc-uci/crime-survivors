@@ -1,0 +1,21 @@
+@import "../../common/styles/common";
+
+.resource-section::before { 
+    @include anchor-tag-padding();
+}
+
+.resource-section{
+    margin: 12px 12px 24px 12px;
+}
+
+hr {
+    border: 1px solid #468590;
+    margin: 0px;
+
+    .blue{
+        max-width: 600px;
+    }
+    .blue-long{
+        max-width: 800px;
+    }
+}

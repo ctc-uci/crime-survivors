@@ -1,0 +1,65 @@
+@import '../../common/styles/common';
+
+$carouselWidth: 795px;
+$mobileCarouselWidth: 250px;
+
+* {
+  box-sizing: border-box;
+}
+
+div.center-flex-row {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.carousel-wrapper {
+  @include flex-column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+
+  div.title {
+    text-align: left;
+  }
+
+  div.carousel {
+    @include flex-row;
+    width: $carouselWidth;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  button.prevButton, button.nextButton {
+    border: none;
+    cursor: pointer;
+  }
+
+  div.item {
+    width: 250px;
+    margin: 0px 10px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  div.selected {
+    border: 1px solid #000;
+  }
+
+  @media only screen and (max-width: #{$mobileWidth}){
+    div.carousel {
+      width: $mobileCarouselWidth;
+    }
+  
+    div.selected {
+      border: none;
+    }
+  }
+}

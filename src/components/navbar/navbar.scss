@@ -1,0 +1,163 @@
+@import '../../common/styles/common';
+
+$logoTextColor: #41579D;
+
+$primaryColor: #fff;
+$secondaryColor: #57936E;
+
+$csLogoDiameter: 60px;
+$menuHeight: 50px;
+
+$desktopFontSize: 16px;
+$mobileFontSize: 12px;
+
+@mixin default-container{
+    @include flex-row;
+    width: 100%;
+    align-items: center;
+}
+
+div.navbar {
+    @include default-container;
+    justify-content: space-around;
+    background-color: $primaryColor;
+    height: $headerHeight;
+    width: 100vw;
+
+}
+
+@media only screen and (min-width: $mobileWidth) {
+    div.navbar {
+        box-shadow: 0 1px 10px rgba(0,0,0,0.16);
+    }
+}
+
+div.logo {
+    @include default-container;
+    flex: 2 2 auto;
+    padding: 30px;
+
+    img {
+        height: $csLogoDiameter;
+        width: $csLogoDiameter;
+        margin-right: 30px;
+    }
+
+    div {
+        color: $logoTextColor;
+        font-size: $desktopFontSize;
+        &.organization {
+            font-weight: bold;
+            font-size: $desktopFontSize * 3 / 2;
+        }
+    }
+
+    @media only screen and (max-width: $mobileWidth) {
+        img {
+            height: $csLogoDiameter * 2 / 3;
+            width: $csLogoDiameter * 2 / 3;
+            margin: 0px 10px;
+        }
+
+        div {
+            font-size: $mobileFontSize;
+            &.organization {
+                font-size: $mobileFontSize * 3 / 2;
+            }
+        }
+    }
+}
+
+div.menu {
+    @include default-container;
+    justify-content: space-around;
+    min-height: $menuHeight;
+    padding-right: 30px;
+    flex: 3 1 auto;
+
+    @media only screen and (min-width: $mobileWidth) {
+        justify-content: flex-end;
+    }
+
+    div.menu-item {
+        @include flex-row;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        max-width: 200px;
+        min-height: $menuHeight;
+    }
+
+    a {
+        color: $secondaryColor;
+        text-decoration: none;
+        &.selected {
+            border-bottom: 3px solid #57936E;
+        }
+        &.selected:hover{
+            color: $secondaryColor !important;
+        }
+    }
+    
+    @media only screen and (max-width: $mobileWidth) {
+        div.selected {
+            background-color: $secondaryColor;
+        }
+
+        a.selected {
+            color: $secondaryColor;
+            border-bottom: none;
+        }
+    }
+}
+
+a#donate-button {
+    @include flex-row;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: $primaryColor !important;
+    background-color: $secondaryColor;
+
+    border: solid $secondaryColor;
+    border-radius: 5px;
+
+    width: 125px;
+    height: 40px;
+}
+
+div.reveal-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: $mobileWidth) {
+    div.navbar {
+        flex-flow: column;
+    }
+
+    div.logo {
+        padding: 15px;
+    }
+
+    div.menu {
+        background-color: $secondaryColor;
+        padding-right: 0px;
+        a {
+            color: $primaryColor;
+        }
+    }
+
+    div.reveal {
+        &-desktop {
+            display: none;
+        }
+        &-mobile {
+            display: inline;
+        }
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+}

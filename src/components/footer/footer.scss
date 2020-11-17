@@ -1,0 +1,81 @@
+@import "../../common/styles/common";
+
+.footer {
+    background: #4C6CA4;
+    padding: 48px 64px 48px 64px;
+
+    .footer-item{
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}
+
+.footer-menu{
+    @include flex-column;
+    justify-content: center;
+
+
+    .footer-menu-title{
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .footer-menu-submenu{
+        display: block;
+        margin-bottom: 10px;
+        color: #FFFFFF !important;
+        font-size: 15px;
+    }
+}
+
+
+.footer-social-media{
+    @include flex-row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    .footer-icon{
+        padding: 12px
+    }
+}
+
+
+.footer-disclaimer{
+
+    .footer-disclaimer-title{
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .footer-disclaimer-text{
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: #{$mobileWidth}){
+    .footer {
+        @include flex-column;
+    }
+
+    .footer-menu{
+        align-items: center;
+    }
+
+    .footer-item{
+        flex-basis: unset !important; // addresses footer bug on iOS devices
+    }
+}
+
+@media only screen and (min-width: #{$mobileWidth}){
+    .footer {
+        @include flex-row;
+    }
+}
+

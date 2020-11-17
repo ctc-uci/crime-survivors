@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: Lato;
+}
+
+p.h0{
+    font-size: 3rem;
+    line-height: 1em;
+    font-weight: 700;
+    margin: 24px 0 24px 0;
+    color: #2f4b9c !important;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4C6CA4;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4C6CA4;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4C6CA4;
+}
+
+h4 {
+    font-size: 1rem;
+    font-style: italic;
+    color: #4C6CA4;
+}
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #707070;
+}
+
+a {
+    color: #57936E !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #626865;
+}
+
+.blue {
+    color: #4C6CA4;
+}
+
+.green {
+    color: #468590;
+}
+
+.link-button{
+  color: white !important;
+  text-decoration: none !important;
+  display: flex;
+  flex-flow: row;
+  border: 1px solid #FFFFFF;
+  border-radius: 4;
+  background-color: #316E83;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+// breakpoints
+$mobileWidth: 900px;
+$maxLayoutWidth: 1400px;
+
+// padding for sticky header 
+$headerHeight: 150px;
+$desktopHeaderHeight: $headerHeight;
+$mobileHeaderHeight: $headerHeight;
+
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-flow: column;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-flow: row;
+}
+
+@mixin sticky ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    position: fixed;
+    z-index: 100;
+    top: $top;
+    $right: $right;
+    $bottom: $bottom;
+    $left: $left;    
+}
+
+// anchor tag padding: https://css-tricks.com/hash-tag-links-padding/
+@mixin anchor-tag-padding {
+    display: block; 
+    content: " "; 
+    margin-top: -140px; 
+    height: 140px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
+$anchorActiveColor: #316E83;
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+    // For Google Chrome
+    &::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: $background-color;
+    }
+  
+    // For Internet Explorer
+    & {
+      scrollbar-face-color: $foreground-color;
+      scrollbar-track-color: $background-color;
+    }
+  }
+
+
+.recommendation-card {
+    width: 400px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    @include flex-column;
+    justify-content: space-between;
+  
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    &-title {
+      margin-top: 0 !important;
+      font-size: 18px;
+      font-weight: 900;
+      border-bottom: 1px solid gray;
+    }
+  
+    &-body {
+      font-size: 14px;
+      color: #595959 !important;
+    }
+  
+    &-link {
+      padding: 10px;
+      border-radius: 4px;
+      background-color: #316E83;
+      a {
+          color: white !important;
+      }
+    }
+  }

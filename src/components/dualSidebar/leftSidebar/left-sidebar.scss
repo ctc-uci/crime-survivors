@@ -1,0 +1,93 @@
+@import '../../../common/styles/common.scss';
+
+.ant-menu-submenu-title,
+.ant-menu-item {
+  white-space: normal !important;
+  height: auto !important;
+  line-height: 30px !important;
+  margin-top: 10px !important;
+  color: #707070;
+  font-size: 18px;
+}
+
+.ant-page-header-heading-title{
+  color: #316E83;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ant-menu-submenu-title:hover {
+  color: #707070  !important;
+}
+
+.ant-menu {
+  background: #f8f8f8 !important;
+  border-right: 2.5px solid #468590;
+}
+
+.ant-menu-submenu-arrow {
+  top: 16px !important;
+}
+
+.left-sidebar {
+  position: sticky;
+  max-width: 270px;
+  top: $headerHeight;
+  height: calc(80vh - #{$headerHeight});
+  overflow: auto;
+  @include scrollbars(3px, $anchorActiveColor, inherit);
+  margin-top: 16px;
+}
+
+.layout-left-sidebar {
+  position: unset;
+}
+
+@media only screen and (min-width: $mobileWidth) {
+  .left-sidebar > .ant-menu > .ant-menu-submenu{
+    display: block !important;
+  }
+
+  .ant-page-header-heading-left > .ant-page-header-back {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $mobileWidth) {
+  .left-sidebar {
+    position: static;
+    max-width: unset;
+    height: auto;
+    margin: 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  .ant-menu-submenu-arrow {
+    padding-right: 24px;
+  }
+
+  .is-overlay {
+    position: fixed;
+    top: $headerHeight;
+    bottom: 0px;
+    overflow-y: scroll;
+    z-index: 9999;
+  }
+
+  .is-overlay::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ant-page-header-heading-left > .ant-page-header-back {
+    display: block;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
