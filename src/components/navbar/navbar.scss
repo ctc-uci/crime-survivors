@@ -70,10 +70,11 @@ div.logo {
 
 div.menu {
     @include default-container;
-    justify-content: space-around;
+    justify-content: flex-start;
     min-height: $menuHeight;
     padding-right: 30px;
     flex: 3 1 auto;
+    overflow-y: auto;
 
     @media only screen and (min-width: $mobileWidth) {
         justify-content: flex-end;
@@ -86,6 +87,8 @@ div.menu {
         flex-grow: 1;
         max-width: 200px;
         min-height: $menuHeight;
+        min-width: 100px;
+        padding: 0px 20px 0px 20px;
     }
 
     a {
@@ -125,6 +128,10 @@ a#donate-button {
 
     width: 125px;
     height: 40px;
+}
+
+.nav-link {
+    text-align: center;
 }
 
 div.reveal-mobile {
