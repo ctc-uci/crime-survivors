@@ -17,8 +17,8 @@ div.county-landing {
         @include flex-row;
         
         div.half {
-            width: 50%;
-            padding: 100px;
+            width: 100%;
+            padding: 0px 100px;
         
             li {
                 margin: 10px 0px;

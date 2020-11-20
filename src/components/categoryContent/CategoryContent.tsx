@@ -16,7 +16,7 @@ const ResourceSection: React.FC<ResourceContent> = ({
 }) => (
   <Element className="resource-section" name={urlEncode(title)}>
     <h1>{title}</h1>
-    <p>{desc.desc}</p>
+    {desc && desc.desc && <p>desc.desc</p>}
     <p>{address}</p>
     {phoneNumbers && phoneNumbers.map((phone) => <p>{phone}</p>)}
     <p><a href={website}>{website}</a></p>
