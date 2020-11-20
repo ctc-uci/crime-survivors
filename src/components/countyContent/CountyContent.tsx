@@ -85,14 +85,14 @@ const CountyContent: React.FC<CountyContentPropType> = ({
             .
           </p>
         </div>
-        <div className="half center-flex-row" style={{ padding: 0 }}>
+        <div className="half center-flex-row">
           <img id="county-landing-pic" src={shownImg} alt="" />
         </div>
       </div>
 
       {/* carousel preview */}
       <div className="county-landing-section">
-        <div className="half" style={{ width: '100%', paddingTop: 0 }}>
+        <div className="half">
           <p className="subheader">Featured Sections</p>
           <div className="recommendation-card-container">
             {items.map((item) => (
@@ -112,7 +112,7 @@ const CountyContent: React.FC<CountyContentPropType> = ({
         </div>
       </div>
       <div className="county-landing-section">
-        <div className="half" style={{ width: '100%', padding: '0px 100px' }}>
+        <div className="half">
           <p className="subheader">General Guides</p>
           <p className="description">
             The mission of Crime Survivors is to provide hope and healing
@@ -125,7 +125,7 @@ const CountyContent: React.FC<CountyContentPropType> = ({
 
       {/* General guides */}
       <div className="county-landing-section">
-        <div className="half" style={{ width: '100%', padding: '0px 100px' }}>
+        <div className="half">
           <Menu mode="inline" style={{ border: '1px solid #000' }}>
             {guideCategories.map(({ fieldValue, nodes }) => (
               <SubMenu key={v4()} title={<p className="submenu-header">{fieldValue}</p>}>
@@ -146,10 +146,10 @@ const CountyContent: React.FC<CountyContentPropType> = ({
       </div>
 
       {/* Quotes section */}
-      <div className="county-landing-section">
+      <div className="county-landing-section" style={{ paddingBottom: '20px' }}>
         {quotes.nodes.length > 0
           ? (
-            <div className="half" style={{ width: '100%' }}>
+            <div className="half">
               <p className="subheader">Quotes from our community</p>
               <Menu mode="inline" style={{ border: '1px solid #000' }}>
                 {quotes.nodes.map(({ author, organization, quote }) => (
