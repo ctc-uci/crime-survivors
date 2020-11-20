@@ -12,6 +12,7 @@ import {
   FIND_COUNTY_SECTION_ID,
   CONTACT_PATH_PREFIX,
   DONATE_PATH,
+  GOOGLE_FORM_PATH,
 } from '../../common/utils/constants';
 
 const options = [
@@ -36,6 +37,12 @@ const options = [
   {
     displayName: 'Contact Us',
     path: CONTACT_PATH_PREFIX,
+    hash: '',
+    absolute: true,
+  },
+  {
+    displayName: 'Add Your Organization Here',
+    path: GOOGLE_FORM_PATH,
     hash: '',
     absolute: true,
   },
